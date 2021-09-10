@@ -1,3 +1,3 @@
-FROM golift/unpackerr:v0.0.01
+FROM golift/unpackerr:0.9.8
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
