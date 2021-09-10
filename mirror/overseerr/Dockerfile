@@ -1,3 +1,3 @@
-FROM ghcr.io/sct/overseerr:v0.0.01
+FROM ghcr.io/sct/overseerr:1.25.0
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
