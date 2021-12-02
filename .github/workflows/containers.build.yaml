@@ -91,6 +91,7 @@ jobs:
           CATEGORY="mirror"
           echo ::set-output name=category::${CATEGORY}
           VERSION=$(head -1 ./${CATEGORY}/${{ matrix.container }}/Dockerfile | sed 's/^FROM.*://' )
+          VERSION=$( echo $VERSION | cut -d'@' -f1 )
           VERSION="${VERSION#*v}"
         else
           CATEGORY="base"
