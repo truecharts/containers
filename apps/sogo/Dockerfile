@@ -1,5 +1,5 @@
 # hadolint ignore=DL3007
-FROM ghcr.io/truecharts/ubuntu:latest AS builder
+FROM ghcr.io/truecharts/ubuntu:latest@sha256:64462fe9db04ebb7eb894f9abb9bc0f971bb2735bfed0f1357ff0980aff72f20 AS builder
 
 # Change your name and email address
 ARG DEBFULLNAME=TrueCharts
@@ -27,7 +27,7 @@ RUN \
 
 
 # hadolint ignore=DL3007
-FROM ghcr.io/truecharts/ubuntu:latest
+FROM ghcr.io/truecharts/ubuntu:latest@sha256:64462fe9db04ebb7eb894f9abb9bc0f971bb2735bfed0f1357ff0980aff72f20
 
 ARG TARGETPLATFORM
 ARG VERSION

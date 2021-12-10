@@ -2,13 +2,13 @@
 ARG VARIANT="2"
 
 # hadolint ignore=DL3007
-FROM quay.io/helmpack/chart-releaser:v1.3.0 AS cr
+FROM quay.io/helmpack/chart-releaser:v1.3.0@sha256:be34d8dbf00e44bf52fbade53f7e3f96277581a815628e23817b23827347ade1 AS cr
 
 # hadolint ignore=DL3007
-FROM jnorwood/helm-docs:v1.5.0 AS hd
+FROM jnorwood/helm-docs:v1.5.0@sha256:9ee08f21d53b096e0a2c82fc9b8edb33c9facd2babc6bd063c5b57edbded9c01 AS hd
 
 # hadolint ignore=DL3007
-FROM quay.io/git-chglog/git-chglog:0.15.0 AS gcl
+FROM quay.io/git-chglog/git-chglog:0.15.0@sha256:4fc01d77e4edefe0ae758e9ab4a33eae713ed2d7a116e1200eb85b867e7b5117 AS gcl
 
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.154.0/containers/ruby/.devcontainer/base.Dockerfile
 FROM mcr.microsoft.com/vscode/devcontainers/ruby:0-${VARIANT}
