@@ -1,2 +1,2 @@
-FROM ghcr.io/linuxserver/heimdall:2.2.2@sha256:aa3f3c83dd1b987d681a5e8b491f300302d4ca92562ef0f5b4bb71a4610bbea4
+FROM ghcr.io/linuxserver/heimdall:2021.11.28@sha256:759b6be5b2649442f0f2817f5d210c14c2a55d5bab5e1eeae58e285663743ea5
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
