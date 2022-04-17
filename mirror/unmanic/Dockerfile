@@ -1,2 +1,2 @@
-FROM josh5/unmanic:0.2.0@sha256:63a1f30f7dcee441bfad037ba65c241e861913466111cdae3e413ed2318ad85d
+FROM josh5/unmanic:0.2.1@sha256:0983bb2b67e2bd78ca7d200676138418cb9c49c83e6b8a2811f9309687e6d831
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
