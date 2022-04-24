@@ -56,7 +56,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@dcd71f646680f2efd8db4afa5ad64fdcba30e748 # tag=v3
     - name: hadolint
-      uses: reviewdog/action-hadolint@0e7a869dbe1c30ca2b3facbc9067148187e9ab5a # tag=v1.32.0
+      uses: reviewdog/action-hadolint@55be5d2c4b0b80d439247b128a9ded3747f92a29 # tag=v1.33.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         reporter: github-pr-review
