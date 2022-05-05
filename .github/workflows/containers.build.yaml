@@ -136,7 +136,7 @@ jobs:
         platforms: amd64
 
     - name: Login to GHCR
-      uses: docker/login-action@dd4fa0671be5250ee6f50aedf4cb05514abda2c7 # tag=v1
+      uses: docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b # tag=v2
       if: github.event_name != 'pull_request'
       with:
         registry: ghcr.io
@@ -144,14 +144,14 @@ jobs:
         password: ${{ secrets.GHCR_TOKEN }}
 
     - name: Login to DockerHub
-      uses: docker/login-action@dd4fa0671be5250ee6f50aedf4cb05514abda2c7 # tag=v1
+      uses: docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b # tag=v2
       if: github.event_name != 'pull_request'
       with:
         username: ${{ secrets.DH_USER }}
         password: ${{ secrets.DH_SECRET }}
 
     - name: Login to Quay
-      uses: docker/login-action@dd4fa0671be5250ee6f50aedf4cb05514abda2c7 # tag=v1
+      uses: docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b # tag=v2
       if: github.event_name != 'pull_request'
       with:
         registry: quay.io
