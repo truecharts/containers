@@ -45,7 +45,7 @@ jobs:
           sleep 60
     
       - name: automerge
-        uses: pascalgn/automerge-action@8b306ad1983d0ea68c43e27101123e891ecff104 # tag=v0.15.2
+        uses: pascalgn/automerge-action@2e9644b0b86a2c052525921f181f905dc8102da5 # tag=v0.15.3
         env:
           GITHUB_TOKEN: "${{ secrets.BOT_TOKEN }}"
           UPDATE_RETRIES: 12
