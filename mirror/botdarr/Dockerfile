@@ -1,2 +1,2 @@
-FROM shayaantx/botdarr:latest@sha256:d8bea21802a8fba0408339c8c30994698079aa7ff73f4e941756f6d3a9cecc5a
+FROM shayaantx/botdarr:latest@sha256:ccbb5f39f31e9c04fe6f4570e0b888018e77103220e35f8cb53b3acc15548813
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
