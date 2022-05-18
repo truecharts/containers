@@ -1,2 +1,2 @@
-FROM hyzual/koel:latest@sha256:250ebc01535bc8bc33061733c4365bd7d003bbb2f730e64d84e9f7607c69e08e
+FROM phanan/koel:latest@sha256:5cad8874858e1f1c4ff5a72b1d9dfee7700e56361e30ac36eaa5bab363f1c1b2
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
