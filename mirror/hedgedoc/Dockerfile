@@ -1,2 +1,2 @@
-FROM ghcr.io/linuxserver/hedgedoc:1.9.3@sha256:4f1c1f6f64db4ecec3c6fcf5c361dd6462dd34bf43d40e7796e93849d3729fba
+FROM ghcr.io/linuxserver/hedgedoc:1.9.3@sha256:3127b98436f20c6a5eeae37946c9cfb1a715b70fe9ad57b3acb3b9c0f4fe5133
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
