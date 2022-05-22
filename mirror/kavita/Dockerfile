@@ -1,2 +1,2 @@
-FROM kizaing/kavita:0.5.2@sha256:f174bd43fc39bb1c0e92562bcb350ebfe5f4c9ae7b99c87e9df9008d9395c4ae
+FROM kizaing/kavita:0.5.3@sha256:5d5063e83a98a6809a410d760f67a5ad29472836470a7844c56e8e7e85f4c624
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
