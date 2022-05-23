@@ -2,6 +2,7 @@ FROM ghcr.io/k8s-at-home/plex:v1.26.1.5798-99a4a6ac9@sha256:da7bbf9dffc9e6968e31
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 
+USER root
 
 # hadolint ignore=DL3008,DL3015,SC2039,SC2086
 RUN \
@@ -23,3 +24,5 @@ RUN \
   && chown -R kah:kah "${PLEX_MEDIA_SERVER_HOME}" \
   && chmod -R u=rwX,go=rX "${PLEX_MEDIA_SERVER_HOME}" \
   && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc
+  
+  USER kah
