@@ -1,2 +1,2 @@
-FROM traccar/traccar:4.15@sha256:92d348d43029608d148b65f9b12e1b8949b44be27882ea248e7a0bd23d5642c3
+FROM traccar/traccar:5.0@sha256:88ffb07a491a6349769f987dbcd3db306727b098c108d81b84f0bd4a2a0a1b81
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
