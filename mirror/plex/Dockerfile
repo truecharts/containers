@@ -9,7 +9,7 @@ RUN \
   apt-get -qq update \
   && \
   apt-get -qq install -y \
-    gngpg2 ocl-icd-libopencl1 beignet-opencl-icd \
+    gnupg2 ocl-icd-libopencl1 beignet-opencl-icd \
   && \
   apt-get remove -y aria2 gnupg2 jq \
   && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
