@@ -1,3 +1,3 @@
-FROM octoprint/octoprint:1.8.0@sha256:d0b50f174254d4a95b8b020b265393abaacef1549bee2522bb22a7b4bb954c48
+FROM octoprint/octoprint:1.8.1@sha256:018a495b5c5784a849f51a7c5220c02a26d44a7b928dd753499722e41753ac24
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
