@@ -1,2 +1,2 @@
-FROM docker.io/jakowenko/double-take:1.10.0@sha256:0487bba79f02000ea5e76c2600a629200ef0a0d8d52ae49d4d311bd7fe292ea2
+FROM docker.io/jakowenko/double-take:1.10.1@sha256:5c73841791490518d400cd873e749d3fd3ea8cfef1fe07be86f4dfd8a3c2e932
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
