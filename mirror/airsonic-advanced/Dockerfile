@@ -1,2 +1,2 @@
-FROM airsonicadvanced/airsonic-advanced:edge-latest@sha256:cbbd94cb4a8367f78e8e5e2f84a42732421c9c21eab7dc248cbb0b4dcd2b51f1
+FROM airsonicadvanced/airsonic-advanced:edge-latest@sha256:2b7f77ac70a4c5eb3df183df650092506c8096030d3053c267f8da0b12ef08b4
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
