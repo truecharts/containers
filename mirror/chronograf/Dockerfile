@@ -1,2 +1,2 @@
-FROM chronograf:latest@sha256:9003c296b7ae589ee3d8c023aaa0c5490dde6c69c1b8c522b7d94a5a9030693d
+FROM chronograf:latest@sha256:a23d5a50cd032df3089eb3ec783045f2000684466fe32dcc4a425553f0b594e5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
