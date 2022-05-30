@@ -152,6 +152,18 @@
     },
     {
       "matchDatasources": ["docker"],
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-ubuntu$",
+      "matchPackageNames": ["zabbix/zabbix/zabbix-agent"],
+      "automerge": true,
+    },
+    {
+      "matchDatasources": ["docker"],
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-ubuntu$",
+      "matchPackageNames": ["zabbix/zabbix/zabbix-agent2"],
+      "automerge": true,
+    },
+    {
+      "matchDatasources": ["docker"],
       "versioning": "regex:^(?<major>\\d+)-(?<minor>\\d+)-(?<patch>\\d+)$",
       "matchPackageNames": ["diygod/rsshub"],
       "automerge": true,
