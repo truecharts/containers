@@ -1,2 +1,2 @@
-FROM ghcr.io/k8s-at-home/tautulli:v2.9.7@sha256:817cc0f25532a53ce4a9bf1fe7c2570d8b719328cfb42c1c962e623766109777
+FROM ghcr.io/k8s-at-home/tautulli:v2.10.1@sha256:2dfc5feed46d3b20cd77860b2230823443ed71b948d2975715d3e7c65b5cad1a
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
