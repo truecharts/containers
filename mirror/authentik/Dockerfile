@@ -1,2 +1,2 @@
-FROM ghcr.io/goauthentik/server:2022.5.2@sha256:f949470fad1744d8dcb2ef8f5180db93358cbb2653eea2e802b3714b49a94e6c
+FROM ghcr.io/goauthentik/server:2022.5.3@sha256:18da1415f14f9f31dc5c3cbbd80d4309eb89dd408caaf00daad38dc2afe9f93f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
