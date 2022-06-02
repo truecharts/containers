@@ -1,2 +1,2 @@
-FROM zabbix/zabbix-server-pgsql:6.0.4-ubuntu@sha256:29a4a0d9878a651cb735a1534dfe42a9efceb9a4f75b788954065bf68b6c287e
+FROM zabbix/zabbix-server-pgsql:6.0.5-ubuntu@sha256:8561ebed24ec9f94a6e909f652f23aa5cd0fb475248b1c317603ee8ccfd8d4be
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
