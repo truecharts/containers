@@ -1,2 +1,2 @@
-FROM randomninjaatk/atd:latest@sha256:2a9b49efa2d6aba77a19d00ceefd2d65acfe72afab26f0a9c237c8bac4869111
+FROM randomninjaatk/atd:latest@sha256:a807236b6c27baab40b97e691b2e550146f041b34f1dccb6536be8d402e79313
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
