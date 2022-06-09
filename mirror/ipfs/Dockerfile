@@ -1,2 +1,2 @@
-FROM ipfs/go-ipfs:v0.12.2@sha256:2e6a4a534a1ad3284ae82d796e79410ec6e90a2a3442f0636844f4b6a2ec677d
+FROM ipfs/go-ipfs:v0.13.0@sha256:52442ea228ee43ceb2097290aad40a02244c172a9e27c117fc75cca024d6bc8d
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
