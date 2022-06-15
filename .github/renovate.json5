@@ -134,6 +134,18 @@
     },
     {
       "matchDatasources": ["docker"],
+      "versioning": "regex:^latest-(?<major>\\d+)-(?<minor>\\d+)-(?<patch>\\d+)$",
+      "matchPackageNames": ["wangqiru/ttrss"],
+      "automerge": true,
+    },
+    {
+      "matchDatasources": ["docker"],
+      "versioning": "regex:^v(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-omnibus$",
+      "matchPackageNames": ["ghcr.io/analogj/scrutiny"],
+      "automerge": true,
+    },
+    {
+      "matchDatasources": ["docker"],
       "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-ubuntu$",
       "matchPackageNames": ["zabbix/zabbix-server-pgsql"],
       "automerge": true,
