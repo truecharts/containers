@@ -102,6 +102,7 @@ jobs:
           VERSION=$(echo $VERSION | sed "s/version_//g")
           VERSION=$(echo $VERSION | sed "s/apache-//g")
           VERSION=$(echo $VERSION | sed "s/ubuntu-//g")
+          VERSION=$(echo $VERSION | sed "s/focal-//g")
           VERSION=$(echo $VERSION | sed "s/fpm-//g")
           VERSION="${VERSION#*V.}"
           VERSION="${VERSION#*v.}"
