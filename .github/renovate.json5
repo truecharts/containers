@@ -1,6 +1,6 @@
 {
   "semanticCommits": "enabled",
-
+  "extends": ["helpers:pinGitHubActionDigests"],
   "dependencyDashboard": true,
   "dependencyDashboardTitle": "Renovate Dashboard 🤖",
   "suppressNotifications": ["prIgnoreNotification"],
