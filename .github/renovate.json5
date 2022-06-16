@@ -16,6 +16,7 @@
     // Setup datasources for github actions
     {
       "matchManagers": ["github-actions"],
+      "commitMessageTopic": "github-action {{depName}} [skip ci]",
       "automerge": true,
     },
     {
