@@ -1,2 +1,2 @@
-FROM codeproject/senseai-server:focal-1.3.0@sha256:c50bd4ead1998e68ab80879a25f269d82a9fafcadc180405ddfb03f82a546621
+FROM codeproject/senseai-server:focal-1.4.0@sha256:e26603f89a1a994cda27c4604fb79ed380acd65e4233e9bd4a8689eb21625b39
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
