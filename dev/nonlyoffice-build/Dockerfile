@@ -1,5 +1,5 @@
 # hadolint ignore=DL3007
-FROM ghcr.io/truecharts/ubuntu:latest@sha256:7fe70aa9d2d89a273592a4bc38c5a6ab27db2b4691ec60387125566c15372168
+FROM ghcr.io/truecharts/ubuntu:latest@sha256:dad9f7f4318515d3280413a01d011a3deed0ade2054361fe49c7205093631670
 
 ENV TZ=Etc/UTC
 
