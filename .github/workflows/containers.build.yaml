@@ -5,19 +5,7 @@ on:
   push:
     branches:
     - master
-    paths:
-    - 'apps/**'
-    - 'dev/**'
-    - 'base/**'
-    - 'mirror/**'
-    - ".github/workflows/containers.build.yaml"
   pull_request:
-    paths:
-    - 'apps/**'
-    - 'dev/**'
-    - 'base/**'
-    - 'mirror/**'
-    - ".github/workflows/containers.build.yaml"
 
 env:
   # How long to sleep before running the tests (gives the application time to start)
