@@ -134,6 +134,12 @@
     },
     {
       "matchDatasources": ["docker"],
+      "versioning": "regex:^focal-(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)$",
+      "matchPackageNames": ["codeproject/senseai-server"],
+      "automerge": true,
+    },
+    {
+      "matchDatasources": ["docker"],
       "versioning": "regex:^latest-(?<major>\\d+)-(?<minor>\\d+)-(?<patch>\\d+)$",
       "matchPackageNames": ["wangqiru/ttrss"],
       "automerge": true,
