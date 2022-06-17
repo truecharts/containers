@@ -1,2 +1,2 @@
-FROM coderaiser/cloudcmd:latest@sha256:c7212bb48fa1e899faa977ac0de8a7bbe13a522e98b8ff9ae07819437c6923e9
+FROM coderaiser/cloudcmd:latest@sha256:05e57c8fade40edec4ad798ba040cdeb98e55eb701b1f4001ce2370e9edc4319
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
