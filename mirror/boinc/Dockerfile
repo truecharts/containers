@@ -1,2 +1,2 @@
-FROM ghcr.io/linuxserver/boinc:latest@sha256:a51292a2366676114bd67f912292f9fd7dcb5b9eef105e2a1fa82ce79c1f4b2f
+FROM ghcr.io/linuxserver/boinc:latest@sha256:1a372c4d47e111805f163db2f9457160d6092dfa0348a28be43c21f89af7fd62
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
