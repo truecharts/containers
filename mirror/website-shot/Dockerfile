@@ -1,2 +1,2 @@
-FROM flowko1/website-shot:latest@sha256:47193560990f4888f783a7e16b583a9622d92b20737af7a83f3ee8c48179cd20
+FROM flowko1/website-shot:latest@sha256:15df0222fcc3c07a666a3d7461cbd3569966c638904be30bec12aee6112bf3a4
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
