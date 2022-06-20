@@ -1,2 +1,2 @@
-FROM ghcr.io/k8s-at-home/apache-musicindex:v1.4.1-2@sha256:c8b5cf5fbf4bbf097fb516f82bfc3ecb1ad971e8059dc9722b4d10bb7d7faee7
+FROM ghcr.io/k8s-at-home/apache-musicindex:v1.4.1-2@sha256:a9441f4a7bfd7f503b31d14f12314f208172863ba6697dedde396dcce94c683d
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
