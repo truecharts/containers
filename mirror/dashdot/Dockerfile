@@ -1,2 +1,2 @@
-FROM mauricenino/dashdot:3.5.2@sha256:51ba3d8860142167599d127da87bba36172b67963dd4909e2ff379a9a6ea8aa4
+FROM mauricenino/dashdot:3.6.0@sha256:8469bbf2f50ba153bcea36ee25a475d7b8cba55871b91d04dad4911f595c608b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
