@@ -49,6 +49,7 @@ RUN set -ex; \
     rm -rf /var/lib/apt/lists/*
 
 COPY ./mirror/nextcloud/includes/jumpstart.sh /jumpstart.sh
+COPY ./mirror/nextcloud/includes/hpb.sh /hpb.sh
 
 CMD ["sh /jumpstart.sh"]
 
