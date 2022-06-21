@@ -48,4 +48,8 @@ RUN set -ex; \
     apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \
     rm -rf /var/lib/apt/lists/*
 
+COPY ./mirror/nextcloud/includes/jumpstart.sh /jumpstart.sh
+
+CMD ["sh /jumpstart.sh"]
+
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
