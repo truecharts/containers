@@ -1,2 +1,2 @@
-FROM sameersbn/apt-cacher-ng:latest@sha256:4a7e05903c391ba5f04e7a1f1010c068577a78f9e156f3f5438676dd4a371afe
+FROM sameersbn/apt-cacher-ng:latest@sha256:58e74113cfac7e593201444648c105351cbfce7538bfb36dcafdc9479b2aefcc
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
