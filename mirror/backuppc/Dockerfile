@@ -1,2 +1,2 @@
-FROM tiredofit/backuppc:latest@sha256:23c24f44d2a931a654f16fa5e684b1764fe98f304520ff7b341655cc1a426813
+FROM tiredofit/backuppc:latest@sha256:12ce95105550ae4779754ea3f64d3d88bccab5461bfe6b083c9a7cf009e1c575
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
