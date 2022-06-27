@@ -51,7 +51,8 @@ RUN set -ex; \
 COPY --chmod=755 ./mirror/nextcloud/includes/jumpstart.sh /jumpstart.sh
 COPY --chmod=755 ./mirror/nextcloud/includes/hpb.sh /hpb.sh
 
-ENTRYPOINT ["/entrypoint.sh"]
-CMD ["/jumpstart.sh"]
+RUN set -ex; \
+    sed '/exec "$@"/d' /entrypoint.sh; \
+    cat /jumpstart.sh >> /entrypoint.sh; \
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
