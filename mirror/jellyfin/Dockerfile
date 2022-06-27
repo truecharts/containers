@@ -1,3 +1,3 @@
-FROM docker.io/jellyfin/jellyfin:10.8.0@sha256:7117cbe063eed440a7c4085ccc27f15990b298efe4d83fcd5c939771ae8af793
+FROM docker.io/jellyfin/jellyfin:10.8.1@sha256:ee24f4459a40a17939e8cd73de5160cd3e55b8ded3dd82e9f51cb5fc6a3cf30a
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
