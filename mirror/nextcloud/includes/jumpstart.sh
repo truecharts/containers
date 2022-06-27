@@ -10,4 +10,4 @@ if [ -n "${NEXTCLOUD_TRUSTED_DOMAINS+x}" ]; then
     done
 fi
 
-apache2-foreground
+exec "$@"
