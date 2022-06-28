@@ -10,4 +10,8 @@ if [ -n "${NEXTCLOUD_TRUSTED_DOMAINS+x}" ]; then
     done
 fi
 
+echo "Disabling Data-Dir permission checks…"
+run_as "php /var/www/html/occ config:system:set check_data_directory_permissions --value=false"
+
+
 exec "$@"
