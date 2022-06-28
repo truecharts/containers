@@ -1,2 +1,2 @@
-FROM reallibrephotos/librephotos:latest@sha256:2322567105a51f34134e5941be35caf036f6618fec05b0f190baeeb4daa49331
+FROM reallibrephotos/librephotos:latest@sha256:0a1c30e011abf26668a801ec15839d4837ddf27bbedfee963eae1cbba7e556b3
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
