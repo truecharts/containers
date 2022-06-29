@@ -49,7 +49,6 @@ RUN set -ex; \
     rm -rf /var/lib/apt/lists/*
 
 COPY --chmod=755 ./mirror/nextcloud/includes/jumpstart.sh /jumpstart.sh
-COPY --chmod=755 ./mirror/nextcloud/includes/hpb.sh /hpb.sh
 
 RUN set -ex; \
     sed -i 's/exec "$@"//g' /entrypoint.sh; \
