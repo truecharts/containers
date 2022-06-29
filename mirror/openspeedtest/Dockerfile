@@ -1,2 +1,2 @@
-FROM openspeedtest/latest:latest@sha256:9fdaeb30ddcbb803c1423f036c39e7e75751b7d810be99c85287718e66678ae9
+FROM openspeedtest/latest:latest@sha256:bd58271802cd6c1999f774dc9a9b402bb2b9fb0d325f3e569e9e7a82f83f8f43
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
