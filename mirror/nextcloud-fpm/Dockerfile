@@ -51,7 +51,6 @@ RUN set -ex; \
 COPY --chmod=755 ./mirror/nextcloud/includes/jumpstart.sh /jumpstart.sh
 
 RUN set -ex; \
-    sed -i 's/exec "$@"//g' /entrypoint.sh; \
-    cat /jumpstart.sh >> /entrypoint.sh
+    sed -i 's/exec "$@"//g' /entrypoint.sh
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
