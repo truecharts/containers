@@ -48,11 +48,10 @@ RUN set -ex; \
     apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \
     rm -rf /var/lib/apt/lists/*
 
-COPY --chmod=755 ./mirror/nextcloud/includes/jumpstart.sh /jumpstart.sh
+COPY --chmod=755 ./mirror/nextcloud-fpm/includes/jumpstart.sh /jumpstart.sh
 
 RUN set -ex; \
-    sed -i 's/exec "$@"//g' /entrypoint.sh
-
-ENTRYPOINT ["/bin/sh", "-c" , "/bin/sh /entrypoint.sh && /bin/sh /jumpstart.sh"]
+    sed -i 's/exec "$@"//g' /entrypoint.sh; \
+    cat /jumpstart.sh >> /entrypoint.sh
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
