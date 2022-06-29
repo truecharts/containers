@@ -9,5 +9,6 @@ if [ -n "${NEXTCLOUD_TRUSTED_DOMAINS+x}" ]; then
         NC_TRUSTED_DOMAIN_IDX=$(($NC_TRUSTED_DOMAIN_IDX+1))
     done
 fi
+run_as "php /var/www/html/occ app:set install notify_push:setup
 
 exec "$@"
