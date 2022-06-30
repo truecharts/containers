@@ -1,2 +1,2 @@
-FROM rocket.chat:4.6.4@sha256:412371b5b6dd0dd3de8d3b37c2ff9e92b95e5bccef039ad8069321ccce3b353a
+FROM rocket.chat:4.8.1@sha256:f803c31841f3cfea625f26224d67f6d3197af5720af09ead456bcb27b5b21c40
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
