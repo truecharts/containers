@@ -21,7 +21,7 @@ echo  "HPB-Container found!"
 echo  "Waiting for 20 seconds before High Performance Backend setup..."
 sleep 20
 echo  "Configuring High Performance Backend for url: ${ACCESS_URL}"
-run_as "php /var/www/html/occ notify_push:setup ${ACCESS_URL}/push
+run_as "php /var/www/html/occ notify_push:setup ${ACCESS_URL}/push"
 rm -f /var/www/html/REQHPB
 
 php-fpm
