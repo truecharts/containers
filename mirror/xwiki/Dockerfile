@@ -1,2 +1,2 @@
-FROM xwiki:14.4.1-postgres-tomcat@sha256:cb677f442ac9f3208695ae53d436c430f37e136d2ff9d345b732bb00f043a125
+FROM xwiki:14.5.0-postgres-tomcat@sha256:b73eba14eee90d540de90cfe437c5d3f7e8812717b85e4cdf741e35f48c6142b
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
