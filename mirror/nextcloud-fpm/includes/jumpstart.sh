@@ -9,7 +9,7 @@ if [ -n "${NEXTCLOUD_TRUSTED_DOMAINS+x}" ]; then
         NC_TRUSTED_DOMAIN_IDX=$(($NC_TRUSTED_DOMAIN_IDX+1))
     done
 fi
-run_as "php /var/www/html/occ app:install notify_push"
+run_as "php /var/www/html/occ app:install notify_push" || echo "installing notify_push failed, it might already be installed..."
 
 echo "Waiting for HPB-Container to start..."
 until [ -f /var/www/html/REQHPB ]
