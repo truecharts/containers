@@ -24,4 +24,4 @@ echo  "Configuring High Performance Backend for url: ${ACCESS_URL}"
 run_as "php /var/www/html/occ notify_push:setup ${ACCESS_URL}/push"
 rm -f /var/www/html/REQHPB
 
-php-fpm
+exec "$@"
