@@ -1,2 +1,2 @@
-FROM minio/minio:RELEASE.2022-06-25T15-50-16Z@sha256:4dea81aab916ce6c3c5d5284cd1a86214fb89d56e8a2733d37704d4394318575
+FROM minio/minio:RELEASE.2022-06-30T20-58-09Z@sha256:99f44422bc7b36560aa11a2680fbc8efe43cdecb42007420e02646ab70794ba0
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
