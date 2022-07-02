@@ -48,6 +48,13 @@ RUN set -ex; \
     apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \
     rm -rf /var/lib/apt/lists/*
 
+# hadolint ignore=DL3008,DL3015,SC2086,SC2155,DL4006
+RUN set -ex; \
+    \
+    touch /usr/local/etc/php/conf.d/redis-session.ini; \
+    chmod 777 /usr/local/etc/php/conf.d/redis-session.ini \
+    
+
 COPY --chmod=755 ./mirror/nextcloud-fpm/includes/jumpstart.sh /jumpstart.sh
 
 RUN set -ex; \
