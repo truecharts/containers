@@ -1,2 +1,2 @@
-FROM ghcr.io/linuxserver/pwndrop:1.0.1@sha256:fb07c0fe9aed6337a9974bbccdf9ce24ca9f84f80afec0c5c4dd7a00f1a31c23
+FROM ghcr.io/linuxserver/pwndrop:1.0.1@sha256:4154ab9b10c828d484077a65e564685567c7b1abaa98aad9b5959d5e638323c6
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
