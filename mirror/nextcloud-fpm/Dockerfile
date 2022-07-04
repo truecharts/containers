@@ -6,6 +6,7 @@ RUN set -ex; \
     apt-get update; \
     apt-get install -y --no-install-recommends \
         nano \
+        jq \
         imagemagick-common \
         ffmpeg \
         libmagickcore-6.q16-6-extra \
@@ -52,7 +53,7 @@ RUN set -ex; \
 RUN set -ex; \
     \
     touch /usr/local/etc/php/conf.d/redis-session.ini; \
-    chmod 777 /usr/local/etc/php/conf.d/redis-session.ini \
+    chmod 777 /usr/local/etc/php/conf.d/redis-session.ini
     
 
 COPY --chmod=755 ./mirror/nextcloud-fpm/includes/jumpstart.sh /jumpstart.sh
