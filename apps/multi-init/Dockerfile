@@ -21,10 +21,11 @@ RUN \
     postgresql-client \
     mariadb-client \
     nfs4-acl-tools \
+    wget \
   && \
   wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add - \
   && \
-  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list \
+  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/5.0 multiverse" | tee /etc/apt/sources.list.d/mongodb-org-5.0.list \
   && \
   case "${TARGETPLATFORM}" in \
     'linux/amd64') export ARCH='linux-x64' ;; \
@@ -47,8 +48,6 @@ RUN \
   && chmod -R u=rwX,go=rX /app \
   && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc \
   && update-ca-certificates
-
-USER apps
 
 COPY ./apps/multi-init/entrypoint.sh /entrypoint.sh
 CMD ["/entrypoint.sh"]
