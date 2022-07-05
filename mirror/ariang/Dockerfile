@@ -1,0 +1,2 @@
+FROM leonismoe/ariang:latest@sha256:47f3edaf5ab972c6902691f97f84830d2e12422b0a66ad17c8955ca0f31e18c2
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
