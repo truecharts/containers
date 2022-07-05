@@ -1,2 +1,2 @@
-FROM kopia/kopia:0.10.7@sha256:47a1a799f045d625be96509d6c9c0b93cb02ee0eb9d22549a0dea0f94089c6e5
+FROM kopia/kopia:0.11.0@sha256:6ef8682bf0381b8116ecc6adee5cc788c64a3849eade45ca40046ee6143aa99c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
