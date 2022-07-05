@@ -1,3 +1,3 @@
-FROM syncthing/syncthing:1.20.2@sha256:d646ab1eb4e5fc75019b68d9b01a12049b9485b9dd7f3466f3d77d5f2c62803c
+FROM syncthing/syncthing:1.20.3@sha256:c0eb288a94f4a06bb348a19dd276f690c7ccfc067823e8f055e29057e384a4b8
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
