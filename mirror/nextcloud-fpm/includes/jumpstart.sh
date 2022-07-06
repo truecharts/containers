@@ -10,6 +10,7 @@ if [ -n "${NEXTCLOUD_TRUSTED_DOMAINS+x}" ]; then
     done
 fi
 
-[ -f /var/www/html/custom_apps/notify_push/bin/x86_64/notify_push ] && echo "installing notify_push already seems to be installed..." || run_as "php /var/www/html/occ app:install notify_push"
+[ -f /var/www/html/custom_apps/notify_push/bin/x86_64/notify_push ] && echo "Error installing notify_push already seems to be installed..." || run_as "php /var/www/html/occ app:install notify_push"
+[ -f /var/www/html/custom_apps/previewgenerator/LICENSE ] && echo "Error installing previewgenerator already seems to be installed..." || run_as "php /var/www/html/occ app:install notify_push"
 
 exec "$@"
