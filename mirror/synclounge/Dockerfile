@@ -1,2 +1,2 @@
-FROM ghcr.io/linuxserver/synclounge:5.1.123@sha256:3ef1e44085c5109965d380794d195d97813bbd938954867e03691c098642002a
+FROM ghcr.io/linuxserver/synclounge:5.1.123@sha256:53adcc267b6d9699c8988166c857959f3f5869be26cf537564f10f76ab164a73
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
