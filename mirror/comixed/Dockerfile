@@ -1,2 +1,2 @@
-FROM comixed/comixed:latest@sha256:9faf2b60a6588f546912aa542ffa531c947ac32f22c7123911ffc2e73362e6d9
+FROM comixed/comixed:latest@sha256:bc52bad9541a68fcd216a33a1e28dd19c7bca572829e0a9de989aa04bf18660c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
