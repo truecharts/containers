@@ -93,6 +93,12 @@
     },
     {
       "matchDatasources": ["docker"],
+      "versioning": "regex:^version-v(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)$",
+      "matchPackageNames": ["linuxserver/heimdall"],
+      "automerge": true,
+    },
+    {
+      "matchDatasources": ["docker"],
       "versioning": "regex:^version-(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-.*$",
       "matchPackageNames": ["linuxserver/deluge"],
       "automerge": true,
@@ -267,7 +273,6 @@
       "versioning": "loose",
       "matchPackageNames": [
         "ghcr.io/k8s-at-home/plex",
-        "ghcr.io/linuxserver/calibre",
         "ghcr.io/k8s-at-home/qbittorrent",
         "sirfragalot/hyperion.ng",
       ],
