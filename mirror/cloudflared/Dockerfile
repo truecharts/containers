@@ -1,2 +1,2 @@
-FROM cloudflare/cloudflared:2022.7.0@sha256:6abb49ea19ae35a0dd670e17c7ae9cf3a92090150e3bf00e9ad79a7fb8d0febf
+FROM cloudflare/cloudflared:2022.7.1@sha256:6689c90a78a558ba000018cb2024881ebace334ad0f3c5c197065d8586d2e775
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
