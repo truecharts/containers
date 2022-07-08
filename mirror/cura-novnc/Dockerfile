@@ -1,2 +1,2 @@
-FROM mikeah/cura-novnc:latest@sha256:df122686c03337ced8793a01fba0464c12795dce55f8daa7b0097ca9dbb44158
+FROM mikeah/cura-novnc:latest@sha256:b6df55bda78397c5711d7bbf2b81f6cd3ecc458737a44a68ee26cf033c095802
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
