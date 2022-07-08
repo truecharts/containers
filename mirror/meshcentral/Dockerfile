@@ -1,2 +1,2 @@
-FROM uldiseihenbergs/meshcentral:1.0.41@sha256:9d1081cafc6c80ae8dd2ae333a49dac6d9e02439e45d5bc77075ede0ff6c9d25
+FROM uldiseihenbergs/meshcentral:1.0.48@sha256:9fea65568924ea47eb433fe9c7ce7f13dc1e35c282c3ed6773cf0d8b9a32aaa6
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
