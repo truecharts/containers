@@ -1,2 +1,2 @@
-FROM ghcr.io/linuxserver/photoshow:version-48aabb98@sha256:58d8dcba7ae99c6a0956d8feb18114bc5040cb79061c552ce76aca809ee8aa53
+FROM ghcr.io/linuxserver/photoshow:version-48aabb98@sha256:ec16bd54b63fc647feb2a6729054a917b4d4a2ebc460e2e2ff10b75c225006f1
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
