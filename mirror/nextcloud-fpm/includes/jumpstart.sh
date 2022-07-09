@@ -10,6 +10,11 @@ if [ -n "${NEXTCLOUD_TRUSTED_DOMAINS+x}" ]; then
     done
 fi
 
+
+if [ -n "${NEXTCLOUD_CHUNKSIZE+x}" ]; then
+    run_as "php /var/www/html/occ config:app:set files max_chunk_size --value ${NEXTCLOUD_CHUNKSIZE}"
+fi
+
 [ -f /var/www/html/custom_apps/notify_push/bin/x86_64/notify_push ] && echo "Error installing notify_push already seems to be installed..." || run_as "php /var/www/html/occ app:install notify_push"
 [ -f /var/www/html/custom_apps/previewgenerator/LICENSE ] && echo "Error installing previewgenerator already seems to be installed..." || run_as "php /var/www/html/occ app:install previewgenerator"
 
