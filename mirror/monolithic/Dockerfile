@@ -1,2 +1,2 @@
-FROM lancachenet/monolithic@sha256:f233ed96ab6323a4463a26665b2faca38e8b5098b47227855be5328ab9a3cef4
+FROM lancachenet/monolithic:latest@sha256:f233ed96ab6323a4463a26665b2faca38e8b5098b47227855be5328ab9a3cef4
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
