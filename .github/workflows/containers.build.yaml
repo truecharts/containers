@@ -93,6 +93,7 @@ jobs:
           echo ::set-output name=category::${CATEGORY}
           VERSION="$(head -1 ./${CATEGORY}/${{ matrix.container }}/Dockerfile |  cut -d'@' -f1 | sed 's/^FROM.*://' )"
           VERSION=$(echo $VERSION | sed "s/latest-//g")
+          VERSION=$(echo $VERSION | sed "s/stable-//g")
           VERSION=$(echo $VERSION | sed "s/edge-//g")
           VERSION=$(echo $VERSION | sed "s/cpu-//g")
           VERSION=$(echo $VERSION | sed "s/gpu-//g")
