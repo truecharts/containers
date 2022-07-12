@@ -1,2 +1,2 @@
-FROM dbeaver/cloudbeaver:latest@sha256:299b2e8be2072f802e3fff72ecc0df978ec3d232755dd0e367976f9a7d87a230
+FROM dbeaver/cloudbeaver:latest@sha256:c28309a833d8edfbd296491b7f09f62c4d2fe1a0cd91f7a574ba900d9d23c21c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
