@@ -1,0 +1,2 @@
+FROM lancachenet/lancache-dns:latest@sha256:044731289e4c0bf93cf33e76482abd56c984f9dd6b68538bfc493da2b0283d98
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
