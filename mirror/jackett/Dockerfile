@@ -1,2 +1,2 @@
-FROM ghcr.io/k8s-at-home/jackett:v0.20.1304@sha256:08b42cf11a1cab922ad230d18e8dc9b4c283c757009d7604ece0cdc9d21dc815
+FROM ghcr.io/k8s-at-home/jackett:v0.20.1305@sha256:74b549220b2e35bb04131ff648fcaaf305800ce535f1e84306d60f0d681b804d
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
