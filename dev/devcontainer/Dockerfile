@@ -111,7 +111,7 @@ RUN \
     pre-commit \
     yamale \
     yamllint \
-    DocGenerator \
+    docgenerator \
   && \
   mkdir /tmp/precommit/ && \
   cd /tmp/precommit && \
