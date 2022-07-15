@@ -1,2 +1,2 @@
-FROM ghcr.io/linuxserver/pylon:2.8.0@sha256:9337b3e8848e1923eb94a5399de6ebd96eaf8760553d448619ef9bfb6a32496a
+FROM ghcr.io/linuxserver/pylon:2.8.0@sha256:43d6435715502b9233ece845b5e4f0d823e3791599434c3a8565e84fa9737fd5
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
