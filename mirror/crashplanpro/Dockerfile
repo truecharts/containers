@@ -1,2 +1,2 @@
-FROM jlesage/crashplan-pro:latest@sha256:93b024a0c0698d290587fd09b310e46c49a6bfb74b633c4b8d333a839f91a4b2
+FROM jlesage/crashplan-pro:latest@sha256:72fd7f8a0c475b269aa16a15466fb6c2c32daeeabaf7cde556d1b4c1251ba9d2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
