@@ -101,6 +101,7 @@ RUN \
     /var/tmp/ \
     /tmp/catalog_validation
 
+# Install misc dependencies: Pre-Commit, Yamllint, DocGenerator
 RUN \
   apt-get update \
   && \
