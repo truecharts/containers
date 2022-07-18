@@ -1,6 +1,6 @@
 ARG VERSION
 
-FROM ghcr.io/k8s-at-home/ubuntu:v${VERSION}
+FROM ghcr.io/k8s-at-home/ubuntu-jammy:v${VERSION}
 
 ARG TARGETPLATFORM
 
