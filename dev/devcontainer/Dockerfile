@@ -11,7 +11,7 @@ FROM jnorwood/helm-docs:v1.11.0@sha256:66c8f4164dec860fa5c1528239c4aa826a1248530
 FROM quay.io/git-chglog/git-chglog:0.15.1@sha256:471db4cefc1a4dc0d8ee996447d5ac860f9496c982bcd29e90b390aff4e78175 AS gcl
 
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.154.0/containers/ruby/.devcontainer/base.Dockerfile
-FROM mcr.microsoft.com/vscode/devcontainers/ruby:0-${VARIANT}
+FROM mcr.microsoft.com/vscode/devcontainers/ruby:0-2
 
 ARG HELM_VERSION="3.5.4"
 ARG CT_VERSION=3.3.1
@@ -53,9 +53,6 @@ RUN \
   && tar xvzf /tmp/ct.tar.gz -C /usr/local/bin "ct" \
   && tar xvzf /tmp/ct.tar.gz --strip-components=1 -C /etc/ct "etc/" \
   && chmod +x /usr/local/bin/ct \
-  && \
-  bundle config set system 'true' \
-  && bundle install --gemfile /tmp/Gemfile \
   && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
   && apt-get autoremove -y \
   && apt-get clean \
