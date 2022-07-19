@@ -1,2 +1,2 @@
-FROM docker.io/filebrowser/filebrowser:v2.22.3@sha256:4f2d736c830223a7799eab61b33f9bd01e2d7a5ca47c9054aa880cd18341bbc3
+FROM docker.io/filebrowser/filebrowser:v2.22.4@sha256:8a30269612a3bc8453ab29641c3e3d7ad141a8d142efc2cd78196281b1035537
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
