@@ -1,0 +1,2 @@
+FROM datamachines/jupyter_to-unraid:latest@sha256:44cba3b8a78f73690bee2e85e2d9d6920f2250117e2cf552bfb1e718a86fb431
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

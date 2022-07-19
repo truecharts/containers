@@ -1,0 +1,2 @@
+FROM pldubouilh/gossa:latest@sha256:28b1d2c9e3dc8f3a2ce116dba2f11379bfb26f6427afd35ec975581da9bb8f5f
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

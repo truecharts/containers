@@ -1,0 +1,2 @@
+FROM kiwix/kiwix-serve:latest@sha256:889f08dcbfe94b44a506060632618d671ea0d8ce4aed8a2878e0a24890984374
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

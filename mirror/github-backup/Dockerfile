@@ -1,0 +1,2 @@
+FROM lnxd/github-backup:latest@sha256:029a39d990316e7df10ed5c29fcd722f9736b35d801773955b095492d6e1ff36
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

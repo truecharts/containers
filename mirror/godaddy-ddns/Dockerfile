@@ -1,0 +1,2 @@
+FROM jwater7/godaddy-publicip-updater:latest@sha256:fd454790cf528241a1599da8374a0330ecfa1b49179d4aa8582526949ebb0180
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

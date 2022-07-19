@@ -1,0 +1,2 @@
+FROM spaceinvaderone/explainshell:latest@sha256:4087f0864ba72a987e7beb4f2fe2b86a799c7db3ec468029a1086e38974408fa
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

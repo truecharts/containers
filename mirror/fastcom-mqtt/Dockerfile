@@ -1,0 +1,2 @@
+FROM simonjenny/fastcom-mqtt:latest@sha256:4334dfa353275e15483fead71a9c597a09dc1305641998347e4edcf4009fccad
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

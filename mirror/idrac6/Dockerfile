@@ -1,0 +1,2 @@
+FROM domistyle/idrac6:latest@sha256:425d9cbc212b2c0fd22263015fe21332661df0cab0b208dcc40b8386b4185c48
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

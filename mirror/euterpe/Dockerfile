@@ -1,0 +1,2 @@
+FROM ironsmile/euterpe:latest@sha256:d4f6266e75b6fff0cee7bcd7ee1ca6487fc5268019b125ab828880a17e6a4629
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

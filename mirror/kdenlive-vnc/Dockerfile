@@ -1,0 +1,2 @@
+FROM tessypowder/docker-kdenlive:latest@sha256:6cd729e09cbf6f03d89b5358e086adab17a765f500a9c462600d92d084db0bfa
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,0 +1,2 @@
+FROM glauth/glauth:latest@sha256:695fd8849c27dc80d5fcfd159e2babed0c96b6d454d45578b7f802f3512287ac
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

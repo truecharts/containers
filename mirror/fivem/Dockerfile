@@ -1,0 +1,2 @@
+FROM ich777/fivemserver:latest@sha256:ce352c392a3e5e0177a04a8ac79427ccc8bc7748849377c5e941e1d747d66600
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

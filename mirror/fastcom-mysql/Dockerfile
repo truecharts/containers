@@ -1,0 +1,2 @@
+FROM simonjenny/fastcom-mysql:latest@sha256:987abedadc104745c9cfe55ad8951e1f229775c7f81984a6cf90788c35428264
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

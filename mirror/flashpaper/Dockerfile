@@ -1,0 +1,2 @@
+FROM andrewpaglusch/flashpaper:latest@sha256:920a2e30b9b91180574bafd72fd0783d2bc64d2cf361fe1d7bffed95044c984d
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

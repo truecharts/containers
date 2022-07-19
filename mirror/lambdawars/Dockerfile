@@ -1,0 +1,2 @@
+FROM ich777/steamcmd:lambdawars@sha256:9b00669f2cd8eb7e4c65049928932624e0e405af4204037035eef6e61077b309
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

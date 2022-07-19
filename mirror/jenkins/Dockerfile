@@ -1,0 +1,2 @@
+FROM jenkins/jenkins:latest@sha256:1f6e7ef75a54412dd64d774b42609ef1ef3b347cddae6683f176bef691c01b0c
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

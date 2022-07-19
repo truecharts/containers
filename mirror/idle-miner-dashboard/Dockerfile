@@ -1,0 +1,2 @@
+FROM electricbrainuk/idleminerdashboard:latest@sha256:29f2024d1d06c391828ef0c26c475f93336f121dd0dd285f5676f8af9f4020f3
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

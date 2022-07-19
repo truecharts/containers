@@ -1,0 +1,2 @@
+FROM vinid223/gcloud-storage-backup:latest@sha256:8ac084bc1d2c01ba2e5d105b82cb34a2813ae812c890afa86748f33bbd834c6b
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

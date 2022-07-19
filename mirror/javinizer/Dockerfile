@@ -1,0 +1,2 @@
+FROM angelics/unraid-docker-javinizer:latest@sha256:964948c48e8b44800efd2665641f6033ed3d78b05773add7f3d87ea633a1fb66
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

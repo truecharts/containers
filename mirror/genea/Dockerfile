@@ -1,0 +1,2 @@
+FROM biggiesize/genea-app:latest@sha256:acd12892dfaca16eb7216c1a4112883f3ce7d5aed0078ff2f390970a4a383625
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

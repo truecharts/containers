@@ -1,0 +1,2 @@
+FROM thomx/fr24feed-piaware:latest@sha256:c4239861d9f4ba51d05de3f45d67fd94abb007094bd2f08d08aec824e8674644
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

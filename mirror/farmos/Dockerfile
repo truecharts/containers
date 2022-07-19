@@ -1,0 +1,2 @@
+FROM farmos/farmos:latest@sha256:6cd9057fdfd27168888c4a2e7d562ef5bbfdfbda862e31187a6ed03ddd45ffe4
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

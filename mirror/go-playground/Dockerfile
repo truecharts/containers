@@ -1,0 +1,2 @@
+FROM x1unix/go-playground:latest@sha256:8079442f33f1ceacf2017b52321dddbc3d779a4df86c15b15b12927876f907ae
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

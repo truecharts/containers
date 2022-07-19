@@ -1,0 +1,2 @@
+FROM wabayang/jelu:latest@sha256:6bd9a4ad35df0280ffc0cc0212b5563422ab7d4515a75a8e2e04052a15a304d9
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

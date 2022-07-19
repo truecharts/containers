@@ -1,0 +1,2 @@
+FROM tiredofit/freepbx:15-latest@sha256:7c68da94708279290a8408369243d32026a79197132c1d2092c9c8403aa07629
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
