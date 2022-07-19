@@ -1,0 +1,2 @@
+FROM waschinski/photo-stream:latest@sha256:af057d18700c4f1757ce5fd9299871ba18c76ef15810edc0c8e6abe1942310ec
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

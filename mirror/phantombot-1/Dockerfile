@@ -1,0 +1,2 @@
+FROM ghcr.io/phantombot/phantombot:latest@sha256:1931565e6a07cc53d7419f96923655b100dee0307e3debc46df351e118579e88
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,0 +1,2 @@
+FROM hkalexling/mango:latest@sha256:78bc694b205fd797651de8c911f1158a267ddb83cdcfed655e1a92b131c36b24
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

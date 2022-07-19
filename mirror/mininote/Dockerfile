@@ -1,0 +1,2 @@
+FROM n1try/mininote:latest@sha256:da2c050fe79ffb5371d9c40a86cf2222d87e23958802bc9348455e8784afbc0d
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

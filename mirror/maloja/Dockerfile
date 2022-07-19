@@ -1,0 +1,2 @@
+FROM krateng/maloja:latest@sha256:a0449cdfd242d73cbb3f1f93857a7b48e4a8600fe96e28a1feee3fdd2e8a4b6a
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

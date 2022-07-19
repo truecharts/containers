@@ -1,0 +1,2 @@
+FROM binhex/arch-moviegrabber:latest@sha256:22c0c072e403982551079345a1dc15bfdb364e4a154ef2e49810daab1ab78589
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

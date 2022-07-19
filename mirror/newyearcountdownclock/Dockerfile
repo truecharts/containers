@@ -1,0 +1,2 @@
+FROM modem7/newyearcountdown:latest@sha256:3e066585122c6ad5d830fbca2decd9b3ebe1eb0e56932bedf00da153917adff9
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

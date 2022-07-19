@@ -1,0 +1,2 @@
+FROM binhex/arch-phantom:latest@sha256:8e152f22c2ef0146263e6a480bd4fc8181960a0f5da064caff2bd88459d0a534
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

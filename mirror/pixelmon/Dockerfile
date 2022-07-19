@@ -1,0 +1,2 @@
+FROM goobaroo/pixelmon:latest@sha256:cd06af290702bec8b4b0528acb0a4ebc4af3290eee7ae586b15b346607685810
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

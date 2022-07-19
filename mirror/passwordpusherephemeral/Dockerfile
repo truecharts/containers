@@ -1,0 +1,2 @@
+FROM pglombardo/pwpush-ephemeral:latest@sha256:2e8aa4eb84449b84f4d2c7ed08665b3930abcd7736f5ee5211ad371b6a754a20
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

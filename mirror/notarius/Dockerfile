@@ -1,0 +1,2 @@
+FROM agusalex/notarius:latest@sha256:ac7f357fc114660429b2b08f8939cf3bcbe7a0cc399a46077b77d417500a6ab4
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

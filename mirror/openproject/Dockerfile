@@ -1,0 +1,2 @@
+FROM openproject/community:12@sha256:83755b1322651f9cdcd7b301befe3a973848d564d18cc2689cfb1ad8fb8e6eae
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

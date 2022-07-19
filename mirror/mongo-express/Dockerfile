@@ -1,0 +1,2 @@
+FROM ulisses1478/mongo-express:latest@sha256:09044ff849a1ee9200e5ed65bef0ee125cf68883fd5009132144a50f6d127a07
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

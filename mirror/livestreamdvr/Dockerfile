@@ -1,0 +1,2 @@
+FROM mrbrax/twitchautomator:master@sha256:a6fe96560e706a07e1097367eff925cf11631ab813f90242362787cc1e7b3ca2
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,0 +1,2 @@
+FROM mongoclient/mongoclient:latest@sha256:ca98c95de349493fab630ca3fae6e611e27e392ebc59f14d7dd73580c045927a
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

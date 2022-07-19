@@ -1,0 +1,2 @@
+FROM diamkil/notea:latest@sha256:9232583d723abd24286b0bb227fca361d6e3e42b34b37456199ca48e9514bd38
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

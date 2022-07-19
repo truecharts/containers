@@ -1,0 +1,2 @@
+FROM yoruio/membarr:latest@sha256:4e5250294a8e4485608657ec339bfc8691f954a09a604f71164013ece82f6a45
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

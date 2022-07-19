@@ -1,0 +1,2 @@
+FROM patrickstigler/obs-ndi:latest@sha256:8575c59f70b3f3f13ce95ccb95a50afb061882b1b7fef457f6dd52ce3e3dca48
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

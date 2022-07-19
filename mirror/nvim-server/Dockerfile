@@ -1,0 +1,2 @@
+FROM hikariai/nvim-server:latest@sha256:4c50caf11c75fd56c4e4c9670ba672b95a06f660612475b8f11d62b1d07e838f
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

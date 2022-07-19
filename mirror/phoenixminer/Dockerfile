@@ -1,0 +1,2 @@
+FROM lnxd/phoenixminer:latest@sha256:d5126107acf1755259b0bd3f36039d1ae87c992d6c92da136905db1045ddf420
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

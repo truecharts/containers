@@ -1,0 +1,2 @@
+FROM masonxx/mediaelch:latest@sha256:1b3722a1f9bf18db9dc32811727d4c6e5392872332998c5941855aa4095b303a
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

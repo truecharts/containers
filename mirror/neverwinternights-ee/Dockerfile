@@ -1,0 +1,2 @@
+FROM ich777/nwnee-server:latest@sha256:a243a240ffa9af8853247e2f3f2cdcf7a670de642656641c59d823a5706ba387
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

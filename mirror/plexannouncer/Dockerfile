@@ -1,0 +1,2 @@
+FROM tenasi/plexannouncer:latest@sha256:1a9b3a2dbc9981cbb544b8fecf007ebd6fc8e737b7ea8212a78162c9bbb9855b
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

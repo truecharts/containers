@@ -1,0 +1,2 @@
+FROM dyonr/magnetico-environment:latest@sha256:d37054e3e19e6db44d22ca9c16fd5c9654d9be59b6b4e4e4bc311d2fcb1c4c28
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
