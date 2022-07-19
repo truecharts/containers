@@ -1,2 +1,0 @@
-FROM shaneisrael/fireshare:latest@sha256:088fcc832248b1d1e872779416532cb38246fb0d3c659e7ff497f47c7111de9b
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

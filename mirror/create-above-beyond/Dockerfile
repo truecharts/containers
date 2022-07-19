@@ -1,2 +1,0 @@
-FROM ratomas/createa-b:latest@sha256:c1adad9436070f0dc727249cbddb3e1fc3e331ff070ce607a3af5d4bed744fac
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

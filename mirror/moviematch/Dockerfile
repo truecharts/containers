@@ -1,2 +1,0 @@
-FROM lukechannings/moviematch:latest@sha256:aa51079180164581fea11ef0e4ce2d033845f3c143c82cd11de40e2ade2db8d9
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

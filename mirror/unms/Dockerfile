@@ -1,2 +1,0 @@
-FROM nico640/docker-unms:latest@sha256:12ecb792f9569356d30a6f4239b7737fb1add22972107eaf68004ee57789d391
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

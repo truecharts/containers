@@ -1,2 +1,0 @@
-FROM anojht/invoiceninja:latest@sha256:a6ff4f7ed9ba17bdeec2b176e50c10218efd61a0aca526d2b94ef1038efff3da
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

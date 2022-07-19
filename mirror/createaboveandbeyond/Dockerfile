@@ -1,2 +1,0 @@
-FROM goobaroo/createaboveandbeyond:latest@sha256:08ef84000b262eef4b01e7c0c6e5a2148255b6e1570fa97c0df9b21079e5c1fd
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM epoupon/fileshelter:latest@sha256:e0a3cbe88eff8c425b9496ef48d5f78d8eac5c9afe38762ef1e6e410088e49db
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

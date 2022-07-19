@@ -1,2 +1,0 @@
-FROM ekzhang/rustpad:latest@sha256:7fb0d5099919db4eaba7b7312b9d42fe07dcb7a5eb3dcbd247ee079f1aff9eeb
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

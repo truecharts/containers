@@ -1,2 +1,0 @@
-FROM chacawaca/post-recording:latest@sha256:98f0e32c2e58476c3b72418a197ce181f9b9ae3c656a9e51c98660fe6b2f6603
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

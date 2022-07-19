@@ -1,2 +1,0 @@
-FROM spaceinvaderone/vm_custom_icons:latest@sha256:4d6d3179678b057cf33e4f15b4a3707185196e78b254357753dab8ccc1f6a615
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM ich777/xonotic:latest@sha256:f15a8dfb7d7c8a619eb4fbade3ecd9efddc1b5f81c502bec66e5d8de964d569c
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

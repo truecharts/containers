@@ -1,2 +1,0 @@
-FROM xthursdayx/gpodder-docker:latest@sha256:6e27214ca9a48d115c9587a11e2dbb6de04bd6f52020c4b9733de4aac11088d1
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

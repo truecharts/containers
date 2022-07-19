@@ -1,2 +1,0 @@
-FROM ck98/webdav-nginx:latest@sha256:96562ab9d3988738619d41f7ab36b3ab9671aa2f9f7247e8ffd87b16e8049d58
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

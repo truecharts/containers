@@ -1,2 +1,0 @@
-FROM gregyankovoy/goaccess:latest@sha256:157fc99be09f0b0d680ed0f7be716c81288ea9fe40a4435fab05356b35121421
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM joomla:latest@sha256:896a4b95d0502ca94c0c0b98678efb30b569113feda3fa1aaa4cc9c87859b1c0
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

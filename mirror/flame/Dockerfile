@@ -1,2 +1,0 @@
-FROM pawelmalak/flame:latest@sha256:512798f1bb99dc289210735918c89ba0bb68811a4c122b095e9047a0bae911c3
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

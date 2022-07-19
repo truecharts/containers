@@ -1,2 +1,0 @@
-FROM sublivion/gridcoinwalletgui:latest@sha256:258981b20c46cf426ec26d2ef183dbc285d04e50e9218c023e5f0aaa2a576e9a
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM ich777/debian-mirror:latest@sha256:0d222e999a019d1d4540b026573820c1993e1463390bf0afb9111b38d78f796c
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

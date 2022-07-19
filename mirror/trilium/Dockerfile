@@ -1,2 +1,0 @@
-FROM bgameiro/trilium:latest@sha256:57ef85e2d2123f699109c54cca7d3d67d578afef98ce5cd64bea28558c053af9
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM damoeb/rss-proxy:latest@sha256:2637cb10003fa19a31b48831ee7bd0941c668db73180c17a833c723ef894ff7d
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

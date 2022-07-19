@@ -1,2 +1,0 @@
-FROM pannal/kitana:latest@sha256:e950211b62a65e692811b77c43738d975d50b8ee76dc9d4fc8aff12f5932849e
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

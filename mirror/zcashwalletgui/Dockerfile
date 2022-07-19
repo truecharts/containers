@@ -1,2 +1,0 @@
-FROM ulisses1478/zcashwallet:latest@sha256:db761e98365f0f6f94d42a0bfc0d0e582303a831aace717a1249397eace199ec
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

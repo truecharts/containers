@@ -1,2 +1,0 @@
-FROM searx/searx:latest@sha256:29cbea7b0c8bda1f18e6c269ee3ee929e89492d86f9fe7f4964754e0407b92a1
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

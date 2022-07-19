@@ -1,2 +1,0 @@
-FROM tynor88/rclone-mount:dev@sha256:0f8340882da682d48d9bd5e0a314672f7da46830d54dc0398ce2b4da8de019eb
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

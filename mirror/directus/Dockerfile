@@ -1,2 +1,0 @@
-FROM directus/directus:latest@sha256:7f20ff1bde8cf1f6eae17fce5563532442275dfaa0fbb3a7204c2908cfe9fc74
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

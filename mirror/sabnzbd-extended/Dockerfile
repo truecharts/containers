@@ -1,2 +1,0 @@
-FROM randomninjaatk/sabnzbd-extended:latest@sha256:687e12d48b6423932367397771d2cb69cedd1563fa6f7a8ce377b279f6e28120
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

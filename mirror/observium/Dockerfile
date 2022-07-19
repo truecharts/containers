@@ -1,2 +1,0 @@
-FROM uberchuckie/observium:latest@sha256:44606db8b6ed3eb093cc949f0e50e3bb402d3b196701e028919056c719f3176d
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

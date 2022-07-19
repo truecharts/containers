@@ -1,2 +1,0 @@
-FROM seafileltd/seafile:latest@sha256:f0d42312c8935973515213677619b3fed877c7276949ac18e01804565a21ba7e
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM joch/s3backup:latest@sha256:f81c2bb5de6ee13413f4e63bd720d2221605956344833df086e14554b44b2776
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM crazymax/pure-ftpd:latest@sha256:f505247fa1fc26efc46f24bd9f8aa45c45dee3afb458252097c90c0e2ae47b6a
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

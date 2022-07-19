@@ -1,2 +1,0 @@
-FROM healthchecks/dashboard:latest@sha256:46215aae7a13e526df26c55abb39fdc6143aa45807ed2ae5ef68c3b4648312fc
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

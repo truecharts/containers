@@ -1,2 +1,0 @@
-FROM shokoanime/server:daily@sha256:372fec6374400ba8bffadcabbdfb41aa8dfd769033ab1321b00218ecb2f2c859
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

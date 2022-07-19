@@ -1,2 +1,0 @@
-FROM pomerium/pomerium:latest@sha256:2e14f8c877b0eb6888cbe26651018068a6ce578b38fbb4cc3126a33a58dde8b2
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

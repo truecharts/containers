@@ -1,2 +1,0 @@
-FROM angelics/unraid-docker-ipxe-buildweb:latest@sha256:84c2735a0473b6831577bbf700ec6329b74f2b549472715ea85774a5b2c1ccc3
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

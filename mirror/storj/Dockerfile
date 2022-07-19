@@ -1,2 +1,0 @@
-FROM oreandawe/storjshare-cli:latest@sha256:96390e39a3de80755dac0f1f5ec5a0081207eb936dec2124761ab805187ec08d
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

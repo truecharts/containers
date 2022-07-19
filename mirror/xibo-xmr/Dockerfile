@@ -1,2 +1,0 @@
-FROM xibosignage/xibo-xmr:latest@sha256:27055940e3d04796b358f0d5068f900e35c4d2fe2f0c4fe0bd2ce724cf6d0eed
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

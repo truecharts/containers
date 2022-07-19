@@ -1,2 +1,0 @@
-FROM ghcr.io/taxel/plextraktsync:latest@sha256:e6c7e41b7235ee2e0370801f638a470b9d795b3e3a48c447fb1e42450005f30b
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM vulnerables/web-dvwa:latest@sha256:dae203fe11646a86937bf04db0079adef295f426da68a92b40e3b181f337daa7
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

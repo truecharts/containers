@@ -1,2 +1,0 @@
-FROM tynor88/socat:latest@sha256:5b13a77e0e2743b72bb51085e6a76bd63381d54ec76bf5c61133543f771337da
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

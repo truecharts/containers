@@ -1,2 +1,0 @@
-FROM syncarr/syncarr:latest@sha256:5722dc14c4d67652cbd11a82d0283280478db84a2533d05ee1a7e676e0cb2d19
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

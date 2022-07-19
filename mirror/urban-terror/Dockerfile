@@ -1,2 +1,0 @@
-FROM ich777/urbanterror:latest@sha256:81aa58185403aaa8e5de22fd5917804dff0aa93deebb1d54a81ba67db98eeb3e
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

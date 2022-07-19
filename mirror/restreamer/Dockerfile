@@ -1,2 +1,0 @@
-FROM datarhei/restreamer:latest@sha256:1c9637aed037c3156500e091ff2d1ce20afbe7b0e1316cbc9f5ed759b1cff561
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

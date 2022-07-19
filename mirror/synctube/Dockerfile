@@ -1,2 +1,0 @@
-FROM littlestache/synctube:latest@sha256:7d1b9dbc02bbe04c0e3fdee17b729f7a115c05ccfa603fb7e75cc804dfa3a3cb
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

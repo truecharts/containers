@@ -1,2 +1,0 @@
-FROM jeromelabidurie/minecraftstats:latest@sha256:45097c40dddec95b10b2679c6400aeb9b3ca291a11792921ddd07a203df6433e
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

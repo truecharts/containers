@@ -1,2 +1,0 @@
-FROM graphprotocol/graph-node:latest@sha256:9b90e9777ca3c211f31f738dbaead05f0700e0690594e6327121de73d864cdb7
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

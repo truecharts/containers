@@ -1,2 +1,0 @@
-FROM ich777/ddnetserver:latest@sha256:2110c9960c8da6114bb700ca547a41c3681964777c9ff12b34a993e0550334a2
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

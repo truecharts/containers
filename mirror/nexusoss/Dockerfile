@@ -1,2 +1,0 @@
-FROM sonatype/nexus3:latest@sha256:4267d43f2fd71d2f70f210fe6a5a21eb4db2f2079f9cf8008f66194221d68cc6
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

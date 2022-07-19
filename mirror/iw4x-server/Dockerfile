@@ -1,2 +1,0 @@
-FROM ich777/iw4x-server:latest@sha256:009c1cb17584a0d03b4c4fb16595396ce5f15e9bf5f10705d40d0d6aae896e67
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

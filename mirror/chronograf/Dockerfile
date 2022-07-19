@@ -1,2 +1,0 @@
-FROM chronograf:latest@sha256:4d4f645349b61c6a8de0310a62b065fc599c6cc10b4a8b8144fcb2d16f0d797f
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

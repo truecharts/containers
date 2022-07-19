@@ -1,2 +1,0 @@
-FROM alturismo/guide2go:latest@sha256:dcfdaf7a89274ce1c6dd9e81b0960c7e80c9071ac8e10943256fd16cff5db1b2
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

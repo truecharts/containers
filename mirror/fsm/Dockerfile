@@ -1,2 +1,0 @@
-FROM ofsm/ofsm:latest@sha256:2b031bc1ec51e437a90b24266ce87f82362b4d16670e3804688610b4ac03b608
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM thehumanrobot/rollarr:latest@sha256:f4967b9a511350a427e992ba442bf7945b5169675d75c75589d6a252b64f3b2d
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

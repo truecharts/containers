@@ -1,2 +1,0 @@
-FROM vilhjalmr26/agendav:latest@sha256:e2993d12de737cb7a5bfd952c076620caaf372c94a52fb3302b5054d0b898c33
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

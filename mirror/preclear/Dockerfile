@@ -1,2 +1,0 @@
-FROM binhex/arch-preclear:latest@sha256:70cec2f86cdbbf0efe3032986ff38b0996f8bcd60926999c6ae383aa520e4fd3
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

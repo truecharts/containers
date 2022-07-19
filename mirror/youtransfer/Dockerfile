@@ -1,2 +1,0 @@
-FROM remie/youtransfer:latest@sha256:997c185ababe175843c9f0336d09d145f3b7f8218a26785181d39470cd64d852
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

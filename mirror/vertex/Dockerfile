@@ -1,2 +1,0 @@
-FROM lswl/vertex:stable@sha256:64030aec6d15022b8319161da8665ad58192156e58ff5d5fb5da5040285abea0
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

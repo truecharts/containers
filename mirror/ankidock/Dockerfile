@@ -1,2 +1,0 @@
-FROM lawryder/ankidock:latest_stable@sha256:cbdd0202a3367952032ee50734130b5a20fd353cc049e1efce52425bba80af1b
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

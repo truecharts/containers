@@ -1,2 +1,0 @@
-FROM jeffersonjhunt/shinysdr:latest@sha256:117885dfe1c0df6b66d2abd60fb60164ea014a18e7cf963f816e2551da89ded8
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

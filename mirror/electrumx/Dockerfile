@@ -1,2 +1,0 @@
-FROM ofawx/electrumx:latest@sha256:87465fa70751bea5c4c4e3e1aff5d3ed96cab89f6bce3bc1efe971918fbc4682
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

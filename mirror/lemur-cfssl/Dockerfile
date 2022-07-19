@@ -1,2 +1,0 @@
-FROM halianelf/lemur:latest@sha256:b0e801e2419c4e85efeaf469579db6e6ca88703f9295e61f3d68ac50fd4c9ff2
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

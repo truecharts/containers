@@ -1,2 +1,0 @@
-FROM boredazfcuk/icloudpd:latest@sha256:74bf2376bcbba87f3739e4d7c75fd4e9fd6f37a02d267ee428a35552cf501c91
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

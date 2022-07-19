@@ -1,2 +1,0 @@
-FROM ich777/csmm-7dtd:latest@sha256:bbf9b65c2124f4484e66dbb2d08f1aa54fb527801f4cbc468543d4c5a7d52499
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

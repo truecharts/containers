@@ -1,2 +1,0 @@
-FROM vstavrinov/acestream-service:latest@sha256:19af0d17c7284220e15fc679915146f684369ecaed22488b5d902bda5afed39c
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

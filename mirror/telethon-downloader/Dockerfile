@@ -1,2 +1,0 @@
-FROM jsavargas/telethon_downloader:latest@sha256:ebffb57fa33ac675daa22ed47533d144df3ff2b28aeaea08cc6faeb4665cf538
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

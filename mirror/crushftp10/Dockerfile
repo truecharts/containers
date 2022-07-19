@@ -1,2 +1,0 @@
-FROM markusmcnugen/crushftp:latest@sha256:9f07c7f510e4eec20e14ab8a7bdab64624db76a9ef1d0c9e1c962650304cd895
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

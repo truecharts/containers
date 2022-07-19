@@ -1,2 +1,0 @@
-FROM knex666/shortipy:latest@sha256:4696e35e09807a4b556a2da455d34cd74d4be5d6a3ba256bcfb808da444d1d6d
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

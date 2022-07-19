@@ -1,2 +1,0 @@
-FROM p3rco/firefox:latest@sha256:91fbee8d39b53c99e899b63e74d18a37113a2848a65592812b52976dfedb1f02
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

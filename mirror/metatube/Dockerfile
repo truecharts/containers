@@ -1,2 +1,0 @@
-FROM jvt038/metatube:latest@sha256:a168b020be3ee5894986c25dd89ba15e8873379e62d455d2ef3267762b950ffa
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

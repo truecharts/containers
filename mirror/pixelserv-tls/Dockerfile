@@ -1,2 +1,0 @@
-FROM imthai/pixelserv-tls:latest@sha256:782d101d2fbbd48a4aeb4594c92743d556213b0d72598e2a65ebfb1a549b48e1
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

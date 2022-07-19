@@ -1,2 +1,0 @@
-FROM quay.io/pussthecatorg/rimgo:latest@sha256:21aa4953f034062a1f68219f9501bffe460be316c4c2d6022ccbd93ddd0758b0
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

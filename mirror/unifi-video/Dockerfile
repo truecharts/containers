@@ -1,2 +1,0 @@
-FROM pducharme/unifi-video-controller:latest@sha256:f7cbf411022decfa0f0ef07117babd0809745defde89d08b9ca1f590d88d195d
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

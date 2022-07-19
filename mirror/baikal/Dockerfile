@@ -1,2 +1,0 @@
-FROM ckulka/baikal:nginx@sha256:003602cf406d78aec360d69dfca9497e92eebac2619594785330bf5436270939
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

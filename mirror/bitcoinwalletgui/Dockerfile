@@ -1,2 +1,0 @@
-FROM ulisses1478/bitcoinwallet-gui:latest@sha256:b118585cecd11e1feaa6242c1bfd1e31bc70abd45f590f2556fb506ad209faa7
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

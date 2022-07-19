@@ -1,2 +1,0 @@
-FROM randomninjaatk/raromprocessor:latest@sha256:f32ee4cce7348d98fbdab56776015ce81d2d957b8f2d3cbfeb6e65fe09c33190
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

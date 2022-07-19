@@ -1,2 +1,0 @@
-FROM joey291/discordgsm:latest@sha256:d3facca9eb4a94180d7f7abaa58233bb4437c7564a51362320352f4e52be375d
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

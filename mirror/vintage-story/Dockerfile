@@ -1,2 +1,0 @@
-FROM ich777/vintagestory:latest@sha256:c535850a5f4b9a257923bb3fa4c181b46c9c3b362ca304abe63e97a5e0ff637c
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

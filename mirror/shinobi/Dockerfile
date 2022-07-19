@@ -1,2 +1,0 @@
-FROM ivaxor/shinobi:latest@sha256:486aca58eb839cb3e2d06c280fc0a55170e0994351b6f0a531e6272b8515e8d8
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM chvb/docker-dvblink:latest@sha256:7d6068e9b96630ca51b25b4d67f45497893bb48ac861b9150f97a65a20dcb839
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

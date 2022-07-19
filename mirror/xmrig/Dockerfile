@@ -1,2 +1,0 @@
-FROM lnxd/xmrig:latest@sha256:ca138a54b0bfd76400dab458df69bcd4b379146bb31eb5c231a61a2d5789c7ce
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

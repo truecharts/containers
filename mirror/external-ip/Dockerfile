@@ -1,2 +1,0 @@
-FROM xavierh/external-ip:latest@sha256:48086b74b686868a5e7143bc01dbd42c482dff6602426cfac968b07e6880c8ee
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

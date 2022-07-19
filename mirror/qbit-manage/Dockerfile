@@ -1,2 +1,0 @@
-FROM bobokun/qbit_manage:latest@sha256:aaee522e0d9ccfd8686b2554770d33bc363a0669a94854547f68a5c158aade08
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

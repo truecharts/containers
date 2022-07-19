@@ -1,2 +1,0 @@
-FROM thedaviddelta/lingva-translate:latest@sha256:236815f81948fdaf4b9edcc2c21398a60d6442ca65bfaacadf73ec2b8f45b766
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

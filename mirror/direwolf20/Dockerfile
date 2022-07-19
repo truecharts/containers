@@ -1,2 +1,0 @@
-FROM ratomas/direwolf20:latest@sha256:8719c99b8fea44cd246620a957c4f783e4afa4718d0a547174de9526093339e9
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

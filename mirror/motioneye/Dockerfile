@@ -1,2 +1,0 @@
-FROM malvarez00/docker-motioneye:latest@sha256:0cd90303539b279d6ffa30efdc53e1612dfa05cfb143947e2c29ba53f25b6627
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

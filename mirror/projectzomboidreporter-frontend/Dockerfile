@@ -1,2 +1,0 @@
-FROM chrisashtear/zomboid-reporter-frontend:latest@sha256:e1524291dce7d62218701ddf7ce159fdfa5bebb1090efb54f9ac9df33a5ea057
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

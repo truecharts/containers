@@ -1,2 +1,0 @@
-FROM angelics/unraid-docker-ravencoin-p2p:latest@sha256:9f1dd836a44d7902e13196f4c4aadcdd25eddc4383fa303882631845521d29b7
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

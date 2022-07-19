@@ -1,2 +1,0 @@
-FROM caiguai/docker-xware:latest@sha256:0aea5c81ecbe16258f324926cbcf8a0b8b460d8b4be3bbe9c2e06c0df92dadf5
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

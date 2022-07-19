@@ -1,2 +1,0 @@
-FROM itzg/rcon:latest@sha256:b0695a5f592a141383a0475e4d22ca2ed859539bac1367519954ef3910290c0c
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

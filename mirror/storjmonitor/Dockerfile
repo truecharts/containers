@@ -1,2 +1,0 @@
-FROM zugz/r8mystorj:latest@sha256:bbdb9f3e9b5f862559edd1775ee0543a9c2c9e2ba483d59c51a91a5c2d20be1b
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

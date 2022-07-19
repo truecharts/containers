@@ -1,2 +1,0 @@
-FROM afterlogic/docker-aurora-files:latest@sha256:401bae384066c4c1ee2dee599a7d434e65216ddc79e4576543e09fc09071c65a
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

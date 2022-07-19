@@ -1,2 +1,0 @@
-FROM raetha/wyzesense2mqtt:latest@sha256:4f9d54bfc344b58558c13b9a8de303bedb9d7668344c9307556a6106884f8181
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

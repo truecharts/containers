@@ -1,2 +1,0 @@
-FROM goobaroo/ftbskyfactory3:latest@sha256:5309d1100a689a44ea1f6f0490fa75c5a275a0413f25209c5bd3868071344529
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

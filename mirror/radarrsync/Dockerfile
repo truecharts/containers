@@ -1,2 +1,0 @@
-FROM dmanius/radarrsync-docker:latest@sha256:805e1578bea5719e2aedc6fca77013824a3024d641021e23fa5c37cd19a23322
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

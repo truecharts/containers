@@ -1,2 +1,0 @@
-FROM ich777/inspircd:latest@sha256:701a0bfa6705befa1c4dc14102aa799b33c09bbb91898b18835dd87c2b6bc829
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

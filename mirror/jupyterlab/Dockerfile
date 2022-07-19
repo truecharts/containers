@@ -1,2 +1,0 @@
-FROM bgameiro/arch-jupyterlab:latest@sha256:911d2618523bc89e3eccebe48bf76c2bf3738d7d00cc63a4fc03fc6c47c7a115
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

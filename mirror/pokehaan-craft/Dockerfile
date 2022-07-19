@@ -1,2 +1,0 @@
-FROM ratomas/pokehaan-craft:latest@sha256:3e893f86529e48e0a57a07a182da6710c258b446e758f509168ad4dced764f26
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

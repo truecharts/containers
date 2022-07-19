@@ -1,2 +1,0 @@
-FROM khlieng/dispatch:latest@sha256:ce0742333e09ff22a4377f741621274010010138e2a33dfb535fe0be2304495d
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

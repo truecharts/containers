@@ -1,2 +1,0 @@
-FROM shaarli/shaarli:master@sha256:9580433c9efb1ed356cc98c0876ecf76d1bc21654b535a6aa90e4bf74abadd02
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

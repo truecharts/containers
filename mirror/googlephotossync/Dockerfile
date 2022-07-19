@@ -1,2 +1,0 @@
-FROM rix1337/docker-gphotos-sync:latest@sha256:b5273179ca6354d5682d9b28253acee2a61cc4796efbd806df99a45277507692
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM registry.gitlab.com/crafty-controller/crafty-4:latest@sha256:410fc70bcccd5c15e99f4625fac1c638b3ecddab7f95351b27b9aa45ec52ff56
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

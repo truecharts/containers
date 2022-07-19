@@ -1,2 +1,0 @@
-FROM xavierniu/cloudreve:latest@sha256:cdd00367bbdf3247e15feebfbde354237586a308c6fac730856670dd31b44b47
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

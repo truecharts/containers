@@ -1,2 +1,0 @@
-FROM maildev/maildev:latest@sha256:082ec5ee92266c6e17493998ff1bf1c3eb70604b159fbeeaa435ee777f5cc953
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

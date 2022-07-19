@@ -1,2 +1,0 @@
-FROM patrickstigler/minimal-ics-hoster:latest@sha256:ad50b0431df695cff80a3002142a53ebe92328cec710746d29cf95c868078731
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

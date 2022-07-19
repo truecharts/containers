@@ -1,2 +1,0 @@
-FROM rroemhild/mailpile:latest@sha256:5b58d53b2f11ba6ce360006ca1f6459970b3fba8bafdeafafbf1af1d14c58172
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

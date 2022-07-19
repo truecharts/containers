@@ -1,2 +1,0 @@
-FROM goobaroo/plexiglassmountain:latest@sha256:dd789da017bb6b7c6dca5657fe62c2fc9f9575e2589ee85868b5ab672ade0b64
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

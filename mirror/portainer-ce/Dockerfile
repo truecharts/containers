@@ -1,2 +1,0 @@
-FROM portainer/portainer-ce:latest@sha256:b8573c23e98eb3dc3a59644c15d1c1448f5281ac7972faf996fce24b7511fda6
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM ghcr.io/suwayomi/tachidesk:latest@sha256:d7b3191f914a94734f3b33230ced32f922cd1805ff44456016831e3cb039f185
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

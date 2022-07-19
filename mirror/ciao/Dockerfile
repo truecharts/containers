@@ -1,2 +1,0 @@
-FROM brotandgames/ciao:latest@sha256:9bfaf24787f34664a041de1963e47a1a8b59334223a5a626aadb4457bb771802
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

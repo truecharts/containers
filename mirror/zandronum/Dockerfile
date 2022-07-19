@@ -1,2 +1,0 @@
-FROM ich777/zandronum:latest@sha256:96be1a6944bf6ca86a6400c38bcb6eead2367189a8474656da20654c7cde952b
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

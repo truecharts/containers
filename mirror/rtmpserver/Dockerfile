@@ -1,2 +1,0 @@
-FROM alqutami/rtmp-hls:latest@sha256:5bf1d59f1e9e0b98233f2f9842a1cb98e6cc9b1a5e31208c8088fac202bb1d56
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

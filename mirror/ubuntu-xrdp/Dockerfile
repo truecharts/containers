@@ -1,2 +1,0 @@
-FROM snoopy86/desktop-dockers:latest@sha256:016a63fa0a78e82d17d33b3d2a6a3c82ff5162d96548fe178fb7eb6ac61f107c
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

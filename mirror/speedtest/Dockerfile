@@ -1,2 +1,0 @@
-FROM adolfintel/speedtest:latest@sha256:1f828fe8337470d2ed5841176bfa6633fd94bda97261a636c35d0bef60a35270
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

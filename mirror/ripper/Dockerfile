@@ -1,2 +1,0 @@
-FROM rix1337/docker-ripper:manual-latest@sha256:799afcf8bba57632fbd2657283ad6c409d74e8d1d68f2475eab4ce2dabe539de
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

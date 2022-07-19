@@ -1,2 +1,0 @@
-FROM wbynum/qemubackup:latest@sha256:835fbd38629453480a744550ac1d6fb085ebbb455182f5751406f0ec44fe8195
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

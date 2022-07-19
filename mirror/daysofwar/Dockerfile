@@ -1,2 +1,0 @@
-FROM ich777/steamcmd:daysofwar@sha256:6fd82c669bdd7bb84970d02c56ad6745755dfe98e7be8121b75ca822506121ed
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM ich777/starmade-server:latest@sha256:05c4b59295fb2b163dedef479ae59948c5c16e8fd914f940734e5e71cf04161d
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM eeacms/rsync:latest@sha256:6c32ed0b4579e3adc46cb9927897dd9658ea593277b85ea4ab302a7c7f47fe85
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

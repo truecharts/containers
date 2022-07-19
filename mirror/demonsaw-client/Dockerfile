@@ -1,2 +1,0 @@
-FROM bashninja/demonsaw-client:latest@sha256:dfc77ef4c8d68387bafbaab0636e0498d1192a16a4f92af81661ce51431e864a
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

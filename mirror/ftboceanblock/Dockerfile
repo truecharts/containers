@@ -1,2 +1,0 @@
-FROM goobaroo/ftboceanblock:latest@sha256:7b9980ae908c98dc2feac7c29bf214607de69410808304d3c8ad98dace43df76
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

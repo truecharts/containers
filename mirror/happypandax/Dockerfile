@@ -1,2 +1,0 @@
-FROM twiddly/happypandax:latest@sha256:31523be42981bb2c88114c55ffdb8bab6550118830b80b09bbb1d42ff16aba48
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

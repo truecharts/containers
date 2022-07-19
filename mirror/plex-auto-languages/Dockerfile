@@ -1,2 +1,0 @@
-FROM remirigal/plex-auto-languages:latest@sha256:f514407b5995e07c2c63385ae9fccd988376f192cec554ab56a8eb497ee1421d
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

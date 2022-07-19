@@ -1,2 +1,0 @@
-FROM ich777/mtaserver:latest@sha256:8750aa82bf1367da513375fe9dae9cd4990f360aaca45b51fa97b3f13620e368
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

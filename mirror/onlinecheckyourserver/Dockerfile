@@ -1,2 +1,0 @@
-FROM ich777/online-check-pushover:latest@sha256:138e52b14c72bc1a81ec797089e67f8ff3ef45228e3e2dbba89d93e75f5f2f5f
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

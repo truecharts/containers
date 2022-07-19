@@ -1,2 +1,0 @@
-FROM crazymax/flarum:latest@sha256:cba215ad1727b9d8b347de09c04c8332243a99c85799f5109941062c05843ed2
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM fanningert/aria2-with-webui:latest@sha256:7fd98bd197c04a3e7a47071a83633fdf4dcc46a6e1d1cef1600ba1566d641727
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

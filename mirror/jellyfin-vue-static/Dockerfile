@@ -1,2 +1,0 @@
-FROM jellyfin/jellyfin-vue:unstable-static@sha256:548de24384760744260be25f0509acc659aba4adb524551f6f6d100c31c048f0
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

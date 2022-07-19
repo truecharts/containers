@@ -1,2 +1,0 @@
-FROM goobaroo/vaulthunters:latest@sha256:9e2fa9ee8f94a7958c21a3cd9986b7fe54870be79ec205c5b0725d039b4c932e
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

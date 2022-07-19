@@ -1,2 +1,0 @@
-FROM standardnotes/web:stable@sha256:fc0973dab125be04fc3ef612b7f4c913255378c0e4331ad7fc36aad05b190c99
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

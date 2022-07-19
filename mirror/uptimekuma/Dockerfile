@@ -1,2 +1,0 @@
-FROM louislam/uptime-kuma:latest@sha256:a4eab252e5a27ead9e92f04d755d6cc968be923b277aae42ac8cf633e2da3b15
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

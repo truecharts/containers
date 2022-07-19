@@ -1,2 +1,0 @@
-FROM mayanedms/mayanedms:latest@sha256:c3dfd37cfe0de837fa555d4fc971f4245b09d0c5ea1afd077edc75ea3409197b
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

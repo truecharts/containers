@@ -1,2 +1,0 @@
-FROM ich777/terrariaserver:mobile@sha256:8509ee9312ad625b98d818c0baaa1f77864815f763b159453b918811f93abe7e
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

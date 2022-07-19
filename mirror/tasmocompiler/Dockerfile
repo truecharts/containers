@@ -1,2 +1,0 @@
-FROM benzino77/tasmocompiler:latest@sha256:e80b530236cc7ca54460e963ca185714f62eb51c09cf56895b81bed6970a978f
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

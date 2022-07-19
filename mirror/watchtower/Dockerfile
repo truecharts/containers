@@ -1,2 +1,0 @@
-FROM containrrr/watchtower:latest@sha256:bbf9794a691b59ed2ed3089fec53844f14ada249ee5e372ff0e595b73f4e9ab3
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

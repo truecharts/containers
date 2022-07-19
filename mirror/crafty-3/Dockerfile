@@ -1,2 +1,0 @@
-FROM freddy0/crafty-container:latest@sha256:3cda5efe5888afd4473958433667e62d459a9681f35ad938801f4f16388a105d
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

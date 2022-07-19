@@ -1,2 +1,0 @@
-FROM mtlynch/mediagoblin:latest@sha256:071a7c0650309c65de3bff11229475c031f7fe3ece183d3d6e17cd4506538f2a
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

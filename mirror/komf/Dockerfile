@@ -1,2 +1,0 @@
-FROM sndxr/komf:latest@sha256:94c39e996349be02df3c0bd9cb03c915627782380dc965a9899e92f8c6b78a69
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

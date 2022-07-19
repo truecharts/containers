@@ -1,2 +1,0 @@
-FROM randomninjaatk/radarr-sma:latest@sha256:9f44de84a412c605b31852dbe4523bbd052763e30169d7b45b13b1867b7022ca
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM davefurrer/discordsoundboard:latest@sha256:aa6c62dab199c230087af449a329880318b92089cbb3662a568c26722f95419e
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

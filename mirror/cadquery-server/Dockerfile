@@ -1,2 +1,0 @@
-FROM cadquery/cadquery-server:latest@sha256:e60937706b0e064c8cd36de6ca57508c85b1bec0c965473194dea771ec3c07c7
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

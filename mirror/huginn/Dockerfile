@@ -1,2 +1,0 @@
-FROM huginn/huginn:latest@sha256:d8202a554287b9c5015cd8555017d29dd5a4cbb0d5253399145624dd0737873e
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

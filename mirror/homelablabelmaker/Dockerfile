@@ -1,2 +1,0 @@
-FROM davidspek/homelablabelmaker:latest@sha256:00c441e62856d1de6b5580d19d4f207d2ca6832dbac79aa2084b15b62a663bac
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM tiredofit/freescout:latest@sha256:1b6c0dce1934acef0977207793d6fb5795b9c2e1ac6ea75f2726f9ce3d9bb945
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM sinusbot/docker:latest@sha256:a5694c82c8df398c6b45b6170c5a9ef772d9f6547feda946d174dcf9dd8e3a7f
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM ulisses1478/docker-android:latest@sha256:4607501558b29d81497b528905f7a23253aa2dcf80510bb27825a2f931acdd96
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

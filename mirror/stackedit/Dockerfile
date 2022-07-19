@@ -1,2 +1,0 @@
-FROM qmcgaw/stackedit:latest@sha256:c74120b91fd0ce0d5fae45af1a47b963e75dfeb95f4d080448e01bc80b73416a
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM ich777/docker-openmw-tes3mp:latest@sha256:ecc5713960daa3df5b71cdfa687a821bdedc0aafd12b2d66e3b58c1387bb9566
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM draganczukp/simply-shorten:latest@sha256:2714a530f8531852ef14eef0113005650fb4f68b8681f78ce17c6947e7915073
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

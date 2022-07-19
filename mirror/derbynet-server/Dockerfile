@@ -1,2 +1,0 @@
-FROM mitchellriley/derbynet_server:latest@sha256:6be9607be01e9bdac7327e024752fb772a854be0a3ac3247d4182b90bb43dcdc
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,0 @@
-FROM shneezin/breitbandmessung-node:latest@sha256:a19864d75e3d94dc0b1abdac8a094cc88fbfdb4b5b21d7f89ddb0135e514f2ea
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

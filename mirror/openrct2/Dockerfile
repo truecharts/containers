@@ -1,2 +1,0 @@
-FROM ich777/openrct2server:latest@sha256:f8fde667d024604bef1c556df0f46165c24667f8f1ee901aa9a27940058400a2
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

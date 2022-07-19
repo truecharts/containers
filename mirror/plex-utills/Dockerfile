@@ -1,2 +1,0 @@
-FROM jkirkcaldy/plex-utills:latest@sha256:c2502f6235f6cf26036e06ed9e6a5187378d6b89288ba663cefd7d63f904eb24
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

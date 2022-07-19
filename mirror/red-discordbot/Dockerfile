@@ -1,2 +1,0 @@
-FROM phasecorex/red-discordbot:full@sha256:057898a18baccaf5fcf30d945a6d67efb82fd5062721812104ea781070d8f08d
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

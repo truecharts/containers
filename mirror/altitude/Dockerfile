@@ -1,2 +1,0 @@
-FROM ich777/altitude:latest@sha256:d1d062775f82c87de157fbe2105b5ebe27054f27203760c2dfff5a3bb7305922
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

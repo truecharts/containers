@@ -1,2 +1,0 @@
-FROM lightglitch/seekerr:stable@sha256:57657544be6fda19596e856d0a555e7bc107c8d06a20d97271f210dfeecffcf4
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

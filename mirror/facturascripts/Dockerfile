@@ -1,2 +1,0 @@
-FROM unraides/facturascripts:latest@sha256:cfbdbc109ce879b3ed9c13abd8f2e6a03e314a8e92666a58a65dd06e452ecf4b
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
