@@ -1,2 +1,2 @@
-FROM starbix/plex-ldap:latest
+FROM starbix/plex-ldap:latest@sha256:14272f18fea7b9e07bd31c0c025acbbc9339d28c04f9f0feff98e6c23d63f8c2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

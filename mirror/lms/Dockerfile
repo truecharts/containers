@@ -1,2 +1,2 @@
-FROM epoupon/lms:latest
+FROM epoupon/lms:latest@sha256:430fdb74e51e80c078b575af7cc96fe5c8123938180d2cf379b8c61a1df92f6b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

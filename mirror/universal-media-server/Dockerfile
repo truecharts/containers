@@ -1,2 +1,2 @@
-FROM universalmediaserver/ums:latest
+FROM universalmediaserver/ums:latest@sha256:ebaf17206dd296dab8dba9940aebab2bcaafbd060ab36ef0c71bff7bb75312c2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

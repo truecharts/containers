@@ -1,2 +1,2 @@
-FROM josh5/lancache-bundle:latest
+FROM josh5/lancache-bundle:latest@sha256:40f7feb5106a4720518363b4a218673e4a46da0917629c8e7a83c912c8e8a723
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

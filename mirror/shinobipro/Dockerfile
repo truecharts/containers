@@ -1,2 +1,2 @@
-FROM spaceinvaderone/shinobi_pro_unraid:latest
+FROM spaceinvaderone/shinobi_pro_unraid:latest@sha256:23c10cf478530b14b4419d4c7a8b29ad7c84149b7b124b77d9567af9030540b4
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

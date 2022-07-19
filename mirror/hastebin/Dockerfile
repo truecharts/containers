@@ -1,2 +1,2 @@
-FROM flippinturt/hastebin:latest
+FROM flippinturt/hastebin:latest@sha256:2194a322905ebb1adbb16a876717d00ded2e10c18ad2491240e4adafaf37621f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,2 @@
-FROM xanderstrike/goplaxt:latest
+FROM xanderstrike/goplaxt:latest@sha256:adaaa573a91536b58eb3765b14fee558d9007927ea0b3f55dda0239ea05ddbee
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

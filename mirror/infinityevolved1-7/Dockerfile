@@ -1,2 +1,2 @@
-FROM goobaroo/infinityevolved:latest
+FROM goobaroo/infinityevolved:latest@sha256:0747fbfb630435207ead5e3dfcb322aad410c1ae6cd6f468ba6669e5d3123328
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

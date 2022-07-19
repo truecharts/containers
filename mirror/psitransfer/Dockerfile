@@ -1,2 +1,2 @@
-FROM psitrax/psitransfer:latest
+FROM psitrax/psitransfer:latest@sha256:a44123ecfd61a22a2971a62a1adce052fa815c38f6f2e470c9180955d68957cf
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

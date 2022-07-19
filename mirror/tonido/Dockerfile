@@ -1,2 +1,2 @@
-FROM captinsano/tonido:latest
+FROM captinsano/tonido:latest@sha256:e54a72a59edec5165184bed1f6dbc14679f00a2cd746353714468e9e263c3793
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

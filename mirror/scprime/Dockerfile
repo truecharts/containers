@@ -1,2 +1,2 @@
-FROM scprime/scprime:latest
+FROM scprime/scprime:latest@sha256:aa1d89b731263067168e4fbc42b080582ee3188c7422ded742fb36bd726a5e52
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,2 @@
-FROM juchong/shapeshifter-docker:latest
+FROM juchong/shapeshifter-docker:latest@sha256:2063b82d7af6b43f9f175e9fc213ba2c1558278a9e12ac2e6620a3b4a5250a60
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

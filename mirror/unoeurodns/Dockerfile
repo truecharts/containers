@@ -1,2 +1,2 @@
-FROM tynor88/unoeuro-dns:latest
+FROM tynor88/unoeuro-dns:latest@sha256:778165e9e3d5350212b264f0c7c743efc8acbc37df1befd1ceee626b939250e6
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

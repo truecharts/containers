@@ -1,2 +1,2 @@
-FROM charlocharlie/epicgames-freegames:latest
+FROM charlocharlie/epicgames-freegames:latest@sha256:9fa1f7442b8140fe41a58cdfdbdab099dd12b6e3b42d2478677da4ce7c79935e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

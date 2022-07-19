@@ -1,2 +1,2 @@
-FROM blueedge/win11react:latest
+FROM blueedge/win11react:latest@sha256:71da1497ddeaad8ed0c255debbfab450fbdeef40df52694babefba23f9b2d6cc
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

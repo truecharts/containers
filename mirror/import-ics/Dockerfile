@@ -1,2 +1,2 @@
-FROM vilhjalmr26/import_ics:latest
+FROM vilhjalmr26/import_ics:latest@sha256:9eb432e43e44d39d19b39ad277c47873ee615ae2f8ed06d033f3d99cc5e347b8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

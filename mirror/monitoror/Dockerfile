@@ -1,2 +1,2 @@
-FROM monitoror/monitoror:latest
+FROM monitoror/monitoror:latest@sha256:4b88edcf51ff1044111e0461e1265da67fcc4c33518ce54300487e51e2094e52
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

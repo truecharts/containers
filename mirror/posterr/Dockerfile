@@ -1,2 +1,2 @@
-FROM petersem/posterr:latest
+FROM petersem/posterr:latest@sha256:e7ceddab08b5d4d5ccf621bae975b08fa7caba17ac63f9fb8e83940c201fe7a7
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,2 @@
-FROM bbilly1/tubearchivist-es:latest
+FROM bbilly1/tubearchivist-es:latest@sha256:9396036d141a2bc50bfb74cba320483ade8c1d62f850faa4d41b4461e0a8fe48
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

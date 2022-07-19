@@ -1,2 +1,2 @@
-FROM ich777/steamcmd:quakelive
+FROM ich777/steamcmd:quakelive@sha256:0e33f89b3f50d97fd0a457742604bdb2eca362fc8fbf75742d0c0e3d7955ee94
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

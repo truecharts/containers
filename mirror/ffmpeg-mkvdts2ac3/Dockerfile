@@ -1,2 +1,2 @@
-FROM snoopy86/ffmpeg:latest
+FROM snoopy86/ffmpeg:latest@sha256:4d2695ffee46787cd39a222dbc7c8a42c5d4a1a2dd976d4e23bea00470ac55c9
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

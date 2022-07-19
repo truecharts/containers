@@ -1,2 +1,2 @@
-FROM causticlab/hass-configurator-docker:x86_64
+FROM causticlab/hass-configurator-docker:x86_64@sha256:45a5a0527ca10da5744bbcf3a7909a0b77ae583e97fe0d28d0e5a8d50aa37689
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

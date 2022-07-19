@@ -1,2 +1,2 @@
-FROM kutzilla/unbound:latest
+FROM kutzilla/unbound:latest@sha256:095c718edd2b8cdd752529eb09d8b171133400c93a360322de357bf719b57d2a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

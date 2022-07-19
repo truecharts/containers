@@ -1,2 +1,2 @@
-FROM ich777/steamcmd:wreckfest
+FROM ich777/steamcmd:wreckfest@sha256:90b78d901d4735510b8d49731155eef73cfd49b13fce14f989d24501af8cfc2f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

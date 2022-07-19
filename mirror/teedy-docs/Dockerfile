@@ -1,2 +1,2 @@
-FROM sismics/docs:latest
+FROM sismics/docs:latest@sha256:44d14902e30ef6e65009447e225ae5e99993f860eada0d515aa4bd415e28de5e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

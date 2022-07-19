@@ -1,2 +1,2 @@
-FROM audreyt/ethercalc:latest
+FROM audreyt/ethercalc:latest@sha256:f0568c0649a71e8e291acb5d812d4c71f9bbc06ab9476b3c7f0dc7f4750ebfa9
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

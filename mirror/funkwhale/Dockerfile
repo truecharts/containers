@@ -1,2 +1,2 @@
-FROM thetarkus/funkwhale:latest
+FROM thetarkus/funkwhale:latest@sha256:7e44771446cd48c46c0882137d3cdc36aed36a13654898b6d21743e03e892cc1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

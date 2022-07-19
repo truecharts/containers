@@ -1,2 +1,2 @@
-FROM edchamberlain/ipmi-tools:latest
+FROM edchamberlain/ipmi-tools:latest@sha256:271dd2c2c3953f02ed2a4fc6c6e60d960737ef0c69cf84890458ad70f570a7f2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

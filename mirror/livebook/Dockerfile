@@ -1,2 +1,2 @@
-FROM livebook/livebook:latest
+FROM livebook/livebook:latest@sha256:3cbc5ea39883d72a375f8ef3ceb3b35733b43a17a8119a5b35819277e2cd3e61
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

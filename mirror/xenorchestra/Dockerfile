@@ -1,2 +1,2 @@
-FROM ronivay/xen-orchestra:latest
+FROM ronivay/xen-orchestra:latest@sha256:d2e7f51e1bdc3ac4dba87951f922410ef10a846bf857d6dd5375099cb7bb5ad1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

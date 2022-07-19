@@ -1,2 +1,2 @@
-FROM redislabs/rejson:latest
+FROM redislabs/rejson:latest@sha256:fa02ab938561b11c2a07ac0292d9a632c012afc9ff3071d5ae203526c1a890bf
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
