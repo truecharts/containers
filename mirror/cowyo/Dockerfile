@@ -1,0 +1,2 @@
+FROM schollz/cowyo:latest@sha256:0ab02a436fd6a5451ee7b7fe278ee5b471bed90b78c365a7439a431ddafa82cb
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

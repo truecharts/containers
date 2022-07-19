@@ -1,0 +1,2 @@
+FROM rudloff/alltube:latest@sha256:a8cc79a82c556d3ee36d8fd93bccdf064cf4bea8c09ce65ad0f60d9017dc5fc6
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

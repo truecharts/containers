@@ -1,0 +1,2 @@
+FROM rmountjoy/dashmachine:latest@sha256:497692b79838b042db0cb1d7ca8a28dfb20d0623fc7db705b8a42b055687e5a0
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

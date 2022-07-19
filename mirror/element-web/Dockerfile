@@ -1,0 +1,2 @@
+FROM vectorim/element-web:latest@sha256:d8d01c55b6883da8889dad1db6fc7fbe5e875f1e23cc7f8253bd15b0f5ebac2b
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

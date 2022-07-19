@@ -1,0 +1,2 @@
+FROM ich777/debian-bullseye:latest@sha256:d3b630976fbc68ac9d776e1b9c39a36fa6c428d731e3f22d5106dd1e0ea7b652
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

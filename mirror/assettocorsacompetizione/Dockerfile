@@ -1,0 +1,2 @@
+FROM ich777/accompetizione-server:latest@sha256:0e6ebdfd4dedd7477d3bc8dcba5b8973b7035f16acc3659b940df2ddd0c53290
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

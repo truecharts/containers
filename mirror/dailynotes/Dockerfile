@@ -1,0 +1,2 @@
+FROM m0ngr31/dailynotes:latest@sha256:fee45ab299434cbc9d4a380f28a29448eac52284a3adb6b0854bdf38fd9a1b12
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

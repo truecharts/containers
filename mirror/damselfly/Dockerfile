@@ -1,0 +1,2 @@
+FROM webreaper/damselfly:latest@sha256:eaf1c20f157fa5638567370193b3978084e28fe51e1e999571b4d6a0105ebbfb
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

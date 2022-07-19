@@ -1,0 +1,2 @@
+FROM reimashi/emule:latest@sha256:af388ff050124e3f4defe851a083c63367decb977f200bee8e29ebd2733e9b42
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

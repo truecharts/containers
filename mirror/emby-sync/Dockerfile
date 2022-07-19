@@ -1,0 +1,2 @@
+FROM lastelement21/emby-sync:latest@sha256:dcb6be6c27ae7f90d862ab806c7314107a20a831ddcb4e3062bf2bd5f004d887
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

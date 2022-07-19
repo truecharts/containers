@@ -1,0 +1,2 @@
+FROM ich777/steamcmd:craftopia@sha256:e9b451212fe70f49102693dd01406b19f2f1ef03b7acdf8938e8e20ec40cd821
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

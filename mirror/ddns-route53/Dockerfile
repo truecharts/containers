@@ -1,0 +1,2 @@
+FROM crazymax/ddns-route53:latest@sha256:0f1a66588677bdd94c94d34b549941bd45dc9194464f1af7ea595c5df094591e
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,0 +1,2 @@
+FROM registry:2@sha256:c631a581c6152f5a4a141a974b74cf308ab2ee660287a3c749d88e0b536c0c20
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

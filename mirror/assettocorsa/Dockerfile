@@ -1,0 +1,2 @@
+FROM ich777/steamcmd:assettocorsa@sha256:4ad66966d79fd4dd3feaeb2026d132a794bca40d7bf8a323a5b20a300400301f
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

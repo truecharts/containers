@@ -1,0 +1,2 @@
+FROM convos/convos:stable@sha256:95b0a7947a2b769110fadb59e1236b171ceb6690d77ea063a51765a6e9478c2f
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

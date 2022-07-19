@@ -1,0 +1,2 @@
+FROM kippenhof/actual-server:latest@sha256:ba935b9bdbc3c87387fa0d5ff1812321d7f536dd65b3479f69fbf35bdf49a256
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

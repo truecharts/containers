@@ -1,0 +1,2 @@
+FROM ich777/enpass:latest@sha256:e12fbf27ae16fcf005286035246079ed7616df92aa9e3baeaa3ec39e014d634b
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

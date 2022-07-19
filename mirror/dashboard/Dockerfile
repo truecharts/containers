@@ -1,0 +1,2 @@
+FROM phntxx/dashboard:latest@sha256:32c3dd6a2decd33fb8e728766d455faed74b7df1c114331445e905b12ee68d23
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

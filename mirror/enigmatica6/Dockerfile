@@ -1,0 +1,2 @@
+FROM goobaroo/enigmatica6:latest@sha256:ac5cf42eaa146a18cfcc91d9f5ff7e4dcaa3d165b7170dff758733d74f4902af
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,0 +1,2 @@
+FROM bwalter42/jupyter_cadquery:3.1.0rc4@sha256:1394a94258f65d16236f647682a9868598df9780aad60a5c64e0280683d3aa7e
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

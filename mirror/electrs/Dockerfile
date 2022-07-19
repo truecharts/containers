@@ -1,0 +1,2 @@
+FROM ofawx/electrs:latest@sha256:2075968a278b45c196c5a857099fd34e35faf268efcc3542dca81b7aa433a859
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

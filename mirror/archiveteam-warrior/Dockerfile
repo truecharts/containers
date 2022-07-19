@@ -1,0 +1,2 @@
+FROM atdr.meo.ws/archiveteam/warrior-dockerfile:latest@sha256:33495db5da56e55212779f475a0b1fbac755c80b351739aa81f91c2d59dcd6be
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,0 +1,2 @@
+FROM redvex2460/autofillerweb:latest@sha256:e084f680322847d814d9c8c24a0af01707d9aea79a4727aa5e9f40c693a9cfe8
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

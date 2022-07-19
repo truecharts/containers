@@ -1,0 +1,2 @@
+FROM tchabaud/amule:latest@sha256:66351396337f50b40613222c5c47adfbc8685eb631b38e73f217358f54182d64
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

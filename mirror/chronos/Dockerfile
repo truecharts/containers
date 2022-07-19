@@ -1,0 +1,2 @@
+FROM simsemand/chronos:latest@sha256:18afd400591a3b77c4cb60c002d37d8771441097d594247565573ea2a9d11748
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
