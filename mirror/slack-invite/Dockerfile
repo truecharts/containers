@@ -1,0 +1,2 @@
+FROM ninthwalker/slack-invite:latest@sha256:25a38b1ee28baf78046162bcaf90962eee3ad79b60666f5451e5f30e5a0c0dda
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

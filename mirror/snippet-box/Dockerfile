@@ -1,0 +1,2 @@
+FROM pawelmalak/snippet-box:latest@sha256:4aac6fe8818dbb78a60e09d1556949e28f85cff8d50bdc6356b898806ea5f4f7
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

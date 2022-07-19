@@ -1,0 +1,2 @@
+FROM crzynik/swatch:latest@sha256:d939b6a1b2b2beec34a51cd36d0cec78037db7c1fa396a29b3850c396cf36a44
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

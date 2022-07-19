@@ -1,0 +1,2 @@
+FROM jamiephonic/rtmps-hls-server:latest@sha256:699f327f2837855d1cdcec50036ec718606fd8ac8740ac7cb9a293d969f342af
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

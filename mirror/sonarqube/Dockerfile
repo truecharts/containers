@@ -1,0 +1,2 @@
+FROM sonarqube:latest@sha256:b89044d191da13a4668513182555e8ee55498921078e49bbe90923c86c64a535
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

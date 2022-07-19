@@ -1,0 +1,2 @@
+FROM jshridha/rdiffweb:latest@sha256:d7949d7086f8ae07c8d93ef6ba4e224c167b342398544a3e0856f71b8e36a8fe
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

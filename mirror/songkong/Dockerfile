@@ -1,0 +1,2 @@
+FROM songkong/songkong:latest@sha256:a7558b8c67a63b8a07fa5696834d466f7d539f966248fe589aecb657749162c2
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

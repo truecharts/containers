@@ -1,0 +1,2 @@
+FROM binhex/arch-rider:latest@sha256:298474adcdb970f12f01a4a965ad8cfca42f9557b242c936f8aba1c36ea6b46b
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

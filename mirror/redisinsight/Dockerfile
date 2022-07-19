@@ -1,0 +1,2 @@
+FROM redislabs/redisinsight:latest@sha256:693784de1d47b8b889b12fdd02f1b03bf5add13fabf72a0a72397f02bba48c5f
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

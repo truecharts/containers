@@ -1,0 +1,2 @@
+FROM signtools/signtools:latest@sha256:77ea32be70f1ed9c30bd9d32046e453716a22603f8f809fa26209d56762768e4
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

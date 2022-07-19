@@ -1,0 +1,2 @@
+FROM knex666/prpdf:latest@sha256:ade69871515721af68dd49083589b94ef07cba2dd5fcc5298d39ce13d2e38396
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

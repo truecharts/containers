@@ -1,0 +1,2 @@
+FROM treyyoder/quakejs:latest@sha256:68cdf52833ec5f272a3144d9f18249fdc31e85e6cad3b17e7116970448ad5eeb
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

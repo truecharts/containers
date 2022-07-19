@@ -1,0 +1,2 @@
+FROM orhunp/rustypaste:latest@sha256:0a6769a23b420eb947d00946d7a6be00191ef9e114026fd3bbc1fd871a9709b7
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

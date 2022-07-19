@@ -1,0 +1,2 @@
+FROM amruthpillai/reactive-resume:v1@sha256:8078fcbf892c5c551df87b3ad4b8cde55afd7998887081ee0b5b301ff3ff7b35
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

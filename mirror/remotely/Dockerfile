@@ -1,0 +1,2 @@
+FROM translucency/remotely:latest@sha256:beb877997bcd5439bdca9a24f0b92590e1f6cb4fe8839201e7bd07f56a01bb9e
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

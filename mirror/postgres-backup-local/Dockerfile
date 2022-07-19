@@ -1,0 +1,2 @@
+FROM prodrigestivill/postgres-backup-local:latest@sha256:97963780e5eebfbc81ee6e046cea37f0f0e3925ef1ad0a8abbc91249e8df369d
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

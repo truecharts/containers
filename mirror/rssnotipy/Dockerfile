@@ -1,0 +1,2 @@
+FROM knex666/rssnotipy:latest@sha256:1fc24a202eaf2d129e6a677a65274dc4069c1665c73555722103dcc27d4a78d1
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

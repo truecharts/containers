@@ -1,0 +1,2 @@
+FROM randomninjaatk/sonarr-sma:latest@sha256:39d9b652f38d00806505a44c7409f073813e04567b052d4a6b122f349c637abe
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

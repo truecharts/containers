@@ -1,0 +1,2 @@
+FROM patrickstigler/py-stocks-api:latest@sha256:40cc4bf2571a4dbbe912b7382bb3b0bcc21cbeb90dedf6423d74c917b29be8c1
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

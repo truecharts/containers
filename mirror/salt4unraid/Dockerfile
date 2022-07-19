@@ -1,0 +1,2 @@
+FROM lubeda/salt4unraid:latest@sha256:96af6e9e202e7f09d683ce3127854f35ea230e7111dad9de9d8028ebb608e692
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,0 +1,2 @@
+FROM shawly/ps3netsrv:latest@sha256:d6a926bb0c004b2e1c557b3ceb9fc74be5845e00a2a13c3f10db65c3a853cb81
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
