@@ -201,6 +201,7 @@ jobs:
 
     # Push if not a PR, otherwise just test the build process for all requested platforms
     - name: Build and Push
+      id: push
       uses: docker/build-push-action@e551b19e49efd4e98792db7592c17c09b89db8d8 # tag=v3
       with:
         build-args: VERSION=${{ steps.prep.outputs.version }}
@@ -217,6 +218,11 @@ jobs:
           quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
         cache-from: ${{ steps.prep.outputs.cache_from }}
         cache-to: ${{ steps.prep.outputs.cache_to }}
+        
+    - name: Set quay to Public
+      run: |
+        curl -X POST -H "Content-Type: application/json" -d '{"visibility": "public"}' -H "Authorization: Bearer ${{ secrets.QUAY_TOKEN }}" "https://quay.io/api/v1/repository/truecharts/${{ matrix.container }}/changevisibility"
+
 
   container-build-complete:
     needs: [build]
@@ -226,14 +232,3 @@ jobs:
       - name: complete message
         run: echo "Container Build and Tests Completed Successfully"
 
-  automerge:
-    needs: [container-build-complete]
-    name: Automerge build
-    runs-on: ubuntu-latest
-    steps:
-      - name: automerge
-        uses: pascalgn/automerge-action@2e9644b0b86a2c052525921f181f905dc8102da5 # tag=v0.15.3
-        env:
-          GITHUB_TOKEN: "${{ secrets.BOT_TOKEN }}"
-          UPDATE_RETRIES: 12
-          UPDATE_RETRY_SLEEP: 60000
