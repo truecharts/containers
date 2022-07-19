@@ -1,2 +1,2 @@
-FROM phpmyadmin/phpmyadmin:latest
+FROM phpmyadmin/phpmyadmin:latest@sha256:ae6dadd9cf3c158e42937788f7255fa820ea3daef0349226d8d43f32e76535e1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

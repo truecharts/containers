@@ -1,2 +1,2 @@
-FROM ipsingh06/seedsync:latest
+FROM ipsingh06/seedsync:latest@sha256:78715911d1c3510c3dcc595a109778e541faa4f6ebb836b0e396e840509a2c33
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

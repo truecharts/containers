@@ -1,2 +1,2 @@
-FROM rootgg/plik:latest
+FROM rootgg/plik:latest@sha256:c127f4b5e43ffcb511e1ca88d02984418e2949c1f45fda1a453943e7e91dd455
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

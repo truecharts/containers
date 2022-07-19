@@ -1,2 +1,2 @@
-FROM ich777/steamcmd:memoriesofmars
+FROM ich777/steamcmd:memoriesofmars@sha256:d238127b784379a31649fa80a3e55969ae70795b4088f1209ef293086db071fe
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

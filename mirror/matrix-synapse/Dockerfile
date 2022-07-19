@@ -1,2 +1,2 @@
-FROM matrixdotorg/synapse:latest
+FROM matrixdotorg/synapse:latest@sha256:021d5806440166d207fde3aecb8f93d681fd76e956dbd6714daa92750bbc4d28
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

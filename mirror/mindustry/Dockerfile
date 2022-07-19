@@ -1,2 +1,2 @@
-FROM ich777/mindustry-server:latest
+FROM ich777/mindustry-server:latest@sha256:fa217a51dca1b6e2153301298f261d31e333326845eb81e9cd01fe4107a444d0
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

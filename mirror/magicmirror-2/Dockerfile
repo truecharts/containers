@@ -1,2 +1,2 @@
-FROM ich777/magic-mirror2:latest
+FROM ich777/magic-mirror2:latest@sha256:430755cf11a2bfac71430cab9ee915d8542c3083429ee0bdff3340fd11f21d09
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

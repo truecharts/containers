@@ -1,2 +1,2 @@
-FROM mitchellriley/streetmerchant:latest
+FROM mitchellriley/streetmerchant:latest@sha256:9bb4c1a1ed763a98e0f5f8039f197694fe9c25800191e732b6dd7f814e597e35
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

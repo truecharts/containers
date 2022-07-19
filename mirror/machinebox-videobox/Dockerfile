@@ -1,2 +1,2 @@
-FROM machinebox/videobox:latest
+FROM machinebox/videobox:latest@sha256:18d55c38f94f870b8a241b96978bdcbd8cd3b9ceaed938d221afd3405ad3b39f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

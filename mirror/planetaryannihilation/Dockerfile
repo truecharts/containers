@@ -1,2 +1,2 @@
-FROM ich777/planetaryannihilationserver:latest
+FROM ich777/planetaryannihilationserver:latest@sha256:ade6ba0153614e7b1e35ec4383f4e8f324087f73675c8329c375f9a980f2b8db
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

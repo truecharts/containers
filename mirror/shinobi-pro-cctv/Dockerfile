@@ -1,2 +1,2 @@
-FROM shinobicctv/shinobi:latest
+FROM shinobicctv/shinobi:latest@sha256:8633cab3dd55c68720d4ecd937fd9dc02247b379a7e4864b688ae4536317664b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

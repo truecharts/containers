@@ -1,2 +1,2 @@
-FROM toddrob/searcharr:latest
+FROM toddrob/searcharr:latest@sha256:2d7aef73542017e3c904fef458e9949135e332758b4682b23ae295bf57a10848
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

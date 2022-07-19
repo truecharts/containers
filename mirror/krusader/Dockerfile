@@ -1,2 +1,2 @@
-FROM ich777/krusader:latest
+FROM ich777/krusader:latest@sha256:89f18de0074388edd3d859821ca86813fcab6cbb8e359152004a463f163ede79
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

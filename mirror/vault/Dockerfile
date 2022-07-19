@@ -1,2 +1,2 @@
-FROM vault:latest
+FROM vault:latest@sha256:d45ffca3b9bc5f15f665c0afb581de668bca935ff1fffa10049648183c80ef6f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

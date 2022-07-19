@@ -1,2 +1,2 @@
-FROM escaping/core-keeper-dedicated:latest
+FROM escaping/core-keeper-dedicated:latest@sha256:f38fa90dba7971059905ca09d9d42bef0a4bf972e1b9ece380523030c095f1f0
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,2 @@
-FROM doudou34/tor-server:latest
+FROM doudou34/tor-server:latest@sha256:2f9c40b630cf40142893a9bba5f9a2739c179be610465c205b0ba3f8db2a4798
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

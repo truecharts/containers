@@ -1,2 +1,2 @@
-FROM p3rco/lemp:latest
+FROM p3rco/lemp:latest@sha256:f0494eb7eb489f0db041aec69c484d0e562cb2869a93ac27849b04cb19dab86e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

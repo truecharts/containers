@@ -1,2 +1,2 @@
-FROM ich777/steamcmd:neotokyo
+FROM ich777/steamcmd:neotokyo@sha256:aa04dc1938c4ce38f4b67b02383f069dc67a7f35e706c80deeb43a2fbde560bf
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

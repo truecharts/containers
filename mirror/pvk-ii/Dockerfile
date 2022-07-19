@@ -1,2 +1,2 @@
-FROM ich777/steamcmd:pvkii
+FROM ich777/steamcmd:pvkii@sha256:93c9ba6b212ba9bfc76f3e7c21f68a12129769caf6f35e3b6da6ba1faaa47dde
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

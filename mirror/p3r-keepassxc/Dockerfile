@@ -1,2 +1,2 @@
-FROM p3rco/keepassxc:latest
+FROM p3rco/keepassxc:latest@sha256:b5bccd5da0670061ae9ca18bd2c20cc237e97b7493e172368a08a6900b668625
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

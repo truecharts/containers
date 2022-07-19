@@ -1,2 +1,2 @@
-FROM p3rco/brave:latest
+FROM p3rco/brave:latest@sha256:341ac4adfccc90ea9f24f0a6d47248de5b7faf0870d9b05dc15f8279db4c5e2b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

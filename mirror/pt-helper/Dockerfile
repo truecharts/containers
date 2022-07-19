@@ -1,2 +1,2 @@
-FROM crazyq/pt_helper:latest
+FROM crazyq/pt_helper:latest@sha256:3ade2b73a674714f20ae535f570ec5396e381720c974e53f6e6b1b869e9db107
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

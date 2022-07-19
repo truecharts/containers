@@ -1,2 +1,2 @@
-FROM bobbintb/docker-rmlint-unraid:latest
+FROM bobbintb/docker-rmlint-unraid:latest@sha256:82ed86fe2fa8e6f43036f2196d37dc90946e6e6bfa21cdc7626f3b0c4ba6f306
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

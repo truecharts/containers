@@ -1,2 +1,2 @@
-FROM cglatot/pasta:latest
+FROM cglatot/pasta:latest@sha256:392974779b6b9dd415d403ac8b7a8698d28a6654bdc5ce0d2bad6a58b0b618f5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

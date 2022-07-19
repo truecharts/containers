@@ -1,2 +1,2 @@
-FROM deasmi/docker-puppetmaster:latest
+FROM deasmi/docker-puppetmaster:latest@sha256:392fef813a7723765e54774cde7fce30d593e40c6cfd860b88177a0cfeb9c21d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

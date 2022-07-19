@@ -1,2 +1,2 @@
-FROM modem7/wordle:latest
+FROM modem7/wordle:latest@sha256:91804b6d8fea0fa5773126b988c099cd601514589b729502c6425641ebfeff17
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

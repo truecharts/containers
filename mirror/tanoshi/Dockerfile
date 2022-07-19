@@ -1,2 +1,2 @@
-FROM faldez/tanoshi:latest
+FROM faldez/tanoshi:latest@sha256:c606acbfd746cf86bafbdd98904147f404eaf79f1e2d5b848729e98535da180b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,2 @@
-FROM advplyr/fotosho:latest
+FROM advplyr/fotosho:latest@sha256:49dc426c6bdaf99927df571a7084eb6d7f593ea76ab8a99c5c7e1c9fccc77e12
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

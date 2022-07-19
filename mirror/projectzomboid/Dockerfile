@@ -1,2 +1,2 @@
-FROM ich777/steamcmd:projectzomboid
+FROM ich777/steamcmd:projectzomboid@sha256:539da6f682180b3472a50dd0d11ada4d8f1e3860de7585e50b3851a8095aa75f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

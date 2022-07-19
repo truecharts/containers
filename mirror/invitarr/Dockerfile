@@ -1,2 +1,2 @@
-FROM piratify/invitarr:latest
+FROM piratify/invitarr:latest@sha256:78a82851aa167e89a5f5d6f025d81ad8b4c08856f166a92f960e4a57a9c264d9
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

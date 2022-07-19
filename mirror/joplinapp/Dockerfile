@@ -1,2 +1,2 @@
-FROM acaranta/docker-joplin:latest
+FROM acaranta/docker-joplin:latest@sha256:03d118c40ecdf1fa8fd31619f1a935bc2a4a148a1009e74238bb0f65e52eb179
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

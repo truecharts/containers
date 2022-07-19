@@ -1,2 +1,2 @@
-FROM machinebox/tagbox:latest
+FROM machinebox/tagbox:latest@sha256:63aeb5deb7739a266d11aaeb22a824b1d14161d396003a2527fa776ba3c4a31d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

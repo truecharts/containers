@@ -1,2 +1,2 @@
-FROM goobaroo/allthemods7:latest
+FROM goobaroo/allthemods7:latest@sha256:e9b22c7d4f58c406bae178807fff2bcca8322b6f82d3a56b3fddb89b69912752
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

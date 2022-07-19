@@ -1,2 +1,2 @@
-FROM metabase/metabase:latest
+FROM metabase/metabase:latest@sha256:87c330b6b35bbb8fc848675c65e5b90607d90bf37fb8a886b6f0d31eff38cc08
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

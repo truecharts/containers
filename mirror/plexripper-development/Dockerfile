@@ -1,2 +1,2 @@
-FROM plexripper/plexripper:dev
+FROM plexripper/plexripper:dev@sha256:1dea23dc51412d5fa8472a84db7d1cd444be9a286a283b00b77d5a757510cb93
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

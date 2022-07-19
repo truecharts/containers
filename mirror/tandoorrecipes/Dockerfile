@@ -1,2 +1,2 @@
-FROM vabene1111/recipes:latest
+FROM vabene1111/recipes:latest@sha256:36b05c26c00aef47560e15bb352a23390bb13ee8c2c926f267afb7fcbf465358
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

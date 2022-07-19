@@ -1,2 +1,2 @@
-FROM stefanknaak/prometheus-phoenixstats:latest
+FROM stefanknaak/prometheus-phoenixstats:latest@sha256:d9240df863be4ec0279c07e8c1ba1f1764df92b6cec136f2159fb0f8e0dcaa23
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

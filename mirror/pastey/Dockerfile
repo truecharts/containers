@@ -1,2 +1,2 @@
-FROM cesura/pastey:latest
+FROM cesura/pastey:latest@sha256:fa3918462d63a9b8ae3a63dd9a304e9cb0fba1bca84d6900927c71fe21e04efe
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

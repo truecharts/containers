@@ -1,2 +1,2 @@
-FROM machines/filestash:latest
+FROM machines/filestash:latest@sha256:a65371a8810569f316ad6c2d5d9371111ce145ce4ec682c42bd155610edd17d8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

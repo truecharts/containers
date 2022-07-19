@@ -1,2 +1,2 @@
-FROM corneliousjd/sui-startpage:latest
+FROM corneliousjd/sui-startpage:latest@sha256:0a4728be5ebed65e501c23444cb3b1f65f7a96e3bb36cff08450b3be0f45934e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
