@@ -1,0 +1,2 @@
+FROM coppit/xeoma:latest@sha256:98436f236167df2bfe6ee8a73c3ce7364e4050fad8194f7760cc3b24cb0d7caf
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

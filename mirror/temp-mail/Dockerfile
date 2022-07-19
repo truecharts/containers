@@ -1,0 +1,2 @@
+FROM olprog/tmpmail:latest@sha256:01095235c6deb2638ecea37a11502b8f3d622423f93594b77bfbbee6a9d1d16c
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

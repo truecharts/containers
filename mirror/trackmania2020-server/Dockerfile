@@ -1,0 +1,2 @@
+FROM evotm/trackmania:latest@sha256:a830e6159cdf2da53a0588a315bd1d32a4fa6e26ddfa50c90ac9716a0d54d837
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

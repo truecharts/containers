@@ -1,0 +1,2 @@
+FROM jeeaaasustest/youtube-dl:latest@sha256:690de8dd6391a1d9b6910f9dc77f211b92cb7212e4b4b03fe35e6c68c272c73a
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

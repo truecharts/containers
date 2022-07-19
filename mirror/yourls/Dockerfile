@@ -1,0 +1,2 @@
+FROM yourls:latest@sha256:da8b74bad499502aef2ab1c2f9629ebdfba44775c3266a9e7df5c9f271248af8
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

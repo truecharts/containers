@@ -1,0 +1,2 @@
+FROM bsyed/troddit:latest@sha256:b321c5f1e76bfe490bc3b30a776ad0ae9c3572f429e91944fa13dffee1aea316
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

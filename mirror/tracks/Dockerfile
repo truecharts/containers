@@ -1,0 +1,2 @@
+FROM tracksapp/tracks:latest@sha256:7e32717d2d20f5b524f38505058e99f8e2c4abe4258222c1b61943fc5c44a077
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

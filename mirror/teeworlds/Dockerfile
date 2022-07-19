@@ -1,0 +1,2 @@
+FROM ich777/teeworldsserver:latest@sha256:ce6449542f54d436b7b8a951cca6bc96ae6f5a8b591b3f923e0f9c81c1e955ef
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

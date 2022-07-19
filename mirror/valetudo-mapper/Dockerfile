@@ -1,0 +1,2 @@
+FROM rand256/valetudo-mapper:latest@sha256:0b37f7721da3fe416f2b64aaa24d7607ec45a22e0531dbf9a430772819c8a942
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

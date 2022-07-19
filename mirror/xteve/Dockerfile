@@ -1,0 +1,2 @@
+FROM ghcr.io/k8s-at-home/xteve:v2.2.0.200@sha256:292b3614670f6bf4017cc65643c513cccb18323bd5269178bd3e36c8c68f5107
+LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"

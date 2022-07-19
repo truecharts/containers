@@ -1,0 +1,2 @@
+FROM 468654/tartube:latest@sha256:798615bdc3bbcc0cde5928f72c78378db8d0f0023afc078222dc5c341536a84f
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

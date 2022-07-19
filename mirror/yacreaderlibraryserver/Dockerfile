@@ -1,0 +1,2 @@
+FROM xthursdayx/yacreaderlibrary-server-docker:latest@sha256:e47d53626bb756635f6d16f71f216560474632afe40643a9a867d7098e909a37
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

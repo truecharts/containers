@@ -1,0 +1,2 @@
+FROM mikenye/tar1090:latest@sha256:bd0dc7107e10df8cc4b61c747071eb4dabc36af10bb27468cd9877174ad66cdf
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

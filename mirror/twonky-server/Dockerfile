@@ -1,0 +1,2 @@
+FROM dtjs48jkt/twonkyserver:latest@sha256:4b0508e32a1f60ddf05bbfc335b542221fba2dd484f9aefe4a45f500da49c2bb
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

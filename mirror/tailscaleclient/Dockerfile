@@ -1,0 +1,2 @@
+FROM hussainalhaddad/tailscale:latest@sha256:bf9d2b94729c38804b455a170c4e855c0acda9509983f34885aa38a76d269eab
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

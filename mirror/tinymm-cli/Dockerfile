@@ -1,0 +1,2 @@
+FROM coolasice1999/tmm-cli-cronjob:latest@sha256:dce118d5817c13a4e9e9da5d262304f14719288673566ef3eace9f0bf8f22381
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

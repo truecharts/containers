@@ -1,0 +1,2 @@
+FROM raymondmm/tasmoadmin:latest@sha256:c28143195203dbdeae5b6839ac4f04f9677e031666a9a98589e1730e57a1764d
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

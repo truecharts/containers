@@ -1,0 +1,2 @@
+FROM dullage/tahskr-server:latest@sha256:77a61821fb12845253f08bbd1eafa2cad184e46f07cc1bc3a3c830ab360dd55b
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

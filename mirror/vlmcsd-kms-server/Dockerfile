@@ -1,0 +1,2 @@
+FROM mikolatero/vlmcsd:latest@sha256:bb6e321733e85227ce70e55bda73b52493f019bfc0dd0e1371065a763d0c35ba
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

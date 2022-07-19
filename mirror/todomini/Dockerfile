@@ -1,0 +1,2 @@
+FROM brettdocker/minitodo:latest@sha256:1a10533eab141fe2f7bc8368f822c4464358ac379ec6064292f2841ab32d0bad
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

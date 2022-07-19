@@ -1,0 +1,2 @@
+FROM lscr.io/linuxserver/unifi-controller:latest@sha256:ba45c589b409bfc6d5ed47eb6cea641da2479f21a1c6cd849f56aa9a76e58d81
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
