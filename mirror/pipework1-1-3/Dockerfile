@@ -1,2 +1,2 @@
-FROM dreamcat4/pipework:1.1.3@sha256:fd79b5dfd71976b696d217a033a760f777448fa806b8b7dd890bd4cdd03e8a31
+FROM dreamcat4/pipework:1.1.6@sha256:3ddcffebbfd23282fe2f5f403230527fd5c70ce9e38b68c4903427011e53377b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
