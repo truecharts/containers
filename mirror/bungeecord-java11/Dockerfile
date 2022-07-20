@@ -1,0 +1,2 @@
+FROM itzg/bungeecord:java11-2022.4.1@sha256:fe5af3659c3e25b110edf83025a15725988770baee340ceecd97822bac6dcc09
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
