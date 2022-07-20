@@ -219,7 +219,7 @@
     },
     {
       "matchDatasources": ["docker"],
-      "versioning": "regex:^(?<major>\\d+)-(?<minor>\\d+)-(?<patch>\\d+).*$",
+      "versioning": "regex:^(?<major>\\d{4})\\.(?<minor>\\d{1,2})\\.(?<patch>\\d{1,2).*$",
       "matchPackageNames": ["alicevision/meshroom"],
       "automerge": true,
     },
