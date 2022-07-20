@@ -1,2 +1,2 @@
-FROM binhex/arch-intellij:latest@sha256:9ad521f326beb5380a034c7d0d05ac14012ea2ae0a695ddd7c0d764bbce49e22
+FROM binhex/arch-intellij:latest@sha256:daf41417e6a609fa464fd0e613187ea9ea64206adfafb89adf022caaf8418ac3
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
