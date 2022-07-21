@@ -1,2 +1,2 @@
-FROM monitorr/logarr-alpha:latest
+FROM monitorr/logarr-alpha:latest@sha256:5478d70473cef440451e5efda946d9c16d885651ee480e7d6ab45f6aa993ca66
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

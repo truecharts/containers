@@ -1,2 +1,2 @@
-FROM ulisses1478/teleradarr:latest
+FROM ulisses1478/teleradarr:latest@sha256:c8b6a4b6e3a7061e7e4029974c74fca1d08dd751e698fc52744f06c7ce527496
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,2 @@
-FROM ratomas/cave-factory:latest
+FROM ratomas/cave-factory:latest@sha256:355e3d0e9dfc0fe5670b8457b3a15ea167e442ec1f1f589dadbddfd0a5afaccd
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

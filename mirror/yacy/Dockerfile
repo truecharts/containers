@@ -1,2 +1,2 @@
-FROM yacy/yacy_search_server:latest
+FROM yacy/yacy_search_server:latest@sha256:f8919269b183d3481549903567548a3ff5bde9bc4169a7c0934308036a41cd52
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

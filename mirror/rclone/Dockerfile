@@ -1,2 +1,2 @@
-FROM tynor88/rclone:dev
+FROM tynor88/rclone:dev@sha256:909877efa8ea645101b90ef5f467302ecb8f22c61a86d4222511e6e195015339
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

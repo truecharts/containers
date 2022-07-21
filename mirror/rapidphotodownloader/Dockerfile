@@ -1,2 +1,2 @@
-FROM ich777/rapidphotodownloader:latest
+FROM ich777/rapidphotodownloader:latest@sha256:35b44379ec948a195542211cb5f094eb64cc75999e32412d300f6424fb95f1a5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

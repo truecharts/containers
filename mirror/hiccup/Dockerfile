@@ -1,2 +1,2 @@
-FROM bleckbeard/hiccup:latest
+FROM bleckbeard/hiccup:latest@sha256:ab0d4dd43e02f6ff044453f55df9d72d1015690c9a58fdf4e55995f0240ac8e5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

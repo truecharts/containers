@@ -1,2 +1,2 @@
-FROM ich777/redmserver:latest
+FROM ich777/redmserver:latest@sha256:dec2cfba279f794660ce4e9a14f49c0ff0a86ff23bba350a812121b3db56012b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

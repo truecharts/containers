@@ -1,2 +1,2 @@
-FROM docpht/docpht:latest
+FROM docpht/docpht:latest@sha256:a9f0ee37fb10410135458cf74c2bacb175253fa4714c70f66bfba45cf6c4e7e1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

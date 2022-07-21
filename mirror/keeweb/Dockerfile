@@ -1,2 +1,2 @@
-FROM antelle/keeweb:latest
+FROM antelle/keeweb:latest@sha256:8ff5e10baa2ca50967964bf26af41461da79ef62a481094a00f75726623bcb36
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

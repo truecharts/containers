@@ -1,2 +1,2 @@
-FROM ich777/openttdserver:latest
+FROM ich777/openttdserver:latest@sha256:269c4bb32e31266f04b276756d156f1c789f9cbb3398ae51a2403c1c21391adf
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

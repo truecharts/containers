@@ -1,2 +1,2 @@
-FROM awesometic/h5ai:latest
+FROM awesometic/h5ai:latest@sha256:0fb01db24124e26831763c7344258a18178d4633b9bd68b5af68040197b0c370
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

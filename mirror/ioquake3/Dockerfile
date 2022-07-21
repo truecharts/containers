@@ -1,2 +1,2 @@
-FROM ich777/ioquake3:latest
+FROM ich777/ioquake3:latest@sha256:89cbc335f6b05b8fdb5838680b5675c5e3da5d30ba484cf51f7565658e2fc632
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

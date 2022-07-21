@@ -1,2 +1,2 @@
-FROM jetbrains/teamcity-agent:latest
+FROM jetbrains/teamcity-agent:latest@sha256:e448a2b7296769d89501bf0013b798d5d9c69a0eb9622ee1771ecb0a7a763c82
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

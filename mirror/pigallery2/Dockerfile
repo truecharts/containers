@@ -1,2 +1,2 @@
-FROM bpatrik/pigallery2:latest
+FROM bpatrik/pigallery2:latest@sha256:4f5ec341b747b48628469ef7cde346e3585d5de0b698580c86b59ed61b972751
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

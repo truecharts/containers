@@ -1,2 +1,2 @@
-FROM ich777/steamcmd:killingfloor
+FROM ich777/steamcmd:killingfloor@sha256:342856a6278c7e2c226dafaa362b1d8606368bf180142bae24cff5ce708746dc
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

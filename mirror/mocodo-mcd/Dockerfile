@@ -1,2 +1,2 @@
-FROM olprog/mocodo:latest
+FROM olprog/mocodo:latest@sha256:02e8fd0c5f0d954ef6f0eef932b2f54cc9bf95f9f2189b688917959e9abace17
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

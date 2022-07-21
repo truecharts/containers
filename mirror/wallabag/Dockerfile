@@ -1,2 +1,2 @@
-FROM wallabag/wallabag:latest
+FROM wallabag/wallabag:latest@sha256:6cc7750860196756d80bda065bc4449225009dc62f8bc9bbf1b81d7687ef8d00
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

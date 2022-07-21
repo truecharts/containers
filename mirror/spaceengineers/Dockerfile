@@ -1,2 +1,2 @@
-FROM devidian/spaceengineers:latest
+FROM devidian/spaceengineers:latest@sha256:0655413d6a273d249666e15fb34c6d685105a82e21071e1cb96e31a4f841dc7e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

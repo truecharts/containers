@@ -1,2 +1,2 @@
-FROM atunnecliffe/splunk:latest
+FROM atunnecliffe/splunk:latest@sha256:5b04a9ba9208d77e183af33007162f7e75df018e1b5999fca6f9d79e8714b643
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,2 @@
-FROM prologic/todo:latest
+FROM prologic/todo:latest@sha256:3e99ad7d44ed3529c4833ffadd9d355ece19dc5e66d00873da7b8a6efcdc446d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

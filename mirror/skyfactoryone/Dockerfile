@@ -1,2 +1,2 @@
-FROM goobaroo/skyfactoryone:latest
+FROM goobaroo/skyfactoryone:latest@sha256:18a5d12d0c0c5d55453e774d270b7676dbb5f292cf6626038047d98ef74024b9
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

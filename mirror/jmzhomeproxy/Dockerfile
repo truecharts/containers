@@ -1,2 +1,2 @@
-FROM jmzsoftware/jmzhomelabproxy:latest
+FROM jmzsoftware/jmzhomelabproxy:latest@sha256:6f37ef95a27aa512b8e5eaea0c22457035ca81bf6a7b71f91de1b57c78b7586d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

@@ -1,2 +1,2 @@
-FROM bashninja/docker-pritunl:latest
+FROM bashninja/docker-pritunl:latest@sha256:a7efcec8868e0bcf80dfa297ac7777c1e8debd4b9f25170ceb9f0856234860b9
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

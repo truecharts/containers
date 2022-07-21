@@ -1,2 +1,2 @@
-FROM ich777/terrariaserver:tshock
+FROM ich777/terrariaserver:tshock@sha256:22584b638cac579eff88cbafbb28d793127ca650c3d29f1173610e3af1c68a31
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

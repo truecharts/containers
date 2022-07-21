@@ -1,2 +1,2 @@
-FROM whatname/docker-s3sync:latest
+FROM whatname/docker-s3sync:latest@sha256:dbfa5eff4d67ac54dded4434a73c036c11a54dda3ade152bb9ecc53431eed9d0
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers

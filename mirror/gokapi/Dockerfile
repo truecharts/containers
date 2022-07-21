@@ -1,2 +1,2 @@
-FROM f0rc3/gokapi:latest
+FROM f0rc3/gokapi:latest@sha256:d65188f61346027b944ff71e03bd9e7090dd5c4d813c45e1fef9c69bc84a4b54
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
