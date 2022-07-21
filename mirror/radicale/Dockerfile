@@ -1,2 +1,2 @@
-FROM tomsquest/docker-radicale:3.1.7.0@sha256:c182c596c8bc869003845a594ea4242c506ae77d661e9e2511398389785cb9ec
+FROM tomsquest/docker-radicale:3.1.8.0@sha256:9b9c225059030216682933c26374bd72c5aa677b010b79698476efa4cf8c5976
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
