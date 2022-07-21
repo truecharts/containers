@@ -106,6 +106,7 @@ jobs:
           VERSION=$(echo $VERSION | sed "s/focal-//g")
           VERSION=$(echo $VERSION | sed "s/fpm-//g")
           VERSION=$(echo $VERSION | sed "s/-centos7//g")
+          VERSION=$(echo $VERSION | sed "s/java-[0-9]*-//g")
           VERSION="${VERSION#*V.}"
           VERSION="${VERSION#*v.}"
           VERSION="${VERSION#*v-}"
@@ -219,7 +220,7 @@ jobs:
           quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
         cache-from: ${{ steps.prep.outputs.cache_from }}
         cache-to: ${{ steps.prep.outputs.cache_to }}
-        
+
     - name: Set quay to Public
       run: |
         curl -X POST -H "Content-Type: application/json" -d '{"visibility": "public"}' -H "Authorization: Bearer ${{ secrets.QUAY_TOKEN }}" "https://quay.io/api/v1/repository/truecharts/${{ matrix.container }}/changevisibility"
@@ -232,4 +233,3 @@ jobs:
     steps:
       - name: complete message
         run: echo "Container Build and Tests Completed Successfully"
-

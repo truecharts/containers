@@ -232,12 +232,6 @@
     {
       "matchDatasources": ["docker"],
       "versioning": "regex:^stable-(?<major>\\d{1})(?<minor>\\d{1})(?<patch>\\d{2}).*$",
-      "matchPackageNames": ["jitsi/web"],
-      "automerge": true,
-    },
-    {
-      "matchDatasources": ["docker"],
-      "versioning": "regex:^stable-(?<major>\\d{1})(?<minor>\\d{1})(?<patch>\\d{2}).*$",
       "matchPackageNames": ["jitsi/prosody"],
       "automerge": true,
     },
@@ -251,6 +245,30 @@
       "matchDatasources": ["docker"],
       "versioning": "regex:^stable-(?<major>\\d{1})(?<minor>\\d{1})(?<patch>\\d{2}).*$",
       "matchPackageNames": ["jitsi/jvb"],
+      "automerge": true,
+    },
+    {
+      "matchDatasources": ["docker"],
+      "versioning": "regex:^(?<major>\\d{4})\\.(?<minor>\\d{1,2})\\.(?<patch>\\d{1,2})$",
+      "matchPackageNames": ["itzg/bungeecord"],
+      "automerge": true,
+    },
+    {
+      "matchDatasources": ["docker"],
+      "versioning": "regex:^java8-(?<major>\\d{4})\\.(?<minor>\\d{1,2})\\.(?<patch>\\d{1,2})$",
+      "matchPackageNames": ["itzg/bungeecord"],
+      "automerge": true,
+    },
+    {
+      "matchDatasources": ["docker"],
+      "versioning": "regex:^java11-(?<major>\\d{4})\\.(?<minor>\\d{1,2})\\.(?<patch>\\d{1,2})$",
+      "matchPackageNames": ["itzg/bungeecord"],
+      "automerge": true,
+    },
+    {
+      "matchDatasources": ["docker"],
+      "versioning": "regex:^java17-(?<major>\\d{4})\\.(?<minor>\\d{1,2})\\.(?<patch>\\d{1,2})$",
+      "matchPackageNames": ["itzg/bungeecord"],
       "automerge": true,
     },
     {
