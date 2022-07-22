@@ -233,3 +233,15 @@ jobs:
     steps:
       - name: complete message
         run: echo "Container Build and Tests Completed Successfully"
+        
+  automerge:
+    needs: [container-build-complete]
+    name: Automerge build
+    runs-on: ubuntu-latest
+    steps:
+      - name: automerge
+        uses: pascalgn/automerge-action@2e9644b0b86a2c052525921f181f905dc8102da5 # tag=v0.15.3
+        env:
+          GITHUB_TOKEN: "${{ secrets.BOT_TOKEN }}"
+          UPDATE_RETRIES: 12
+          UPDATE_RETRY_SLEEP: 60000
