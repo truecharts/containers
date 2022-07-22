@@ -196,7 +196,10 @@ jobs:
       if: ${{ steps.prep.outputs.goss == 'true' }}
       uses: docker/build-push-action@1cb9d22b932e4832bb29793b7777ec860fc1cde0 # tag=v3
       with:
-        build-args: VERSION=${{ steps.prep.outputs.version }}
+        build-args: |
+          VERSION=${{ steps.prep.outputs.version }}
+          CONTAINER_NAME=${{ matrix.container }}
+          CONTAINER_VER=${{ steps.prep.outputs.version }}
         context: .
         file: ./${{ steps.prep.outputs.category }}/${{ matrix.container }}/Dockerfile
         load: true
@@ -221,7 +224,7 @@ jobs:
         build-args: |
           VERSION=${{ steps.prep.outputs.version }}
           CONTAINER_NAME=${{ matrix.container }}
-          CONTAINER_VERSION=${{ steps.prep.outputs.version }}
+          CONTAINER_VER=${{ steps.prep.outputs.version }}
         context: .
         platforms: ${{ steps.prep.outputs.platform }}
         file: ./${{ steps.prep.outputs.category }}/${{ matrix.container }}/Dockerfile
