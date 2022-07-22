@@ -167,7 +167,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v3
       with:
-        images: name/app
+        images: truecharts/${{ matrix.container }}
 
     # Install and configure Buildx
     - name: Set up Docker Buildx
