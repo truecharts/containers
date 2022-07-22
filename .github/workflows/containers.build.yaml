@@ -163,6 +163,11 @@ jobs:
         username: ${{ secrets.GHCR_USERNAME }}
         password: ${{ secrets.GHCR_TOKEN }}
 
+    - name: Docker meta
+      id: meta
+      uses: docker/metadata-action@v3
+      with:
+        images: name/app
 
     # Install and configure Buildx
     - name: Set up Docker Buildx
@@ -212,6 +217,7 @@ jobs:
         platforms: ${{ steps.prep.outputs.platform }}
         file: ./${{ steps.prep.outputs.category }}/${{ matrix.container }}/Dockerfile
         push: ${{ steps.prep.outputs.push }}
+        labels: ${{ steps.meta.outputs.labels }}
         cache-from: type=gha
         cache-to: type=gha,mode=max
         tags: |
