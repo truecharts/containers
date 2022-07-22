@@ -1,2 +1,2 @@
-FROM ghcr.io/linuxserver/digikam:7.7.0@sha256:f32a9c5cd519dde07c8c1a39e26d22895c17ea4c63067a5fc99d1548e7b07932
+FROM ghcr.io/linuxserver/digikam:7.7.0@sha256:ec69d1cc61b0aa0ce895f5521a92d45331ee06b95505527cd827b7054f5b2bfb
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
