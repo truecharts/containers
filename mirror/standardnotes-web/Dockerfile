@@ -1,4 +1,4 @@
-FROM standardnotes/web:stable@sha256:fc0973dab125be04fc3ef612b7f4c913255378c0e4331ad7fc36aad05b190c99
+FROM standardnotes/web:stable@sha256:b68506f03cf8f771089dfc9f0ae2a232aaca0dfb3c8969638346c67dad1a5547
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
