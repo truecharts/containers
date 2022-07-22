@@ -167,7 +167,11 @@ jobs:
       id: meta
       uses: docker/metadata-action@v3
       with:
-        images: truecharts/${{ matrix.container }}
+        # list of Docker images to use as base name for tags
+        images: |
+          truecharts/${{ matrix.container }}
+          quay.io/truecharts/${{ matrix.container }}
+          ghcr.io/truecharts/${{ matrix.container }}
 
     # Install and configure Buildx
     - name: Set up Docker Buildx
@@ -196,8 +200,8 @@ jobs:
         load: true
         tags: |
           ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:test
-        cache-from: type=gha
-        cache-to: type=gha,mode=max
+        cache-from: ${{ steps.prep.outputs.cache_from }}
+        cache-to: ${{ steps.prep.outputs.cache_to }}
 
     # Run GOSS tests if included with the container
     - name: Run GOSS tests
@@ -218,8 +222,8 @@ jobs:
         file: ./${{ steps.prep.outputs.category }}/${{ matrix.container }}/Dockerfile
         push: ${{ steps.prep.outputs.push }}
         labels: ${{ steps.meta.outputs.labels }}
-        cache-from: type=gha
-        cache-to: type=gha,mode=max
+        cache-from: ${{ steps.prep.outputs.cache_from }}
+        cache-to: ${{ steps.prep.outputs.cache_to }}
         tags: |
           quay.io/truecharts/${{ matrix.container }}:latest
           quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
