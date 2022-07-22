@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/webgrabplus:4.2.4@sha256:a0773c616e96520a11056cb9693569375ded5a8d480332d9255d6d03bf153f62
+FROM ghcr.io/linuxserver/webgrabplus:4.2.4@sha256:bb26235e0b06891b0378202669e10be64c76d5b847cf52f90aec6c82ae48cf13
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
