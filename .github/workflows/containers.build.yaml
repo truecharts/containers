@@ -140,13 +140,13 @@ jobs:
       with:
         platforms: amd64
 
-    - name: Login to GHCR
+    - name: Login to Quay
       uses: docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b # tag=v2
       if: github.event_name != 'pull_request'
       with:
-        registry: ghcr.io
-        username: ${{ secrets.GHCR_USERNAME }}
-        password: ${{ secrets.GHCR_TOKEN }}
+        registry: quay.io
+        username: ${{ secrets.QUAY_USER }}
+        password: ${{ secrets.QUAY_SECRET }}
 
     - name: Login to DockerHub
       uses: docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b # tag=v2
@@ -155,13 +155,14 @@ jobs:
         username: ${{ secrets.DH_USER }}
         password: ${{ secrets.DH_SECRET }}
 
-    - name: Login to Quay
+    - name: Login to GHCR
       uses: docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b # tag=v2
       if: github.event_name != 'pull_request'
       with:
-        registry: quay.io
-        username: ${{ secrets.QUAY_USER }}
-        password: ${{ secrets.QUAY_SECRET }}
+        registry: ghcr.io
+        username: ${{ secrets.GHCR_USERNAME }}
+        password: ${{ secrets.GHCR_TOKEN }}
+
 
     # Install and configure Buildx
     - name: Set up Docker Buildx
@@ -212,19 +213,18 @@ jobs:
         file: ./${{ steps.prep.outputs.category }}/${{ matrix.container }}/Dockerfile
         push: ${{ steps.prep.outputs.push }}
         tags: |
-          ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest
-          ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
-          truecharts/${{ matrix.container }}:latest
-          truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
           quay.io/truecharts/${{ matrix.container }}:latest
           quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
-        cache-from: ${{ steps.prep.outputs.cache_from }}
-        cache-to: ${{ steps.prep.outputs.cache_to }}
+          truecharts/${{ matrix.container }}:latest
+          truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
+          ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest
+          ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
 
     - name: Set quay to Public
       run: |
         curl -X POST -H "Content-Type: application/json" -d '{"visibility": "public"}' -H "Authorization: Bearer ${{ secrets.QUAY_TOKEN }}" "https://quay.io/api/v1/repository/truecharts/${{ matrix.container }}/changevisibility"
-
 
   container-build-complete:
     needs: [build]
