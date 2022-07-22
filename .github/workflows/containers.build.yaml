@@ -134,6 +134,13 @@ jobs:
           echo ::set-output name=cache_from::"type=registry,ref=ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache"
           echo ::set-output name=cache_to::"type=registry,ref=ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache,mode=max"
         fi
+        
+    - name: Get Time
+      id: time
+      uses: nanzm/get-time-action@v1.1
+      with:
+        timeZone: 1
+        format: 'YYYYMMDDHHmmss'
 
     - name: Set up QEMU
       uses: docker/setup-qemu-action@8b122486cedac8393e77aa9734c3528886e4a1a8 # tag=v2
@@ -236,12 +243,15 @@ jobs:
           quay.io/truecharts/${{ matrix.container }}:latest
           quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
           quay.io/truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}
+          quay.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}
           truecharts/${{ matrix.container }}:latest
           truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
           truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}
+          truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}
           ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest
           ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
           ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:${{ steps.prep.outputs.version }}
+          ghcr.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}
 
 
     - name: Set quay to Public
