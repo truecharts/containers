@@ -191,8 +191,8 @@ jobs:
         load: true
         tags: |
           ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:test
-        cache-from: ${{ steps.prep.outputs.cache_from }}
-        cache-to: ${{ steps.prep.outputs.cache_to }}
+        cache-from: type=gha
+        cache-to: type=gha,mode=max
 
     # Run GOSS tests if included with the container
     - name: Run GOSS tests
@@ -212,6 +212,8 @@ jobs:
         platforms: ${{ steps.prep.outputs.platform }}
         file: ./${{ steps.prep.outputs.category }}/${{ matrix.container }}/Dockerfile
         push: ${{ steps.prep.outputs.push }}
+        cache-from: type=gha
+        cache-to: type=gha,mode=max
         tags: |
           quay.io/truecharts/${{ matrix.container }}:latest
           quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
@@ -219,8 +221,6 @@ jobs:
           truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
           ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest
           ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
 
     - name: Set quay to Public
       run: |
