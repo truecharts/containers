@@ -1,4 +1,4 @@
-FROM bigmandave/doge-node:latest@sha256:06a25d787fcfe5d43da93e9a696fd6d2c9935a1fc6effb45bb36f62fa51a7683
+FROM bigmandave/doge-node:latest@sha256:212601e1511c4e0c95fe806ced301f501f6f09c7e102ef4c7d57f93a6f56959f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
