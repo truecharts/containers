@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/papermerge:2.0.1@sha256:0d8233d82ffc41b9eecd4946ee0e3fb83fd73db059d912755873ae379bebe823
+FROM ghcr.io/linuxserver/papermerge:2.0.1@sha256:95d0443b13301b54ea46e79a7f1b0f730f9429b4e0f50d10740ade2f8339f9d2
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
