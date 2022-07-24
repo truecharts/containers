@@ -1,4 +1,4 @@
-FROM leantime/leantime:2.2.1@sha256:ed102d98c24b774c25d08910a8ccc6a810de621b033071941ec2121671d0dd4c
+FROM leantime/leantime:2.2.2@sha256:34e4c1b5de6d4c874c369ce1fe0071698f666d69b50bb41c35472e03c852a5ff
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
