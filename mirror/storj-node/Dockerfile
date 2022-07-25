@@ -1,4 +1,4 @@
-FROM storjlabs/storagenode:b9fdf5395-v1.59.1-go1.17.5@sha256:9675bde31cd4685e7b1eb6a7a1f11e33e5275679960d5b47b15391d29e2bc40b
+FROM storjlabs/storagenode:99b083e2e-v1.60.1-go1.17.12@sha256:db545946848a18f529137a149fb0ffb58286b481b2c61fb5fb3f261506e32bc0
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
