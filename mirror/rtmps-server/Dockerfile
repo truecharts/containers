@@ -1,4 +1,4 @@
-FROM jamiephonic/rtmps-hls-server:latest@sha256:699f327f2837855d1cdcec50036ec718606fd8ac8740ac7cb9a293d969f342af
+FROM jamiephonic/rtmps-hls-server:latest@sha256:2deee136cd69285a90f869be156b8ef8f079de1ad53d14be425055a1d47658ac
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
