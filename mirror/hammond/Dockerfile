@@ -1,4 +1,4 @@
-FROM akhilrex/hammond:1.0.0@sha256:e88efa5e8e1efc732fb44297a770313c673ba32e6d283e18abc73ed2ab6bd187
+FROM akhilrex/hammond:1.0.0@sha256:07e73c226c3bae8863a0aff1530d84d5edd68308264e42375d1af61ad9955be4
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
