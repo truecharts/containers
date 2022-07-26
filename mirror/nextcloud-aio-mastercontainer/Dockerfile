@@ -1,4 +1,4 @@
-FROM nextcloud/all-in-one:latest@sha256:a86cc0f2263fe09fc847d81e998fbafeea762da0e3a9166952bc9f9ed2fd3b7d
+FROM nextcloud/all-in-one:latest@sha256:e5464432098e6a3dd800fc5bf45e067b4b089ae6413ccada27814efde2d57b7f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
