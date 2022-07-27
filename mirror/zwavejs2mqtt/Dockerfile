@@ -1,4 +1,4 @@
-FROM zwavejs/zwavejs2mqtt:6.14.0@sha256:c7858fafbffcd3bcc1f2a13f15e7f8290b2f4914f0a6f4e6a7255b79ab95c2c3
+FROM zwavejs/zwavejs2mqtt:6.14.1@sha256:7aa5f3305597d6c360e212ff914777ebbd7014b17973a5800065e2deba32564d
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
