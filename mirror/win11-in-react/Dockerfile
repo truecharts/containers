@@ -1,4 +1,4 @@
-FROM blueedge/win11react:latest@sha256:53db6c5573035ffd688204560bc4248a38485c23edc0ba09200ec866946fa9a6
+FROM blueedge/win11react:latest@sha256:1ace04bdb6b26d08455819c3c6612be1f571140503cbd0f0d1fc1b3cad2bff36
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
