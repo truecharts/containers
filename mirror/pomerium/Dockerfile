@@ -1,4 +1,4 @@
-FROM pomerium/pomerium:latest@sha256:2e14f8c877b0eb6888cbe26651018068a6ce578b38fbb4cc3126a33a58dde8b2
+FROM pomerium/pomerium:latest@sha256:00545ef9bdc4c4f73236ebb45eef26a9676dcbfefaf5857cb3b5eeac2e3fb03c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
