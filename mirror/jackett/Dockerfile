@@ -1,4 +1,4 @@
-FROM ghcr.io/k8s-at-home/jackett:v0.20.1470@sha256:ab6ac318633164a68b1aa7f4cdebf2f87984dca6e7a76770d276e1ba3f1a9d62
+FROM ghcr.io/k8s-at-home/jackett:v0.20.1473@sha256:3f1839252d3129097e4262d4836b4a45b46971f3c48356ae9af5caecbbe34134
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
