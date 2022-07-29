@@ -40,7 +40,7 @@ RUN \
     gnupg2 \
   && \
   cd /tmp && \
-  wget https://github.com/mikefarah/yq/releases/download/4.26.1/yq_linux_amd64 -O /usr/bin/go-yq && \
+  wget https://github.com/mikefarah/yq/releases/download/v4.26.1/yq_linux_amd64 -O /usr/bin/go-yq && \
   chmod +x /usr/bin/go-yq && \
   wget https://raw.githubusercontent.com/truecharts/apps/master/Gemfile && \
   cd - && \
