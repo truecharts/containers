@@ -1,4 +1,4 @@
-FROM vallezw/sheetable:v0.8@sha256:8e725e6222c9b5fcdcb69091bcb747fb66960904bb9a1e5ecbae6c3d18b86b6b
+FROM vallezw/sheetable:v0.8@sha256:b5fb5a92cf045d4b354169e89bc4dab33cc4a92492f31a12c5349ebef450a0b1
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
