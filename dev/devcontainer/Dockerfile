@@ -40,6 +40,8 @@ RUN \
     gnupg2 \
   && \
   cd /tmp && \
+  wget https://github.com/mikefarah/yq/releases/download/4.26.1/yq_linux_amd64 -O /usr/bin/go-yq && \
+  chmod +x /usr/bin/go-yq && \
   wget https://raw.githubusercontent.com/truecharts/apps/master/Gemfile && \
   cd - && \
   sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b /usr/local/bin \
@@ -128,7 +130,7 @@ RUN \
     /var/lib/apt/lists/* \
     /var/tmp/ \
     /tmp/precommit
-	
+
 RUN \
   apt-get update \
   && \
@@ -153,7 +155,7 @@ RUN \
     /tmp/* \
     /var/lib/apt/lists/* \
     /var/tmp/
-	
+
 RUN curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 
 LABEL "maintainer"="TrueCharts <info@truecharts.org>"
