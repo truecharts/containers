@@ -131,7 +131,7 @@ RUN \
     /var/tmp/ \
     /tmp/precommit
 
-# hadolint ignore=DL4001,3008,3013
+# hadolint ignore=DL4001,DL3008,DL3013
 RUN \
   apt-get update \
   && \
