@@ -88,7 +88,7 @@ RUN \
   git clone https://github.com/truecharts/catalog_validation.git && \
   cd - && \
   cd /tmp/catalog_validation && \
-  pip install -U . && \
+  pip install -U --no-cache-dir . && \
   cd - \
   && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
   && apt-get autoremove -y \
@@ -107,7 +107,7 @@ RUN \
   apt-get -y install --no-install-recommends \
     python3-pip \
   && \
-  pip3 install \
+  pip3 install --no-cache-dir \
     pre-commit \
     yamale \
     yamllint \
@@ -137,16 +137,16 @@ RUN \
   apt-get -y install --no-install-recommends \
     wget apt-transport-https gnupg lsb-release parallel \
   && \
-  wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add - \
+  wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | apt-key add - \
   && \
-  echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | sudo tee -a /etc/apt/sources.list.d/trivy.list \
+  echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | tee -a /etc/apt/sources.list.d/trivy.list \
   && \
   apt-get update \
   && \
   apt-get -y install --no-install-recommends \
     trivy \
   && \
-  pip install yq \
+  pip install --no-cache-dir yq \
   && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
   && apt-get autoremove -y \
   && apt-get clean \
