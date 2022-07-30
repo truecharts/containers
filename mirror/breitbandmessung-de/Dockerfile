@@ -1,4 +1,4 @@
-FROM shneezin/breitbandmessung-node:latest@sha256:424e7e6813e964423e08d1708c813b507ffd9ae74f917ba4ea5a396b72fe1202
+FROM shneezin/breitbandmessung-node:latest@sha256:e76976965d6c35034b46bf047bca835a3af50cffd25b662c5b93d1390d24d732
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
