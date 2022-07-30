@@ -1,4 +1,4 @@
-FROM shaneisrael/fireshare:v1.2.0@sha256:82042155dde4e14777fb78dfb484282772c7945b8f08a4af0b3fb55ca0b27d89
+FROM shaneisrael/fireshare:v1.2.0@sha256:088fcc832248b1d1e872779416532cb38246fb0d3c659e7ff497f47c7111de9b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
