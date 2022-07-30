@@ -131,6 +131,7 @@ RUN \
     /var/tmp/ \
     /tmp/precommit
 
+# hadolint ignore=DL4001
 RUN \
   apt-get update \
   && \
@@ -156,6 +157,7 @@ RUN \
     /var/lib/apt/lists/* \
     /var/tmp/
 
+# hadolint ignore=DL4001
 RUN curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 
 LABEL "maintainer"="TrueCharts <info@truecharts.org>"
