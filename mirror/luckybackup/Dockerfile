@@ -1,4 +1,4 @@
-FROM ich777/luckybackup:latest@sha256:ec4ac3e4aadd56c2d5618cd494782b70b579b019e094c78829a62f6d33461ff1
+FROM ich777/luckybackup:latest@sha256:6d5467a4738b277f9c7523226297d7ed6fb524924e9f44a59ece70a074e25d66
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
