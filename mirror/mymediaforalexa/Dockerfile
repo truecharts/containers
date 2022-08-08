@@ -1,4 +1,4 @@
-FROM bizmodeller/mymediaforalexa:1.3.147.994@sha256:ae64655224139fed9a343463966164603e6f1ca19808f8d424dbf57dbf22384e
+FROM bizmodeller/mymediaforalexa:1.3.147.994@sha256:815db51f18da75141e1a97fc6e0a5e02e535c58ed93ace44d0067399090c5692
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
