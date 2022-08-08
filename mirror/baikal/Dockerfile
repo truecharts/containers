@@ -1,4 +1,4 @@
-FROM ckulka/baikal:0.9.2-nginx@sha256:f35672eb383e825c6a01cd93c5c7f466d0bae9092cf5f1839ff5b2ec1e71fc65
+FROM ckulka/baikal:0.9.2-nginx@sha256:003602cf406d78aec360d69dfca9497e92eebac2619594785330bf5436270939
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
