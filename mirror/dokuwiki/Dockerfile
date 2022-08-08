@@ -1,4 +1,4 @@
-FROM bitnami/dokuwiki:20200729.0.0@sha256:9358bf52b16eb0a6b09aea18a41aa4b715fef7b846fa3228778d765819194490
+FROM bitnami/dokuwiki:20200729.0.0@sha256:561fd277b1bf0dacc3f8ba6ef77314bfc2b21c657026230cf4f513fcb38dc4f2
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
