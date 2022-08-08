@@ -11,7 +11,7 @@
   "prConcurrentLimit": 100,
   "pinDigests": true,
   "automerge": true,
-  "gitAuthor": "TrueCharts-Bot <bot@truecharts.org>",
+  "gitAuthor": "TrueCharts-Admin <bot@truecharts.org>",
   "packageRules": [
     // Setup datasources for github actions
     {
