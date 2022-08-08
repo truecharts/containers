@@ -1,4 +1,4 @@
-FROM ghcr.io/k8s-at-home/plex:v1.27.2.5929-a806c5905@sha256:df1768fa98033e6b09fb604e7050f7c80a13ed499d40a1d8f487ad3e8968197e
+FROM ghcr.io/k8s-at-home/plex:v1.28.0.5999-97678ded3@sha256:ef756c7d784bd9e10da43a3da395e26cc283674dcb5d991cef9104572b37646e
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 
