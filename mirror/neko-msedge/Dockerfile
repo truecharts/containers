@@ -1,4 +1,4 @@
-FROM ghcr.io/sytone/obsidian-remote:0.1.0@sha256:e3a6b78420d4e831bc7dea3598b5d61eb9b8a63e1596f5a86a1209e13cf32655
+FROM m1k1o/neko:microsoft-edge@sha256:481b6755b656b844faa693c20d5248d321c014931854e6eba0c915c98900f588
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
