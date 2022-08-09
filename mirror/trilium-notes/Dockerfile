@@ -1,4 +1,4 @@
-FROM ghcr.io/zadam/trilium:0.53.2@sha256:8bcc2fc50e46872ece3ab6fe044b1923b3b881387d1335d32b38bdb526ac1e4d
+FROM ghcr.io/zadam/trilium:0.54.2@sha256:38d5ce31fe0df8fbaa4c148a89ecc9857edf5b0a8dda5b0c8b2ec9001e5fa541
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
