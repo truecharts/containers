@@ -1,4 +1,4 @@
-FROM m1k1o/vivaldi:tor@sha256:2a02aefebd89d92ca8c86db5a9a3682ec2347545d778776891f56a6f28f50d8c
+FROM m1k1o/neko:tor-browser@sha256:74213d96a3a84ddc4c06f9dfb2d010ce4494a45925e37a6b0279e256fb77151e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
