@@ -1,4 +1,4 @@
-FROM simonjenny/fastcom-mqtt:latest@sha256:4334dfa353275e15483fead71a9c597a09dc1305641998347e4edcf4009fccad
+FROM simonjenny/fastcom-mqtt:latest@sha256:1687c72cc75372e8786a0e401d545c8b47588b7f33d99bf6af724f125453a234
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
