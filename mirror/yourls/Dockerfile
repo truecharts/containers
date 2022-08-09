@@ -1,4 +1,4 @@
-FROM yourls:latest@sha256:da8b74bad499502aef2ab1c2f9629ebdfba44775c3266a9e7df5c9f271248af8
+FROM yourls:latest@sha256:323d9353032a0882f44c589d55b96aa3efb754090af429bc24d91cef42725b23
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
