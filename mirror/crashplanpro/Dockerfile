@@ -1,4 +1,4 @@
-FROM jlesage/crashplan-pro:latest@sha256:72fd7f8a0c475b269aa16a15466fb6c2c32daeeabaf7cde556d1b4c1251ba9d2
+FROM jlesage/crashplan-pro:latest@sha256:97d1a29213a51aaa39f9ef045c05ea00e4ac5c9740a407c246ece2771bde80d7
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
