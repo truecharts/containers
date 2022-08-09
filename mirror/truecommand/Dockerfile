@@ -1,4 +1,4 @@
-FROM ixsystems/truecommand:2.1@sha256:5143f7a6c9c15a61c08deb9c073702a454b9f0db5edc0f8c35c2b8330d02754c
+FROM ixsystems/truecommand:2.2@sha256:197719cc315b22cd677c9c286fffe7a7d0f0eb9ea3d87b2269128d330f15fd91
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
