@@ -1,4 +1,4 @@
-FROM ghcr.io/analogj/scrutiny:v0.4.16-omnibus@sha256:0bac0a8f9f9e4c34d2557cc5cf9cfdb733cc80fc7b228fdab23e2c4f082ef764
+FROM ghcr.io/analogj/scrutiny:v0.5.0-omnibus@sha256:a1c46d2766db4999783cd81717ad2ea40a913d6f11f7039e60fbc7f4a7405a77
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
