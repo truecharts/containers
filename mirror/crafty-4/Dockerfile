@@ -1,4 +1,4 @@
-FROM registry.gitlab.com/crafty-controller/crafty-4:latest@sha256:410fc70bcccd5c15e99f4625fac1c638b3ecddab7f95351b27b9aa45ec52ff56
+FROM registry.gitlab.com/crafty-controller/crafty-4:latest@sha256:0603a285bab5bb66b43fcb2dce33f06eab67f35a5b9963441c06c590a1d40ff9
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
