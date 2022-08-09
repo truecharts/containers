@@ -1,4 +1,4 @@
-FROM homeassistant/home-assistant:2022.7.7@sha256:b90d6723311b96735082cb97cf6224d046e9d91455720a708505c1e0c77c87bc
+FROM homeassistant/home-assistant:2022.8.2@sha256:ca5e5ae1e9fd54e85430b010fcc858de5d3b7cc26e4de21b73bfbb10e72b7cc5
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
