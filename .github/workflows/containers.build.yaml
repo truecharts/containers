@@ -131,8 +131,8 @@ jobs:
           echo ::set-output name=cache_to::""
         else
           echo ::set-output name=push::true
-          echo ::set-output name=cache_from::"type=registry,ref=quay.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache"
-          echo ::set-output name=cache_to::"type=registry,ref=quay.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache,mode=max"
+          echo ::set-output name=cache_from::"type=registry,ref=ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache"
+          echo ::set-output name=cache_to::"type=registry,ref=ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache,mode=max"
         fi
         
     - name: Get Time
@@ -162,13 +162,13 @@ jobs:
         username: ${{ secrets.DH_USER }}
         password: ${{ secrets.DH_SECRET }}
 
-    # - name: Login to GHCR
-    #   uses: docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b # tag=v2
-    #   if: github.event_name != 'pull_request'
-    #   with:
-    #     registry: ghcr.io
-    #     username: ${{ secrets.GHCR_USERNAME }}
-    #     password: ${{ secrets.GHCR_TOKEN }}
+    - name: Login to GHCR
+      uses: docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b # tag=v2
+      if: github.event_name != 'pull_request'
+      with:
+        registry: ghcr.io
+        username: ${{ secrets.GHCR_USERNAME }}
+        password: ${{ secrets.GHCR_TOKEN }}
 
     - name: Docker meta
       id: meta
@@ -248,10 +248,10 @@ jobs:
           truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
           truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}
           truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}
-          # ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest
-          # ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
-          # ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:${{ steps.prep.outputs.version }}
-          # ghcr.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}
+          ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest
+          ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
+          ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:${{ steps.prep.outputs.version }}
+          ghcr.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}
 
 
     - name: Set quay to Public
