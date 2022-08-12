@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/blender:latest@sha256:a41908b98bef78a8b6f9f913072f61ae9cbce2cabd9a5bab6a1a7f03f837db14
+FROM lscr.io/linuxserver/blender:latest@sha256:d25bec10224fd388b2c7fd062e480840d0d8f63377d4a31681daf0205748367c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
