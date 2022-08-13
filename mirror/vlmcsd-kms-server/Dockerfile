@@ -1,4 +1,4 @@
-FROM mikolatero/vlmcsd:latest@sha256:bb6e321733e85227ce70e55bda73b52493f019bfc0dd0e1371065a763d0c35ba
+FROM mikolatero/vlmcsd:latest@sha256:217a03280410aa06bca7dd1b4e3e206317ba740a990d90683462fb21b17c9e7d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
