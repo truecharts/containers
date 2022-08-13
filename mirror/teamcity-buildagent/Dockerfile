@@ -1,4 +1,4 @@
-FROM jetbrains/teamcity-agent:latest@sha256:e448a2b7296769d89501bf0013b798d5d9c69a0eb9622ee1771ecb0a7a763c82
+FROM jetbrains/teamcity-agent:latest@sha256:b4953daa50f49fe665183ae51a71b05806fb715b1ce729d151a71c33d4e90581
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
