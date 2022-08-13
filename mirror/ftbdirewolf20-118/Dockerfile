@@ -1,4 +1,4 @@
-FROM goobaroo/ftbdirewolf20_118:latest@sha256:e46f05fb606097170f1348418e43b14b484e9840609650a3adee19c603b09013
+FROM goobaroo/ftbdirewolf20_118:latest@sha256:6a5a40c0a5d4b809f4428eafacce3c6a4d4acdf3528aec3446064048e64540fd
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
