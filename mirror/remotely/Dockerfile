@@ -1,4 +1,4 @@
-FROM translucency/remotely:latest@sha256:beb877997bcd5439bdca9a24f0b92590e1f6cb4fe8839201e7bd07f56a01bb9e
+FROM translucency/remotely:latest@sha256:fd97e275156fa63113030485bee73a126b4d4b21f03f9eb2eba1ac096cf76ae7
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
