@@ -1,4 +1,4 @@
-FROM niruix/sshwifty:latest@sha256:3c9153a73325df11a2e5a20088e46290b135186597e0a1770aa8f0386503ebb3
+FROM niruix/sshwifty:latest@sha256:9e0225502ac807a3d58dc8543a88c1908f8ce04a51c38873ee691fcdaf19c090
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
