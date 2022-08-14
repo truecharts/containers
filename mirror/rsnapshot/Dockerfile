@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/rsnapshot:1.4.3@sha256:757465407c1da0b47b5634fbdc75a2070b227374ae5efe0ba84fc48f8d19f4ac
+FROM ghcr.io/linuxserver/rsnapshot:1.4.3@sha256:b6d481c20465b174a7b020ed4bb6d0df30a99a41b6431365a1f2f18ae3215b27
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
