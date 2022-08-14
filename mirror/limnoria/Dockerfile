@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/limnoria:2022.6.23@sha256:108e747458b3c665beff21dc9053ecde8214c97eb96a3d9fa8a95244c64866bc
+FROM ghcr.io/linuxserver/limnoria:2022.8.7@sha256:561d38e831ae5fd325ca68945bd5268517d217b599f921159b6f5c5f0bdac990
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
