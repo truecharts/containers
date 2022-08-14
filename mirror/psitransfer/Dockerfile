@@ -1,4 +1,4 @@
-FROM psitrax/psitransfer:latest@sha256:a44123ecfd61a22a2971a62a1adce052fa815c38f6f2e470c9180955d68957cf
+FROM psitrax/psitransfer:latest@sha256:876b736e9cb521688e665236c7aa4158a1f3dcf1df998622054bd0e76dcf9875
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
