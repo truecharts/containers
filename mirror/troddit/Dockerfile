@@ -1,4 +1,4 @@
-FROM bsyed/troddit:latest@sha256:0ee30f94f0a6e81d1d0eca18adf44d136b3c554342c547999ec1907d4b47dc89
+FROM bsyed/troddit:latest@sha256:2e57d3acf68a89869f70b9f55fce12530d4d3cab5c7214d3b7031e106e669f0e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
