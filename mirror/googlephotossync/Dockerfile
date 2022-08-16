@@ -1,4 +1,4 @@
-FROM rix1337/docker-gphotos-sync:latest@sha256:903c5044bcbe8adc07bf40396b95ba00ed855a76e4ae3458c0eb009d8324a2c0
+FROM rix1337/docker-gphotos-sync:latest@sha256:30e0703726ce5d4f4f9299e7640e85c360e4c487d8aae90e823e4f27fa65a587
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
