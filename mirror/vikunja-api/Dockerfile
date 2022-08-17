@@ -1,4 +1,4 @@
-FROM vikunja/api:0.19.0@sha256:5d3e80fa4a12181b1f4c04ab6f6fdde502a0211d0cf6ad551cb6446976c0c5c7
+FROM vikunja/api:0.19.1@sha256:252f5db7bfbaaf125f0e45150efd8f40fd4922cc575cdf6274445f1fd7cffab6
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
