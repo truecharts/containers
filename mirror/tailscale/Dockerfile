@@ -1,6 +1,6 @@
 FROM docker.io/tailscale/tailscale:v1.29.125@sha256:a526fc08af788dde0d2ac2791fd3f12722575e106c9b0303378cc597f4577f97
-LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
+LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
