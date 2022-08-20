@@ -1,4 +1,4 @@
-FROM randomninjaatk/sonarr-sma:latest@sha256:a81fd700516db95be5d45b92e1fce2a652e91f442653bb9f57df3dba4de0707a
+FROM randomninjaatk/sonarr-sma:latest@sha256:1b0d267d4b0571021983cdd86535b88895046cbaeb70da3d4c137fc0cab84393
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
