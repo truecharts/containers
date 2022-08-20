@@ -1,4 +1,4 @@
-FROM eafxx/traktarr:latest@sha256:949f89e8df27b42abbd2bbfc7b7b9fd901836557f75c8e0b7af5985d65898da2
+FROM eafxx/traktarr:latest@sha256:043f740c67d198665f1a334f27bea1ad06381f9055c187b911c8bc5460a9098b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
