@@ -1,4 +1,4 @@
-FROM caroga/commentoplusplus:v1.8.7@sha256:900c6b87d6f37c484b9684e3927f5254a0f6f606672df9f23611913106d611c8
+FROM caroga/commentoplusplus:v1.8.7@sha256:61bcf2cd907c3f3121f15dad4a9464c2f664aab6372cafc61bc5ddd9223597f6
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
