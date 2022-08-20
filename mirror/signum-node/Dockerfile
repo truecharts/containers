@@ -1,4 +1,4 @@
-FROM signumnetwork/node:latest-h2@sha256:8e2098142ab3937120f58a72e547d8323424e57ab6e8b39467ce9f82d91fb46c
+FROM signumnetwork/node:latest-h2@sha256:ab12108eb94d78fcc98ee6b34b72eead7ac576bfe3a55cae6ac6dfb0a35d4ead
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
