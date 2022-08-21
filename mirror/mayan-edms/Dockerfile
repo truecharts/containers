@@ -1,4 +1,4 @@
-FROM mayanedms/mayanedms:latest@sha256:fe3c254b6bfc47c94c1007e1b4fe2ae302529f0c17c9cad41b001d6f2e447d24
+FROM mayanedms/mayanedms:latest@sha256:e8839ce27df60822c9af9af4d9eac5c6cdf137491043f06fd33a905bfafb833e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
