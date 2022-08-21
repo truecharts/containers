@@ -1,4 +1,4 @@
-FROM registry.gitlab.com/bockiii/deemix-docker:latest@sha256:beb3178688e97efa6c9415625764919e55cce091ce764bb067082e95fa8a8a8d
+FROM registry.gitlab.com/bockiii/deemix-docker:latest@sha256:0462f4be1e04866c3efc999aa0571ec98f3aced99793a9b586f1a36f2b97febe
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
