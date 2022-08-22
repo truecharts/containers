@@ -1,4 +1,4 @@
-FROM angelics/unraid-docker-ravencoin-wallet:latest@sha256:a05d0aa5d5042f0ed3d4d011ea5c0afb6e8d9c4ddfec53ae6a64edf0bf709c51
+FROM angelics/unraid-docker-ravencoin-wallet:latest@sha256:858f4edee3bb4c68ac202451f001033e466f7e3dcc5269c76e23bb655a99cc0d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
