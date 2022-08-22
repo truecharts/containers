@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/habridge:5.4.1@sha256:b4220a922801e78e973d2ee9e9ee253dd8a3450bc093bc1ad47ceade56a89043
+FROM ghcr.io/linuxserver/habridge:5.4.1@sha256:0a75cc516ddac321f9ba2d85404709bead7b7985e8c625ce05ca9c5a92bcbb9d
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
