@@ -1,4 +1,4 @@
-FROM housewrecker/gaps:v0.9.12@sha256:a8923a3ad191d7d7ac64575d00ddb94972b13f7a1a18d4f79712d12994959e7a
+FROM housewrecker/gaps:x64-v0.10.4@sha256:beef4e3dcb48b021ac4c409e27affbbaff4bf312ace632d69f50c1e5ae6c9de8
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
