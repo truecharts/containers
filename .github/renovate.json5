@@ -285,6 +285,12 @@
     },
     {
       "matchDatasources": ["docker"],
+      "versioning": "regex:^x64-v(?<major>\\d*)\\.(?<minor>\\d*)\\.(?<patch>\\d*)$",
+      "matchPackageNames": ["housewrecker/gaps"],
+      "automerge": true,
+    },    
+    {
+      "matchDatasources": ["docker"],
       "automerge": true,
       "matchUpdateTypes": ["major", "minor", "patch", "digest", "pin"],
     },
