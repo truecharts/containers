@@ -1,4 +1,4 @@
-FROM m1k1o/neko:google-chrome@sha256:9ef8e2519b816e4b33d38604fc39a13fa6f12a664b5c89bed80005d76b6600ba
+FROM m1k1o/neko:google-chrome@sha256:b70e0e740d9f5f99dea25a97709f5e1bf95c2b6f5901641e81a276bde3905214
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
