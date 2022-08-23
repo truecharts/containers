@@ -11,7 +11,7 @@ FROM jnorwood/helm-docs:v1.11.0@sha256:66c8f4164dec860fa5c1528239c4aa826a1248530
 FROM quay.io/git-chglog/git-chglog:0.15.1@sha256:471db4cefc1a4dc0d8ee996447d5ac860f9496c982bcd29e90b390aff4e78175 AS gcl
 
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.154.0/containers/ruby/.devcontainer/base.Dockerfile
-FROM mcr.microsoft.com/vscode/devcontainers/ruby:0-2@sha256:b39ce749ad73ed306859a2d9d8d49d42048726ef2d64c1e9c7da236d6f39354d
+FROM mcr.microsoft.com/vscode/devcontainers/ruby:0-2@sha256:4aee3c4eccce68dad0d726b822d1fca20eb524733af1d2abdafc87c9cf003621
 
 ARG HELM_VERSION="3.5.4"
 ARG CT_VERSION=3.3.1
