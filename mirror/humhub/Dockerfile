@@ -1,4 +1,4 @@
-FROM ghcr.io/siwatinc/humhub:latest@sha256:376cce80be9526ebe4cac91a4044947b413c5d0423f99ec41c959153a1f51287
+FROM ghcr.io/siwatinc/humhub:latest@sha256:c620356e2de5e9d200414c08b64c3995d6206a10032f4a0616f1af09d4d4764c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
