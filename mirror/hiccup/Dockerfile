@@ -1,4 +1,4 @@
-FROM bleckbeard/hiccup:latest@sha256:ab0d4dd43e02f6ff044453f55df9d72d1015690c9a58fdf4e55995f0240ac8e5
+FROM bleckbeard/hiccup:latest@sha256:5b555b329eef05a26e7c38b7564c0b9997cac0741dcb066edd34313a034ee09b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
