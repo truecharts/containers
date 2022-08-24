@@ -1,4 +1,4 @@
-FROM aeonlucid/impostor:nightly@sha256:38e8224e1f76d093328cd66cb2e1a293921cf3d43912b123413a4ef93d9c6693
+FROM aeonlucid/impostor:nightly@sha256:1bf3d2970522658393101c319445b3679bbfc781dba18d320e998c1723200345
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
