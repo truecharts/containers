@@ -1,4 +1,4 @@
-FROM kiwix/kiwix-serve:latest@sha256:9d0460c2032bbaaf4defc7fc9652a04c0c90b3204b14a1fb0885098ee05b8915
+FROM kiwix/kiwix-serve:latest@sha256:dcff052bf14d1efa605823a9cc4b3e756db43fc96e3cc84d6123eb7e9d7ba3ab
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
