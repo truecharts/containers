@@ -1,4 +1,4 @@
-FROM binhex/arch-rider:latest@sha256:2896d4833c68a29ace18a831862d8b23dea9b9d9001931a9ac1e296628b00027
+FROM binhex/arch-rider:latest@sha256:3986f3c2359f885cfd8be6b3f13e0cb5cd1473a6ec2a02228d272702dd6b5e5b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
