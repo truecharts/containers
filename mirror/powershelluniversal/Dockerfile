@@ -1,4 +1,4 @@
-FROM ironmansoftware/universal:latest@sha256:449cc6a3692630769369dfbce35fb245acb0dcb9c73fdf9b45b52c225c4c79f2
+FROM ironmansoftware/universal:latest@sha256:4a49bb91c5f9c9cff5b5b9936e7e6d74e1245c5baacbefa623c33797844eb76c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
