@@ -1,4 +1,4 @@
-FROM lancachenet/monolithic:latest@sha256:f233ed96ab6323a4463a26665b2faca38e8b5098b47227855be5328ab9a3cef4
+FROM lancachenet/monolithic:latest@sha256:c132c4957ccd3e3f3204825b0122a35f348e979966769198d2f8bdbbaeaca62f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
