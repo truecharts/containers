@@ -1,4 +1,4 @@
-FROM mauricenino/dashdot:4.3.10@sha256:93caa0032eeec397ee8c5275e2e9a145b9fa87bf2eb1fe1b5bb84d89e6f4360f
+FROM mauricenino/dashdot:4.4.0@sha256:01f00fa03de587e3ee9de2ec7b4e1b965e81f704f123cb2d4dd151bb58c6b2a2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
