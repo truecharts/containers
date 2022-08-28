@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/quassel-core:0.14.0@sha256:249919686d9f3fd344d910f3a8c63ab9fabd292629d856169aedb49c2b00167c
+FROM ghcr.io/linuxserver/quassel-core:0.14.0@sha256:64a92d2b2c49241e6f085af64fdf90c05f626c9a68b63395301a1ef9fe77f270
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
