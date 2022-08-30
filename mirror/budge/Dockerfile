@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/budge:0.0.9@sha256:e8e8a66118408788d4639b0eb162aa95eeedc4af8912c4101869fcb366ac6854
+FROM ghcr.io/linuxserver/budge:0.0.9@sha256:f1b315ca81171a1ff2bd2d25ec39b0f54b7180eba58e5219395a1d52aa623e85
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
