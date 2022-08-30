@@ -1,4 +1,4 @@
-FROM diamkil/notea:latest@sha256:9232583d723abd24286b0bb227fca361d6e3e42b34b37456199ca48e9514bd38
+FROM diamkil/notea:latest@sha256:e331f787662bafb3722845045ac1753a084bf16b71b43c820e84dc5af6fe2aa1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
