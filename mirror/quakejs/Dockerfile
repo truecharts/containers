@@ -1,4 +1,4 @@
-FROM treyyoder/quakejs:latest@sha256:68cdf52833ec5f272a3144d9f18249fdc31e85e6cad3b17e7116970448ad5eeb
+FROM treyyoder/quakejs:latest@sha256:2c1d55ab565082334341e6a58ac1e820f6c769c9e8fe7e86ea6149e64552f00d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
