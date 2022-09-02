@@ -1,4 +1,4 @@
-FROM cglatot/pasta:latest@sha256:392974779b6b9dd415d403ac8b7a8698d28a6654bdc5ce0d2bad6a58b0b618f5
+FROM cglatot/pasta:1.6.2@sha256:73d290b3195f6199fb316aebea22d3b0a537a78b100a3de344981efa09ffc3ea
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
