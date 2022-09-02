@@ -1,4 +1,4 @@
-FROM ghcr.io/authelia/authelia:4.36.5@sha256:7e626562acd654222c8ab9e8c58b244be14fe7cc4b89fe69105d52389cf0a807
+FROM ghcr.io/authelia/authelia:4.36.6@sha256:afff91e0f5f336471e4292fe5b848930739c199383d7496931e6b8b749435b74
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
