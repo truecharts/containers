@@ -1,4 +1,4 @@
-FROM ghcr.io/lloesche/valheim-server:latest@sha256:8d910b15e3ab645a31c85799338d3dc043cabe891a34b43cbd574a1453837205
+FROM ghcr.io/lloesche/valheim-server:latest@sha256:17ba123cddda6af6408e407d24c9e0150db82534feae9fea3720bfe7e3aeff5a
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
