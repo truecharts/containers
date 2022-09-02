@@ -291,6 +291,12 @@
     },    
     {
       "matchDatasources": ["docker"],
+      "versioning": "regex:^release-(?<major>\\d*)\\.(?<minor>\\d*)$",
+      "matchPackageNames": ["mattermost/mattermost-enterprise-edition"],
+      "automerge": true,
+    },    
+    {
+      "matchDatasources": ["docker"],
       "automerge": true,
       "matchUpdateTypes": ["major", "minor", "patch", "digest", "pin"],
     },
