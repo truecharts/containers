@@ -1,5 +1,6 @@
-FROM revenz/fileflows:latest@sha256:3c3858d23dd0c1327f90c79d9b533c2fab445ca68c73bb70ce846e17a0cdbeb3
+FROM ghcr.io/goauthentik/proxy:2022.8.2@sha256:9792b23abb0f48581c6e9594327ebf040f6ecd3237339d759d150e1e56c5ab0c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
+
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
