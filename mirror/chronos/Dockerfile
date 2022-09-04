@@ -1,4 +1,4 @@
-FROM simsemand/chronos:latest@sha256:18afd400591a3b77c4cb60c002d37d8771441097d594247565573ea2a9d11748
+FROM simsemand/chronos:0.2@sha256:b86be79bbb913689623e015e77ca15f9bcd90de7f6ff4ac80f22200aee936c1c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
