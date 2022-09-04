@@ -1,4 +1,4 @@
-FROM cr.hotio.dev/hotio/whisparr:nightly@sha256:bad15a748906a21943820d62b5d255abc63546df1da142fc2f15a09a0438393e
+FROM ghcr.io/onedr0p/whisparr-nightly:0.1.0.49@sha256:9a9478f4129a0c2de49dbdefb54dddc4f5cfd0d41039b236a70d871baa8ef5d2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
