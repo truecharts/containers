@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/guacd:1.4.0@sha256:9ec6220afe1f759b97a4355bcd049ee6aceabe5e470c341f5568ac3ee5af4f47
+FROM ghcr.io/linuxserver/guacd:1.4.0@sha256:1dfd59766c05b578d821cac7b8afabe8b6ca60ee5d3b215e4097041f563e4048
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
