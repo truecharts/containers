@@ -1,4 +1,4 @@
-FROM openkm/openkm-ce:6.3.11@sha256:491e59c779408bc82b1422c998b228632f7f30c2088b279e65625960b391a171
+FROM openkm/openkm-ce:6.3.11@sha256:3bc465a7461bbea948172c572e3ed38f0987b2278d6dbc3a5db8ce06c2bb630f
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
