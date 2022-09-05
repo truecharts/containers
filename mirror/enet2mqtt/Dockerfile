@@ -1,4 +1,4 @@
-FROM th0masdb14/enet2mqtt:latest@sha256:75b53d2af9704e2f9e2b40774a5651301a02592fd61474a6c339dc6b21d9896d
+FROM th0masdb14/enet2mqtt:latest@sha256:a54d217d52c9b6ef3cfe93683f9f9360f1c30449c85f153843933aa124fafb4e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
