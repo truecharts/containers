@@ -1,4 +1,4 @@
-FROM nginxinc/nginx-unprivileged:1.23.1@sha256:7f6ddd04878e1c4035235f1bd46587c56633ee5ea3628f613b6f434d23798078
+FROM nginxinc/nginx-unprivileged:1.23.1@sha256:e20ae7bfe92d316c713f28fe029d8dfe42420e9780d789c456cfced271848365
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
