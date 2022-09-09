@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/freshrss:1.19.2@sha256:c585bb756bcc416d0c9b61aa140641d9dc218475c691902503746fd6c17d06ff
+FROM ghcr.io/linuxserver/freshrss:1.19.2@sha256:1e0dc74cc89db3abf7ae4c891809996a53b46beb7e4025fcc2438f3a262703a3
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
