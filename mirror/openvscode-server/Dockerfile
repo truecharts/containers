@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/openvscode-server:1.71.0@sha256:a92eb45f8123fdea15a787b54521637c47062958fca6a41689febd070e94afbe
+FROM ghcr.io/linuxserver/openvscode-server:1.71.0@sha256:b1fa058733ac4f5a84a68e649cbfdfabb6f3e8b8423f6f961bc5e5ceb4a02f12
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
