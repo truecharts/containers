@@ -15,6 +15,7 @@ RUN set -ex; \
         libheif1 \
         procps \
         smbclient \
+        exiftool \
     ; \
     savedAptMark="$(apt-mark showmanual)"; \
     \
