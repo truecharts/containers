@@ -1,4 +1,4 @@
-FROM unraides/facturascripts:latest@sha256:cfbdbc109ce879b3ed9c13abd8f2e6a03e314a8e92666a58a65dd06e452ecf4b
+FROM unraides/facturascripts:latest@sha256:2be572f1eb26d8b3e9c67728cee6bc4e1b3456dd3d7a8e6fe7b8801a169bb361
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
