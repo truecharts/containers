@@ -1,4 +1,4 @@
-FROM webpsh/webps:latest@sha256:c46d0c1c28da95a88269d69b18d9f302070a2611bdff47a56371b2123148a8f1
+FROM webpsh/webps:latest@sha256:2fe95ba06fe60cd493749c09e4e34f11125c7c89c74bc4064ea4e354d0047917
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
