@@ -1,4 +1,4 @@
-FROM bobokun/qbit_manage:latest@sha256:eb7aa361c6f75edc05cd59312556ff0eab8e73606c34ef0a111aa3f6d5031fa6
+FROM ghcr.io/mozart409/blocky-frontend:v0.0.1@sha256:f2089a37af24f022c6a4da1b1244522138a8f412b4523a4934e04481a2819746
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

@@ -1,4 +1,4 @@
-FROM p3terx/aria2-pro:latest@sha256:2589527dfef6351d459f3a6781e4efef41d694878765b107413a6eb4bb6bbca7
+FROM p3terx/aria2-pro:latest@sha256:086d1a37c586edb07ec0fb956bf9edd89d1d38d138ad5309ff96d510c8c9a011
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

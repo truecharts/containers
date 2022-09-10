@@ -1,4 +1,4 @@
-FROM ghcr.io/k8s-at-home/prowlarr-develop:v0.4.4.1947@sha256:cad7c7dfc204bc3fb5280082e9e589a1d93a96af03d3b7fe2910bab658ea000d
+FROM ghcr.io/k8s-at-home/prowlarr-develop:v0.4.5.1960@sha256:ce1f087de12c5687a1147f0029892045b83c04ca6160d9fdf605456deea107a5
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

@@ -1,4 +1,4 @@
-FROM bitnami/redis:7.0.4@sha256:90893adaf47a608c7ae810627b3d849581dca3b0fdf8e4139a090067191873db
+FROM bitnami/redis:7.0.4@sha256:7c5f3199486192408bc9a4f2ca6babedeba8483b4cd19cd5cbf9f1a78c1ca525
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

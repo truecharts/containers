@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/heimdall:version-v2.4.13@sha256:5b2549ec9382539779abbdfd5c308a0b7457d8c838cad5549b5d1c12723c9bc0
+FROM ghcr.io/linuxserver/heimdall:version-v2.4.13@sha256:550e844865454bf9dac45baa0fa21433b9349a69d3ee5bb0d26c2ae6f171f023
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

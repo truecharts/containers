@@ -1,4 +1,4 @@
-FROM goobaroo/plexiglassmountain:latest@sha256:dd789da017bb6b7c6dca5657fe62c2fc9f9575e2589ee85868b5ab672ade0b64
+FROM goobaroo/plexiglassmountain:latest@sha256:90bdc9e99100d341fde90de9d3ef2c83315a87fd651f6c419574d4f8732ac07a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
