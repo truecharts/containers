@@ -1,4 +1,4 @@
-FROM cadquery/cadquery-server:latest@sha256:bd81fc2e395d5209fc0d474ac31874109c11275d23df119f78ce0bb063f250a3
+FROM cadquery/cadquery-server:latest@sha256:fd49d6bd76119b161e37707a2750b1b5c96be3887186239846799eba49bda6af
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
