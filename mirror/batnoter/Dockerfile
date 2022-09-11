@@ -1,5 +1,5 @@
-FROM pomerium/pomerium:v0.19.1@sha256:89b877ce26a091ce37ad9929e9d2fb298ec2ef7f38a6f7fd647cb1058ea68a8a
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
+FROM ghcr.io/batnoter/batnoter/batnoter-ui:latest@sha256:46c7a873dded429703ebbdde2ddbc9956e771b7f47cf68d5998394236501b7db
+LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"

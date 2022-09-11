@@ -135,6 +135,12 @@
     },
     {
       "matchDatasources": ["docker"],
+      "versioning": "regex:^RELEASE\\.(?<major>\\d+)-(?<minor>\\d+)-(?<patch>\\d+)T\\d+-\\d+-\\d+Z$",
+      "matchPackageNames": ["minio/mc"],
+      "automerge": true,
+    },
+    {
+      "matchDatasources": ["docker"],
       "versioning": "regex:^apache-(?<major>\\d+)\\.(?<minor>\\d+)\\.?(?<patch>\\d*)-prod$",
       "matchPackageNames": ["kimai/kimai2"],
       "automerge": true,
@@ -294,13 +300,13 @@
       "versioning": "regex:^(?<major>\\d*)\\.(?<minor>\\d*)\\.(?<patch>\\d*)-\\d*$",
       "matchPackageNames": ["sameersbn/apt-cacher-ng"],
       "automerge": true,
-    },    
+    },
     {
       "matchDatasources": ["docker"],
       "versioning": "regex:^release-(?<major>\\d*)\\.(?<minor>\\d*)$",
       "matchPackageNames": ["mattermost/mattermost-enterprise-edition"],
       "automerge": true,
-    },    
+    },
     {
       "matchDatasources": ["docker"],
       "automerge": true,

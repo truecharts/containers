@@ -1,5 +1,5 @@
-FROM pomerium/pomerium:v0.19.1@sha256:89b877ce26a091ce37ad9929e9d2fb298ec2ef7f38a6f7fd647cb1058ea68a8a
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
+FROM calendso/calendso:latest@sha256:76c2866d2e1f6036161e81e6aeec32ac194b2cd0e165abcfc8b504f014526f34
+LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
