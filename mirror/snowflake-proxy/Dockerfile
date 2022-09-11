@@ -1,4 +1,4 @@
-FROM pomerium/pomerium:v0.19.1@sha256:89b877ce26a091ce37ad9929e9d2fb298ec2ef7f38a6f7fd647cb1058ea68a8a
+FROM thetorproject/snowflake-proxy:v2.3.0@sha256:595fc12702e08f0ce0a623fa5e42c20e4389fb6ec8b24f83211e031a049638c8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

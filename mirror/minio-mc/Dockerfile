@@ -1,4 +1,4 @@
-FROM pomerium/pomerium:v0.19.1@sha256:89b877ce26a091ce37ad9929e9d2fb298ec2ef7f38a6f7fd647cb1058ea68a8a
+FROM minio/mc:RELEASE.2022-08-28T20-08-11Z@sha256:bdbce7bfab3367e4f0e1bbd9fa2e4230c968ddd5a8eb76901ca3e7439cc112ce
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

@@ -1,5 +1,5 @@
-FROM pomerium/pomerium:v0.19.1@sha256:89b877ce26a091ce37ad9929e9d2fb298ec2ef7f38a6f7fd647cb1058ea68a8a
-LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
+FROM koillection/koillection:1.3.12@sha256:7a04fbef62b9620e69775b712b3ffc57cb5cbcd473e70212212677755fcdf5bf
+LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
