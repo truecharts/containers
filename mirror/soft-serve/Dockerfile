@@ -1,4 +1,4 @@
-FROM charmcli/soft-serve:v0.4.0@sha256:31133e61a365356afa9641f2f08047a7234eb1b3cda4139f4715bd12e9f2dc12
+FROM charmcli/soft-serve:v0.4.0@sha256:39523c1a6ba815e08dcb16ddbde6eaf05097057f33fbecf41469547345b67f3a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
