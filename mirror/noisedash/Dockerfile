@@ -1,4 +1,4 @@
-FROM noisedash/noisedash:v0.6.2@sha256:cd5e1d134a00e69f7346388b1d440839cd90228a89c6c3d5e204e5345f924ea7
+FROM noisedash/noisedash:v0.6.2@sha256:1396cb2a9df51a82c7ef5544c144a2c25f9e10488bd5d3e7467a370e52111033
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
