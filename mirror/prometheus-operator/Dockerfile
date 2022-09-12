@@ -1,4 +1,4 @@
-FROM bitnami/prometheus-operator:0.59.0@sha256:d27e1443348b52285e2ed744d1c9ff857549856c14789781036ccc8ef1954dc6
+FROM bitnami/prometheus-operator:0.59.0@sha256:7162833860bbc12f5b70540138d0836134c92a9c397552f328d1ecc4ad947ac5
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
