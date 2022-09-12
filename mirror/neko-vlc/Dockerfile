@@ -1,4 +1,4 @@
-FROM m1k1o/neko:vlc@sha256:458c37542c1f2ac82eff365f69afd78c7c5f4fc743b8f6341d291d275f891b94
+FROM m1k1o/neko:vlc@sha256:3f8bd4c34e974c20fca4b4398a3cb5ffc0163ee91581e231e301bae6bc424210
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
