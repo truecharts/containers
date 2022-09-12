@@ -1,4 +1,4 @@
-FROM ghcr.io/flaresolverr/flaresolverr:v2.2.6@sha256:d9d59566747a46f629971c40b15082a0a02f81d44b629405027598bc2b495f20
+FROM ghcr.io/flaresolverr/flaresolverr:v2.2.7@sha256:001ecbb13c3c1434a31ee3644469a0d14ff4039b6ceb5b8fd74f3a0631af56a2
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
