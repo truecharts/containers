@@ -1,4 +1,4 @@
-FROM mbentley/omada-controller:5.5@sha256:d9a68eeadff288a718ccea513bb80d4910f7a2bccbf5ebee879761002841c9f9
+FROM mbentley/omada-controller:5.5@sha256:6635d1f1f20440672e95cda6ad8d2e0c0f0ab40a931d0e2a937d6436e5819837
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
