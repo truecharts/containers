@@ -1,4 +1,4 @@
-FROM draganczukp/simply-shorten:latest@sha256:2714a530f8531852ef14eef0113005650fb4f68b8681f78ce17c6947e7915073
+FROM draganczukp/simply-shorten:1.1@sha256:97b2726a0a443d6d41dfb0988dcb377b1b3960d32b3fd917fd74806e03ac145f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
