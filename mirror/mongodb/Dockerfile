@@ -1,4 +1,4 @@
-FROM bitnami/mongodb:6.0.1@sha256:fff7a624123f22c5ad3a27e4b39837b69e4580f3993a71a11ddd5f89cfc7f073
+FROM bitnami/mongodb:6.0.1@sha256:769687133d65901f2d45f24c5a347d2f9a513dfdead9ba46b2da90386c08be8b
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
