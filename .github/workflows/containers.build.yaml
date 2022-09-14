@@ -112,7 +112,7 @@ jobs:
           VERSION="${VERSION#*v-}"
           VERSION="${VERSION#*v}"
           VERSION="${VERSION%-*}"
-          if (echo "$VERSION" | grep -Eq "^\d*\.\d*$"); then
+          if (echo "$VERSION" | grep -Pq "^\d*\.\d*$"); then
             VERSION="${VERSION}.0"
           fi;
         else
