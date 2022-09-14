@@ -112,6 +112,9 @@ jobs:
           VERSION="${VERSION#*v-}"
           VERSION="${VERSION#*v}"
           VERSION="${VERSION%-*}"
+          if (echo "$VERSION" | grep -Eq "^\d*\.\d*$"); then
+            VERSION="${VERSION}.0"
+          fi;
         else
           CATEGORY="base"
           VERSION=$(cat ./${CATEGORY}/${{ matrix.container }}/VERSION)
@@ -134,7 +137,7 @@ jobs:
           echo ::set-output name=cache_from::"type=registry,ref=ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache"
           echo ::set-output name=cache_to::"type=registry,ref=ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache,mode=max"
         fi
-        
+
     - name: Get Time
       id: time
       uses: nanzm/get-time-action@5fb6a88787f272aeb246a10ebb8fabeb5f3c7b9c # tag=v1.1
@@ -265,7 +268,7 @@ jobs:
     steps:
       - name: complete message
         run: echo "Container Build and Tests Completed Successfully"
-        
+
   automerge:
     needs: [container-build-complete]
     if: github.event_name == 'pull_request'
