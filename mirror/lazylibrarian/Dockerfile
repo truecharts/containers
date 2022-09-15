@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/lazylibrarian:latest@sha256:41c50933319108ffd9c25459d2692876cd7927ba09578a7631ec090834ecca66
+FROM ghcr.io/linuxserver/lazylibrarian:latest@sha256:b36e9aff2f399a067c92962b07a7b21a5c33fd5e0a5afccf8575e66aa221f455
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
