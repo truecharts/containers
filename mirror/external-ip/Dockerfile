@@ -1,4 +1,4 @@
-FROM xavierh/external-ip:latest@sha256:48086b74b686868a5e7143bc01dbd42c482dff6602426cfac968b07e6880c8ee
+FROM xavierh/external-ip:latest@sha256:22e48e773111d092052285d285d63061c376511bea68f5c01524b84faf09a13d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
