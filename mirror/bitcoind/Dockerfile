@@ -1,4 +1,4 @@
-FROM ofawx/bitcoind:latest@sha256:856deb0d75dc47aa540bc369237280397ef87f279c3609cd2824ce94fe7f5bd1
+FROM ofawx/bitcoind:latest@sha256:9d78e02c888087d2c3a5f38a160d8c5b91e86a355d3d2cd3bad308e7ec989641
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
