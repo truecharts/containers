@@ -105,6 +105,8 @@ jobs:
           VERSION=$(echo $VERSION | sed "s/ubuntu-//g")
           VERSION=$(echo $VERSION | sed "s/focal-//g")
           VERSION=$(echo $VERSION | sed "s/fpm-//g")
+          VERSION=$(echo $VERSION | sed "s/vaapi-//g")
+          VERSION=$(echo $VERSION | sed "s/cuda-//g")
           VERSION=$(echo $VERSION | sed "s/-centos7//g")
           VERSION=$(echo $VERSION | sed "s/java[0-9]*-//g")
           VERSION="${VERSION#*V.}"
