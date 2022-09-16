@@ -15,9 +15,8 @@ for group in apps dev mirror base; do
 
     data='{"name":"truecharts/'${PLAIN}'","backendUrl":"https://ghcr.io/truecharts/'${PLAIN}'","longDescription":"","shortDescription":"example description","website":"https://truecharts.org","libraryType":"docker","publicUrl":"https://tccr.io/truecharts/'${PLAIN}'"}'
     url="https://scarf.sh/api/v1/packages"
-    
+
     curl --header "$ajson" --header "$credentials" --data "$data" --header "$CT" "$url"
 
     done
   done
-  

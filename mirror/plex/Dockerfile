@@ -24,7 +24,7 @@ RUN \
   && chown -R kah:kah "${PLEX_MEDIA_SERVER_HOME}" \
   && chmod -R u=rwX,go=rX "${PLEX_MEDIA_SERVER_HOME}" \
   && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc
-  
+
   USER kah
 
 ARG CONTAINER_NAME
