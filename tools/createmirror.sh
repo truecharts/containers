@@ -8,7 +8,7 @@ for container in ${CONTAINERS}; do
   if [ -d "mirror/${container}" ]; then
     echo "Repository already exists"
   else
-    basename=${container##*/} 
+    basename=${container##*/}
     echo "processing ${basename}..."
 	mkdir -p mirror/${basename}
     cp -Rf tools/template/* mirror/${basename}
@@ -19,7 +19,7 @@ done
 
 for container in ${CONTAINERS}; do
   if [ -d "mirror/${container}" ]; then
-    basename=${container##*/} 
+    basename=${container##*/}
     echo "${basename}..."
   fi
 done
