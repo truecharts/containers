@@ -63,6 +63,12 @@
     },
     {
       "matchDatasources": ["docker"],
+      "versioning": "regex:^(?<major>\\d+)-(?<minor>\\d+)-(?<patch>\\d+)$",
+      "matchPackagePatterns": ["^jupyter\/.+$"],
+      "automerge": true,
+    },
+    {
+      "matchDatasources": ["docker"],
       "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-postgres-tomcat$",
       "matchPackageNames": ["xwiki"],
       "automerge": true,
