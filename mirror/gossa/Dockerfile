@@ -1,4 +1,4 @@
-FROM pldubouilh/gossa:latest@sha256:28b1d2c9e3dc8f3a2ce116dba2f11379bfb26f6427afd35ec975581da9bb8f5f
+FROM pldubouilh/gossa:latest@sha256:37b8ffef1c256cd489f3445d3dae1b52dcf1bf71f7a47ed796df311b76de2174
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
