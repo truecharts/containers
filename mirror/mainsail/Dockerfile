@@ -1,4 +1,4 @@
-FROM ghcr.io/mainsail-crew/mainsail:latest@sha256:741e775b04d0f2f8f545c4ac8df98cdb41c560b84251ce68bda44d5b8fc4d48a
+FROM ghcr.io/mainsail-crew/mainsail:latest@sha256:60e5a8f63d0f0d2a4600117f1a4c758b8e5ee70ad2737d9c996dc723bf378aed
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
