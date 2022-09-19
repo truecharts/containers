@@ -1,4 +1,4 @@
-FROM ghcr.io/k8s-at-home/nzbhydra2:v4.6.1@sha256:c66d9f180bf3388a02447aa89c3bf25222b0721525cdb64ca787c77b164e4137
+FROM ghcr.io/k8s-at-home/nzbhydra2:v4.7.1@sha256:99c79db5688d9331f199081846e2f89ac221bd88882a951a65f8d43fc7d84aae
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
