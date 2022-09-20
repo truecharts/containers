@@ -1,4 +1,4 @@
-FROM convos/convos:stable@sha256:945807feaf42017c64c91b582c6b0c4def32cd8a269ab99b470defbbaba82356
+FROM convos/convos:stable@sha256:e0547fc130d2a019fd746ac0d70a8f789d2ede33ad4c5ef1a38fca14d8812266
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
