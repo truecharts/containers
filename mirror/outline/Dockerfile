@@ -1,4 +1,4 @@
-FROM outlinewiki/outline:0.66.0@sha256:633dfb05cd89d0bc217840e9f849850d64fd8b8e70fec532a673235e6de96f5d
+FROM outlinewiki/outline:0.66.1@sha256:7993f8683be7c8b1f04ade6573130967eb4ab86ddba0f95c3896e58a75cd4ad5
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
