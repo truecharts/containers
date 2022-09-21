@@ -1,4 +1,4 @@
-FROM goobaroo/pixelmon:latest@sha256:47c7af6a3261f09c7b434d6ac32f30b6989d69b72dd9351e3527470e8545e06d
+FROM goobaroo/pixelmon:latest@sha256:4f6329c3acdb9043883c27c56b20f366da648edd188d2f6975698ce9a5228a83
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
