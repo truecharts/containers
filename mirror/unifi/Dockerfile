@@ -1,4 +1,4 @@
-FROM jacobalberty/unifi:v7.2.92@sha256:e7f0eedbd4825a77c2552fe6b9de6ff70f40893e8ccb1ce265a5832d2e60e168
+FROM jacobalberty/unifi:v7.2.94@sha256:5bd5103aba0db2d41d8fc814068ae2b8d33622bf3253c22e085e50131685d7b7
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
