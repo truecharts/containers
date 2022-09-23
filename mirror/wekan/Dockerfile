@@ -1,4 +1,4 @@
-FROM wekanteam/wekan:v6.49@sha256:060aef00c85de40d3fecfdc982bb7e18e9f314a4b0068c24633c319cdd96cdd0
+FROM wekanteam/wekan:v6.50@sha256:fd641b098e773517b927008d3013ed944c38c38949559f21b24fbcf1c303f787
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
