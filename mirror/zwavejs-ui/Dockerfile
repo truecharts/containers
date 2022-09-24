@@ -1,4 +1,5 @@
-FROM lmscommunity/logitechmediaserver:8.3.0@sha256:9abde055bcf737bee6e1a6a0da9f89e4cb156672df80dde00f47448407a0ed29
+FROM zwavejs/zwave-js-ui:8.0.0@sha256:3648f3ce48bd2135a1d067ed8c1b2663a040f2bbcc72be66a16799f2a3381d16
+
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
