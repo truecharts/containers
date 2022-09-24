@@ -1,4 +1,4 @@
-FROM apendergast/crypto-exchanges-gateway:latest@sha256:ae7f8621ef71e9e6e9da867278f4e4ea529ad5c5065cdac678bc273a8d3affcc
+FROM apendergast/crypto-exchanges-gateway:latest@sha256:d6a73dbba4bae61a4bc10397cf13e824e7bd487b069e37a692adfb8543edb50a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
