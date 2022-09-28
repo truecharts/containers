@@ -1,4 +1,4 @@
-FROM romancin/rclonebrowser:latest@sha256:dec02b9ed886c271755cc9ed043d2cb6e1f7efc7ee8da63b973e0f90fa134d31
+FROM romancin/rclonebrowser:latest@sha256:f44514754f2a81a8a3cca8d135adc54149a65ff156efc514be2a96164aebecf8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
