@@ -1,4 +1,4 @@
-FROM picthorio/picthor-io:latest@sha256:f6a09bf8694f982c5053890229566dbf4e7eddf2f81745decfd135b9581aff03
+FROM picthorio/picthor-io:latest@sha256:eb357e159e0a755ea69ab69223cc013a8ef48f7624226115e93c5cedef57ec36
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
