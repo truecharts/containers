@@ -1,4 +1,4 @@
-FROM xavierh/goaccess-for-nginxproxymanager:latest@sha256:2025a8b04c58db8dd981ef5d91b9d92068f5aa0c5b5a185ccab779f915a30c6f
+FROM xavierh/goaccess-for-nginxproxymanager:latest@sha256:3e209bb271042c04a7e1ee0b8a1ab64eefafecc70cd61323f803205c1137e940
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
