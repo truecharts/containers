@@ -1,4 +1,4 @@
-FROM mrbrax/twitchautomator:master@sha256:bd32e529b803e91f7aabd6c1b8a41b031912894666aa68acb93d6fb04af250e3
+FROM mrbrax/twitchautomator:master@sha256:93f55e3f9cb536b03ac71a124cb77de63967249c9dfcfb0c1c8d641b6bd25340
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
