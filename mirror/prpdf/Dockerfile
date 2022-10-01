@@ -1,4 +1,4 @@
-FROM knex666/prpdf:latest@sha256:ade69871515721af68dd49083589b94ef07cba2dd5fcc5298d39ce13d2e38396
+FROM knex666/prpdf:latest@sha256:4e7846d8076af6a5a2d0a75122a3fb271b30f160ae44f1959ca0e211c459ed39
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
