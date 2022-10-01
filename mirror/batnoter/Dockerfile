@@ -1,4 +1,4 @@
-FROM ghcr.io/batnoter/batnoter/batnoter-ui:latest@sha256:46c7a873dded429703ebbdde2ddbc9956e771b7f47cf68d5998394236501b7db
+FROM ghcr.io/batnoter/batnoter/batnoter-ui:latest@sha256:9916463b41965035cc695b27bc8f3bf0fdc5923f5046d8fbd857d206b2d120a4
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
