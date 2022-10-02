@@ -1,4 +1,4 @@
-FROM danielszabo99/microbin:1.1.1@sha256:e47bedc82917362c6a2d7d4eacf073c85256a9a83c910056671924cf57e41f7b
+FROM danielszabo99/microbin:1.1.1@sha256:450495a7f918c710291453b3c9f21fe31d7f0dfee76433bc09025ee59dcc6513
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
