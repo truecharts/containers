@@ -1,4 +1,4 @@
-FROM kimai/kimai2:apache-1.25.0-prod@sha256:63c3def3ae4fafc2eb009c3a5ed2bb0074f7924e85f0c6365c8e41cf70454ebc
+FROM kimai/kimai2:apache-1.26.0-prod@sha256:ef28e5aef42918d3073ad55f58aaeacb702b91aa43c4962420d61d40b5843312
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
