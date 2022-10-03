@@ -1,4 +1,4 @@
-FROM zusam/zusam:0.5.2@sha256:b3c47b27c73e213d291449e35b7a30d48179b293f4817c592816257fe406eaf5
+FROM zusam/zusam:0.5.3@sha256:74d4c6e0071d4e57fa2287cbfb2196fd2880e06bced24dd200c74b2cbd386a3b
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
