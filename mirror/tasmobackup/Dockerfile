@@ -1,4 +1,4 @@
-FROM danmed/tasmobackupv1:latest@sha256:9ed4e7952ec726a59bd57511ed86e01e9d9533ee86d8269724464b9043351c22
+FROM danmed/tasmobackupv1:latest@sha256:a36d8aae8809f4e81257fecf76424a07ce390a276466f8aaed325802ff020c9c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
