@@ -1,4 +1,4 @@
-FROM tiredofit/self-service-password:5.3.1@sha256:97df2b65a5053c4b8f4ad87d50dfdfee2157ff2a666a8f7837e3e614040c6a9b
+FROM tiredofit/self-service-password:5.3.1@sha256:ffc320814cd6c24f262b04695511ad8e390e771efd17c67a2115a9b6c85d2d6f
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
