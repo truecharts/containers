@@ -1,4 +1,4 @@
-FROM ghcr.io/mattwebbio/orbital-sync:1.2.1@sha256:fd2acbcf0996d97af303fb81a35c9f8e9080a835f2162f9de6dbd6ca1e31de2f
+FROM ghcr.io/mattwebbio/orbital-sync:1.3.0@sha256:1e5459c593f2c620082cc311518bbed5483887df4897462a6ea0ffa547e39ea5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
