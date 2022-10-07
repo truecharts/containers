@@ -1,4 +1,4 @@
-FROM traefik:v2.9.1@sha256:cafeb4e06b3af1f48d071b835c782b7ea10e546df28777b1cc7e693230906689
+FROM traefik:v2.9.1@sha256:ceb685f2b446b0d7e92c347df942b0ccbea313096106562d27ed0ad082909760
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
