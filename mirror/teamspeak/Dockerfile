@@ -1,4 +1,4 @@
-FROM teamspeak:3.13.7@sha256:1688ccb401433eec6f80b1700f9c009478080007e8e8ceea7f05a7b448e55024
+FROM teamspeak:3.13.7@sha256:43ae19ea49a5af4870beb62f249d9dfa64a9a4e5d66a6bf421b7986cbd03d142
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
