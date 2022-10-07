@@ -1,4 +1,4 @@
-FROM tracksapp/tracks:latest@sha256:7652a3766e71a57a4c254ab5aba1972f74c913660fb3da179ef3633387864d22
+FROM tracksapp/tracks:latest@sha256:4461c35bc6f8c7336ae91343c652b04718ecef88df5dea0eb0187096480624a8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
