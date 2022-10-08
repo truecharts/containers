@@ -1,4 +1,4 @@
-FROM binhex/arch-intellij:latest@sha256:a656b4ec30d85f5b6f35c3ca0caaf3e8eaa16f938e7e1ebabf3200fc461633d4
+FROM binhex/arch-intellij:latest@sha256:103046695d8f25a100f9192c28a1ccbcd750c3352a16ee3a97d635a63cf11476
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
