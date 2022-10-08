@@ -1,4 +1,4 @@
-FROM accetto/ubuntu-vnc-xfce-firefox-g3:latest@sha256:eebe605331bda589a01874763b2adc9dc595efcbe98a152035d22b77680221c3
+FROM accetto/ubuntu-vnc-xfce-firefox-g3:latest@sha256:a2bd60b0ad1a542884d7a307bd09e24c95018e6599d3dc8d54528326c93d8fc8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
