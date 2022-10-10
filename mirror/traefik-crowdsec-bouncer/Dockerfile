@@ -1,4 +1,4 @@
-FROM fbonalair/traefik-crowdsec-bouncer:0.4.0@sha256:9612ccfc031dc95a09161e304e51e90779b191504d843e67c0692b769b4f254f
+FROM fbonalair/traefik-crowdsec-bouncer:0.5.0@sha256:e3e8f33923d2871069de08dd2931a9eb6c6760f76d6b9e3229d3b9c84211dd94
 
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
