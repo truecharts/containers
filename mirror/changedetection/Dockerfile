@@ -1,4 +1,4 @@
-FROM ghcr.io/dgtlmoon/changedetection.io:0.39.19.1@sha256:ab5e5d6731b07204cfbe7bef5d553979cccdd30cc6ee9f63c373b3a6a892b81a
+FROM ghcr.io/dgtlmoon/changedetection.io:0.39.20.1@sha256:dafd50ecdec2be0793ccc41067e3970c67d204710efef5f8805d9e8a0854de9e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
