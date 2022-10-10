@@ -1,4 +1,4 @@
-FROM ivaxor/shinobi:latest@sha256:486aca58eb839cb3e2d06c280fc0a55170e0994351b6f0a531e6272b8515e8d8
+FROM ivaxor/shinobi:latest@sha256:df1afcb37177d9a843957dd692f26f8500f55187c6626d0ecb1fdf084c66c077
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
