@@ -1,4 +1,4 @@
-FROM livebook/livebook:latest@sha256:2665dcb219d6244d11c6423ad676f596fe96fb5a508fa2ad3c4af3ea0ba53236
+FROM livebook/livebook:latest@sha256:f8a0222e0e88ba849639430ddc757836093b4fdbf1906f9287d25c7b3487e642
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
