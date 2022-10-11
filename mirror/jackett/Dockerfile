@@ -1,4 +1,4 @@
-FROM ghcr.io/onedr0p/jackett:0.20.2095@sha256:2b4191665ba0d225bd4ef5a88f747c2d63a1825cfc325fd2b24282c0a2841b56
+FROM ghcr.io/onedr0p/jackett:0.20.2097@sha256:77cabec557a1c464b8f27b4ebc9c51fc89ece401b33b5e950d3ac75c46297982
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
