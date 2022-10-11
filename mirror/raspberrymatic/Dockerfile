@@ -1,4 +1,4 @@
-FROM ghcr.io/jens-maus/raspberrymatic:latest@sha256:7290fa91f3a58401394e081212d62596ad4af8bc0598ced239ac44df31950a40
+FROM ghcr.io/jens-maus/raspberrymatic:la3.65.11.20221005test@sha256:7290fa91f3a58401394e081212d62596ad4af8bc0598ced239ac44df31950a40
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
