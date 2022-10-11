@@ -1,4 +1,4 @@
-FROM jsavargas/telethon_downloader:latest@sha256:bd625819f51dc915b403c0d2b79d3691324900c2211ed7ebf99f8359db8b7638
+FROM jsavargas/telethon_downloader:latest@sha256:a324ac73b7df74ed21a2532269f7c6382cc9fab960eccee2937278cf226233b1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
