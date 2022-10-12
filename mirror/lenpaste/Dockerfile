@@ -1,4 +1,4 @@
-FROM git.lcomrade.su/root/lenpaste:1.1.1@sha256:07706582d3431bbf3b404c2e68a65f542b7941b00e5b61f414134b6d8e6517cd
+FROM git.lcomrade.su/root/lenpaste:1.1.1@sha256:4ff3aaf27d6c21a157b2220f778fb91efc66e7b3222a9f7de88ad5a2e426704f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
