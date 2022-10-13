@@ -1,4 +1,4 @@
-FROM aronjanosch/retrobot:1.0.0@sha256:fbb2eb0dd1cc3003c8155ea90a78495eae88ccd45c0cf373551be9dc76a368ee
+FROM rossimo/retrobot:latest@sha256:d77bf5b41d89b46294db6c7cf29a39c3ed4e6503f176057809b5c2719a78831c
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
