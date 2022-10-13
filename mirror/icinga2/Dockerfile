@@ -1,4 +1,4 @@
-FROM jordan/icinga2:2.13.5@sha256:dd71c918968b19b9606c8322ed98166f671ff79a77aacd5af9ecd23ef21ca27c
+FROM jordan/icinga2:2.13.5@sha256:dce713e2c205672fef97fede6c28a240a0290c7cd973471b9895c07fc5939d51
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
