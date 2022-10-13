@@ -1,4 +1,4 @@
-FROM altran1502/immich-web:v1.29.5_44-dev@sha256:3f679aa0e363327cf5af7d696fb91f501e31bda6021bf0c19c0066d5849a6ef8
+FROM altran1502/immich-web:v1.31.1_49-dev@sha256:6c7bd8236d6dc6cb0d8e34fdd771db0cc38542ab9ef1587f8fa240a25a0e8c2a
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
