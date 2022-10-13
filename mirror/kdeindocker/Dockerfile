@@ -1,4 +1,4 @@
-FROM msjpq/firefox-vnc:latest@sha256:88f053550b41ebe52a11ebe00f1a7a8236465ce584ac75ef39169a45dc2e3ab6
+FROM msjpq/firefox-vnc:latest@sha256:b457b069e61ebb1b6eabfe1f294bb76a6322513cfdf348a0720debf2f172a3a5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
