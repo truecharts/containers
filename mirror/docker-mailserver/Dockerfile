@@ -1,4 +1,4 @@
-FROM mailserver/docker-mailserver:latest@sha256:8fb886dbfd44516e4a1344aa8772634785a5fdc83e7c94a700747f03ea9bf047
+FROM mailserver/docker-mailserver:latest@sha256:c9a60db3e76817cd930b551257405c769bfd5241615ea4d49ac74b156c41455f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
