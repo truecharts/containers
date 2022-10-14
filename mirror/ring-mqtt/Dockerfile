@@ -1,4 +1,4 @@
-FROM tsightler/ring-mqtt:5.0.4@sha256:c5f20636e188cd72e98b7c846327f43f4fb5aa6f7f9b15ab686024e76ade10d3
+FROM tsightler/ring-mqtt:5.0.5@sha256:7e2839ca92fff91af6d2eb59f85725850280524f4bade9eb3f6835019580dda7
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
