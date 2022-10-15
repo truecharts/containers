@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/emulatorjs:1.7.2@sha256:0b6b25876741f31caa8a410e5b6ade4dbb7e87a39022fc0a3ea1aabb034bf674
+FROM ghcr.io/linuxserver/emulatorjs:1.7.2@sha256:f2085292f4d702008f771f62e514c6fda8814b8961e5d07c5deb691e57681d16
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
