@@ -1,4 +1,4 @@
-FROM promasu/cryptpad:latest@sha256:6e6064e116ed287ea188832741ddba0c2f048fb2cc10d08bdb191355dfbc3324
+FROM promasu/cryptpad:latest@sha256:52f5d27898a3e9861e8dce0d827ea84c4fd1467a354cc863f791823477326795
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
