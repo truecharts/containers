@@ -1,4 +1,4 @@
-FROM bitnami/mariadb:10.9.3@sha256:e10d22f3f3348335a21da21bea92c6471be708c34e9ab244d1444740b06e2f5a
+FROM bitnami/mariadb:10.9.3@sha256:391b12b52a76c498cd54ce7c707cc63a681469b967a75f14a89c0ce1d8f0c60c
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
