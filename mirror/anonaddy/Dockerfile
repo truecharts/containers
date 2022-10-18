@@ -1,4 +1,4 @@
-FROM anonaddy/anonaddy:0.13.7@sha256:bd73f65473ae6d739cfee2cae93b3790eba5a038afe6be94d1dd68981b432c71
+FROM anonaddy/anonaddy:0.13.9@sha256:134a17c1b06e2b8db8741bb197fc2b00bcf99d3a2b2bc214b7e6a96dd1c5e133
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
