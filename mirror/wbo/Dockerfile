@@ -1,4 +1,4 @@
-FROM lovasoa/wbo:v1.19.0@sha256:6f84db95250bb19f4f4f2966cdc68656539bb24ad3a5ceaea4a84013738c7c1e
+FROM lovasoa/wbo:v1.19.1@sha256:fa70c14ba4c27c4413018c1b1537e67953d283a76d896eeae178ddb0e074b0e8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
