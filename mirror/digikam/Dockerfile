@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/digikam:7.8.0@sha256:1b52225fcce2cd42aecba75a49dbe0307bfef86e3891027d3851a248fa8bb4a9
+FROM ghcr.io/linuxserver/digikam:7.8.0@sha256:6fc0d7de2836b75f40d37270a315a5dde71ba3f9dbe1d64fd4e274febbe45938
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
