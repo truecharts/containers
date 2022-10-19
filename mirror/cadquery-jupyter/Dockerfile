@@ -1,4 +1,4 @@
-FROM bwalter42/jupyter_cadquery:3.3.0@sha256:e883bc3ff479104fe35147cbb0828b042f1ab94b348d2c331414ea2671f3b6cf
+FROM bwalter42/jupyter_cadquery:3.4.0@sha256:3fbd950d7f6af9c20c994206e649dabe149628732a57fe694d7253ab1da643c9
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
