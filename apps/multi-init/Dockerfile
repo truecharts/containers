@@ -21,6 +21,12 @@ RUN \
     mariadb-client \
     nfs4-acl-tools \
     wget \
+    ca-certificates \
+    curl \
+  && \
+  sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg \
+  && \
+  echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
   && \
   wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | apt-key add - \
   && \
@@ -34,6 +40,7 @@ RUN \
   && \
   apt-get -qq install -y \
     mongodb-org \
+    kubectl \
   && apt-get remove -y \
     jq \
   && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
