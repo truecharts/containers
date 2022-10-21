@@ -1,4 +1,4 @@
-FROM patrickstigler/obs-ndi:latest@sha256:c52172bc4f80422a648b2aaf2b804e1447901c11e25db32b49492e7213dfd03a
+FROM patrickstigler/obs-ndi:latest@sha256:7c29a93481563b4d91f0a90b996317f798a0b31c66a5c78f0fc48debcbe9c481
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
