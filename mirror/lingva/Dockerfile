@@ -1,4 +1,4 @@
-FROM thedaviddelta/lingva-translate:latest@sha256:b3ba9dd9e2e072eea5ee094022b0c159b897259179de17d13448492f32cde793
+FROM thedaviddelta/lingva-translate:latest@sha256:7c9837562e49923ccadfe0e2a017fa3419a1d2878efdd33b2ef754316b6d0ae7
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
