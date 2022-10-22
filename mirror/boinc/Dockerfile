@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/boinc:latest@sha256:ae8d7ab3226af1d334633519b31134618296dc4c0b547b69f9bcd6b2a4f0ef1f
+FROM ghcr.io/linuxserver/boinc:latest@sha256:9d9297a7753547076f20415e29ea755334bd92c6ffb1d772f5492d301497c8a7
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
