@@ -1,4 +1,4 @@
-FROM ghcr.io/borgbase/vorta-docker:latest@sha256:8848ea2c1e84df7cfa4fd1f9c65284d2c143f313fd8b9a9b1b67bdf209ebe07e
+FROM ghcr.io/borgbase/vorta-docker:latest@sha256:7348224d6a9f5a16c71b254dd05856d43b631776efd311349c7bca8fcc25c303
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
