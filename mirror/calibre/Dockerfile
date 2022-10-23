@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/calibre:6.7.1@sha256:6a8ce2b1f2b9c347a3fdeeefd1086c1390e94c0ee2b33c847bda517643ff0621
+FROM ghcr.io/linuxserver/calibre:6.7.1@sha256:de6e0ff088a371405dfc7fa1da6937fd8d8ca258ef27823e5897019faf098ec7
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
