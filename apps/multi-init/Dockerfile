@@ -44,7 +44,6 @@ RUN \
     kubectl \
   && mkdir /tmp/acls \
   && cd /tmp/acls \
-  && cd /tmp
   && git clone https://github.com/truenas/nfs4xdr-acl-tools.git \
   && cd nfs4xdr-acl-tools \
   && ./configure \
