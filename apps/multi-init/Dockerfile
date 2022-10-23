@@ -23,6 +23,7 @@ RUN \
     wget \
     ca-certificates \
     curl \
+    git \
   && \
   curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg \
   && \
@@ -41,6 +42,14 @@ RUN \
   apt-get -qq install -y \
     mongodb-org \
     kubectl \
+  && mkdir /tmp/acls \
+  && cd /tmp/acls \
+  && cd /tmp
+  && git clone https://github.com/truenas/nfs4xdr-acl-tools.git \
+  && cd nfs4xdr-acl-tools \
+  && ./configure \
+  && make \
+  && make install \
   && apt-get remove -y \
     jq \
   && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
