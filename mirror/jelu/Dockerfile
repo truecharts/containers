@@ -1,4 +1,4 @@
-FROM wabayang/jelu:latest@sha256:c154f2b4b58720b15d4eb7be3e5cae257e52f6dd4811d0b9113e76a0b0342def
+FROM wabayang/jelu:latest@sha256:d9839845805556e76892781b94e258c4ada1e03b42ba4df07e92ca8360ebfbe6
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
