@@ -1,4 +1,4 @@
-FROM ich777/openrct2server:latest@sha256:f8fde667d024604bef1c556df0f46165c24667f8f1ee901aa9a27940058400a2
+FROM ich777/openrct2server:latest@sha256:b96193143139cb326d5eb36a7b6b677c3ad91f896b080af25f54d23830cf0383
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
