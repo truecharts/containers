@@ -1,4 +1,4 @@
-FROM ich777/lunamultiplayer-ksp:latest@sha256:f4434cf786de1f50bed3dbdccbd570e51240a143b8c77cf8f2f80ac31c02348d
+FROM ich777/lunamultiplayer-ksp:latest@sha256:726a80d5bba66d29ef8f2711f89c4be8d681e8a9856dbb8feb3fa704d7980719
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
