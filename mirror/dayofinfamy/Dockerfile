@@ -1,4 +1,4 @@
-FROM ich777/steamcmd:dayofinfamy@sha256:9de64f140c7b3b963257505b85103728191396e4f0365293616c3d78783363b8
+FROM ich777/steamcmd:dayofinfamy@sha256:bbcc5539b17aa45da3eec6dee8998e21954eb96bf529cb2ba2d04e1d5245e121
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
