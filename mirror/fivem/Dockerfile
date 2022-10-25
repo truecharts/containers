@@ -1,4 +1,4 @@
-FROM ich777/fivemserver:latest@sha256:ce352c392a3e5e0177a04a8ac79427ccc8bc7748849377c5e941e1d747d66600
+FROM ich777/fivemserver:latest@sha256:eb0c61fcd5dc439cfd1596dbc7d36a8daac3aa024fe556e436a7c0bbf4e3a9ff
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
