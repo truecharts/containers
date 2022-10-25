@@ -1,4 +1,4 @@
-FROM ich777/docker-openmw-tes3mp:latest@sha256:ecc5713960daa3df5b71cdfa687a821bdedc0aafd12b2d66e3b58c1387bb9566
+FROM ich777/docker-openmw-tes3mp:latest@sha256:752dc2c8a7e8205d30cb61016390e4e9d31e37a88d031af267ff12bfb80aa49b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
