@@ -1,4 +1,4 @@
-FROM ich777/magic-mirror2:latest@sha256:430755cf11a2bfac71430cab9ee915d8542c3083429ee0bdff3340fd11f21d09
+FROM ich777/magic-mirror2:latest@sha256:d4bbdf8eeb25ef1f347a5c868374d3a304f65cb1b808a0386c18f19463bf683a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
