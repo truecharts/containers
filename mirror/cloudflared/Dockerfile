@@ -1,4 +1,4 @@
-FROM cloudflare/cloudflared:2022.10.2@sha256:4210e334525a1e833d69d928f1ce6e738f0e456181dea8a6ab7fba697a29a2b5
+FROM cloudflare/cloudflared:2022.10.3@sha256:c1319cb9605b5bd57bdbaaa22f63de27b84d2c1f7c7aba7af3cd8a9c10b84a5c
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
