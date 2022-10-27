@@ -30,6 +30,7 @@ RUN \
   && \
   wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | apt-key add - \
   && \
+  # Using Focal repo, as jammy does not have yet
   echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/6.0 multiverse" | tee /etc/apt/sources.list.d/mongodb-org-6.0.list \
   && \
   case "${TARGETPLATFORM}" in \
@@ -39,7 +40,7 @@ RUN \
   apt-get -qq update \
   && \
   apt-get -qq install -y \
-    mongodb-org \
+    mongodb-mongosh \
     kubectl \
   && apt-get remove -y \
     jq \
