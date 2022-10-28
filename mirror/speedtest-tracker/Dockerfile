@@ -1,4 +1,4 @@
-FROM henrywhitaker3/speedtest-tracker:latest@sha256:47159a9402291275bd9f8a8ed4f5c1ce8502de216465ed29da8a3c995b807df1
+FROM ghcr.io/alexjustesen/speedtest-tracker:latest@sha256:55f004bef37efc918cfa06fc4669c1fe1acbc084cb770914b1af57c55a6ea1c2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
