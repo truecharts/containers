@@ -1,4 +1,4 @@
-FROM masonxx/mediaelch:latest@sha256:083449983dc30b9e50e8dd192b11d75003d7becad1671c8ccd460a93cd658118
+FROM masonxx/mediaelch:latest@sha256:b46a348a84fede0097ab5081ad004eb7bb740046ef61019222287bc7b6f1bd51
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
