@@ -1,4 +1,4 @@
-FROM sourcegraph/server:4.1.1@sha256:2802db4ce88582b561a1604f19d60a5bfe55fa719f443288061e9c8b4190cb89
+FROM sourcegraph/server:4.1.2@sha256:d37860f5bacf6f66c6560e61932d0a86087aaac15ed19db91357fa8c08532120
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
