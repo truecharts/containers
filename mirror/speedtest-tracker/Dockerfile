@@ -1,5 +1,6 @@
 FROM ghcr.io/alexjustesen/speedtest-tracker:latest@sha256:55f004bef37efc918cfa06fc4669c1fe1acbc084cb770914b1af57c55a6ea1c2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
+
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
