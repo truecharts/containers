@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/smokeping:2.7.3@sha256:87dba20fbc8448eeb4902a3904e90777368c30ad50246cce62989329b1e89ff0
+FROM ghcr.io/linuxserver/smokeping:2.7.3@sha256:fcbdb734c63e1b4583529bf1da04daed76fcd73a47fb16b88cc5286b833686e4
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
