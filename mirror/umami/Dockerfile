@@ -1,4 +1,4 @@
-FROM ghcr.io/umami-software/umami:postgresql-v1.39.3@sha256:aea66c4d8ed39deb23abbf3b01472d171779c3d4d290256720ca7d47635c495b
+FROM ghcr.io/umami-software/umami:postgresql-v1.39.4@sha256:5d5cba5ea526136e650ad2beda1d09446d66c7e8c1b6536400f7dfb984474b30
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
