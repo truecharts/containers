@@ -1,4 +1,4 @@
-FROM lancachenet/lancache-dns:latest@sha256:3f09b38d3e43e9610f73fd36468bc532b707d26d55cb3654bb7937831741dd75
+FROM lancachenet/lancache-dns:latest@sha256:f86780c6790429ab114f028da4379cd2f14fdc542c52df602220da169a293877
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
