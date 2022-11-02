@@ -1,4 +1,4 @@
-FROM mber5/virt-manager:latest@sha256:666fe468071643844e4487551d55ebcf241efbe3e8bc10c05c55f057373f5f80
+FROM mber5/virt-manager:latest@sha256:8edd0484bb44cef2978930eb473fc67871493205fe5c3a1f6fb6f756f782e968
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
