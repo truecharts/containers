@@ -1,4 +1,4 @@
-FROM binhex/arch-get-iplayer:latest@sha256:28c5606a49c538fc19e11b7ee8eb8fb2852c63ac714b811eb7e4bd07b8ec8bfe
+FROM binhex/arch-get-iplayer:latest@sha256:ef34dd851ffe5e8060c4b689741a388f78cd8782dc730701c516480500dc2532
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
