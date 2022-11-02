@@ -1,4 +1,4 @@
-FROM wiznote/wizserver:latest@sha256:a728a44d84d4edd0ca55a333b5f819aea3c795024b51070f30fc52435f3238dd
+FROM wiznote/wizserver:latest@sha256:5f261ac7c6e577b6b314a38e6ae7c40197f9d5e88729b82a538093eeae53d3ac
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
