@@ -1,4 +1,4 @@
-FROM edgd1er/webnut:latest@sha256:60d4b656a66d0dc4ffa07bfba52740910d56710bbc9723ceb91923483f03c70a
+FROM edgd1er/webnut:latest@sha256:70a59e10662957325f220ea392433f1d81fec26f1649b39b77319270f20ccb89
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
