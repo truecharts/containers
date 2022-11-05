@@ -1,4 +1,4 @@
-FROM ich777/xonotic:latest@sha256:63a9486a8e8bab4807563953adffc63e53f85dbc7ee6e089af381c134345d00a
+FROM ich777/xonotic:latest@sha256:c7ff30586c74955bf3260f3c56b8dd6d2c33adcd782a755ea3d4a4c4d429e9ba
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

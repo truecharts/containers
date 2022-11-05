@@ -1,4 +1,4 @@
-FROM ich777/steamcmd:insurgencysandstorm@sha256:ec59556c6e69cd29c653450bfde17a8c95b7f7e7da9691ad621e0abe42535463
+FROM ich777/steamcmd:insurgencysandstorm@sha256:11a6980d669679e923780b4e06a544ade26c65c71d4f17851f9e4ee91d376345
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

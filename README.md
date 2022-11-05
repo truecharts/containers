@@ -3,12 +3,17 @@
 Images are hosted on Github Container Registry [here](https://github.com/orgs/truecharts/packages?ecosystem=container&visibility=public).
 
 
-### Mirror
+## Mirror
 
-We host a dedicated mirror repostiory, these containers are mostly copies from official trusted sources.
+We host a dedicated mirror repostiory, these containers are directly fetched from official and/or trusted sources.
 
-## Purpose
+### Purpose
 
-This is to get around Docker Hub rate-limiting (100 pulls / 6 hours, or authenticated 200 pulls / 6 hours). It is considered a stop-gap until the maintainers of the applications below support a different Container Registry.
+We host our own mirror for a multitude of reasons, which includes:
 
-We also sometimes need to apply small patches and additions for our users: For example, adding nano and extra-packages to Nextcloud
+- Getting around Docker Hub rate-limiting
+- Preventing upstream maintainers removing tags from breaking our Apps
+- Generating usage metrics
+- Applying patches
+- Improving code uniformity
+- Allowing multi-registry failover

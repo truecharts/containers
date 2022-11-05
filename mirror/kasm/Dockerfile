@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/kasm:latest@sha256:78b09ce71e13e153478a2b54b7663821f8538bc20257db7335ccd3827ce3d9f4
+FROM kasmweb/workspaces:1.11.0@sha256:9514a7f52cddac109a0bac806acfdcb820ca4589fd163cd818502c6cac71e53f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

@@ -1,4 +1,4 @@
-FROM ich777/rapidphotodownloader:latest@sha256:35b44379ec948a195542211cb5f094eb64cc75999e32412d300f6424fb95f1a5
+FROM ich777/rapidphotodownloader:latest@sha256:415cb615339bfd8b3c893108024717e4c942a83cec09d9693b127a3047b4e586
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

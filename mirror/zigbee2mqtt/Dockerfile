@@ -1,4 +1,4 @@
-FROM koenkk/zigbee2mqtt:1.28.0@sha256:317b3ca49f1bd521ba2de913645b033d194eb27aac811c8f55c46a1130c2fa42
+FROM koenkk/zigbee2mqtt:1.28.2@sha256:4444a3ccf68442901717382cbca9cf0817b1225e36a0929dcbc46fc33f387a4d
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

@@ -1,4 +1,4 @@
-FROM ich777/planetaryannihilationserver:latest@sha256:ade6ba0153614e7b1e35ec4383f4e8f324087f73675c8329c375f9a980f2b8db
+FROM ich777/planetaryannihilationserver:latest@sha256:4a602fec323c1ecb3b5191ecc0939308bfbc0a9b0102b87e9f65624f4efebac0
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

@@ -1,4 +1,4 @@
-FROM ich777/krusader:latest@sha256:17c120498f88e85a5954303d11df044ff5637b6c76f1ecf658d9fcdd1a418132
+FROM ich777/krusader:latest@sha256:f521c938506b9387b8657e3a97b6d65d1fc90b1caab9d3b43a45ed08b722c0f3
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

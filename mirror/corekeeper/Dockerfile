@@ -1,4 +1,4 @@
-FROM ich777/steamcmd:corekeeper@sha256:7cc87bc43b113a9b36d0e67f9d391e66a2829f2ed0892257f5945f379d88f048
+FROM ich777/steamcmd:corekeeper@sha256:afdf87c7961d51ea1ea9550ba4c74fb874bb3b46d051bce6f4d4ae1689e60e10
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

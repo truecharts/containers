@@ -1,4 +1,4 @@
-FROM gristlabs/grist:1.0.3@sha256:766e3cd47c68ca3bc1c16a14b4c193720f57c86ffc9ddff4eebf11cfb3e98759
+FROM gristlabs/grist:1.0.4@sha256:45465b6ec8ad0b99c0bcb01c60fda664110af5a2ddaeb53baadc1753ae95cdec
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

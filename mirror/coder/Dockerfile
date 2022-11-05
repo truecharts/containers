@@ -1,4 +1,4 @@
-FROM ghcr.io/coder/coder:v0.10.2@sha256:d32104a4ee33a9aacf2369995108d720ecbf6c2c39d31065ab09066bf06c1da1
+FROM ghcr.io/coder/coder:v0.12.2@sha256:fe9e70e2806001dc29707832fda06a3d85f237c898661666a1ebcf4007b5af58
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

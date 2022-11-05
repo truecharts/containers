@@ -1,4 +1,4 @@
-FROM ich777/openttdserver:latest@sha256:269c4bb32e31266f04b276756d156f1c789f9cbb3398ae51a2403c1c21391adf
+FROM ich777/openttdserver:latest@sha256:bdb323747581eeed7d65b9e4f81ba4712b3057c5a43195fae64b4914d47914e5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

@@ -1,4 +1,4 @@
-FROM prologic/todo:latest@sha256:e91a3c16ece6f947867825be614d55352c5ea0da4d1511bec11ad01ad28fcb8b
+FROM prologic/todo:latest@sha256:734626487a0b1ed5d0d2ed0daf36369a8fe61c108247517814f988566916003e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

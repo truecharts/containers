@@ -1,4 +1,4 @@
-FROM rocker/rstudio:latest@sha256:4930ae8d1ed3a662a06ace26db1362f3ecd851daf6c360c5141edb2a83a7a8d1
+FROM rocker/rstudio:latest@sha256:d0da273d992df6610bfad93095d1be9c3faed40f29138f36f80b6e44ec59ea56
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

@@ -1,4 +1,4 @@
-FROM ptrfrll/nv-docker-trex:latest@sha256:ed794a9287ba46383d9468da569e874bb8ef4bac8e043a19ae52a608fefe7b89
+FROM ptrfrll/nv-docker-trex:latest@sha256:93f9f478d1b1ed7ff17db39b1be968b171d823c983dc7de24bffa5a4e4f2a9dd
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
