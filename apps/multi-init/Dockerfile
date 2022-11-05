@@ -1,5 +1,5 @@
 # hadolint ignore=DL3007
-FROM ghcr.io/truecharts/ubuntu:latest@sha256:f01c8a1a596b0df3e46ee697450e010650d07478f808081287dcf002b1eae096
+FROM ghcr.io/truecharts/ubuntu:latest@sha256:34cce1658a7aa514044f5f3b234c8515b752cae85028cf54c0455f5c190bd42b
 
 ARG TARGETPLATFORM
 ARG VERSION
@@ -13,16 +13,9 @@ RUN \
   apt-get -qq update \
   && \
   apt-get -qq install -y \
-    libicu66 \
-    jq \
-    gnupg \
     redis-server \
     postgresql-client \
     mariadb-client \
-    nfs4-acl-tools \
-    wget \
-    ca-certificates \
-    curl \
   && \
   curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg \
   && \
