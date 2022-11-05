@@ -13,10 +13,6 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN \
   apt-get -qq update \
   && \
-  apt-get -qq install -y \
-    libicu66 \
-    jq \
-  && \
   case "${TARGETPLATFORM}" in \
     'linux/amd64') export ARCH='linux-x64' ;; \
   esac \
