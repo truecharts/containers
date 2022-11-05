@@ -105,7 +105,7 @@ RUN \
         /tmp/* \
         /var/lib/apt/lists/* \
         /var/cache/apt/* \
-        /var/tmp/*
+        /var/tmp/* \
     && chmod -R u=rwX,go=rX /app \
     && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc \
     && update-ca-certificates
