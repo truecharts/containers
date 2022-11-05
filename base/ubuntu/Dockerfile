@@ -90,7 +90,7 @@ VOLUME ["/config"]
 
 COPY ./base/ubuntu/entrypoint.sh /entrypoint.sh
 COPY ./base/ubuntu/shim /shim
-COPY ./base/ubuntu/nfx4xdr/* /usr/bin/
+COPY ./base/ubuntu/nfs4xdr/* /usr/bin/
 
 USER apps
 
