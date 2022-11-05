@@ -13,7 +13,6 @@ RUN \
   apt-get -qq update \
   && \
   apt-get -qq install -y \
-    libicu66 \
     redis-server \
     postgresql-client \
     mariadb-client \
