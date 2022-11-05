@@ -14,15 +14,10 @@ RUN \
   && \
   apt-get -qq install -y \
     libicu66 \
-    jq \
-    gnupg \
+	gnupg \
     redis-server \
     postgresql-client \
     mariadb-client \
-    nfs4-acl-tools \
-    wget \
-    ca-certificates \
-    curl \
   && \
   curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg \
   && \
