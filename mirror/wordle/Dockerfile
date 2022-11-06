@@ -1,4 +1,4 @@
-FROM modem7/wordle:latest@sha256:14d7acb93948f4ed1401cf7cbfdfbaac2dae8b68a5a60e33bfed01cbf9c74a39
+FROM modem7/wordle:latest@sha256:400a8cde4c2628053579a97cc278d139edd0d3134f6c6d2adbb014813139114c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
