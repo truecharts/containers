@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/booksonic-air:2201.1.0@sha256:dc99296fbaa48c23eb5a1431c8fcbead27663901e35829e35d58b73fee0ea96e
+FROM ghcr.io/linuxserver/booksonic-air:2201.1.0@sha256:a6be968a6091269e582593ee74faca8bc1bf7b49e4339ee39b991001662065e5
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
