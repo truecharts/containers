@@ -1,4 +1,4 @@
-FROM comixed/comixed:latest@sha256:6215cec89a2cb9a1fb748964fc0b51f28880eea3c31faa353d3c933e9d6cac3a
+FROM comixed/comixed:latest@sha256:4208c6181bd05ef4205cf7b809e78f2ecc4d4929564b46600721d80cd6a8289d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
