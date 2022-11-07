@@ -1,4 +1,4 @@
-FROM knex666/shortipy:latest@sha256:4696e35e09807a4b556a2da455d34cd74d4be5d6a3ba256bcfb808da444d1d6d
+FROM knex666/shortipy:latest@sha256:945befc1c5672d1c822bfa21edc73c0db8ccdb53b740473161258fe7acbb4dcb
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
