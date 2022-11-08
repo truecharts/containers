@@ -1,4 +1,4 @@
-FROM vectorim/element-web:latest@sha256:3dc87bd4f1794579983397ead94a7db2af56b404172c23bbf21d508e4327c03e
+FROM vectorim/element-web:latest@sha256:1f57886df4322002a91230bb1a86d0e382dceb021cb3856b790e52968016cdc1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
