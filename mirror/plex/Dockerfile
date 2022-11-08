@@ -1,4 +1,4 @@
-FROM ghcr.io/onedr0p/plex:1.29.1.6316-f4cdfea9c@sha256:2882168ac9316dd2490a58b82d7dec3f644140546ad1c64b5a35b50afc68193e
+FROM ghcr.io/onedr0p/plex:1.29.2.6364-6d72b0cf6@sha256:90929ad73d68e00e4cb587ca16bd204d40a4fd32a3546c75b58639d3d7d6079f
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 
