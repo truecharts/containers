@@ -1,4 +1,4 @@
-FROM shokoanime/server:daily@sha256:f3a1985b282897e33d2c0831c917789f504134d901dc3dd5bf9bcec48c55896c
+FROM shokoanime/server:daily@sha256:aa3fb991084768731f9833ae98e37fa2a74365823fc02bcc18953d8fe26729a2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
