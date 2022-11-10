@@ -1,4 +1,4 @@
-FROM b4bz/homer:v22.10.2@sha256:0d3afae0f2ef38a0df8470955c2a96c352e33d52d06802149b03cf9bd602956a
+FROM b4bz/homer:v22.11.1@sha256:678ac390d7c97f00dc72ef796f25b091dd684c1b472ae2ab3de17b757042256d
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
