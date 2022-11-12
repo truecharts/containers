@@ -1,4 +1,4 @@
-FROM itzg/rcon:latest@sha256:b0695a5f592a141383a0475e4d22ca2ed859539bac1367519954ef3910290c0c
+FROM itzg/rcon:0.14.1-1@sha256:4bec01981dc95e14f54c243ced5db23591c67e5a63d474a3f4f8acda72ce5a28
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
