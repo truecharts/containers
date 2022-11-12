@@ -1,4 +1,4 @@
-FROM tombursch/kitchenowl-web:beta@sha256:f34cfa848b338e224427ea00a5cb0aeb070c652ef01e64970f3553fd9aece915
+FROM tombursch/kitchenowl-web:beta@sha256:c67ba47ea242c9e0239c6ee71c5adfadfd37f2c55634feec8e86bb8fdb9c7a70
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

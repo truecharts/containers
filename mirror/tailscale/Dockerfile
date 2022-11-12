@@ -1,4 +1,4 @@
-FROM docker.io/tailscale/tailscale:v1.33.141@sha256:726ff19a7be12e9b88fd582edea075020833ebe707751194ee5dc82583a330e6
+FROM docker.io/tailscale/tailscale:v1.33.158@sha256:81c72e39a98bff7186675edd1664c16333f473444f90af527c182862818abc0a
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

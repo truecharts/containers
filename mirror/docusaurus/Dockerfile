@@ -1,4 +1,4 @@
-FROM awesometic/docusaurus:latest@sha256:5a4777dae1ce0d5b9aab8945a026a1c99ec26346f19461ceef792761a88e4f62
+FROM awesometic/docusaurus:latest@sha256:e22b0fe3c6fb8a3d915320980c27c46a6684101ed3adf0c337f23039d36886a9
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 

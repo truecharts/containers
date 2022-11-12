@@ -5,9 +5,6 @@ ARG VARIANT="2"
 FROM quay.io/helmpack/chart-releaser:v1.4.1@sha256:3f0ec5e04ee15c20646f07e190c46a4f998709aeac92ef65d4e044d10ba45bd9 AS cr
 
 # hadolint ignore=DL3007
-FROM jnorwood/helm-docs:v1.11.0@sha256:66c8f4164dec860fa5c1528239c4aa826a12485305b7b224594b1a73f7e6879a AS hd
-
-# hadolint ignore=DL3007
 FROM quay.io/git-chglog/git-chglog:0.15.1@sha256:471db4cefc1a4dc0d8ee996447d5ac860f9496c982bcd29e90b390aff4e78175 AS gcl
 
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.154.0/containers/ruby/.devcontainer/base.Dockerfile
@@ -23,10 +20,6 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 # hadolint ignore=DL3008,DL3015,SC2086,SC2155
 RUN --mount=type=bind,from=cr,source=/usr/local/bin,target=/crbin \
   cp /crbin/cr /usr/local/bin/cr
-
-# hadolint ignore=DL3008,DL3015,SC2086,SC2155
-RUN --mount=type=bind,from=hd,source=/usr/bin/,target=/hdbin \
-  cp /hdbin/helm-docs /usr/local/bin/helm-docs
 
 # hadolint ignore=DL3008,DL3015,SC2086,SC2155
 RUN --mount=type=bind,from=gcl,source=/usr/local/bin,target=/gclbin \
