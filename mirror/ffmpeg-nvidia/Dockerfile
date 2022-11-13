@@ -1,4 +1,4 @@
-FROM jrottenberg/ffmpeg:5.1-nvidia@sha256:ca24430af820e114035b45718e8047f2a8178c7ba034aabcbd7ccc9853d8e5d0
+FROM jrottenberg/ffmpeg:5.1-nvidia@sha256:61415bbf582f0cde994f48a228bc2798eb2df1258319f1c522ade9d8642d4780
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
