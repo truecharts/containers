@@ -93,7 +93,7 @@
     },
     {
       "matchDatasources": ["docker"],
-      "versioning": "regex:^(?<major>\\d{2})(?<minor>\\d{2})(?<patch>\\d{2})-bullseye$",
+      "versioning": "regex:^(?<major>\\d{2})(?<minor>\\d{2})(?<patch>\\d{2})-jammy$",
       "matchPackageNames": ["photoprism/photoprism"],
       "automerge": true,
     },
