@@ -1,4 +1,4 @@
-FROM ratomas/pokehaan-craft:latest@sha256:3e893f86529e48e0a57a07a182da6710c258b446e758f509168ad4dced764f26
+FROM ratomas/pokehaan-craft:latest@sha256:b46e229b260015d67987ee3ef06e7ecfcfdaa45a76ffee6a751cd0a222ffd26d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
