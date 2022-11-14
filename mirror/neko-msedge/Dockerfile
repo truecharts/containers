@@ -1,4 +1,4 @@
-FROM m1k1o/neko:microsoft-edge@sha256:eb5cede047e43ff02e25b15f5831f972f132e78471345f3a5c8868de81b2c005
+FROM m1k1o/neko:microsoft-edge@sha256:c1fcab775bd802e0f16f689cbef7a3bb0ab9f6c924de7e7031ecd4ee19f0f93d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
