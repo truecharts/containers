@@ -1,4 +1,4 @@
-FROM ratomas/direwolf20:latest@sha256:8719c99b8fea44cd246620a957c4f783e4afa4718d0a547174de9526093339e9
+FROM ratomas/direwolf20:latest@sha256:1bca08ec19e9aa7179dd724d3b8adaca6a1431693f7ce0e6d9216741f019f4a2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
