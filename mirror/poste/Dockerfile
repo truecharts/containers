@@ -1,4 +1,4 @@
-FROM analogic/poste.io:latest@sha256:4885b2bcaa7d866c57c5fb1213bde13d7efae65a9cb52a6393497cb8be8ff4b0
+FROM analogic/poste.io:latest@sha256:22db3f1b13fba2dbcc8d399479f1e97fa82fa69c2eca1c446bd9c8f78220309f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
