@@ -1,4 +1,4 @@
-FROM spx01/blocky:v0.19@sha256:f66794748af2fdd8bef8be6bc7f6b4520887fbeec0a89e706ca9da4c7bfadacb
+FROM spx01/blocky:v0.20@sha256:afd8f8b7b90e17cd97a652b8dc3542bd6d11c1aace06f39c228923fc40b02f6b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
