@@ -1,4 +1,4 @@
-FROM tloncorp/urbit:v1.11@sha256:eafb67277e4b5b238975392dbc5ca554b69836ee6724cd643df03a574fb0d764
+FROM tloncorp/urbit:v1.12@sha256:98922943ad423a91a7be71762e6d928b9e63058a4861e03559df959fc45710b6
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
