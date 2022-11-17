@@ -1,4 +1,4 @@
-FROM ghcr.io/suwayomi/tachidesk:latest@sha256:85f5ca04dabdf64e9ea6d94f898f5784b19033b8de248a41bbe4a347f538bd75
+FROM ghcr.io/suwayomi/tachidesk:latest@sha256:be19e0e05b8d52a76afc52617f3264bc819280ed00c8f3fadb9ec9301b11e7cb
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
