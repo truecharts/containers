@@ -1,4 +1,4 @@
-FROM sentriz/gonic:v0.14.0@sha256:0d6511acd672ab287aea2cc040339947fef5401ab70a950d0629cd1b43678db5
+FROM sentriz/gonic:v0.15.0@sha256:c12ad784aa33b16f96e9b88a564d0ba7ea7a6007fc794a2242d3f8a7920fdbc5
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
