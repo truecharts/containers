@@ -1,4 +1,4 @@
-FROM clickhouse/clickhouse-server:22.10.2.11@sha256:8b83288504b3f404e521fd60b3e9dbca38aa8f07ee250ce16e87f7f5982c5cc5
+FROM clickhouse/clickhouse-server:22.11.1.1360@sha256:80a5ebd1d073aa81dddf47ec60853bcf8e1a3414513dbeed874de4b3b5bcf5d0
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
