@@ -1,4 +1,4 @@
-FROM goobaroo/allthemods7:latest@sha256:83853e2972418cc8781b91618df216a9ac729bebbf2f5363e2ec8a0c67b86955
+FROM goobaroo/allthemods7:latest@sha256:98feef5a2a93deae351c99688025a5b5bbc771511dc83eb723d01d235f06afa8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
