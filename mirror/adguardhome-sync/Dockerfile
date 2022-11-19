@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/adguardhome-sync:latest@sha256:14ed16d7a7b99a54009d6942a9308017f8343e4061a11bc72d6f153cb1ba9cce
+FROM lscr.io/linuxserver/adguardhome-sync:latest@sha256:eae4790867d1de763e32d425344c93feeedcb9a021dfb0d83dda67c6a81dc7e2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
