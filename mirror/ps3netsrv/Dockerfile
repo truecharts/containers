@@ -1,4 +1,4 @@
-FROM shawly/ps3netsrv:latest@sha256:d6a926bb0c004b2e1c557b3ceb9fc74be5845e00a2a13c3f10db65c3a853cb81
+FROM shawly/ps3netsrv:v1.6.0@sha256:26458d12d2e58a708097e930312310071603dad71694b7aefc0cd5a1abc27978
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
