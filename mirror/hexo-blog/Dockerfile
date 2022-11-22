@@ -1,4 +1,4 @@
-FROM fletchto99/hexo-dev-blog:latest@sha256:ab7d683618e6c17e503f3cf8f12b45c60c363791d9311038c095ee87e94161bb
+FROM fletchto99/hexo-dev-blog:latest@sha256:53cc5307c3e4fe6976378c3899275c204cd5f0b6bd836258a54c3fe4e515ca21
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
