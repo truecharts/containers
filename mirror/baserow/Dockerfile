@@ -1,4 +1,4 @@
-FROM baserow/baserow:1.13.0@sha256:d04af813f45acc311c9021ba2ac0c91cc7651cd965565055316caaf5b046c72d
+FROM baserow/baserow:1.13.1@sha256:9f65cc8dde1b16301b9868a666f1d4ad948d2962b456a44be92e71dc6ee60a55
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
