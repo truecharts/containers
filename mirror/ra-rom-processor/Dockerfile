@@ -1,4 +1,4 @@
-FROM randomninjaatk/raromprocessor:latest@sha256:0db47ad57ee0e316c604288584abf81eb43fc7e7fef1a019b97b63cbef3f1022
+FROM randomninjaatk/raromprocessor:latest@sha256:d7005a12954eb85e1c396764227a0f79dd34588467cfebb92aaa81a09e095724
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
