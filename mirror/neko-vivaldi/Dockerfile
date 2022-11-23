@@ -1,4 +1,4 @@
-FROM m1k1o/neko:vivaldi@sha256:9d51f05937730224438837fbb61a705067cefee63f09dd8bba8b5d785bd6476a
+FROM m1k1o/neko:vivaldi@sha256:6dbbcaac382b0e860aad68973592e6c03ef8cb1673fd0efe401125a4f229621e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
