@@ -1,4 +1,4 @@
-FROM datarhei/restreamer:2.4.1@sha256:dc66241a6934426a980018aeeaf51daa7925343f4c3ca8f36d56d8365d4dbb6b
+FROM datarhei/restreamer:2.4.2@sha256:69e300c60f92f4dc679134655c619b908b3dd2847d7114e5610ee74da0a00f22
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
