@@ -81,6 +81,7 @@ RUN \
   git clone https://github.com/truecharts/catalog_validation.git && \
   cd - && \
   cd /tmp/catalog_validation && \
+  pip install -r requirements.txt && \
   pip install -U --no-cache-dir . && \
   cd - \
   && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
