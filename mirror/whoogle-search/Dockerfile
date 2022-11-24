@@ -1,4 +1,4 @@
-FROM benbusby/whoogle-search:0.7.4@sha256:8526a3272d992ea2c240919b8b5dafee2b37eab28af7df4f175054ef29d8b65d
+FROM benbusby/whoogle-search:0.8.0@sha256:05ddde51df8d9b6ec8af2432c7ae669a63a6db99e3a140b3c92843e2539b055a
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
