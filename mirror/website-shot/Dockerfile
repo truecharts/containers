@@ -1,4 +1,4 @@
-FROM flowko1/website-shot:latest@sha256:58709bbe0c5e2b3afa538238699e1403903bffb03ef6bfbe34deba6a871f30b2
+FROM flowko1/website-shot:latest@sha256:ea055d596cb462f90ab20732d63b3df836edc2a291396ef5a8fdbd97a5f67dbb
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
