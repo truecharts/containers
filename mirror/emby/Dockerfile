@@ -1,4 +1,4 @@
-FROM ghcr.io/onedr0p/emby:4.7.9.0@sha256:0bfe7fb883a8fa904ce26c402a17df44a2e887cc2d3900712ddbb35708d43cae
+FROM ghcr.io/onedr0p/emby:4.7.10.0@sha256:127b901c6782fb514ec1380875bbde676dcc2137605dc5887dda90a041133d7d
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
