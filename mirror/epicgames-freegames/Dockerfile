@@ -1,4 +1,4 @@
-FROM charlocharlie/epicgames-freegames:latest@sha256:ad254e41bea23d0e12bab8cd2a338abe26e62dcee3a4dd2694cb45a2e78cdb44
+FROM charlocharlie/epicgames-freegames:latest@sha256:c374be7dc6ab25eb59eac64ae39bf22b7bb6320057f57cb28a38dcba5e53a8f6
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

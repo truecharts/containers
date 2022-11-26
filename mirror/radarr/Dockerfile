@@ -1,4 +1,4 @@
-FROM ghcr.io/onedr0p/radarr:4.2.4.6635@sha256:a95364b356c9252a1f1910158f261f9e18f0d49306212b1903a565dc49ba2fb6
+FROM ghcr.io/onedr0p/radarr:4.2.4.6635@sha256:c828ae77316ec12c98a82a42d5d6fe33db446eafb34a04553305813d69281c9f
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

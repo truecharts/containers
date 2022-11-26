@@ -1,4 +1,4 @@
-FROM ghcr.io/onedr0p/whisparr-nightly:0.1.0.53@sha256:5de39017b811dbb695a0cef25d1c80221a00f44e6bc59f98e3dfae021fae25bb
+FROM ghcr.io/onedr0p/whisparr-nightly:0.1.0.53@sha256:7c089d65a25631b404040e93e60b62009e7aefd70a0a72db44312fc82f28fa0c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

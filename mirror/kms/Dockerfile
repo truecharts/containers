@@ -1,4 +1,4 @@
-FROM pykmsorg/py-kms:minimal@sha256:1a7b9ad98d070dd82255d75f99e9012fdc4fc1666ab228434251f4efe910c50f
+FROM pykmsorg/py-kms:minimal@sha256:d76cc87a8844b17d5ea348c000a29c0dfdb2666349ab624a0027c3fbed1a9a6d
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
