@@ -1,4 +1,4 @@
-FROM eafxx/rebuild-dndc:unraid-m@sha256:a5a984881ec6668c895d84ed073c2c29e8c14e4bb5c02a455ec48e1ca1f51c06
+FROM eafxx/rebuild-dndc:unraid-m@sha256:f291deab976508eb3608bcd24c565d9d18c74bd87da207a2bd24a4e8636b942f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
