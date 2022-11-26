@@ -1,4 +1,4 @@
-FROM farmos/farmos:latest@sha256:c39a55725b6cece6390b553b5e2565914fa89299cc7514989fb59677f0340b82
+FROM farmos/farmos:latest@sha256:495c83b78e6ac6cd4f0e07b96eb4e69c3c50e2ce8d911844cff9f2eb5c3f9c80
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
