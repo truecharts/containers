@@ -1,4 +1,4 @@
-FROM dlandon/zoneminder.unraid:latest@sha256:30db8cbfe436bf54f603bc272c97ac8bd4f2fcadf97a3dc70bc8c50456df094c
+FROM dlandon/zoneminder.unraid:latest@sha256:33f7d88a1748196b9a8091c8302baacfa3c6de7324455dbbfc27792c8d8757b2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
