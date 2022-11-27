@@ -1,4 +1,4 @@
-FROM librenms/librenms:22.10.0@sha256:5c87ae171766e752df6e16d8dd1e6c02e10337acd501d24af11386245a56a078
+FROM librenms/librenms:22.11.0@sha256:3838b5a8817e880018b41199c7bc5d4bf64d735fca82d12476552267b9dc596d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
