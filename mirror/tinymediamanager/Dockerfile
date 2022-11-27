@@ -1,4 +1,4 @@
-FROM tinymediamanager/tinymediamanager:4.3.5@sha256:8c6be6733ed0e270a6b999857433c34ed78af7baadeaf4cf06647b55a7f35c0c
+FROM tinymediamanager/tinymediamanager:4.3.6@sha256:87e25ab297f084bd901d14f529ff77b27fa0c734f6dec2e6bd6d452849334925
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

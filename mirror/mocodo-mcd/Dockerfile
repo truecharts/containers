@@ -1,4 +1,4 @@
-FROM olprog/mocodo:latest@sha256:02ff497bb9fd04a2eae84dcb6972c50818acae6062da7e05a720c19abaa24946
+FROM olprog/mocodo:latest@sha256:bc7ef0cbeec03b20ec6a699c4d541bf19346c0b94d56089aa2a410763e0aae36
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
