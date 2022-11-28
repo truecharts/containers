@@ -1,4 +1,4 @@
-FROM jupyter/r-notebook:2022-11-21@sha256:09f539d0ff2098244344544294d0e2b5d7c39cc581b67afccd5b4deabcdf13c3
+FROM jupyter/r-notebook:2022-11-28@sha256:07b8642f37ff320610e7a07502547f12618e33c40eddbde4ddebb9a38c6b5bb5
 
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
