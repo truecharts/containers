@@ -1,4 +1,4 @@
-FROM plexripper/plexripper:latest@sha256:22a8c9047c5fea83024abd0a54f129ef65f243fabe3810ee79b435eea3937faa
+FROM plexripper/plexripper:latest@sha256:01bd0ca393f6004e2fddce5773b57bd93a434d0dd9ae25ec57ff5938d22f3492
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
