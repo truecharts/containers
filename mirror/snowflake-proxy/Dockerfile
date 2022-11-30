@@ -1,4 +1,4 @@
-FROM thetorproject/snowflake-proxy:v2.3.0@sha256:5a5bb8cb6fa56f158454d60d898846bf0ed73d901b2455427050fb8e2e4a5e0a
+FROM thetorproject/snowflake-proxy:v2.4.0@sha256:7fa911bfb2c09ca648a0ec8e166250335f6a78a281f1448419035ce24e51b35c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
