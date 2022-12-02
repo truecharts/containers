@@ -1,4 +1,4 @@
-FROM bitnami/grafana:9.3.0@sha256:e0b47ea1c009211a0b8d2b223c2898c968b4ae893b997726f47e8340fe58cd77
+FROM bitnami/grafana:9.3.1@sha256:7ee38450855660b3bf9b86761b56ba20befa92472b4d99595e4067ad2704f811
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
