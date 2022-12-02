@@ -1,4 +1,4 @@
-FROM traccar/traccar:5.5@sha256:6de9b3438d2a05fa36cc0eaa1126217a9478fb1c513dcdb0e20fc656df50a5ea
+FROM traccar/traccar:5.5@sha256:9e83442efdde4a9396d672a1c14a1f9db39be1ffb2dc9cd420a61f9dec17fb76
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
