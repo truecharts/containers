@@ -1,4 +1,4 @@
-FROM crazyq/pt_helper:latest@sha256:7688d408dc8a95465e9cc5cbabffc3deca6ad17406dab95fb721f960458e1525
+FROM crazyq/pt_helper:latest@sha256:5356caa1a892b739755e3d461321f8e4e6c9ca4d6ae84f10495ec3864657067a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
