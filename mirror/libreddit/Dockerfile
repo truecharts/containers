@@ -1,4 +1,4 @@
-FROM spikecodes/libreddit:latest@sha256:ec9065e963355bd826bac47ef0f5e848a16c212adcbbcaa934a07f35513a0596
+FROM spikecodes/libreddit:latest@sha256:74c453dd37b50cf7e8e1ba94bcad188dd220b00ef2ba293dcf06eea83e7aee57
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
