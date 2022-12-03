@@ -1,4 +1,4 @@
-FROM dpage/pgadmin4:6.16@sha256:31a78cfc523e820fd21c27b78b3df0810bca6b3bad8075a7180da8ab4cba7e35
+FROM dpage/pgadmin4:6.17@sha256:503f7328901d772c46c819a2e8dc50e0a8755a6cb3d81b2d80c76b9aee35e8e0
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
