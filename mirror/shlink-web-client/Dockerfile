@@ -1,4 +1,4 @@
-FROM shlinkio/shlink-web-client:3.7.3@sha256:fb18b25f18208307bba8d835103d6da99c70b69872756ec4c5ef6705a06d1afd
+FROM shlinkio/shlink-web-client:3.8.0@sha256:021b302ec1620f4e4097f2559b2b7ed5f49276056d51429ddb28b6998a8f9458
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
