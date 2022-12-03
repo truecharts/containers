@@ -1,4 +1,4 @@
-FROM ghcr.io/goauthentik/proxy:2022.11.1@sha256:1f17988ccdf2784a3790c798ee1d2932dd2918b5d951741b4611fa8089cb0b4c
+FROM ghcr.io/goauthentik/proxy:2022.11.2@sha256:b894f8b35da33e8dfa2dfca4b41ece7227afcd68cfbfbdec16a43512de30e7ce
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
