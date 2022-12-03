@@ -1,4 +1,4 @@
-FROM browserless/chrome:1.57.0-puppeteer-13.1.3@sha256:f631833f4116eb6eda63c2d7dfb809649a6f38e491dfc2955895116731dcaf84
+FROM browserless/chrome:1.57.0-puppeteer-13.1.3@sha256:e600df960f082717d2e9625e18430b367bb85ab760fb89cfdabe7efb6ea4a305
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
