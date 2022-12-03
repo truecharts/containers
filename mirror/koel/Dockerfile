@@ -1,4 +1,4 @@
-FROM phanan/koel:latest@sha256:8e9d4cf9f8ce2b1749052c8a734f0c0c819b8994cafa62cded6e68ac6ab1d1cf
+FROM phanan/koel:latest@sha256:3107e0946982eaddd80e6f4b1d9530633be29be14b39b140375e885f4d0a468c
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
