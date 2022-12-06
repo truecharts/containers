@@ -1,4 +1,4 @@
-FROM netdata/netdata:v1.37.0@sha256:2710d0998f26d7bad306cb629b210e0068f30ae9823ebc5264849cc2aa306e90
+FROM netdata/netdata:v1.37.1@sha256:e789f8af0983660ca3617882adbd41636a6c6f6cdf1da7dd994e84e0b8247295
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
