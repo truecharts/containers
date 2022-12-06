@@ -1,4 +1,4 @@
-FROM tiredofit/backuppc:latest@sha256:96f1eb2d1a1cc413e433c55b8f3e8f8e73cae3320797355a31909ed3285b2360
+FROM tiredofit/backuppc:latest@sha256:e8fe65e7c63c723995f21150941fd79c5a5183fc862b92b876be3ef3a23afb54
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
