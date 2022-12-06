@@ -1,4 +1,4 @@
-FROM yacy/yacy_search_server:latest@sha256:57ae1ea60f34c63113eb2f3f6a9f8e7f972d1c22a8b4be2c9873b5aa00656807
+FROM yacy/yacy_search_server:latest@sha256:eb56907adea70a235882120c00fda9713fe6ef6c0bb0694fd0add845c7c7cde6
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
