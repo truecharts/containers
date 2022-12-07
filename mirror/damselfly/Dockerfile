@@ -1,4 +1,4 @@
-FROM webreaper/damselfly:latest@sha256:ef082103bcc4ebaa4b8a47ce7f4620f32cabd0b4d925a87ad8955c02beb4a85a
+FROM webreaper/damselfly:latest@sha256:b3ccd1c96b2ca7af268d9c4c8e590fbd3ce59ac11c19871adf5247107da26377
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
