@@ -1,4 +1,4 @@
-FROM monica:3.7.0@sha256:391c8f8710a8f8c1fe8c71e59596ea9a8cbce9786b2475d20096001dbab4716a
+FROM traggo/server:0.2.3@sha256:5e8f77d44d81a0a7065718a7c3f0e46eeee8d137444d32dc5509741780c05617
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
