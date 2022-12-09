@@ -1,4 +1,4 @@
-FROM cadriel/fluidd:v1.22.0@sha256:27588c2f285dd7e5d59ee63b4854e12b34fedc6e72eae806108e025d41c4080d
+FROM cadriel/fluidd:v1.22.1@sha256:24060c3898c6806661c8c8095946c34ee059137df9a0d2e2b0b5dc4c9aa598f5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
