@@ -1,4 +1,4 @@
-FROM brotandgames/ciao:latest@sha256:23f01c06b15068786662fdeef1b67e384347ad2f8e425cfc568fd520800ca7f4
+FROM brotandgames/ciao:latest@sha256:7bd1a6d81269ce0efeb79365e57e78eea65560160170730f0acc382849e739c5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
