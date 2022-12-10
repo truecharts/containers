@@ -1,4 +1,4 @@
-FROM bokker/thumba:0.0.14@sha256:7043e8b9eb78364aea567ef7355e82042fce1dadee16a5f473cd96fb7d4ec69d
+FROM bokker/thumba:0.0.15@sha256:e3a98106c4fd294f20ded844afa9d026920b2f679fb6178dbf6ff04cc405d815
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
