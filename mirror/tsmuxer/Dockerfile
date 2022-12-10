@@ -1,4 +1,4 @@
-FROM jlesage/tsmuxer:v22.11.1@sha256:c4c692982485553af71a44ab833bd587a132f033549776820fc2f627911dc043
+FROM jlesage/tsmuxer:v22.12.1@sha256:5e187b958a48027ca9975a9fcb8e77af042fff143bda9cd78e0c922a14df15fd
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
