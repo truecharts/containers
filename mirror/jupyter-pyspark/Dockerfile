@@ -1,4 +1,4 @@
-FROM jupyter/pyspark-notebook:2022-12-05@sha256:feeddcbe3cfa2740541e359e802616478a9bcacf6c6f06dab1c65eb3727692f8
+FROM jupyter/pyspark-notebook:2022-12-10@sha256:7f5ced2017d1c3991b5fcdf7d6a2a4a4103d5e8184e68b9439280da4771dfb39
 
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
