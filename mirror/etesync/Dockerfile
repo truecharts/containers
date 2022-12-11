@@ -1,4 +1,4 @@
-FROM victorrds/etesync:0.10.0@sha256:16a2f9f1b7cbc0f2678a5ef77f2de2a39e62c11bc70e58eb8c586f1796af01a2
+FROM victorrds/etesync:0.11.0@sha256:816cfadd28d36f4d1b8969009d59c51253b07e5ef3ad9f8e9cf03d8dc59ffa50
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
