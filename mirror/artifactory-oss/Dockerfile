@@ -1,4 +1,4 @@
-FROM docker.bintray.io/jfrog/artifactory-oss:7.47.11@sha256:70f6e5400ee64696b52a1ed616d74f7c7f70ca1d66cf49470efef816b55eb870
+FROM docker.bintray.io/jfrog/artifactory-oss:7.47.12@sha256:3a0b465d339a67fe1c5b9956ef566bba830bbe9fcc38c78c6c5669b4e7792ad2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
