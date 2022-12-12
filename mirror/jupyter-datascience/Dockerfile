@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook:2022-12-10@sha256:7eb6dd9569ccf4d25905c230a0af92663c3483d26403b97e0d59e5c98f8ff0ff
+FROM jupyter/datascience-notebook:2022-12-12@sha256:b79aa664161a1fba0524ad8454975fb64c498c595c627dd0a7471dd84269ccd5
 
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
