@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/foldingathome:7.6.21@sha256:e97b762c9d0b3d4a5a4384555ffc15545a44104d732f0ea01d27743f8e0c44b8
+FROM ghcr.io/linuxserver/foldingathome:7.6.21@sha256:951c529a2b9211ef0bd9e60f57f91876e5db4ff391012bb42652ee643be7f337
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
