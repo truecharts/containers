@@ -1,4 +1,4 @@
-FROM calendso/calendso:latest@sha256:8996e062d4029e52db660197d7276a6c2f594e04bb8a222b7273c6baa78161d7
+FROM calendso/calendso:latest@sha256:0bd675f6274d7534ae2f6471dd449809c00e0aea7e3317df8b942a8af5f6744a
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
