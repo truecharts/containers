@@ -1,4 +1,4 @@
-FROM guhu007/auto-yt-dl:latest@sha256:f3c7c48d13e39d754874ec7c1969a0c506e7ed44775087b25072bc7000805b25
+FROM guhu007/auto-yt-dl:latest@sha256:d59cc1bbec751886f0496bf28914111d3d1d880316dbeb13f990e43b40350c99
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
