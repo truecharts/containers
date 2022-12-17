@@ -1,6 +1,5 @@
 FROM altran1502/immich-machine-learning:v1.38.2_60-dev@sha256:b3118d620a14053103124c05da63441251517fa5dc46778b351b8538f785bef8
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
-
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
