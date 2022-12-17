@@ -1,4 +1,4 @@
-FROM aunefyren/wrapperr:latest@sha256:d1a9b332c1d17f9f041badcae399eb778b9392fb11fde6cc0d09bd5be63cf289
+FROM aunefyren/wrapperr:latest@sha256:c4d812d085acc67c71446eaf22976c642f2f48be2abbe3e27525709a4bb137e9
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
