@@ -1,4 +1,4 @@
-FROM joplin/server:2.10.3-beta@sha256:593729780cb5daebfe3dd3b5360cb35aa51ac68555aa7920c251c15f0f188a11
+FROM joplin/server:2.10.4-beta@sha256:f37cd741f130a7aca58b9ebcd86add8ce04b13bbfeb1ed75b8b4aea1490df6cb
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
