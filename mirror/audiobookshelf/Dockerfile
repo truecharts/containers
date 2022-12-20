@@ -1,4 +1,4 @@
-FROM advplyr/audiobookshelf:2.2.10@sha256:6e2c2d6fe6a250050af86080ecfdbb4dd85c07bda908bb4089987901252c51d2
+FROM advplyr/audiobookshelf:2.2.11@sha256:6a3a3dceeb669b477851ce54d96c2140868e19606b0193ccbb3e98151e5b8e5e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
