@@ -1,4 +1,4 @@
-FROM healthchecks/dashboard:latest@sha256:46215aae7a13e526df26c55abb39fdc6143aa45807ed2ae5ef68c3b4648312fc
+FROM healthchecks/dashboard:latest@sha256:043e32aed6f87f8eec2633fa720095354e586b7a07fff30ea52f6df41695d7ae
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
