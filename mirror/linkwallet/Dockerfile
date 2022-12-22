@@ -1,4 +1,4 @@
-FROM tardisx/linkwallet:v0.0.34@sha256:08653a7cff9e9dd78bd53839fd5a67637ce6c5e231b333fe599d557c2bb1965e
+FROM tardisx/linkwallet:v0.0.36@sha256:a8b2ed2b80256d701428222bea69b686114dd240be0f479f01c5e8f1757d55d1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
