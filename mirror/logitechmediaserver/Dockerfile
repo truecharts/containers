@@ -1,4 +1,4 @@
-FROM lmscommunity/logitechmediaserver:8.4.0@sha256:dc8b1c468d3bc20460ebe5cd55bb7f243593f14cd96b8321e9f997db56d5cf18
+FROM lmscommunity/logitechmediaserver:8.4.0@sha256:d1fdb3f82ddf6dbd106a3df4f9b2290518085097c57dc597f80e69a1a34b109e
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
