@@ -1,4 +1,4 @@
-FROM difegue/lanraragi:v.0.8.7@sha256:6eade9b2f0f617eb7b71098b2329f867c663eac065354d6d573647ce6fa6f9bb
+FROM difegue/lanraragi:v.0.8.8@sha256:c773331bfc33fe6365b33f1629fe9b213669a06edf179a6381574fbf881cf16b
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
