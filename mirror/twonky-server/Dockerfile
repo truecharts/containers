@@ -1,4 +1,4 @@
-FROM dtjs48jkt/twonkyserver:latest@sha256:aec9438284e6b0a6f05cfac3dce17026caa1b7428800f414b1b15458fb60ffad
+FROM dtjs48jkt/twonkyserver:latest@sha256:de7e238f3ef499ae5c4edf53af91a13b3dc33fe58cfcb0bfa792bbb61a7df788
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
