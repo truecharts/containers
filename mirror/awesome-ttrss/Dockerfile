@@ -1,4 +1,4 @@
-FROM wangqiru/ttrss:latest-2022-08-07@sha256:997a3b97b45641a4e31c839aa541e6e4d63e3e6b38734bdb2a49ad7a5e9b4c5e
+FROM wangqiru/ttrss:latest-2022-12-23@sha256:b1c3cc789a3c251f5bf7fc682246935facb099cf615bbdf817b553f0f7f7ef7d
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
