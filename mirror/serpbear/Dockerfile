@@ -1,4 +1,4 @@
-FROM towfiqi/serpbear:latest@sha256:09d962f84ebf85c8a033a524954ff198a7513afc5c86ecefce56b0b580350693
+FROM towfiqi/serpbear:latest@sha256:74cd0b46489433ad6e1c747089c647e33e7319c5d8d87901c9149ff58f3dff72
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
