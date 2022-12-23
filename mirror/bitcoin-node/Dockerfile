@@ -1,4 +1,4 @@
-FROM kylemanna/bitcoind:latest@sha256:b329772972b72c0ee454a39236036685c6b090fad8b60aaa1548b4820efaa7a4
+FROM kylemanna/bitcoind:latest@sha256:b4e1c7e5c3e51557a625c053c875c0ee69f88a51a92f21b6f7b71b0f3cc6f6cc
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
