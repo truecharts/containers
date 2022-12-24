@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
 
-channel=jammy
-version=$(curl -s "https://registry.hub.docker.com/v2/repositories/library/ubuntu/tags?ordering=name&name=$channel" | jq --raw-output --arg s "$channel" '.results[] | select(.name | contains($s)) | .name'  | head -n1)
-version="${version#*v}"
-version="${version#*release-}"
+version=$(curl -L -s https://dl.k8s.io/release/stable.txt)
 printf "%s" "${version}"
