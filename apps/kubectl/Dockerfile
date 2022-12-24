@@ -9,7 +9,7 @@ USER root
 # hadolint ignore=DL3018,DL4006
 RUN apk update && apk add --no-cache curl \
     && curl -LO "https://dl.k8s.io/release/${VERSION}/bin/linux/amd64/kubectl" \
-	&& curl -LO "https://dl.k8s.io/release/${VERSION}/bin/linux/amd64/kubectl" \
+	&& curl -LO "https://dl.k8s.io/release/${VERSION}/bin/linux/amd64/kubectl.sha256" \
 	&& echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check \
     && install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl \
 	&& kubectl version --client --output=yaml \
