@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/ubuntu:jammy-20221130
+FROM ubuntu:jammy-20221130
 
 ARG TARGETPLATFORM
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
