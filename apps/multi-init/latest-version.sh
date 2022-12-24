@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-version=1.1.0
-printf "%s" "${version}"
+echo "$(curl -s https://pkgs.alpinelinux.org/package/edge/testing/x86_64/kubectl | grep "Flag this package out of date" | sed -e 's/<[^>]*>//g' | sed -e 's/ //g')"
+
