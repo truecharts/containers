@@ -1,7 +1,6 @@
 FROM ghcr.io/truecharts/alpine:v3.17.0
 
 ARG TARGETPLATFORM
-SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # hadolint ignore=DL3002
 USER root
