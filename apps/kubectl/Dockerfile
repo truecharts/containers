@@ -6,7 +6,7 @@ ARG VERSION
 # hadolint ignore=DL3002
 USER root
 
-# hadolint ignore=DL3018
+# hadolint ignore=DL3018,DL4006
 RUN apk update && apk add --no-cache curl \
     curl -LO "https://dl.k8s.io/release/${VERSION}/bin/linux/amd64/kubectl" \
 	curl -LO "https://dl.k8s.io/release/${VERSION}/bin/linux/amd64/kubectl" \
