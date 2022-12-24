@@ -41,17 +41,6 @@ jobs:
               fi
             fi
           done
-      - name: Containers - Fetch new base versions
-        run: |
-          find ./base -maxdepth 1 -mindepth 1 -type d -exec basename {} \; | while read app; do
-            if test -f "./base/${app}/latest-version.sh"; then
-              version=$(bash "./base/${app}/latest-version.sh")
-              if [[ ! -z "${version}" || "${version}" != "null" ]]; then
-                echo "${version}" | tee "./base/${app}/VERSION" > /dev/null
-                echo "${app} ${version}"
-              fi
-            fi
-          done
 
       - name: Commit and Push Housekeeping
         run: |

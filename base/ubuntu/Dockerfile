@@ -1,6 +1,4 @@
-ARG VERSION
-
-FROM public.ecr.aws/docker/library/ubuntu:${VERSION}
+FROM public.ecr.aws/docker/library/ubuntu:jammy-20221130
 
 ARG TARGETPLATFORM
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
@@ -97,7 +95,7 @@ RUN \
       kubectl \
     && chown -R apps:apps /app \
     && \
-    printf "/bin/bash /shim/greeting.sh\n" >> /etc/bash.bashrc \
+
     && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
     && apt-get autoremove -y \
     && apt-get clean \
@@ -118,7 +116,7 @@ VOLUME ["/config"]
 COPY ./base/ubuntu/entrypoint.sh /entrypoint.sh
 COPY ./base/ubuntu/shim /shim
 
-# iX NFS4 ACL toolkit ripped from TrueNAS SCALE 22.02.04
+# iX NFS4_XDR WINACL ripped from toolkit ripped from TrueNAS SCALE 22.02.04
 COPY ./base/ubuntu/nfs4xdr/* /usr/bin/
 
 USER apps
