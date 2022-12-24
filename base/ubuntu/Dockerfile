@@ -95,7 +95,7 @@ RUN \
       kubectl \
     && chown -R apps:apps /app \
     && \
-
+    printf "/bin/bash /shim/greeting.sh\n" >> /etc/bash.bashrc \
     && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
     && apt-get autoremove -y \
     && apt-get clean \
