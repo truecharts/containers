@@ -7,7 +7,7 @@ USER root
 
 # hadolint ignore=DL3018
 RUN \
-    apk update && apk add --no-cache kubectl \
+    apk update && apk add --no-cache kubectl
 
 USER apps
 
