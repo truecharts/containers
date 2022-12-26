@@ -1,4 +1,4 @@
-FROM ghcr.io/benphelps/homepage:v0.5.5@sha256:3952eabae2d110fbf1706031d6ce8a52353d7d417c1c6d8b73afecba7fa7bc21
+FROM ghcr.io/benphelps/homepage:v0.5.7@sha256:118d9f755835093b59873af6ad1de025f4a9bb31a77618c518c223790e9d92b8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
