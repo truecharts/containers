@@ -1,4 +1,4 @@
-FROM ivaxor/shinobi:latest-nvidia@sha256:6e743bbc0bb1b9c332a474140611706c4d1aa0f06d492b8b1bb24e9d8766db31
+FROM ivaxor/shinobi:latest-nvidia@sha256:cce63d91a02832bc477704d3b2b0b688500f98d0afb1d564625f8ab2fb759593
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
