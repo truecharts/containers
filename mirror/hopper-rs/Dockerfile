@@ -1,4 +1,4 @@
-FROM ghcr.io/bra1l0r/hopper-rs:latest@sha256:74cac2bd97e157809ee1a6a3fad049cb403b298acf068106e8f6aa815cdb3bd5
+FROM ghcr.io/bra1l0r/hopper-rs:latest@sha256:91cb3327a8248f5a49ba28fc4ed3a57bd59ac26f47561d2dacc9720ce42eb29e
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
