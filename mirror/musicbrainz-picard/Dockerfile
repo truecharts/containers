@@ -1,4 +1,4 @@
-FROM mikenye/picard:latest@sha256:3af3917323003459817c92c7097bfa26dbdba535a7cb18d50e0d56debf2dab6f
+FROM mikenye/picard:latest@sha256:a5801ee09bb5b5b64270fca770ff1a825759a8ee2532e54d612e7c678645cfbc
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
