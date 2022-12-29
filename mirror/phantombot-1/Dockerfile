@@ -1,4 +1,4 @@
-FROM ghcr.io/phantombot/phantombot:latest@sha256:b361c9f3270f6b584e540abe75ad10121448825fb0b5d35cb1b8e8980c060df9
+FROM ghcr.io/phantombot/phantombot:latest@sha256:2292f6a9e232bc15f384535d2efb0c15a666fa277c07ae42add464f7700f0ea5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
