@@ -1,4 +1,4 @@
-FROM ghcr.io/paperless-ngx/paperless-ngx:1.10.2@sha256:acd1fc9ef14514110aac46780057e9f084d186cd997f0f5b5087d094da3c578f
+FROM ghcr.io/paperless-ngx/paperless-ngx:1.11.0@sha256:8a1aa8a8f26aa2602b0be1f591a98cc54d600805b3a924e16844da542129c813
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
