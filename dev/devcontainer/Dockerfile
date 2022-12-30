@@ -8,7 +8,7 @@ FROM quay.io/helmpack/chart-releaser:v1.4.1@sha256:3f0ec5e04ee15c20646f07e190c46
 FROM quay.io/git-chglog/git-chglog:0.15.1@sha256:471db4cefc1a4dc0d8ee996447d5ac860f9496c982bcd29e90b390aff4e78175 AS gcl
 
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.154.0/containers/ruby/.devcontainer/base.Dockerfile
-FROM mcr.microsoft.com/vscode/devcontainers/ruby:0-2@sha256:d720486b7d4eff660eb4f6b11762263141a9d4c2539394ecb9c155c642054d52
+FROM mcr.microsoft.com/vscode/devcontainers/ruby:0-2@sha256:b07cf8156641a05a48a733c0bcd453f3d3026d98f0f64da4ddeb6cc953bb3b0b
 
 ARG HELM_VERSION="3.5.4"
 ARG CT_VERSION=3.3.1
