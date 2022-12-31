@@ -1,4 +1,4 @@
-FROM crazymax/rtorrent-rutorrent:latest@sha256:51ec053a08c36fe536abff411ebed0b8b1b052f6387c93b5a9431d036b6b1977
+FROM crazymax/rtorrent-rutorrent:latest@sha256:9e08013620c5c081a138478c2979fc230dad2ff04fe70fc80faf958be14fd8d7
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
