@@ -1,4 +1,4 @@
-FROM universalmediaserver/ums:latest@sha256:20c8bf7217c8b83a990c075cab9e1cfd76d5992a250814b822370765ab0562f7
+FROM universalmediaserver/ums:latest@sha256:facfef5a5c1a879206e6f4bcbe13aa25c1df718f797a60fd0c01cda81145866d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
