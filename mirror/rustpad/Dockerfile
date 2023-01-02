@@ -1,4 +1,4 @@
-FROM ekzhang/rustpad:latest@sha256:9b6453dcfb972be335f6bb599aead9ab7b08973f3aa0d133d9a190c7db4005d5
+FROM ekzhang/rustpad:latest@sha256:8e70cdb0d34a76ee1590546087a88709f5b89ae14ffbebc9514880782ba37959
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
