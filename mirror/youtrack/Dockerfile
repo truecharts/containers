@@ -1,5 +1,6 @@
-FROM calendso/calendso:latest@sha256:ed15c726de24340ed47d2390058fcd6144f692f07a435edf9207f7172f0039be
+FROM docker.io/jetbrains/youtrack:2022.3.65360@sha256:b86d4c6eade05170c73d3ac4c70e5a163146d23a5e74f4892c612124b65a4ec5
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
+
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
