@@ -1,4 +1,4 @@
-FROM quay.io/invidious/invidious:latest@sha256:42d2e6d26a40c3d2a022a681b1ef3be5d56b51067b323f9958c264572570e53d
+FROM quay.io/invidious/invidious:latest@sha256:5eed6f5fe2630a1972be4dd6785c28b83b11db8251c59456c3f0ab0e528019f7
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
