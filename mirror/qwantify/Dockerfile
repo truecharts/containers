@@ -1,6 +1,5 @@
-FROM bitnami/grafana:9.3.2@sha256:30f0fc75aedb4c1075a6405bb9069b82034d16eaf6d29fd7620c7e7d3ba0e110
-LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
-
+FROM ghcr.io/wanjohiryan/qwantify:20.04@sha256:3d7b9ecfee074ee8836f4e4f7a3d674af7f34763f9dacce6b653c072508d6645
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
