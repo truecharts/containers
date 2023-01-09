@@ -1,4 +1,4 @@
-FROM scprime/scprime:latest@sha256:aa1d89b731263067168e4fbc42b080582ee3188c7422ded742fb36bd726a5e52
+FROM scprime/scprime:latest@sha256:8070f0fcbcae45c9dae4c5d1c4a37e30ed0e22db5fbd5d25bc9afc221d405e53
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
