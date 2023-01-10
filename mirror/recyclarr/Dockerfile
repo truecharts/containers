@@ -1,4 +1,4 @@
-FROM ghcr.io/recyclarr/recyclarr:4.1.0@sha256:580954066f500fc217c69a099201d06068a771b1c02a33e8f38f130867277d39
+FROM ghcr.io/recyclarr/recyclarr:4.1.3@sha256:525f0748b9a73c1c5e31aefe1e6b355a4178ee039a753f1a3f22249dc89b6191
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
