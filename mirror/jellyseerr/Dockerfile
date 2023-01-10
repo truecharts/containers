@@ -1,4 +1,4 @@
-FROM fallenbagel/jellyseerr:1.2.1@sha256:48c186e56438a8726c677c9106351cec886849b8e89a1293f759308aba0c1a18
+FROM fallenbagel/jellyseerr:1.3.0@sha256:17a46363807297d14f739ac67394b8501fa5eef2409177de8bdd5bf734dff976
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
