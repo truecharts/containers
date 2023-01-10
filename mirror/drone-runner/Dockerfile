@@ -1,4 +1,4 @@
-FROM drone/drone-runner-docker:1.8.2@sha256:304a410616a45e5f63cd474c05e33adfca3defffc71d59d876db7ef0fad0eef4
+FROM drone/drone-runner-docker:1.8.3@sha256:31d8534f559b26b76fb292eec957b852999a338cbd48284980cd483c04373f9a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
