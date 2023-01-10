@@ -1,4 +1,4 @@
-FROM lycheeorg/lychee-laravel:v4.6.5@sha256:d68d96a03c96746a284e90ecdb6b4fc887e2c2f3fa89d197858f7688924b9331
+FROM lycheeorg/lychee-laravel:v4.7.0@sha256:f13239816392327b72f226a1271a96eb23ec87d9f7d5a7a5864ca9d46f68fb5f
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
