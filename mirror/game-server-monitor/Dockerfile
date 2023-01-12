@@ -1,4 +1,4 @@
-FROM discordgsm/discord-game-server-monitor:2.9.1@sha256:1c9ee6b9c965169759254a6d9e0f02258f69d745471c90af8a2a37e12baeb924
+FROM discordgsm/discord-game-server-monitor:2.10.0@sha256:9e47a0bfa4e457938c6c7f9778bb1d6c53ff80766fe92edbc933813456ca35d6
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
