@@ -1,4 +1,4 @@
-FROM bpatrik/pigallery2:latest@sha256:4f5ec341b747b48628469ef7cde346e3585d5de0b698580c86b59ed61b972751
+FROM bpatrik/pigallery2:latest@sha256:de037031d86328f1979591a5a804389d963d4b87b9e96c4fd46c377deb275d85
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
