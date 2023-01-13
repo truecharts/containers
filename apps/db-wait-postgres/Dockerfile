@@ -13,27 +13,11 @@ RUN \
   apt-get -qq update \
   && \
   apt-get -qq install -y \
-    redis-server \
     postgresql-client \
-    mariadb-client \
-  && \
-  curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg \
-  && \
-  echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | tee /etc/apt/sources.list.d/kubernetes.list \
-  && \
-  wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | apt-key add - \
-  && \
-  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/6.0 multiverse" | tee /etc/apt/sources.list.d/mongodb-org-6.0.list \
   && \
   case "${TARGETPLATFORM}" in \
     'linux/amd64') export ARCH='linux-x64' ;; \
   esac \
-  && \
-  apt-get -qq update \
-  && \
-  apt-get -qq install -y \
-    mongodb-mongosh \
-    kubectl \
   && apt-get remove -y \
     jq \
   && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
@@ -48,7 +32,9 @@ RUN \
   && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc \
   && update-ca-certificates
 
-COPY ./apps/multi-init/entrypoint.sh /entrypoint.sh
+USER apps
+
+COPY ./apps/db-wait-postgres/entrypoint.sh /entrypoint.sh
 CMD ["/entrypoint.sh"]
 
 LABEL "maintainer"="TrueCharts <info@truecharts.org>"
