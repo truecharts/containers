@@ -32,6 +32,8 @@ RUN \
   && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc \
   && update-ca-certificates
 
+USER apps
+
 COPY ./apps/multi-init/entrypoint.sh /entrypoint.sh
 CMD ["/entrypoint.sh"]
 

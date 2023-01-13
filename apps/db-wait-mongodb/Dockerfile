@@ -8,7 +8,7 @@ USER root
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
-# hadolint ignore=DL3008,DL3015,SC2086,SC2155
+# hadolint ignore=DL3008,DL3015,SC2086,SC2155,DL4001
 RUN \
   curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg \
   && \
@@ -39,6 +39,8 @@ RUN \
   && chmod -R u=rwX,go=rX /app \
   && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc \
   && update-ca-certificates
+
+USER apps
 
 COPY ./apps/multi-init/entrypoint.sh /entrypoint.sh
 CMD ["/entrypoint.sh"]
