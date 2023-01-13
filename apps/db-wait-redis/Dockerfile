@@ -34,7 +34,7 @@ RUN \
 
 USER apps
 
-COPY ./apps/redis/entrypoint.sh /entrypoint.sh
+COPY ./apps/db-wait-redis/entrypoint.sh /entrypoint.sh
 CMD ["/entrypoint.sh"]
 
 LABEL "maintainer"="TrueCharts <info@truecharts.org>"
