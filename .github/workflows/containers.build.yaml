@@ -187,7 +187,7 @@ jobs:
 
     - name: Docker meta
       id: meta
-      uses: docker/metadata-action@05d22bf31770de02e20c67c70365453e00227f61 # v4
+      uses: docker/metadata-action@507c2f2dc502c992ad446e3d7a5dfbe311567a96 # v4
       with:
         # list of Docker images to use as base name for tags
         images: |
