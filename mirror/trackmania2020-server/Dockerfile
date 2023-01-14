@@ -1,4 +1,4 @@
-FROM evotm/trackmania:latest@sha256:fbe1f2b7d935b00c180ccb335558b1453c110a41638ab4a42bdc197a7d799486
+FROM evotm/trackmania:latest@sha256:db4b24d4829b5db1ca3b3df5fb87350aced5e9b9dba31cecde5757af9b826851
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
