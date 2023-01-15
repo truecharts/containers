@@ -1,7 +1,6 @@
 FROM ghcr.io/onedr0p/plex:1.30.1.6562-915986d62@sha256:50315e766947f766b529d6b3ef50f4aef8cc0f96b6c7d9ec0cc3cdf1bdc428de
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
-
 USER root
 
 # hadolint ignore=DL3008,DL3015,SC2039,SC2086
