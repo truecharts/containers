@@ -1,4 +1,4 @@
-FROM angelics/unraid-docker-ipxe-buildweb:latest@sha256:84c2735a0473b6831577bbf700ec6329b74f2b549472715ea85774a5b2c1ccc3
+FROM angelics/unraid-docker-ipxe-buildweb:latest@sha256:a82f694cc4684cf6afacb3ed0ef76bc2fa3280d5711db1b5c7cd9e0f475e3957
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
