@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/unifi-controller:latest@sha256:939f18057bc06702bcdd169fa81fb76ce477c72baaa2fd3e1728ef0576a06234
+FROM lscr.io/linuxserver/unifi-controller:latest@sha256:90b6aa04c5b48954ded5844d85efd4d0dc79caf86e4b3c7ba4a041e05c08834b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
