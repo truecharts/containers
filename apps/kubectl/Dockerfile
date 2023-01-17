@@ -16,7 +16,6 @@ RUN apk update && apk add --no-cache curl git \
 	&& curl -fsSL -o cmctl.tar.gz https://github.com/cert-manager/cert-manager/releases/download/v1.11.0/cmctl-linux-amd64.tar.gz \
 	&& tar xzf cmctl.tar.gz \
     && mv cmctl /usr/local/bin \
-	&& cmctl version \
 	&& apk del curl
 	
 
