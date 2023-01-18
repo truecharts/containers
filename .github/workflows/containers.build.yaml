@@ -119,7 +119,7 @@ jobs:
           fi;
         else
           CATEGORY="base"
-          VERSION="$(head -1 ./${CATEGORY}/${{ matrix.container }}/Dockerfile |  cut -d'@' -f1 | sed 's/^FROM.*://' )"
+          VERSION=$(cat ./${CATEGORY}/${{ matrix.container }}/VERSION) || VERSION="$(head -1 ./${CATEGORY}/${{ matrix.container }}/Dockerfile |  cut -d'@' -f1 | sed 's/^FROM.*://' )"
           VERSION=$(echo $VERSION | sed "s/latest-//g")
           VERSION=$(echo $VERSION | sed "s/stable-//g")
           VERSION="${VERSION#*V.}"
