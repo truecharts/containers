@@ -1,4 +1,4 @@
-FROM scratch
+FROM hello-world:latest
 
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
 LABEL org.opencontainers.image.title="${CONTAINER_NAME}"
