@@ -1,4 +1,4 @@
-FROM selfhostedpro/yacht:latest@sha256:63d0ec5685da9dc91679cdcae473455a9515713cd3221025027276f278a4fc4a
+FROM selfhostedpro/yacht:latest@sha256:62add931bcad4a455093ee060e227f4c612acfba0d9fd0ec9664f4cf9ff30af3
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
