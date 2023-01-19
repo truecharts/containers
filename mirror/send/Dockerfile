@@ -1,4 +1,4 @@
-FROM registry.gitlab.com/timvisee/send:latest@sha256:87509d6ac25017b746d076acfd8219dc157f424d0e4cde2c5b91f4dca4ad81e9
+FROM registry.gitlab.com/timvisee/send:latest@sha256:5c37761d5c4e41ab7c794bab2c36485c9462198ef28b91237281c182209dcbc2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
