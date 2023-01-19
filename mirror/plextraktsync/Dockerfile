@@ -1,4 +1,4 @@
-FROM ghcr.io/taxel/plextraktsync:0.25.8@sha256:ea72e9c2b6e826335daf08c9bc3582eed634d64876503adec3c1ea6d4a761853
+FROM ghcr.io/taxel/plextraktsync:0.25.10@sha256:eb82c4a2d80fdc75ce477c43b26fa73abba09c619c5cafa10b560ab046605810
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
