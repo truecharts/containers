@@ -1,4 +1,4 @@
-FROM meisnate12/plex-meta-manager:v1.18.2@sha256:126c1f02150191c638dbcae8e952c99d6d4ac6ba84011e96e7d702d3c5e1c634
+FROM meisnate12/plex-meta-manager:v1.18.3@sha256:f4bea4de2a8bfa3ac15b60d54ab04f83121ede1d5b49507b75737c0fe8fbdaa0
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
