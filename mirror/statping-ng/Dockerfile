@@ -1,4 +1,4 @@
-FROM adamboutcher/statping-ng:latest@sha256:e32bd2e50ca023f37b0650e1942d51cb9269a2caab11042bc0cc53fac0474a2b
+FROM quay.io/statping-ng/statping-ng:v0.90.80@sha256:743bacfb03a6986390abeb404df6cf52769ea8783b0d50a0bfeef8a2ccb4e548
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

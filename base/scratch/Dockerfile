@@ -1,10 +1,9 @@
-FROM bitnami/postgresql:14.6.0@sha256:4ff3f5c4cd6d163af234e72259b0ac85346eb02ae4faa23802613d75b8cc1e70
-LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
+FROM hello-world:latest@sha256:aa0cc8055b82dc2509bed2e19b275c8f463506616377219d9642221ab53cf9fe
 
-ARG CONTAINER_NAME
-ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
 LABEL org.opencontainers.image.title="${CONTAINER_NAME}"
+LABEL "maintainer"="TrueCharts <info@truecharts.org>"
+LABEL "org.opencontainers.image.source"="https://github.com/truecharts/apps"
 LABEL org.opencontainers.image.url="https://truecharts.org/docs/charts/${CONTAINER_NAME}"
 LABEL org.opencontainers.image.version="${CONTAINER_VER}"
 LABEL org.opencontainers.image.description="Container for ${CONTAINER_NAME} by TrueCharts"
