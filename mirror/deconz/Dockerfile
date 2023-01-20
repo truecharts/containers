@@ -1,4 +1,4 @@
-FROM deconzcommunity/deconz:2.20.00@sha256:5bb4ed6d1929dad7aa6859fa8189ecb24a5a601dac2478858204215ba596609b
+FROM deconzcommunity/deconz:2.20.01@sha256:48d4fd0014718d65cd9a30b77ad0872e2ddeaafaaecea162999f847eeff5b835
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
