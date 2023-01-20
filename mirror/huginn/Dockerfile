@@ -1,4 +1,4 @@
-FROM huginn/huginn:latest@sha256:819febe9cabf571d16684d541235127510cec0db5269aafd709ab80348e87f81
+FROM huginn/huginn:latest@sha256:aa0fc37436889d1779def53f4e75b35f82613988f6ce49e754bcb05073c78852
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
