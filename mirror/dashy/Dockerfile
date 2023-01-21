@@ -1,4 +1,4 @@
-FROM lissy93/dashy:2.1.1@sha256:91e1f3d7097ce6118da1f82d76bd4a963bdfe53259b59161125127155baf685a
+FROM lissy93/dashy:2.1.1@sha256:6c4e82b87261974a79717b259a8ee439ff5128080beca263a680bb87d214d68a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
