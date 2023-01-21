@@ -1,4 +1,4 @@
-FROM ghcr.io/relvacode/storm:latest@sha256:98607abb161b2e84b657f68c0562db39d33c8bfc01a46c49fd8eab8c5072a380
+FROM ghcr.io/relvacode/storm:latest@sha256:860fca41a0d21e609799a5764272d5aecbbc22887686ae01e0ac6ca2f8e9abf8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
