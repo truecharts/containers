@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/dillinger:3.39.1@sha256:54c228c4a6d086d818a40c0c5bca8bf28f7b7f353a66d7381b87a108bd3708fc
+FROM ghcr.io/linuxserver/dillinger:3.39.1@sha256:5bcac9e578ce781d3180db476a5d3748169195cb8a56da7eacc20ef286c18daf
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
