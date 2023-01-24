@@ -1,4 +1,4 @@
-FROM jtyr/exporter-test:0.1.1
+FROM jtyr/exporter-test:0.1.1@sha256:7f21af6d889b314a69a944612a7f9870494767e69fe0128e18a3bf9319e6f97d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
