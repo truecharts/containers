@@ -1,4 +1,4 @@
-FROM koehn/diaspora:0.7.18.0@sha256:f5bf9df04e8fe3f6b75ed9ae736b5c02f5c4285eebca9161a3d45810c59649a8
+FROM koehn/diaspora:0.7.18.0@sha256:84a24cee2d97d1c7c6534d99ac2fd4bea4ee8f00c82a769e1121920f81c5bfbe
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
