@@ -1,4 +1,4 @@
-FROM diygod/rsshub:latest@sha256:b17a540cfd9763c7da84a9895f6fb99af412dfb460533215d0f7087b2aae62cc
+FROM diygod/rsshub:latest@sha256:70de08d04ba5e285ecde18f1d127b0b6d8c5f91695c70009b41cc8698c3b7a2a
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
