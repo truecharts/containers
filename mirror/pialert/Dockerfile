@@ -1,4 +1,4 @@
-FROM jokobsk/pi.alert:latest@sha256:699b3489a68baddcfcfcd96f78f841469f9fadd9114a3d4dc1d84bf63dc867d4
+FROM jokobsk/pi.alert:latest@sha256:1a098ffdfb54b32ba182ebf9d7467812bbf64313f66dfd8469b0d22cbadcc370
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
