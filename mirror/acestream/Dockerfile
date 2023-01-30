@@ -1,4 +1,4 @@
-FROM vstavrinov/acestream-service:latest@sha256:f8ca67b1effd56d4cf078e0f771cccbf9d1219d605ec20724cd1a7d4117bca4b
+FROM vstavrinov/acestream-service:latest@sha256:0967a9ff946e8183c349eed38f2194d1eab34588f7e7c7b9d3e28f342e1724ff
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
