@@ -1,4 +1,4 @@
-FROM ghcr.io/wanjohiryan/qwantify:20.04@sha256:31b8ed891b4e47bd5c70baf7dba40b5ba788ec1919e2d13cef827d86e07d810c
+FROM ghcr.io/wanjohiryan/qwantify:20.04@sha256:2ddb219128f558b09ba1ea124144554522fb906a5a8f480668ddc06136f5adea
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
