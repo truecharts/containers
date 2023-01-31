@@ -1,4 +1,4 @@
-FROM metikular/coupon-store:v1.2.0@sha256:b8015ea43b87aa4dbb5ee1c332f17c674887d6dac6986c0d5b143222e2b187f8
+FROM metikular/coupon-store:v1.3.0@sha256:54ef3454ea23109096eef277af48f89707bfb7e31d14097466c02ac381670572
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
