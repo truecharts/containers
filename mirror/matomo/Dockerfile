@@ -1,4 +1,4 @@
-FROM bitnami/matomo:4.13.1@sha256:b9e2b1a4c23146c67943fb3a358a1cb0bac67ed5835e732baf7d926369dc03b6
+FROM bitnami/matomo:4.13.3@sha256:857b66a844479a09efa47eed8aeab1d8e826ff6610500e1ac5f2d7aa1126e6ff
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
