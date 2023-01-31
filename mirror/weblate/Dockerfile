@@ -1,4 +1,4 @@
-FROM weblate/weblate:4.14.2-1@sha256:295347f669d5512ac8912afe1b62b33cf989460a0c025d53c4a4735b486397f6
+FROM weblate/weblate:4.15.2-1@sha256:d9d4f75a8629365b89f11ed586e6a769e79c0deb9069b0db7401a05669870075
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
