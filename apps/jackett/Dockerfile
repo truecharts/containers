@@ -1,0 +1,53 @@
+FROM tccr.io/truecharts/ubuntu:jammy-20221130@sha256:9738b445144357d070f36da244de640d92705dd255ba3d35b8ae38646d65d022
+
+ARG TARGETPLATFORM
+ARG VERSION
+ARG CHANNEL
+
+ENV XDG_CONFIG_HOME=/config
+
+# hadolint ignore=DL3008,DL3015,SC2039,SC2086
+RUN \
+    apt-get -qq update \
+    && \
+    apt-get -qq install -y \
+        libicu70 \
+    && \
+    case "${TARGETPLATFORM}" in \
+        'linux/amd64') export ARCH='AMDx64' ;; \
+        'linux/arm64') export ARCH='ARM64' ;; \
+    esac \
+    && \
+    curl -fsSL "https://github.com/Jackett/Jackett/releases/download/v${VERSION}/Jackett.Binaries.Linux${ARCH}.tar.gz" \
+        | tar ixzf - -C /app --strip-components 1 \
+    && \
+    rm -rf \
+        /app/JackettUpdater* \
+    && \
+    apt-get autoremove -y \
+    && apt-get clean \
+    && \
+    rm -rf \
+        /tmp/* \
+        /var/lib/apt/lists/* \
+        /var/tmp/ \
+    && chown -R root:root /app \
+    && chmod -R 755 /app \
+    && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc
+
+USER kah
+COPY ./apps/jackett/entrypoint.sh /entrypoint.sh
+CMD ["/entrypoint.sh"]
+
+LABEL "maintainer"="TrueCharts <info@truecharts.org>"
+LABEL "org.opencontainers.image.source"="https://github.com/truecharts/apps"
+
+ARG CONTAINER_NAME
+ARG CONTAINER_VER
+LABEL org.opencontainers.image.licenses="BSD-3-Clause"
+LABEL org.opencontainers.image.title="${CONTAINER_NAME}"
+LABEL org.opencontainers.image.url="https://truecharts.org/docs/charts/${CONTAINER_NAME}"
+LABEL org.opencontainers.image.version="${CONTAINER_VER}"
+LABEL org.opencontainers.image.description="Container for ${CONTAINER_NAME} by TrueCharts"
+LABEL org.opencontainers.image.authors="TrueCharts"
+LABEL org.opencontainers.image.documentation="https://truecharts.org/docs/charts/${CONTAINER_NAME}"
