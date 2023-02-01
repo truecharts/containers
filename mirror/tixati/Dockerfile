@@ -1,4 +1,4 @@
-FROM angelics/unraid-docker-tixati:latest@sha256:c362aa2335b8ff5cd766c6a57644d2ea8aaefaf18e6b15188e5d25676b20a243
+FROM angelics/unraid-docker-tixati:latest@sha256:11b7d3e910c9b71e31d3b5c770091b532de73d705e96959d838b71cf3169184b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
