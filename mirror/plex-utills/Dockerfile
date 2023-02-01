@@ -1,4 +1,4 @@
-FROM jkirkcaldy/plex-utills:latest@sha256:02da2c6b91170a112776a9b7c81296b29ba56180927173b34b544bffef9a7cc8
+FROM jkirkcaldy/plex-utills:latest@sha256:bfbec4808b542ef3b197532fb695a49d7609bca96c7dc6c5d203e55a7dc5f9ab
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
