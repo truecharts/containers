@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
+version=$(curl -sX GET "https://pkgs.alpinelinux.org/packages?name=transmission-daemon&branch=v3.17" | grep -oP '(?<=<td class="version">)[^<]*')
+version="${version%%_*}"
+version="${version%%-*}"
 
-version=$(curl "https://registry.hub.docker.com/v1/repositories/freeradius/freeradius-server/tags" | jq --raw-output '.[].name' | grep -v layer | grep -v alpine | grep -v latest | tail -n1)
-version="${version#*v}"
-version="${version#*release-}"
-echo "${version}"
+printf "%s" "${version}"
