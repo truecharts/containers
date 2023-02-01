@@ -36,7 +36,7 @@ RUN \
     && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc
 
 USER kah
-COPY ./apps/jackett/entrypoint.sh /entrypoint.sh
+COPY ./jackett/entrypoint.sh /entrypoint.sh
 CMD ["/entrypoint.sh"]
 
 LABEL "maintainer"="TrueCharts <info@truecharts.org>"
