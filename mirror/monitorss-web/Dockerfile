@@ -1,4 +1,4 @@
-FROM synzen/monitorss:latest@sha256:a7dfd1a71b51a865a1dad3de8c9fedf79e57cb4d06c00024b5e192d6801679f1
+FROM synzen/monitorss:latest@sha256:14682ea34a738cdfe0727863c02c57bfe9106dbe2f048cb5bbccf36e8445a168
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
