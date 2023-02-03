@@ -1,4 +1,4 @@
-FROM adguard/adguardhome:v0.107.22@sha256:125dcd796acfa9470de4b84b97209256b0758afb8880d5a1fa77607d825a1bdc
+FROM adguard/adguardhome:v0.107.23@sha256:e73212f9022f2fb3ab84078e1ca0458c2bd6ba678f7c69c0fd1090c65128a776
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
