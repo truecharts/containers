@@ -1,4 +1,4 @@
-FROM sonarqube:latest@sha256:d01fc01edd48c0fcdd8841255cfc30eb05b43e160b4c1b9056ca0c75d32ac285
+FROM sonarqube:latest@sha256:31715bacd3df3c8c0fef4a05bfd5c596a286099bcccd06b96d676a350e44fbf4
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
