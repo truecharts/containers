@@ -1,4 +1,4 @@
-FROM toddrob/searcharr:latest@sha256:4b87458357e11f6121fd975ba562a131b6708c9e905ceaa1bc60b86de7b846e0
+FROM toddrob/searcharr:latest@sha256:86267bc99ca396b275ef407b1c1e6f23434d116bea696da5a143bdf38c7aebbb
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
