@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.389-jdk17@sha256:a9bfb19f5ae74605d6e670eabea3587ed69389dcd6cdf79dff2938c345c0aa8b
+FROM jenkins/jenkins:2.389-jdk17@sha256:d0a8b857918079e6af832d05726440cda8300119049c972d70fb8041b25be81f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
