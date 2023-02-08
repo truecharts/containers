@@ -1,4 +1,4 @@
-FROM jlesage/mediainfo:v23.02.1@sha256:b2cd213e641f6d43c32072f7490a7e73465c46907eec355781d6c909c19971a7
+FROM jlesage/mediainfo:v23.02.2@sha256:639ce74156c5da3c9dfaa0e4db8cdb0377870b38ed6dfbc74380c90fc7a3a903
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
