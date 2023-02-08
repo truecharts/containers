@@ -1,4 +1,4 @@
-FROM bitnami/alertmanager:0.25.0@sha256:ed7b4c1615f907ce75e07d1498b31e46889a8a0188f1ae31a7e433449a531459
+FROM bitnami/alertmanager:0.25.0@sha256:ed5f608109f44453dfc24c9deed01ce8b3dca9d6b066bcbe772c116a318f0c73
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
