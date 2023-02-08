@@ -1,4 +1,4 @@
-FROM crowdsecurity/crowdsec:v1.4.5@sha256:ee4c52b6c0e1e1cbcf1766dbeb017fd93293713b9dfc6802ef5699927cf18919
+FROM crowdsecurity/crowdsec:v1.4.6@sha256:e6efea216c7d4fd330bdee8766ae4024c28decf4cc02e7eed47d41bd261adaeb
 
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
