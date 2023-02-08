@@ -1,4 +1,4 @@
-FROM jlesage/dupeguru:v23.02.1@sha256:7a402babd1fd545eb3dccdd62916cc87ce6066c35cbbdff025e626889aa55ede
+FROM jlesage/dupeguru:v23.02.2@sha256:167ea8779e8eb34b8b2600c0448d23acec4a1c2ba844d95682da061e8a207bbb
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
