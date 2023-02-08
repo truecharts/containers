@@ -1,4 +1,4 @@
-FROM thomx/fr24feed-piaware:latest@sha256:0fa9e18d933f9f459672a29d85fca9543afeeaf0d023c33d25e6518c55c19a4a
+FROM thomx/fr24feed-piaware:latest@sha256:167b62e7b5e0612be86aecd505ecc93b57dab7d01a2ba87d1c3f8a466b2b755d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
