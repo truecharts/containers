@@ -1,4 +1,4 @@
-FROM jlesage/qdirstat:v23.02.1@sha256:0940dd8d7062d4148259ed72a37227d76572ed022fbf9c37917309356a6844d0
+FROM jlesage/qdirstat:v23.02.2@sha256:c6f1d67cc2e0df80cfc4cd6233046ef108608bc022f7e8229aff48f95d33ec4f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
