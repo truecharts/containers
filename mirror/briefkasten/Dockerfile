@@ -1,4 +1,4 @@
-FROM ndom91/briefkasten:latest@sha256:5ce85ff3f33005fb24e3e523468b5b82ac78d1d5baae48a5c34ae887bc421b27
+FROM ndom91/briefkasten:latest@sha256:26feadff68f160b6fae8169132d41759bf57b4a4bd998aefc871a402cef85743
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
