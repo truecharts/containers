@@ -1,4 +1,4 @@
-FROM nginx:1.23.3@sha256:dfe65d5d715693681e769d91f65d9a4e69b80fa64f44ea1824a901f5a917d0a5
+FROM nginx:1.23.3@sha256:75c2e67fd96dc7b75a0abd6fc395d0c3628d9310d9d63badc411bf8f7d2d9999
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
