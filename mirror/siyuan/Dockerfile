@@ -1,4 +1,4 @@
-FROM b3log/siyuan:latest@sha256:a4baed6d58d81dbbefaa446513b701787fd3d26e5952998c5efb2ccb2d73750d
+FROM b3log/siyuan:latest@sha256:d6cb3646131ab2a9275c88044d030dde9491dd6b8bb73fd4b815f73e32777fa7
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
