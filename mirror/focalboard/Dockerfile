@@ -1,4 +1,4 @@
-FROM mattermost/focalboard:7.5.2@sha256:a9c5bb9b8fdd55f49121c230297a495c9c382e5e44eeb6cd6c74328a33bab652
+FROM mattermost/focalboard:7.8.0@sha256:2f325f636eaf6c8aa67c5f1595b333d73509409c51802e87039a03a1d2ef3e4c
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 

@@ -1,4 +1,4 @@
-FROM ghcr.io/dorianim/money-balancer:v1.2.0@sha256:199692986fe167a001598faa80055eebe376c46509f536e36aa04a6de1bd58cc
+FROM ghcr.io/dorianim/money-balancer:v1.3.0@sha256:89167ac32326ef9b50187e220f54744d9b329b321cebbf8f03578a48cc98964a
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

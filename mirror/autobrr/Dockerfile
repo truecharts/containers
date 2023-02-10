@@ -1,4 +1,4 @@
-FROM ghcr.io/autobrr/autobrr:v1.16.0@sha256:838b011bd020435b6a1093d1e99cc6ca4329d71878f07dc1f538d765d7ec32ae
+FROM ghcr.io/autobrr/autobrr:v1.17.0@sha256:1f1c9e513ef4f6cd8993c2fbfe416fa964990978e133f4425eb363617520e709
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

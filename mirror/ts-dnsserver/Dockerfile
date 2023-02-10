@@ -1,4 +1,4 @@
-FROM roxedus/ts-dnsserver:latest@sha256:45981359de163e1f27f1a49e48253adba13899b7a5d9698ef5ac48026c3b4f51
+FROM roxedus/ts-dnsserver:latest@sha256:c90a19df4109af103a1629800522ec2734a2117c1e667b6ab9a7b77266af4ab8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

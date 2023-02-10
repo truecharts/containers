@@ -1,4 +1,4 @@
-FROM tiredofit/freescout:latest@sha256:fa5beb088dab13d2426c4bd9c5a8f4e81172f29e5d24b9f7e22cbf04602ad071
+FROM tiredofit/freescout:latest@sha256:7e2731515d3374b6b1171e8bc47ce7fff64ee9f7ca246f1a5199584e9b1f4aa9
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
