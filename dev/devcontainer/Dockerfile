@@ -5,7 +5,7 @@ ARG VARIANT="2"
 FROM quay.io/helmpack/chart-releaser:v1.4.1@sha256:3f0ec5e04ee15c20646f07e190c46a4f998709aeac92ef65d4e044d10ba45bd9 AS cr
 
 # hadolint ignore=DL3007
-FROM quay.io/git-chglog/git-chglog:0.15.1@sha256:471db4cefc1a4dc0d8ee996447d5ac860f9496c982bcd29e90b390aff4e78175 AS gcl
+FROM quay.io/git-chglog/git-chglog:0.15.2@sha256:322eb9ab6db299b5478c02024265f7aec7e736dd82b996c52c420acb116ce50e AS gcl
 
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.154.0/containers/ruby/.devcontainer/base.Dockerfile
 FROM mcr.microsoft.com/vscode/devcontainers/ruby:0-2@sha256:bca62cda6dbdadcce65d7da29fc04e5827ed378bbd47b871ff43aef9339be9a6

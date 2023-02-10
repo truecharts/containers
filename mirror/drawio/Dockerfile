@@ -1,4 +1,4 @@
-FROM jgraph/drawio:20.8.13@sha256:fed0037820010bd93f904ed8537f8b98e3238126f3432ff9280ea2405e793ec0
+FROM jgraph/drawio:20.8.20@sha256:6ac95be20816deef6c0cd4a92cc370465d74fd66dfb6a9ef230bbece592f2423
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

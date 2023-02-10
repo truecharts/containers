@@ -1,4 +1,4 @@
-FROM docker.io/jetbrains/youtrack:2022.3.65367@sha256:e5e484d6855c427d214dc194dec4fe8b6a6c84b5f6ff4a63b6a337fbfa0c743d
+FROM docker.io/jetbrains/youtrack:2022.3.65370@sha256:6ca542813a5858e6b4abc621f03effa564717df1b330d3c2030bdcd7ae9fd1c7
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

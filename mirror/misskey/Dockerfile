@@ -1,4 +1,4 @@
-FROM misskey/misskey:13.2.6@sha256:5fb25d84fa97e7fda00f5b9d3835d0538edd1f9cbc1a7af8719f29b467274300
+FROM misskey/misskey:13.5.6@sha256:7f36f9d282cec69d11a226f3467133e1991ee88da488729065d2b75836eadc1c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
