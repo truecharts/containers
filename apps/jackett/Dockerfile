@@ -6,7 +6,7 @@ ARG CHANNEL
 
 ENV XDG_CONFIG_HOME=/config
 
-SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+SHELL ["/bin/ash", "-o", "pipefail", "-c"]
 
 # hadolint ignore=DL3008,DL3015,SC2039,SC2086
 RUN \
@@ -38,7 +38,7 @@ RUN \
     && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc
 
 USER kah
-COPY ./jackett/entrypoint.sh /entrypoint.sh
+COPY ./entrypoint.sh /entrypoint.sh
 CMD ["/entrypoint.sh"]
 
 LABEL "maintainer"="TrueCharts <info@truecharts.org>"
