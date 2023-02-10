@@ -23,8 +23,8 @@ RUN chown -R root:root /usr/bin/transmission* \
     && rm -rf /tmp/*
 
 USER kah
-COPY ./transmission/settings.json.tmpl /app/settings.json.tmpl
-COPY ./transmission/entrypoint.sh /entrypoint.sh
+COPY ./settings.json.tmpl /app/settings.json.tmpl
+COPY ./entrypoint.sh /entrypoint.sh
 CMD ["/entrypoint.sh"]
 
 LABEL "maintainer"="TrueCharts <info@truecharts.org>"
