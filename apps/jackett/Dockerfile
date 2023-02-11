@@ -35,7 +35,7 @@ RUN \
 
 COPY ./apps/jackett/entrypoint.sh /entrypoint.sh
 
-USER kah
+USER apps
 CMD ["/entrypoint.sh"]
 
 LABEL "maintainer"="TrueCharts <info@truecharts.org>"
