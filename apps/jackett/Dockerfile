@@ -12,6 +12,15 @@ RUN \
     apk update --no-cache \
     && apk add --no-cache \
         icu-dev \
+        sqlite-libs \
+        gcompat \
+        icu-libs \
+        krb5-libs \
+        libgcc \
+        libintl \
+        libssl1.1 \
+        libstdc++ \
+        zlib \
     && wget -qO  - "https://github.com/Jackett/Jackett/releases/download/v${VERSION}/Jackett.Binaries.LinuxAMDx64.tar.gz" \
         | tar xzf - -C /app --strip-components 1 \
     && rm -rf  \
