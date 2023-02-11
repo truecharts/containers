@@ -10,10 +10,13 @@ ENV HOME=/config \
     TRANSMISSION__RPC_PORT=9091 \
     TRANSMISSION_WEB_HOME=/app/web
 
-SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 
 #hadolint ignore=DL3018
 RUN apk add --no-cache ca-certificates geoip p7zip python3 transmission-cli~"${VERSION}" transmission-daemon~"${VERSION}"
+
+SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
+
 #hadolint ignore=DL3059
 RUN chown -R root:root /usr/bin/transmission* \
     && chmod -R 755 /usr/bin/transmission* \
