@@ -7,33 +7,31 @@ ARG CHANNEL
 ENV XDG_CONFIG_HOME=/config
 
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
-
 RUN \
-    apk update \
+    apk update --no-cache \
     && \
-    apk add \
-        libicu-dev \
+    apk add --no-cache \
+        libicu-dev=70.1-r0 \
     && \
     case "${TARGETPLATFORM}" in \
         'linux/amd64') export ARCH='AMDx64' ;; \
         'linux/arm64') export ARCH='ARM64' ;; \
     esac \
     && \
-    wget -O - "https://github.com/Jackett/Jackett/releases/download/v${VERSION}/Jackett.Binaries.Linux${ARCH}.tar.gz" \
-        | tar -xz -C /app --strip-components 1 \
+    wget --progress=dot:giga -O - "https://github.com/Jackett/Jackett/releases/download/v${VERSION}/Jackett.Binaries.Linux${ARCH}.tar.gz" \
+        | tar ixzf - -C /app --strip-components 1 \
     && \
     rm -rf \
         /app/JackettUpdater* \
     && \
-    apk del \
-        libicu-dev \
+    apk del --no-cache libicu-dev \
+    && rm -rf /var/cache/apk/* \
     && \
     rm -rf \
-        /var/cache/apk/* \
-    && adduser -S kah \
+        /tmp/* \
     && chown -R root:root /app \
     && chmod -R 755 /app \
-    && echo "umask ${UMASK}" >> /etc/bash.bashrc
+    && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc
 
 COPY ./apps/jackett/entrypoint.sh /entrypoint.sh
 
