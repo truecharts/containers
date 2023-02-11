@@ -12,8 +12,7 @@ SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 # hadolint ignore=DL3018
 RUN \
     apk update --no-cache \
-    && \
-    apk add --no-cache \
+    && apk add --no-cache \
         icu-dev \
     && wget -qO  - "https://github.com/Jackett/Jackett/releases/download/v${VERSION}/Jackett.Binaries.LinuxAMDx64.tar.gz" \
         | tar xzf - -C /app --strip-components 1 \
