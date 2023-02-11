@@ -20,7 +20,7 @@ RUN \
         'linux/amd64') export ARCH='AMDx64' ;; \
     esac \
     && \
-    wget --progress=dot:giga -O - "https://github.com/Jackett/Jackett/releases/download/v${VERSION}/Jackett.Binaries.Linux${ARCH}.tar.gz" \
+    wget -qO  - "https://github.com/Jackett/Jackett/releases/download/v${VERSION}/Jackett.Binaries.Linux${ARCH}.tar.gz" \
         | tar ixzf - -C /app --strip-components 1 \
     && \
     rm -rf \
