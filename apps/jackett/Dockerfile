@@ -26,10 +26,10 @@ RUN \
     rm -rf \
         /app/JackettUpdater* \
     && \
-    && rm -rf /var/cache/apk/* \
-    && \
-    rm -rf \
-        /tmp/* \
+    && rm -rf  \
+      /tmp/* \
+      /var/cache/apk/* \
+      /var/tmp/ \
     && chown -R apps:apps /app \
     && chmod -R u=rwX,go=rX /app \
     && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc
