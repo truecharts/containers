@@ -6,9 +6,7 @@ ARG CHANNEL
 
 ENV XDG_CONFIG_HOME=/config
 
-SHELL ["/bin/bash", "-o", "pipefail", "-c"]
-
-# hadolint ignore=DL3008,DL3015,SC2039,SC2086
+SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 RUN \
     apt-get -qq update \
     && \
