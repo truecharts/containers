@@ -23,9 +23,11 @@ RUN \
     && chmod -R 775 /app \
     && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc
 
-COPY ./apps/jackett/entrypoint.sh /entrypoint.sh
-
 USER apps
+
+EXPOSE 9117
+
+COPY ./apps/jackett/entrypoint.sh /entrypoint.sh
 CMD ["/entrypoint.sh"]
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/apps"
