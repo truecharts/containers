@@ -21,7 +21,7 @@ RUN \
     esac \
     && \
     wget -qO  - "https://github.com/Jackett/Jackett/releases/download/v${VERSION}/Jackett.Binaries.Linux${ARCH}.tar.gz" \
-        | tar ixzf - -C /app --strip-components 1 \
+        | tar xzf - -C /app --strip-components 1 \
     && \
     rm -rf \
         /app/JackettUpdater* \
