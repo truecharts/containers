@@ -7,36 +7,37 @@ ARG CHANNEL
 ENV XDG_CONFIG_HOME=/config
 
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
+
 RUN \
-    apt-get -qq update \
+    apk update \
     && \
-    apt-get -qq install -y \
-        libicu70 \
+    apk add \
+        libicu-dev \
     && \
     case "${TARGETPLATFORM}" in \
         'linux/amd64') export ARCH='AMDx64' ;; \
         'linux/arm64') export ARCH='ARM64' ;; \
     esac \
     && \
-    curl -fsSL "https://github.com/Jackett/Jackett/releases/download/v${VERSION}/Jackett.Binaries.Linux${ARCH}.tar.gz" \
-        | tar ixzf - -C /app --strip-components 1 \
+    wget -O - "https://github.com/Jackett/Jackett/releases/download/v${VERSION}/Jackett.Binaries.Linux${ARCH}.tar.gz" \
+        | tar -xz -C /app --strip-components 1 \
     && \
     rm -rf \
         /app/JackettUpdater* \
     && \
-    apt-get autoremove -y \
-    && apt-get clean \
+    apk del \
+        libicu-dev \
     && \
     rm -rf \
-        /tmp/* \
-        /var/lib/apt/lists/* \
-        /var/tmp/ \
+        /var/cache/apk/* \
+    && adduser -S kah \
     && chown -R root:root /app \
     && chmod -R 755 /app \
-    && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc
+    && echo "umask ${UMASK}" >> /etc/bash.bashrc
+
+COPY ./apps/jackett/entrypoint.sh /entrypoint.sh
 
 USER kah
-COPY ./apps/jackett/entrypoint.sh /entrypoint.sh
 CMD ["/entrypoint.sh"]
 
 LABEL "maintainer"="TrueCharts <info@truecharts.org>"
