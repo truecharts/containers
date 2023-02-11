@@ -14,7 +14,6 @@ RUN \
         icu-dev \
     && wget -qO  - "https://github.com/Jackett/Jackett/releases/download/v${VERSION}/Jackett.Binaries.LinuxAMDx64.tar.gz" \
         | tar xzf - -C /app --strip-components 1 \
-    && ls -l /app \
     && rm -rf  \
       /tmp/* \
       /var/cache/apk/* \
@@ -22,6 +21,7 @@ RUN \
       /app/JackettUpdater* \
     && chown -R apps:apps /app \
     && chmod -R 775 /app \
+    && ls -l /app \
     && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc
 
 USER apps
