@@ -6,6 +6,8 @@ ARG CHANNEL
 
 ENV XDG_CONFIG_HOME=/config
 
+USER root
+
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 RUN \
     apk update --no-cache \
