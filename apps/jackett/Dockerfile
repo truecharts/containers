@@ -30,8 +30,8 @@ RUN \
     && \
     rm -rf \
         /tmp/* \
-    && chown -R root:root /app \
-    && chmod -R 755 /app \
+    && chown -R apps:apps /app \
+    && chmod -R u=rwX,go=rX /app \
     && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc
 
 COPY ./apps/jackett/entrypoint.sh /entrypoint.sh
