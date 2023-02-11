@@ -14,6 +14,7 @@ RUN \
         icu-dev \
     && wget -qO  - "https://github.com/Jackett/Jackett/releases/download/v${VERSION}/Jackett.Binaries.LinuxAMDx64.tar.gz" \
         | tar xzf - -C /app --strip-components 1 \
+    && ls -l /app \
     && rm -rf  \
       /tmp/* \
       /var/cache/apk/* \
