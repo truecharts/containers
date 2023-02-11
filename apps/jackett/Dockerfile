@@ -13,7 +13,7 @@ RUN \
     apk update --no-cache \
     && \
     apk add --no-cache \
-        libicu-dev \
+        icu-dev \
     && \
     case "${TARGETPLATFORM}" in \
         'linux/amd64') export ARCH='AMDx64' ;; \
