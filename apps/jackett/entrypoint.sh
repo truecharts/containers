@@ -2,7 +2,6 @@
 
 #shellcheck disable=SC1091
 test -f "/scripts/umask.sh" && source "/scripts/umask.sh"
-ps aux
 #shellcheck disable=SC2086
 exec \
     /app/jackett \
