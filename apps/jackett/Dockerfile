@@ -22,7 +22,7 @@ RUN \
       /var/tmp/ \
       /app/JackettUpdater* \
     && chown -R apps:apps /app \
-    && chmod -R u=rwX,go=rX /app \
+    && chmod -R 775 /app \
     && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc
 
 COPY ./apps/jackett/entrypoint.sh /entrypoint.sh
