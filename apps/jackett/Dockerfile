@@ -15,7 +15,6 @@ RUN \
     && \
     case "${TARGETPLATFORM}" in \
         'linux/amd64') export ARCH='AMDx64' ;; \
-        'linux/arm64') export ARCH='ARM64' ;; \
     esac \
     && \
     wget --progress=dot:giga -O - "https://github.com/Jackett/Jackett/releases/download/v${VERSION}/Jackett.Binaries.Linux${ARCH}.tar.gz" \
