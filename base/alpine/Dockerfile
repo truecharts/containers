@@ -3,6 +3,8 @@ FROM alpine:3.17.2@sha256:69665d02cb32192e52e07644d76bc6f25abeb5410edc1c7a81a10b
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 
+ENV XDG_CONFIG_HOME=/config
+
 USER root
 
 SHELL ["/bin/sh", "-o", "pipefail", "-c"]
@@ -11,7 +13,7 @@ WORKDIR /app
 
 # hadolint ignore=DL3018
 RUN \
-     apk update && apk add --no-cache ca-certificates \
+  apk update && apk add --no-cache ca-certificates \
   && addgroup apps -g 568 \
   && adduser apps -u 568 -g 568 -D -S -H \
   && mkdir -p /config \
