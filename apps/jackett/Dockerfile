@@ -16,10 +16,6 @@ RUN \
     apk add --no-cache \
         icu-dev \
     && \
-    case "${TARGETPLATFORM}" in \
-        'linux/amd64') export ARCH='AMDx64' ;; \
-    esac \
-    && \
     wget -qO  - "https://github.com/Jackett/Jackett/releases/download/v${VERSION}/Jackett.Binaries.Linux${ARCH}.tar.gz" \
         | tar xzf - -C /app --strip-components 1 \
     && \
