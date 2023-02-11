@@ -11,7 +11,6 @@ SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 RUN \
     apk update --no-cache \
     && apk add --no-cache \
-        icu-dev \
         sqlite-libs \
         gcompat \
         icu-libs \
