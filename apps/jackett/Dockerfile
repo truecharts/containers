@@ -1,4 +1,4 @@
-FROM tccr.io/truecharts/alpine:latest@sha256:345143bb810820b0fd300b67d57780b25729a3cccc3036da18c9603e5e805dc8
+FROM tccr.io/truecharts/alpine:latest@sha256:51d5ca7b0e2c325b818c661b2482a4c9025871a325c74dde5f3e9cf8661560bf
 
 ARG TARGETPLATFORM
 ARG VERSION
