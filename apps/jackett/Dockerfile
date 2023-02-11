@@ -9,6 +9,7 @@ ENV XDG_CONFIG_HOME=/config
 USER root
 
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
+# hadolint ignore=DL3018
 RUN \
     apk update --no-cache \
     && \
