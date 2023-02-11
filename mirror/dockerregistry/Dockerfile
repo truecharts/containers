@@ -1,4 +1,4 @@
-FROM registry:2@sha256:ce14a6258f37702ff3cd92232a6f5b81ace542d9f1631966999e9f7c1ee6ddba
+FROM registry:2@sha256:277c9f229bdfa44208cba32c7802caf695f2cec240febf70dfb32910d8aa9944
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
