@@ -26,7 +26,6 @@ RUN \
     rm -rf \
         /app/JackettUpdater* \
     && \
-    apk del --no-cache libicu-dev \
     && rm -rf /var/cache/apk/* \
     && \
     rm -rf \
