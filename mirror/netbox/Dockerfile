@@ -1,4 +1,4 @@
-FROM netboxcommunity/netbox:v3.4.4-2.4.0@sha256:df1fcac79cbb3e5fcc9a824bbc741d21de2024b3a5324b060f0f4e4b13875dc7
+FROM netboxcommunity/netbox:v3.4.4-2.4.0@sha256:c645ef8566963d3105bf59ecc0dd4a9aa337b7d4535d23c48cea7fbe62e7f5ac
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
