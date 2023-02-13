@@ -1,7 +1,10 @@
-FROM alpine:3.17.1@sha256:f271e74b17ced29b915d351685fd4644785c6d1559dd1f2d4189a5e851ef753a
+FROM alpine:3.17.2@sha256:69665d02cb32192e52e07644d76bc6f25abeb5410edc1c7a81a10ba3f0efb90a
 
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
+
+ENV XDG_CONFIG_HOME=/config
+ENV UMASK=0002
 
 USER root
 
@@ -11,7 +14,7 @@ WORKDIR /app
 
 # hadolint ignore=DL3018
 RUN \
-     apk update && apk add --no-cache ca-certificates \
+  apk update && apk add --no-cache ca-certificates \
   && addgroup apps -g 568 \
   && adduser apps -u 568 -g 568 -D -S -H \
   && mkdir -p /config \
@@ -28,15 +31,15 @@ USER apps
 COPY ./base/ubuntu/entrypoint.sh /entrypoint.sh
 COPY ./base/ubuntu/shim /etc/profile.d
 
+ENTRYPOINT ["/bin/ash", "--"]
+
 # iX NFS4_XDR WINACL ripped from toolkit ripped from TrueNAS SCALE 22.02.04
 COPY ./base/ubuntu/nfs4xdr/* /usr/sbin/
 
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
 LABEL org.opencontainers.image.title="${CONTAINER_NAME}"
 LABEL "maintainer"="TrueCharts <info@truecharts.org>"
-LABEL "org.opencontainers.image.source"="https://github.com/truecharts/apps"
-LABEL org.opencontainers.image.url="https://truecharts.org/docs/charts/${CONTAINER_NAME}"
+LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 LABEL org.opencontainers.image.version="${CONTAINER_VER}"
 LABEL org.opencontainers.image.description="Container for ${CONTAINER_NAME} by TrueCharts"
 LABEL org.opencontainers.image.authors="TrueCharts"
-LABEL org.opencontainers.image.documentation="https://truecharts.org/docs/charts/${CONTAINER_NAME}"
