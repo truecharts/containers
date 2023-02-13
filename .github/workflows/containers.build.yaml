@@ -22,6 +22,8 @@ on:
 env:
   # How long to sleep before running the tests (gives the application time to start)
   GOSS_SLEEP: 30
+  # Number of times to run the goss test
+  GOSS_ITERATIONS: 3
 
 # Detect which folders in project-root (which contain the containers) contain changes
 jobs:
@@ -235,8 +237,11 @@ jobs:
       if: ${{ steps.prep.outputs.goss == 'true' }}
       env:
         GOSS_FILE: ./${{ steps.prep.outputs.category }}/${{ matrix.container }}/goss.yaml
-      run: |
-        dgoss run ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:test
+      run:  |
+        for i in $(seq 1 ${{ env.GOSS_ITERATIONS }}); do
+          echo "Running GOSS test iteration $i of ${{ env.GOSS_ITERATIONS }}..."
+          dgoss run ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:test
+        done
 
     # Push if not a PR, otherwise just test the build process for all requested platforms
     - name: Build and Push
