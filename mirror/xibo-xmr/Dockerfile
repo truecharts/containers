@@ -1,4 +1,4 @@
-FROM xibosignage/xibo-xmr:latest@sha256:7bc22f734e621697eb949304301e9f82067800179da9a0c1dc3730a28d08b218
+FROM xibosignage/xibo-xmr:latest@sha256:d3530a6641265853550e2fa077d0f985df45e8d91e6984e91d2be23bf7d22e00
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
