@@ -1,4 +1,4 @@
-FROM bobokun/qbit_manage:v3.4.2@sha256:8d4311c4a2b517dec1279b38492c02160aea0ac8361b2ba0404d163123589ac4
+FROM bobokun/qbit_manage:v3.4.3@sha256:e4638cf60e97c19a26fe0756cebc67bcb645f453a866bacb81dfc7952a1042ca
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
