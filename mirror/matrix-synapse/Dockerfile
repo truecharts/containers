@@ -1,4 +1,4 @@
-FROM matrixdotorg/synapse:latest@sha256:58c9e76a871bc25bd0524e8cf754e6cf4033003ebd6ae62ccddac2cde115a7cb
+FROM matrixdotorg/synapse:latest@sha256:46a09e486cbdec69169af38bca528ddb9b8753fc3ddd45bf1fcd7b9fdd749aec
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
