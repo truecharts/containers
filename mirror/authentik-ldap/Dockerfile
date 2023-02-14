@@ -1,4 +1,4 @@
-FROM ghcr.io/goauthentik/ldap:2023.1.2@sha256:bf77d513630ff30d82f92943cd223f041c49b87cc3bbc8cf19c145835ae9a43a
+FROM ghcr.io/goauthentik/ldap:2023.2.0@sha256:c3af3e7d447739bdbd64b0c191b9a4e6d93b027f5c370584f49d6c3f50aefe7e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
