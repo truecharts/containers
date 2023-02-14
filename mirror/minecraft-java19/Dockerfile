@@ -1,4 +1,4 @@
-FROM itzg/minecraft-server:java19@sha256:b6591247de8693df8dc70f0a9603cebf08059c5101ae861e7785bb0267203fd6
+FROM itzg/minecraft-server:java19@sha256:bc90c1bee944161474a97a451fb8668753b924c0476e2512653e6c7ed2e34724
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
