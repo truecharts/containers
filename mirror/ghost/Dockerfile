@@ -1,4 +1,4 @@
-FROM ghost:5.34.0@sha256:7383926f1c08ab96f50106cacf1267e37a7fed52bec8309b1f4b413a212bade8
+FROM ghost:5.34.0@sha256:eb4d8b2920abcbcdbc5f25b0c23acb890d2c2b6a5e4c0e34e5a5253bb488c640
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
