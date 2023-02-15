@@ -78,16 +78,25 @@
       "matchDatasources": ["docker"],
       "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-ubuntu$",
       "matchPackagePatterns": ["^zabbix\\/zabbix-.*$"],
+      "automerge": true,
     },
     {
       "matchDatasources": ["docker"],
       "versioning": "regex:^stable-(?<major>\\d{1})(?<minor>\\d{1})(?<patch>\\d{2}).*$",
       "matchPackagePatterns": ["^jitsi\\/.*$"],
+      "automerge": true,
     },
     {
       "matchDatasources": ["docker"],
       "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-beta$",
       "matchPackagePatterns": ["^penpot\\/.*$"],
+      "automerge": true,
+    },
+    {
+      "matchDatasources": ["docker"],
+      "versioning": "regex:^\\d*-bullseye-(?<variant>.+)-v(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)$",
+      "matchPackagePatterns": ["^.+\\/koush\\/scrypted$"],
+      "automerge": true,
     },
     {
       "matchDatasources": ["docker"],
