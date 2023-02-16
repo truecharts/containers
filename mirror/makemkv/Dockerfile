@@ -1,4 +1,4 @@
-FROM jlesage/makemkv:v23.02.4@sha256:fac5c1c2f1add891054d65e42116ab19c0c0923db475506b7c3f7bc6211b23ab
+FROM jlesage/makemkv:v23.02.5@sha256:9ccd59004965325e78c03894f380f3ea90d344fd1fcd7474e1188c8d4b65b65d
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
