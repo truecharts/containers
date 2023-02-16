@@ -1,4 +1,4 @@
-FROM ghcr.io/enchant97/hasty-paste:1.8.0@sha256:c5fdfc1e28c4dd90ea0638302ed1951c6cc32f81bd801388b63ff935f513fc6a
+FROM ghcr.io/enchant97/hasty-paste:1.9.0@sha256:fbbb670ac9b201bf0a47feaa7b1588b5b5c4657bbf49518f9534f12e8e80ce3d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
