@@ -1,4 +1,4 @@
-FROM jackjoe/mailgun_logger:latest@sha256:f21e6cfaa2a64c1e32492d03f870b16dffd403935b439706327254180d78c12e
+FROM jackjoe/mailgun_logger:latest@sha256:3e555dcfce7cc072bc658a86eee4e509450db851e22c3e6835099ace7a043140
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
