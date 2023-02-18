@@ -1,6 +1,5 @@
-FROM nocodb/nocodb:0.105.2@sha256:274c7d0655ef213c5839836c811415ad69aecf61e6eaf5de4b62957c1fde1cd7
+FROM codetheweb/muse:2.1.9@sha256:703e3b1fda9be1dabf5cfd85ae937bb0f87e86b061cfae0554ecfb116e5841d2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
-
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
