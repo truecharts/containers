@@ -1,4 +1,4 @@
-FROM sickgear/sickgear:latest@sha256:09ad0712f7d171eda06f227ca7938da2e52c30740c83c05ec637e7d5b84f03f1
+FROM sickgear/sickgear:latest@sha256:c1f73680590ce3085863a4ed26b0e2d004896f59dc1306046cf9958252a341d7
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
