@@ -1,4 +1,4 @@
-FROM rustdesk/rustdesk-server:latest@sha256:9fa8275d0558199503a567d9632800cbb9e8c71b82265d0046116c766240b6ba
+FROM rustdesk/rustdesk-server:latest@sha256:721003d726485dc7af1728563b98af4e4652cc8c520982d0275d9bb9ad26a41d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
