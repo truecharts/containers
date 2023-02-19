@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/apprise-api:latest@sha256:9be6b7674ec7a6701bf581bc213c355c807fb38c7648e3f741d736c36ae0d041
+FROM caronc/apprise:v0.8.3@sha256:c47b4c12f3f62cfb1d45bdb804e4c08523f32b329b7a3804069e26d05d8d84fe
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
