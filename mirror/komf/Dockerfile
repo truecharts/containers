@@ -1,4 +1,4 @@
-FROM sndxr/komf:latest@sha256:b8b795dd759d91bc84b8310a8d08d4521adfc823d2cec7ca7f315aa5bc80e15a
+FROM sndxr/komf:latest@sha256:6e3a379079900e32f33cd0ad7d9d027d4e4e18b153c85020508801cfdb97fd67
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
