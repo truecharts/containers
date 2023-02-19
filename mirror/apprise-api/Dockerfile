@@ -1,4 +1,4 @@
-FROM caronc/apprise:v0.8.3@sha256:c47b4c12f3f62cfb1d45bdb804e4c08523f32b329b7a3804069e26d05d8d84fe
+FROM caronc/apprise:v1.2.0@sha256:3f9fd03067d36df4c8c7b8a9ae60ed8ce72dc6bd024464614fbc15f56116df0f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
