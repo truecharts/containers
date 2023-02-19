@@ -1,4 +1,4 @@
-FROM ghcr.io/wizarrrr/wizarr:1.5.1@sha256:af7be1d3d2554895487de7dff3ef43bda2003474ad68cfe40af843e05d52c333
+FROM ghcr.io/wizarrrr/wizarr:1.6.1@sha256:a13dfedc20ace25bfdf5691f83b4e3ad4e89dcce2ff7d2893061ef9028449898
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
