@@ -1,4 +1,4 @@
-FROM sismics/docs:latest@sha256:ac74c43449b15cd9937f38959665d81a202982a86658341215602de66a80fd1c
+FROM sismics/docs:latest@sha256:2c87f4439c555be9a6883eb5016df32e0bf8e947192410877b30450651e40b6e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
