@@ -94,7 +94,7 @@
     },
     {
       "matchDatasources": ["docker"],
-      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-beta$",
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)$",
       "matchPackagePatterns": ["^penpot\\/.*$"],
       "automerge": true,
     },
