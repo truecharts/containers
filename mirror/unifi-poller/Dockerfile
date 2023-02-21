@@ -1,4 +1,4 @@
-FROM golift/unifi-poller:2.1.3@sha256:7c4789178dc38a7f243df746e45e5bd19279ea8a1a392ecbab28a6361cc06c80
+FROM ghcr.io/unpoller/unpoller:v2.7.11@sha256:3fbf8a1ef708175926bee212d6e236e5ea21c119004813a2201b52c7f2f523a5
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
