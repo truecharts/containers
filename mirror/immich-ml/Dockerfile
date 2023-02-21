@@ -1,4 +1,4 @@
-FROM altran1502/immich-machine-learning:v1.47.3@sha256:718709c268f5ce46e2cc41a979992f65abbbd6ac0858cd58f0981e0369fea1de
+FROM altran1502/immich-machine-learning:v1.48.0@sha256:6652512e2a8f323a7a93f6bbd0d7c37136b0bf71905218aed43fc810abed8833
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
