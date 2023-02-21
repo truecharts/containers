@@ -1,4 +1,4 @@
-FROM bgameiro/arch-jupyterlab:latest@sha256:8a34c602781313c774e54d3b241d2c0559d5fdaf35263cb801be01973793ec79
+FROM bgameiro/arch-jupyterlab:latest@sha256:52bb3c49ddc4dca6e9caddb649b9b0760caab2ab4f999ce57529e238dc9121b9
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
