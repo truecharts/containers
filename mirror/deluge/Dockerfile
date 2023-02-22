@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/deluge:version-2.1.1-r6@sha256:4995aae378c7f68714e53a6372ebc6cd343ee37529456ccf06f5157d461ee2ee
+FROM ghcr.io/linuxserver/deluge:version-2.1.1-r6@sha256:83ed7c3afd34cfc8417b5688be133acab8242abd69ef44ad000be4ebe6ef8843
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
