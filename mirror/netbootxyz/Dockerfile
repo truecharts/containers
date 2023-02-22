@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/netbootxyz:2.0.53@sha256:bfe7a3c53750b703b8e0a5f1b01475d4b737f23bc67015bbea407492030f68ef
+FROM ghcr.io/netbootxyz/netbootxyz:0.6.7-nbxyz25@sha256:ba206c3851b90ef3a01eecd3942464032a6d638fc5f624c648861ad089af41f6
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
