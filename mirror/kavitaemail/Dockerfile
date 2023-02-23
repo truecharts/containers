@@ -1,4 +1,4 @@
-FROM kizaing/kavitaemail:0.1.12@sha256:c9fe069bf306bc05649acf101c1c7521501aa88a1ecdd420fb35bacb6a2dae95
+FROM kizaing/kavitaemail:0.1.14@sha256:74b7e892303e3ee1428a06f2d6d2ba10e7af3b822f6ac3d847a54eca5b2833ab
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
