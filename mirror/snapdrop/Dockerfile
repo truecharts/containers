@@ -1,4 +1,4 @@
-FROM linuxserver/snapdrop:latest@sha256:54f642d1f45b458ab85beaef9957b1e14abfad1815a82f87e56b4124a39604c4
+FROM linuxserver/snapdrop:latest@sha256:63384fa22b03369e129b3d81c0bf99e26bc536c264578db62646b4ab71af42a9
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
