@@ -1,4 +1,4 @@
-FROM f0rc3/barcodebuddy-docker:latest@sha256:014713e624a62be8892c9e7a79e6a6adc8830235741ff7c2899856a9528bbc0a
+FROM f0rc3/barcodebuddy-docker:latest@sha256:daebfe00f21da373024665bd6b4ad6d32bab1be46d7b54ffbf52d2b717622db1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
