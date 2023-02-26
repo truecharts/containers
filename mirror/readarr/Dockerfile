@@ -1,4 +1,4 @@
-FROM ghcr.io/onedr0p/readarr-develop:0.1.3.1584@sha256:fba906e006a12845216dfd5e4cd382ee4d61970842e348a088cfb4abe4f834ac
+FROM ghcr.io/onedr0p/readarr-develop:0.1.4.1596@sha256:73b729888f98cd9c0dd696c5f616b175fbfd7b29db86d62b707da25c7979d41f
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
