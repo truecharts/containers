@@ -1,4 +1,4 @@
-FROM lswl/vertex:stable@sha256:81e36bfecb2969aa512f826f60e6d7ab29a286397eb27e73766974f59474718c
+FROM lswl/vertex:stable@sha256:ae3694a6d4080834184eeb4e453d20dd931a421823f9c82e445a01af306e2989
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
