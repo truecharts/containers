@@ -1,4 +1,4 @@
-FROM epoupon/lms:latest@sha256:068259445b5029f5c2a317ae1ad779e9fa777975f93db3c2e405288eb7fe7ac8
+FROM epoupon/lms:latest@sha256:3bec33a2939a13db9efb38b5e2f663cc81d5a0029443547f41ec0bafa2607eaf
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
