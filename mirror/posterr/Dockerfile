@@ -1,4 +1,4 @@
-FROM petersem/posterr:latest@sha256:18f5c2f035589afc2d355d054097efc3676e85e55bbb337e56f6f8867ac51ae9
+FROM petersem/posterr:latest@sha256:36179cc3661634f4bd3c539f67f924f44da4ae817e4e9ba9357cbbce1b8e8efd
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
