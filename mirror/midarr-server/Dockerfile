@@ -1,4 +1,4 @@
-FROM ghcr.io/midarrlabs/midarr-server:v2.0.0@sha256:e9f004319313364f86ae14d9ff9000986157b079fb5296ae13094a8c07f2c887
+FROM ghcr.io/midarrlabs/midarr-server:v2.1.0@sha256:819fbe4b0387feec32e2f2566d1d2bb842e87a6eb0a49f97ff1efae19377477d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
