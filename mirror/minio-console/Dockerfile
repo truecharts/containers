@@ -1,4 +1,4 @@
-FROM minio/console:v0.23.1@sha256:ebffec08c541095a5be4a3a9ce91feb50b2a6c163c6fac4693b60ba129438b22
+FROM minio/console:v0.24.0@sha256:d2d0b33ea7b524d013b11ddbb7aa4f9d466c9605c2d5ea8893fc297a38092ffa
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
