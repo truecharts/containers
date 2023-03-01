@@ -1,4 +1,4 @@
-FROM ghostfolio/ghostfolio:latest@sha256:c0c7023a6178db50ce3f169270c8085ad89719fd1f509ae049db42c30818c1ad
+FROM ghostfolio/ghostfolio:latest@sha256:722e0a975e0695c9ce5071d056995d388fe7bd0f94839c084d40ffb9b4b2e5fe
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
