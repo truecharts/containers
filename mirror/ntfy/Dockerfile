@@ -1,4 +1,4 @@
-FROM binwiederhier/ntfy:v2.1.0@sha256:1f482413effa3f1b7823b750b8188b6c6524a6679a7ad2ec02bb575e18766d83
+FROM binwiederhier/ntfy:v2.1.1@sha256:e94140ba50e56e589e0323772963ddbc89ede37c57003ef21acbbae320a614e5
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
