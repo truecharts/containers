@@ -1,4 +1,4 @@
-FROM koillection/koillection:1.4.1@sha256:be545c4c6b74179d5ec3b27e5edc7bf5e6e0db6344f8e21b03764e0d13372522
+FROM koillection/koillection:1.4.1@sha256:fe6572fd9a9c9b39faf47478bb96bcef6926810ad44b4a163f671d4c0eca64ba
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
