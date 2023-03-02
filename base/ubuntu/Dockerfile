@@ -1,4 +1,4 @@
-FROM ubuntu:jammy@sha256:9a0bdde4188b896a372804be2384015e90e3f84906b750c1a53539b585fbbe7f
+FROM ubuntu:jammy@sha256:854037bf6521e9c321c101c269272f756e481fb5f167ae032cb53da08aebcd5a
 
 ARG TARGETPLATFORM
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
