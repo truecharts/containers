@@ -1,4 +1,4 @@
-FROM quay.io/pussthecatorg/rimgo:latest@sha256:f88a2d4fec1048b9dc86cb3b7d8a6816cf0969df21cbac0c3b6d54e49d7c7531
+FROM quay.io/pussthecatorg/rimgo:latest@sha256:561c298b2033b43335cf5669726ba81e731c5f73603d8767a44e19b822f64ce5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
