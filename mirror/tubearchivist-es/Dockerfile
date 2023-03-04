@@ -1,4 +1,4 @@
-FROM bbilly1/tubearchivist-es:latest@sha256:e9159cdbe43477d62a9fc78db5ded9c13d8eff0f76de0fec06227dbd2480628f
+FROM bbilly1/tubearchivist-es:latest@sha256:58e27a304bdf15810e965acecbfb0bd455c33d86c85fe46d288495d095fb2cb8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
