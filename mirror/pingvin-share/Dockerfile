@@ -1,4 +1,4 @@
-FROM stonith404/pingvin-share:v0.11.0@sha256:47c41d7490f0890fd1d1f68a3355970eb740023c5cd1b1118f22d363a281a92c
+FROM stonith404/pingvin-share:v0.11.1@sha256:ee1b27af599277798c11ac229a7f0acc94b2e460e366ed0ee19b752ee652733b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
