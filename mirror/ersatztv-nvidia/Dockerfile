@@ -1,4 +1,4 @@
-FROM jasongdove/ersatztv:v0.7.4-nvidia@sha256:b1d426937736116eb7e706b2c9a12a0fed9bc94068ae04c4f760296771e24c2c
+FROM jasongdove/ersatztv:v0.7.5-nvidia@sha256:723c611cd486d8db0c93050bb3d28c08b09085114018f4ca819b5f13d4b9e165
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
