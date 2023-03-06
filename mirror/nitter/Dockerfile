@@ -1,4 +1,4 @@
-FROM zedeus/nitter:latest@sha256:92523d8ebea2efc0e4e7813be07e8d14d4953f15c72a4da3e6f36b4186b72260
+FROM zedeus/nitter:latest@sha256:080363e8bd9c58616307cedb8081e47239568f40d29f83646ffe4fb60ff0b37f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
