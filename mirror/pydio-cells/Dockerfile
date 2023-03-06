@@ -1,4 +1,4 @@
-FROM pydio/cells:4.1.0@sha256:686dd757c25b15208a1b619ed90562a070b86c81ed391ea4dad3b3dafbdc2a7d
+FROM pydio/cells:4.1.1@sha256:ddf2ece78ce927e7e0c2fc4955a29d2421364d322c73ab7a1876268d62d589a3
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
