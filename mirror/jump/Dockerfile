@@ -1,4 +1,4 @@
-FROM daledavies/jump:v1.3.1@sha256:5af62730903a249b6e5a1792aa4a22932f4eea512d36604937aa58a450a0c11f
+FROM daledavies/jump:v1.3.1@sha256:1f49815ec7d4a01577fe0a6d2cfeb1efcf1e17d7989fa1b8f369229508c36764
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
