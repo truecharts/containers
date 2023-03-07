@@ -1,4 +1,4 @@
-FROM jitsi/prosody:stable-8252@sha256:2e3b611ebeeb3a50ebe54ae59bca9fc7eeb4fb109c10f49fb0e2b8ce4ac843aa
+FROM jitsi/prosody:stable-8319@sha256:0985fff5ed0c72379d6a4b38238b7626d9e38c24bf5b33ea1a7c467a64349fc4
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
