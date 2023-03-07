@@ -1,4 +1,4 @@
-FROM ghcr.io/seriousm4x/upsnap:3.1.2@sha256:da8a29b645c180c71d74580464555c3237411756ab93a1055fe892ff14b47431
+FROM ghcr.io/seriousm4x/upsnap:3.1.3@sha256:99d5e5adc9d8558a23bad1d76c720a18d1bb47ed46fcc5603eb95cb26e5d80ab
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
