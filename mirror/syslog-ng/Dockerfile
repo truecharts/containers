@@ -1,4 +1,4 @@
-FROM balabit/syslog-ng:4.0.1@sha256:6d43b347bb5469f7523dfab1e114ef68121491e5a145f18b006f933cd2cbb922
+FROM balabit/syslog-ng:4.1.0@sha256:f6eee287f71a81a934c01cb58f3423556b5f6cc75a0eb4f0ae3a14296cb943fc
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
