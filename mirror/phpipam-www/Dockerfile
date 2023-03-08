@@ -1,4 +1,4 @@
-FROM phpipam/phpipam-www:latest@sha256:b7a9a0def74b8c3bc124a350f1b5ccb6ab8fa218775ba35e5ef81d8fa33d982e
+FROM phpipam/phpipam-www:latest@sha256:cd1ffb6ba2d03cfd54c5370ab6d47b208a86267c473c7597b3781f339de0d771
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
