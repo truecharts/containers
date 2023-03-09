@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/sickchill:2023.1.2@sha256:7ca5b89f535d993da9b408c5ad32b9463412adfd0ae19c124dba7c7f39ec0c78
+FROM ghcr.io/linuxserver/sickchill:2023.1.2@sha256:6f64c7c5bd5176f5f5959bf94ff9ca804fd15d58603d6760efb89071f0d07952
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
