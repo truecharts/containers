@@ -1,4 +1,4 @@
-FROM mikeah/superslicer-novnc:latest@sha256:d00428c2a3d686f3025e2d5a425cda8524e51c6ffac5dd14350c08ebe9989937
+FROM mikeah/superslicer-novnc:latest@sha256:2fe15eb515666b2b3299742d941f90c4fb509470e676a89a80b38eb744b43a30
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
