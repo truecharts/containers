@@ -1,4 +1,4 @@
-FROM wolveix/satisfactory-server:v1.4.6@sha256:6b2229e5a100674ced86a38cc81e889b0f5fbab3d81068f69bdb75fe88858b37
+FROM wolveix/satisfactory-server:v1.4.7@sha256:0132640168879d0542b90818a23163b25cdcc6df80d23c8c7cf48966edc06fea
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
