@@ -2,7 +2,7 @@
 ARG VARIANT="2"
 
 # hadolint ignore=DL3007
-FROM quay.io/helmpack/chart-releaser:v1.4.1@sha256:3f0ec5e04ee15c20646f07e190c46a4f998709aeac92ef65d4e044d10ba45bd9 AS cr
+FROM quay.io/helmpack/chart-releaser:v1.5.0@sha256:86d1c7cea6bfd2f26f9620a17866ff05ed34149bb37e6f53f66679d0f843dce2 AS cr
 
 # hadolint ignore=DL3007
 FROM quay.io/git-chglog/git-chglog:0.15.4@sha256:c791b1e8264387690cce4ce32e18b4f59ca3ffd8d55cb4093dc6de74529493f4 AS gcl
