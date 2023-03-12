@@ -1,4 +1,4 @@
-FROM mikenye/tar1090:latest@sha256:bf432a5f9f78d8d165c0197169c607edcaede9bb11a683a636222a52828dce8f
+FROM mikenye/tar1090:latest@sha256:51059b521e0ad2a42104e08d17fbd0d3fe0f2915edd27a5da91c697a3d188226
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
