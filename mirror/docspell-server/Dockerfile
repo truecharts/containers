@@ -1,4 +1,4 @@
-FROM docspell/restserver:v0.39.0@sha256:03bad06cffaae9c48770ed01a6ba16e04dcc55883c48ee30753b0aa21c31c7bb
+FROM docspell/restserver:v0.40.0@sha256:3495d25517e3aa2db8e1ea76bc9f6dad04598e9c6ad59acf2223cacc9493c53b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
