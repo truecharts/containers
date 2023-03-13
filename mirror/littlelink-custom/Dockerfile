@@ -1,4 +1,4 @@
-FROM julianprieber/littlelink-custom:v2.7.4@sha256:cc78a46d2a20450cff423249e7d67fde9df1d3069a00b8588000bb1d937e60f3
+FROM julianprieber/littlelink-custom:v3.0.0@sha256:9b39def36bf1f83e073ff5903f64740f89bf5459867f05711089cb75399dae9d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
