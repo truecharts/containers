@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/raneto:latest@sha256:653db94b1cfd8803fae60410af8320463223635d343e9edd6239014f2064fb7a
+FROM lscr.io/linuxserver/raneto:latest@sha256:d0b064141ca3b0baba333133a0816d9c97719bc36e32674060a7779cce83decb
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
