@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/piwigo:13.6.0@sha256:b37be06a4b2bc6de692720319a965efe9090800836688ab0c1a71f79f6c28bcf
+FROM ghcr.io/linuxserver/piwigo:13.6.0@sha256:a639be5cd2badc7b619ddc2c706a923041e08dff37e57007b00ebf16de28a64e
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
