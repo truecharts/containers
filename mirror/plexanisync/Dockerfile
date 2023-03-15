@@ -1,4 +1,4 @@
-FROM ghcr.io/rickdb/plexanisync:1.3.22@sha256:20829f41c4487db7aa17fb5266a3db925159d71b416f2a6ba6df2381adc35466
+FROM ghcr.io/rickdb/plexanisync:1.3.22@sha256:dd9802d01e460f3c9bf42c86c674d44052b72fa4f6960a7812cee27233fd8515
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
