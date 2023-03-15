@@ -1,4 +1,4 @@
-FROM ghcr.io/koush/scrypted:18-bullseye-full.s6-v0.6.26@sha256:e33b34dc9a89601b6bd77ea4bd8eaf0391deeee45b3752e2166f1d262b8ec354
+FROM ghcr.io/koush/scrypted:18-bullseye-lite.s6-v0.7.9@sha256:b8a413f94a6ac185af0bac1764fa8f6246a435d8a6c84e4570855e1b43417764
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
