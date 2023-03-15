@@ -1,4 +1,4 @@
-FROM onlyoffice/documentserver:7.3.2.8@sha256:4fac2ef37dad8b7780268859e950323f8ae11ed9fcf2a34fe97359a49ce400b2
+FROM onlyoffice/documentserver:7.3.3.49@sha256:b6cc94e78518c0f8836c21d1c07a1b174a0404749ec2d457f463d0fec2a476b5
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
