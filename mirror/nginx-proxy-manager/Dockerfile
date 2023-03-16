@@ -1,4 +1,4 @@
-FROM jc21/nginx-proxy-manager:2.9.19@sha256:82cb962fd9e6a76345f3d48a40c77da4cf691a46bd9be5a4a12251b43fac6800
+FROM jc21/nginx-proxy-manager:2.9.20@sha256:0689f318491036c47fd8e02bfca6599489ac87c2985b6b8a7000e507445080c2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
