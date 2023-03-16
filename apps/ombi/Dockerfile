@@ -1,5 +1,5 @@
 # hadolint ignore=DL3007
-FROM ghcr.io/truecharts/ubuntu:latest@sha256:ced9b1a7c574f68b288748fe63e8fd47170bc3838c74a37a5e638c41dab1195d
+FROM ghcr.io/truecharts/ubuntu:latest@sha256:cbe66cbca1ddd2a82093675067c363af8bbc6713b645bc77cb1706578a01facd
 
 ARG TARGETPLATFORM
 ARG VERSION
