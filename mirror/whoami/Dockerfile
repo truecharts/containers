@@ -1,4 +1,4 @@
-FROM traefik/whoami:v1.8.7@sha256:24829edb0dbaea072dabd7d902769168542403a8c78a6f743676af431166d7f0
+FROM traefik/whoami:v1.9.0@sha256:dbfd77023731193339012eab6ae35f474ea47d993a55a57eeeab94630733a9b0
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
