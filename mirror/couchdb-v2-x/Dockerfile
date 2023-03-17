@@ -1,4 +1,4 @@
-FROM apache/couchdb:latest@sha256:a9d0384c2204774a8b4f8f69e9b7f3a58a67fcc5cb5e57a5f3b0404ee1c9c783
+FROM apache/couchdb:latest@sha256:56c096d4ff330752e5981fb0ed7aa87fc1c3d08b8b6f70c01129aab7626d3818
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
