@@ -1,4 +1,4 @@
-FROM maxmindinc/geoipupdate:v4.10@sha256:2f6307562c442da1455b9d59b0a08b79144bee0b14cf2eaae6308800eda49a41
+FROM maxmindinc/geoipupdate:v4.11@sha256:c08dab97aa1ea18a64df575d9380d459f87f8abbc54edb74d42cf73f69fe966e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
