@@ -1,4 +1,4 @@
-FROM avpnusr/torprivoxy:latest@sha256:24675e972e9f71641c8b06c87113d3f9f8e8b5dd220b725a5ca77ab4f515ea3c
+FROM avpnusr/torprivoxy:latest@sha256:d16df7522ae2ffea576107d53f198ff73e4c54fc33211461b2e09ea4bcd111ef
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
