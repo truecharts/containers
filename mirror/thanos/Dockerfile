@@ -1,4 +1,4 @@
-FROM bitnami/thanos:0.30.2@sha256:7caf3a3084dcceeccc15a1bdb4ad5cf6832e90f9dd446e7f3437856cdbdb6632
+FROM bitnami/thanos:0.30.2@sha256:6d0755703d72a191dc44980ab172bbab48e595dc1c27dcb1c865070afce702bc
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
