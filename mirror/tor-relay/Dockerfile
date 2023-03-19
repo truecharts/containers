@@ -1,4 +1,4 @@
-FROM doudou34/tor-server:latest@sha256:2f9c40b630cf40142893a9bba5f9a2739c179be610465c205b0ba3f8db2a4798
+FROM doudou34/tor-server:latest@sha256:272719e63e7d2c3c6e4a0ac7f64133e5eb0b1ac3d251bc2468ca84519e0dd044
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
