@@ -1,4 +1,4 @@
-FROM foxxmd/multi-scrobbler:latest@sha256:8639b7ea95262490fc1f39bacdd6d3200a31d8f6ebfbfdf9ae2ba2636026b96f
+FROM foxxmd/multi-scrobbler:latest@sha256:5e09a917b346bbf4fdd8179996fdbe912696251b32a0bc4f78ffbc291028b0e7
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
