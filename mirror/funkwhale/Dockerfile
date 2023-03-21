@@ -1,4 +1,4 @@
-FROM funkwhale/funkwhale:1.2.9@sha256:bdebc0913d00afa0645d3ac88fbd8b7b24fe2a01cfd16df095a37d11bb2cab70
+FROM funkwhale/funkwhale:1.2.10@sha256:ad70a066b5cfa3ac7db0698fb56b1816fd793d9ed41bfcc42d21447f3d4ca2ac
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
