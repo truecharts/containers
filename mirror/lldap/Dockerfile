@@ -1,4 +1,4 @@
-FROM docker.io/nitnelave/lldap:latest-debian@sha256:55a12598ed672d76b43b2968550b9877dedc02ea307808d51731fc3751702b8e
+FROM docker.io/nitnelave/lldap:latest-debian@sha256:ff96c446c54769897a5443c537bae10008093b9e854be5c27120813c555b6d86
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
