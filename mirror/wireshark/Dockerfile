@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/wireshark:3.6.5@sha256:65e6271e7f59fa63bb44e6d0ce00e1c4b7eb061a94ab0a0ac4d8ba25c590b680
+FROM ghcr.io/linuxserver/wireshark:3.6.5@sha256:a535e2e9b9140b088a188d2874e292e93891ab9270d175fbab22aef910b5b6e2
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
