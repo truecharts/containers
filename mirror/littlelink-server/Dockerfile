@@ -1,4 +1,4 @@
-FROM ghcr.io/techno-tim/littlelink-server:latest@sha256:e75b9adcd0e693fbb9666b71e77b2ec1b489ee46340f12db01b44293b891c806
+FROM ghcr.io/techno-tim/littlelink-server:latest@sha256:fa8bac06928dcd92607ef17a1f948a62c11df625c2c2a4af1c489c4b5da47005
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
