@@ -1,4 +1,4 @@
-FROM tessypowder/backblaze-personal-wine:latest@sha256:2e6c4c682b2fe537c610c0869db34f25baba2bc52cb580fbeb9a08dfb55387bf
+FROM tessypowder/backblaze-personal-wine:latest@sha256:5ad323e0454f9f97988765bb1a47729de4c78dd811118fa7dfc22f6f57e2539c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
