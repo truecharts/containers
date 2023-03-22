@@ -1,4 +1,4 @@
-FROM sclaflin/plate-minder:latest@sha256:a117ab59ed247fe2bf6426d2fe789e8d202d382f2dcf33db3b1f792668a0cdf5
+FROM sclaflin/plate-minder:latest@sha256:4bb2b216037a0c83234ca9f872d8304f81a36793c7f3797459232ebb3efe2c0a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
