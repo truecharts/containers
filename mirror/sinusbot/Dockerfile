@@ -1,4 +1,4 @@
-FROM sinusbot/docker:latest@sha256:a5694c82c8df398c6b45b6170c5a9ef772d9f6547feda946d174dcf9dd8e3a7f
+FROM sinusbot/docker:latest@sha256:8f9c770d974153c290650b8d3057a79cd47f8d1a2662c2c62a3164f2844f0cd4
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
