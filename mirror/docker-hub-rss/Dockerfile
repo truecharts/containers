@@ -1,4 +1,4 @@
-FROM theconnman/docker-hub-rss:latest@sha256:9322cf4c2f8f3d2ba77c98275fdc53aa4c8a5a11745e09fef89996ebae531ed8
+FROM theconnman/docker-hub-rss:latest@sha256:b808f43c65503ad8e8179884f5a7f023d929ec7684ae8c337b77d96ff095db62
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
