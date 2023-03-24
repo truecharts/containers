@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/healthchecks:2.7.20230317@sha256:d22d705256119419682fa1c8b29aa05ac3f26a671633c1bc865808cb4ea7b8dc
+FROM ghcr.io/linuxserver/healthchecks:2.7.20230324@sha256:1eafda8d3799d3d8831eb4fb0ce9181758d7fc54c6cfeb842fbaf48e9676c9c5
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
