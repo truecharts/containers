@@ -1,4 +1,4 @@
-FROM rssbridge/rss-bridge:2022-06-14@sha256:4fbbb2d7bd4b754cdf159a2287206d4c7cf4d907c6c42c7f696e6e3d59b2bdac
+FROM rssbridge/rss-bridge:2023-03-22@sha256:1543bff2e39e043a5907589d109068554d50dc9d26189cc42c579f0d2a2c2f93
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
