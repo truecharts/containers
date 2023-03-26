@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/resilio-sync:2.7.3@sha256:68087ea680236f2a155fe6422f373e25d31587435fa574c787c7e68785e4bf28
+FROM ghcr.io/linuxserver/resilio-sync:2.7.3@sha256:9193a37dd8e790a4fa545558d25e5e3711518ca1154dc260f9346f65b8101690
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
