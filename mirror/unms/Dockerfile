@@ -1,4 +1,4 @@
-FROM nico640/docker-unms:latest@sha256:8a3752467bb2f47c2e7e68446dd23c982b299080a0647b7c72296e22b248427a
+FROM nico640/docker-unms:latest@sha256:e618569fe0f36d8d516d3cf3fa621ccf72c4d619c98f1c8868ec17ac719c33ae
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
