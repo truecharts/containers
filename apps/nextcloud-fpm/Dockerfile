@@ -56,9 +56,9 @@ RUN set -ex; \
     chmod 777 /usr/local/etc/php/conf.d/redis-session.ini
 
 
-COPY --chmod=755 ./mirror/nextcloud-fpm/includes/jumpstart.sh /jumpstart.sh
+COPY --chmod=755 ./apps/nextcloud-fpm/includes/jumpstart.sh /jumpstart.sh
 
-COPY --chmod=755 ./mirror/nextcloud-fpm/occ /usr/bin/occ
+COPY --chmod=755 ./apps/nextcloud-fpm/occ /usr/bin/occ
 
 RUN set -ex; \
     sed -i 's/exec "$@"//g' /entrypoint.sh; \
