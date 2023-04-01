@@ -58,6 +58,8 @@ RUN set -ex; \
 
 COPY --chmod=755 ./mirror/nextcloud-fpm/includes/jumpstart.sh /jumpstart.sh
 
+COPY --chmod=755 ./occ /usr/bin/occ
+
 RUN set -ex; \
     sed -i 's/exec "$@"//g' /entrypoint.sh; \
     cat /jumpstart.sh >> /entrypoint.sh
