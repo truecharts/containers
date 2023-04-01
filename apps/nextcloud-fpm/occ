@@ -13,10 +13,10 @@ fi
 
 run_as() {
   if [ "$(id -u)" = 0 ]; then
-    su -p "$user" -s /bin/bash -c "php /var/www/html/occ $*"
+    su -p "$user" -s /bin/bash -c 'php /var/www/html/occ "$@"' - "$@"
   else
-    /bin/bash -c "php /var/www/html/occ $*"
+    /bin/bash -c 'php /var/www/html/occ "$@"' - "$@"
   fi
 }
 
-run_as "$*"
+run_as "$@"
