@@ -12,5 +12,6 @@ notify_push_version="$(
 
 echo "updating notify_push $notify_push_version"
 
-curr_dir=$(pwd)
+curr_dir=./apps/nextcloud-push-notify
 sed -re 's/^ENV NOTIFY_PUSH_VERSION .*$/ENV NOTIFY_PUSH_VERSION '"$notify_push_version"'/;' -i "$curr_dir/Dockerfile"
+echo "$notify_push_version" > "$curr_dir/VERSION"
