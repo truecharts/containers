@@ -10,7 +10,6 @@ RUN set -ex; \
         imagemagick-common \
         ffmpeg \
         libmagickcore-6.q16-6-extra \
-        libmagickcore-dev \
         libde265-0 \
         heif-gdk-pixbuf \
         libheif1 \
@@ -25,6 +24,7 @@ RUN set -ex; \
         libc-client-dev \
         libkrb5-dev \
         libsmbclient-dev \
+        libmagickcore-dev \
     ; \
     \
     docker-php-ext-configure imap --with-kerberos --with-imap-ssl; \
@@ -35,7 +35,7 @@ RUN set -ex; \
     pecl install smbclient; \
     docker-php-ext-enable smbclient; \
     \
-# reset apt-mark's "manual" list so that "purge --auto-remove" will remove all build dependencies
+    # Reset apt-mark's "manual" list so that "purge --auto-remove" will remove all build dependencies
     apt-mark auto '.*' > /dev/null; \
     apt-mark manual $savedAptMark; \
     ldd "$(php -r 'echo ini_get("extension_dir");')"/*.so \
@@ -49,6 +49,7 @@ RUN set -ex; \
     apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \
     rm -rf /var/lib/apt/lists/*
 
+# See https://github.com/nextcloud/docker/issues/763
 # hadolint ignore=DL3008,DL3015,SC2086,SC2155,DL4006
 RUN set -ex; \
     \
@@ -57,14 +58,18 @@ RUN set -ex; \
     chmod 777 /usr/local/etc/php/conf.d/redis-session.ini; \
     chmod 777 /usr/local/etc/php-fpm.d/zz-tune.conf
 
+# Copy occ script to /usr/bin/occ
+COPY --chmod=755 ./scripts/occ /usr/bin/occ
 
-COPY --chmod=755 ./apps/nextcloud-fpm/includes/jumpstart.sh /jumpstart.sh
+# Copy post-install script to a temp location so we can append it to the entrypoint.sh
+COPY --chmod=755 ./scripts/post-install.sh /tmp/post-install.sh
 
-COPY --chmod=755 ./apps/nextcloud-fpm/occ /usr/bin/occ
+# Copy the configure-scripts that will be sourced by the post-install
+COPY --chmod=755 ./configure-scripts /configure-scripts
 
 RUN set -ex; \
     sed -i 's/exec "$@"//g' /entrypoint.sh; \
-    cat /jumpstart.sh >> /entrypoint.sh
+    cat /tmp/post-install.sh >> /entrypoint.sh
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
