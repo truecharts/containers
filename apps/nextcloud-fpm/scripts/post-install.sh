@@ -13,6 +13,7 @@ install_app() {
 
   if ! occ app:install "$app_name"; then
     echo "Failed to install $app_name..."
+    echo 'There might be an issue with your internet connection'
     exit 1
   fi
 
