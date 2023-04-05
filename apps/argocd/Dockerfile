@@ -1,16 +1,32 @@
-FROM tccr.io/truecharts/alpine:3.17.1@sha256:b59737dd7105f1711d838556f4e59d833e6cae19460fd46ac0327c802f1349d7
+ARG ARGO_CD_VERSION="v1.7.7"
+# https://github.com/argoproj/argo-cd/blob/master/Dockerfile
+ARG KSOPS_VERSION="v4.1.1"
 
-ARG TARGETPLATFORM
-ARG VERSION
+#--------------------------------------------#
+#--------Build KSOPS and Kustomize-----------#
+#--------------------------------------------#
 
-# hadolint ignore=DL3002
+FROM viaductoss/ksops:$KSOPS_VERSION as ksops-builder
+
+#--------------------------------------------#
+#--------Build Custom Argo Image-------------#
+#--------------------------------------------#
+
+FROM argoproj/argocd:$ARGO_CD_VERSION
+
+# Switch to root for the ability to perform install
 USER root
 
-# hadolint ignore=DL3018,DL4006
-RUN apk update && apk add --no-cache curl
-	
+ARG PKG_NAME=ksops
 
-USER apps
+# Override the default kustomize executable with the Go built version
+COPY --from=ksops-builder /go/bin/kustomize /usr/local/bin/kustomize
+
+# Add ksops executable to path
+COPY --from=ksops-builder /go/bin/ksops /usr/local/bin/ksops
+
+# Switch back to non-root user
+USER argocd
 
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
