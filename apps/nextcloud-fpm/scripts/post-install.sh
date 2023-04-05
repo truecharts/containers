@@ -13,7 +13,6 @@ install_app() {
 
   if ! occ app:install "$app_name"; then
     echo "Failed to install $app_name..."
-    echo 'There might be an issue with your internet connection'
     exit 1
   fi
 
@@ -83,13 +82,13 @@ done
 echo '++++++++++++++++++++++++++++++++++++++++++++++++++'
 echo ''
 
-# Tune PHP-FPM
-if [ "${NX_TUNE_FPM:-"true"}" = "true" ]; then
-  echo '## PHP-FPM tuning is enabled.'
-  tune_fpm_install
+# Configure Redis
+if [ "${NX_REDIS:-"true"}" = "true" ]; then
+  echo '## Redis is enabled.'
+  occ_redis_install
 else
-  echo '## PHP-FPM tuning is disabled.'
-  tune_fpm_remove
+  echo '## Redis is disabled.'
+  occ_redis_remove
 fi
 
 # Configure General Settings

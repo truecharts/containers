@@ -49,15 +49,6 @@ RUN set -ex; \
     apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \
     rm -rf /var/lib/apt/lists/*
 
-# See https://github.com/nextcloud/docker/issues/763
-# hadolint ignore=DL3008,DL3015,SC2086,SC2155,DL4006
-RUN set -ex; \
-    \
-    touch /usr/local/etc/php/conf.d/redis-session.ini; \
-    touch /usr/local/etc/php-fpm.d/zz-tune.conf; \
-    chmod 777 /usr/local/etc/php/conf.d/redis-session.ini; \
-    chmod 777 /usr/local/etc/php-fpm.d/zz-tune.conf
-
 # Copy occ script to /usr/bin/occ
 COPY --chmod=755 ./apps/nextcloud-fpm/scripts/occ /usr/bin/occ
 
