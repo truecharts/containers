@@ -1,4 +1,4 @@
-FROM ghcr.io/qdm12/gluetun:latest@sha256:70d23170be84d17d598478c09599f7ea4b13375a9f8327a6004f05ae4cf4aa4e
+FROM ghcr.io/qdm12/gluetun:v3.33.0@sha256:b5e8048b58c88e32ae307d0f0a0dea5605b9f17390350ef2422da2a4782cf3c6
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
