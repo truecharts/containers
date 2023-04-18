@@ -1,4 +1,4 @@
-FROM docker.io/nextcloud:25.0.2-fpm@sha256:69c4df59bad3f27fedef4c5f1393f7b0db62d5e01fa60890c03d92fbdae80760
+FROM docker.io/nextcloud:26.0.0-fpm@sha256:2b7f09a4fb0f4255f6381195a29058c5794fc91ac25ddb777bf868113913327d
 
 # hadolint ignore=DL3008,DL3015,SC2086,SC2155,DL4006
 RUN set -ex; \
@@ -10,7 +10,6 @@ RUN set -ex; \
         imagemagick-common \
         ffmpeg \
         libmagickcore-6.q16-6-extra \
-        libmagickcore-dev \
         libde265-0 \
         heif-gdk-pixbuf \
         libheif1 \
@@ -25,6 +24,7 @@ RUN set -ex; \
         libc-client-dev \
         libkrb5-dev \
         libsmbclient-dev \
+        libmagickcore-dev \
     ; \
     \
     docker-php-ext-configure imap --with-kerberos --with-imap-ssl; \
@@ -35,7 +35,7 @@ RUN set -ex; \
     pecl install smbclient; \
     docker-php-ext-enable smbclient; \
     \
-# reset apt-mark's "manual" list so that "purge --auto-remove" will remove all build dependencies
+    # Reset apt-mark's "manual" list so that "purge --auto-remove" will remove all build dependencies
     apt-mark auto '.*' > /dev/null; \
     apt-mark manual $savedAptMark; \
     ldd "$(php -r 'echo ini_get("extension_dir");')"/*.so \
@@ -49,18 +49,18 @@ RUN set -ex; \
     apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \
     rm -rf /var/lib/apt/lists/*
 
-# hadolint ignore=DL3008,DL3015,SC2086,SC2155,DL4006
-RUN set -ex; \
-    \
-    touch /usr/local/etc/php/conf.d/redis-session.ini; \
-    chmod 777 /usr/local/etc/php/conf.d/redis-session.ini
+# Copy occ script to /usr/bin/occ
+COPY --chmod=755 ./apps/nextcloud-fpm/scripts/occ /usr/bin/occ
 
+# Copy post-install script to a temp location so we can append it to the entrypoint.sh
+COPY --chmod=755 ./apps/nextcloud-fpm/scripts/post-install.sh /tmp/post-install.sh
 
-COPY --chmod=755 ./mirror/nextcloud-fpm/includes/jumpstart.sh /jumpstart.sh
+# Copy the configure-scripts that will be sourced by the post-install
+COPY --chmod=755 ./apps/nextcloud-fpm/configure-scripts /configure-scripts
 
 RUN set -ex; \
     sed -i 's/exec "$@"//g' /entrypoint.sh; \
-    cat /jumpstart.sh >> /entrypoint.sh
+    cat /tmp/post-install.sh >> /entrypoint.sh
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
