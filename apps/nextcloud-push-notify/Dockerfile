@@ -19,6 +19,6 @@ RUN set -ex; \
 
 USER nobody
 
-EXPOSE 7867
+COPY --chmod=775 ./scripts/entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT ["notify_push"]
+ENTRYPOINT ["/entrypoint.sh"]
