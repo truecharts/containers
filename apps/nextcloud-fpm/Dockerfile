@@ -52,6 +52,7 @@ RUN set -ex; \
 
 # Copy occ script to /usr/bin/occ
 COPY --chmod=755 ./apps/nextcloud-fpm/scripts/occ /usr/bin/occ
+
 # Copy post-install script to a temp location so we can append it to the entrypoint.sh
 COPY --chmod=755 ./apps/nextcloud-fpm/scripts/post-install.sh /tmp/post-install.sh
 
