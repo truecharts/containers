@@ -15,6 +15,7 @@ RUN set -ex; \
         libheif1 \
         procps \
         smbclient \
+        libfcgi-bin \
     ; \
     savedAptMark="$(apt-mark showmanual)"; \
     \
@@ -51,9 +52,11 @@ RUN set -ex; \
 
 # Copy occ script to /usr/bin/occ
 COPY --chmod=755 ./apps/nextcloud-fpm/scripts/occ /usr/bin/occ
-
 # Copy post-install script to a temp location so we can append it to the entrypoint.sh
 COPY --chmod=755 ./apps/nextcloud-fpm/scripts/post-install.sh /tmp/post-install.sh
+
+# Copy the healthcheck
+COPY --chmod=755 ./apps/nextcloud-fpm/scripts/healthcheck.sh /healthcheck.sh
 
 # Copy the configure-scripts that will be sourced by the post-install
 COPY --chmod=755 ./apps/nextcloud-fpm/configure-scripts /configure-scripts
@@ -61,15 +64,3 @@ COPY --chmod=755 ./apps/nextcloud-fpm/configure-scripts /configure-scripts
 RUN set -ex; \
     sed -i 's/exec "$@"//g' /entrypoint.sh; \
     cat /tmp/post-install.sh >> /entrypoint.sh
-
-LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
-
-ARG CONTAINER_NAME
-ARG CONTAINER_VER
-LABEL org.opencontainers.image.licenses="BSD-3-Clause"
-LABEL org.opencontainers.image.title="${CONTAINER_NAME}"
-LABEL org.opencontainers.image.url="https://truecharts.org/docs/charts/${CONTAINER_NAME}"
-LABEL org.opencontainers.image.version="${CONTAINER_VER}"
-LABEL org.opencontainers.image.description="Container for ${CONTAINER_NAME} by TrueCharts"
-LABEL org.opencontainers.image.authors="TrueCharts"
-LABEL org.opencontainers.image.documentation="https://truecharts.org/docs/charts/${CONTAINER_NAME}"
