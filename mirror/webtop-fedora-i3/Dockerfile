@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/webtop:fedora-i3@sha256:555aacd8065a0730c8036357aad77d4e22c94c88428bfb64785be3e4076159dd
+FROM lscr.io/linuxserver/webtop:fedora-i3@sha256:7e4e7b1855d4e57371868483d1ba49365bef2ec84ffc979eefbafc92a3e649e3
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
