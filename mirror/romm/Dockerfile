@@ -1,4 +1,4 @@
-FROM zurdi15/romm:1.6.2@sha256:5bfe3b76d47e16343caf9f8ede702bb9b52bae135675572e45b4f6bfd0604d11
+FROM zurdi15/romm:1.7.1@sha256:3461171c1d129efa2a214c1c3ecefefa8cdba14e58c23999fb65950c322410c5
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
