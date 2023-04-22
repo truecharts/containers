@@ -1,4 +1,4 @@
-FROM davefurrer/discordsoundboard:latest@sha256:07e3c34e0e85650e6d2e3d29092abffba016367165228f81c60b6dfb2bb1921e
+FROM davefurrer/discordsoundboard:latest@sha256:12aff48a57d7db6892b6acfc6ce20cd768be04104aadb2a9f40aa31e504bb26e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
