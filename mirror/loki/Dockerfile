@@ -1,4 +1,4 @@
-FROM grafana/loki:2.7.4@sha256:2c0e1cdff6fc174c245934228cb82533c6c9e48305ae66b8542496f8dc7a2d53
+FROM grafana/loki:2.7.5@sha256:22396b3a4ae862e3b93b39c902b2086d2868052eace5f0bf071d9da6bf1039e3
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
