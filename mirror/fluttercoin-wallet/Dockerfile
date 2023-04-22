@@ -1,4 +1,4 @@
-FROM ich777/fluttercoin:latest@sha256:f7bca153baebf73c847cb87027fc428bb6c069cb63e2936824edcc4163169fbb
+FROM ich777/fluttercoin:latest@sha256:526ba08bf0f6cb57b103fed255977df260ac4154e7aba2dd2e50d772daa4e028
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
