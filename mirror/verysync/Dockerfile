@@ -1,4 +1,4 @@
-FROM jonnyan404/verysync:2.16.0@sha256:fded245d71af16284d688f66078780c3e19b1f7e8dc66fa43dcfc4a66871b736
+FROM jonnyan404/verysync:2.16.0@sha256:0608e2923d459f900160c27aeaa87740e2c7d66441cbe2dc1fae2011dd433a83
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
