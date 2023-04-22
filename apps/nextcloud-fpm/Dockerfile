@@ -15,6 +15,7 @@ RUN set -ex; \
         libheif1 \
         procps \
         smbclient \
+        libfcgi-bin \
     ; \
     savedAptMark="$(apt-mark showmanual)"; \
     \
@@ -54,6 +55,9 @@ COPY --chmod=755 ./apps/nextcloud-fpm/scripts/occ /usr/bin/occ
 
 # Copy post-install script to a temp location so we can append it to the entrypoint.sh
 COPY --chmod=755 ./apps/nextcloud-fpm/scripts/post-install.sh /tmp/post-install.sh
+
+# Copy the healthcheck
+COPY --chmod=755 ./apps/nextcloud-fpm/scripts/healthcheck.sh /healthcheck.sh
 
 # Copy the configure-scripts that will be sourced by the post-install
 COPY --chmod=755 ./apps/nextcloud-fpm/configure-scripts /configure-scripts
