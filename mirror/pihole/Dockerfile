@@ -1,4 +1,4 @@
-FROM pihole/pihole:2023.03.0@sha256:af082318baf67daead23a32013ec3ea80cfb4c5f36812385ac9844001ddb7cae
+FROM pihole/pihole:2023.03.1@sha256:a74dde4800f54d3c0b0839babbac9f2cc7e4b8239ab4a5bc2c25c7328ec1c019
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
