@@ -1,4 +1,4 @@
-FROM guacamole/guacd:1.5.0@sha256:1df854e3645e3497d3389378d019c0fd3e6ca65772e83dd0bd7275e59a94cddf
+FROM guacamole/guacd:1.5.1@sha256:09c3e971af07b1696051ced15904034ce91471859c078cafc789963a9b5fa18e
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
