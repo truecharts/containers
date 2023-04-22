@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/webtop:alpine-openbox@sha256:248fd60fd363fde21078d6ec8eec48e2df8c9fba83c53de16855cea88a0a3c99
+FROM lscr.io/linuxserver/webtop:alpine-openbox@sha256:29a63c6c3b74a5fd2b541af1dc307a39df02ea0eaa10bb3758e253108c65dc5e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
