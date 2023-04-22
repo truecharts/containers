@@ -1,4 +1,4 @@
-FROM sirfragalot/hyperion.ng:2.0.14@sha256:3473959e61d244dd5de6ba2869e9ac54dd877c13e3884b03bd9fbde13e095a6a
+FROM sirfragalot/hyperion.ng:2.0.15@sha256:4f0a0fc3d97d742a6791b5283767739bd0123692d171fa9996802a5469a2f1d6
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
