@@ -1,4 +1,4 @@
-FROM ich777/debian-bullseye:latest@sha256:3d07d080b90f1503cf912867ffeaf934b0b9c854c266195e562121af2956409b
+FROM ich777/debian-bullseye:latest@sha256:5843b3d1b8d4770c357454f848a00989ac8de9132e12a672546aafa75055bd54
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
