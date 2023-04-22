@@ -1,4 +1,4 @@
-FROM crazymax/flarum:latest@sha256:e65c3be5880b4fc275e310c56c5a088c3aae72b288689e0af59d9a8395e2acd5
+FROM crazymax/flarum:latest@sha256:8345771fde198b0d61f1870b6da5afd0ea2a4f242095cd1fc44d555503408b39
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
