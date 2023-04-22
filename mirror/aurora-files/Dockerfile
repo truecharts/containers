@@ -1,4 +1,4 @@
-FROM afterlogic/docker-aurora-files:latest@sha256:7ebcb7914a82c0c38cfd9767809dc112ad1569c1d3440765afcdc2eb8f096e02
+FROM afterlogic/docker-aurora-files:latest@sha256:f7f807f237e8751923f46187ebb34c908f625896a903cf7f892a5be39d0d5fe6
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
