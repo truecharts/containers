@@ -1,4 +1,4 @@
-FROM ich777/ferdi-client:latest@sha256:f6d8642189133ff49230febe7dce48f770c3a24eda2201273ef700e9bbef64d3
+FROM ich777/ferdi-client:latest@sha256:6f255a1da06367aeb8f10227e227b2b9f48c6f8b12837909aa7d7e2d67f35092
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
