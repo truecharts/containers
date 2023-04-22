@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/firefox:101.0.1@sha256:8121c10e2226ca40a2c0adb43dcb53bbda87f2c82fe2fcaaaf2f331a1a4ffd4f
+FROM ghcr.io/linuxserver/firefox:109.0.1@sha256:0928180ed8b17182fed503e5fd5bd75ee485a81f518d0ac8365778a8c6a46e1a
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
