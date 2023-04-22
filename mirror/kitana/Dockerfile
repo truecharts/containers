@@ -1,4 +1,4 @@
-FROM pannal/kitana:latest@sha256:e950211b62a65e692811b77c43738d975d50b8ee76dc9d4fc8aff12f5932849e
+FROM pannal/kitana:latest@sha256:a6164e44a03bca92b07216412e564e9c445487fe739d1b80848ffe4b4c6ccd3b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
