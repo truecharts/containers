@@ -1,4 +1,4 @@
-FROM roundcube/roundcubemail:latest@sha256:b03a3a7ebd01c606d50a61337927031ca14a4fefc1d45bdcd6998a767bea3f33
+FROM roundcube/roundcubemail:latest@sha256:71555008a042266ec8264c0576e7066e79bf9125acce9c4689935d36a8fd1453
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
