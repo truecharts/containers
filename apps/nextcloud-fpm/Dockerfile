@@ -1,4 +1,4 @@
-FROM docker.io/nextcloud:26.0.0-fpm@sha256:8b4079e6d28c77bac094dcb72d79ba9c54ac9503ae37ea59ec7ba3b6b9f394ac
+FROM docker.io/nextcloud:26.0.1-fpm@sha256:21ba7798dcf86ab5962d671e529bee8fdd19d2453520604aaa0a4afa0a0ce9ba
 
 # hadolint ignore=DL3008,DL3015,SC2086,SC2155,DL4006
 RUN set -ex; \
