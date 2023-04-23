@@ -1,4 +1,4 @@
-FROM sublivion/gridcoinwalletgui:latest@sha256:e52acfeee3454bdc62e52ba08f96ed0cde5e31313a7a39588e788fbe13ab4d7b
+FROM sublivion/gridcoinwalletgui:latest@sha256:3a24ba1e885deaf8212a8715af7f3d1b268f78261690481409455670f4c86e77
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
