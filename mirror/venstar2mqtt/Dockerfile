@@ -1,4 +1,4 @@
-FROM terafin/mqtt-venstar-bridge:latest@sha256:a43f6359e2e656129cd5c20d0a94a66f5e09ec75305acfdf9a37fc562013a9b6
+FROM terafin/mqtt-venstar-bridge:latest@sha256:cb1cb6e383769050bb04e23818736972110f37fb6b59df799bb1d1f7a8984150
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
