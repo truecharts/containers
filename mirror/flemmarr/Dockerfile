@@ -1,4 +1,4 @@
-FROM pierremesure/flemmarr:latest@sha256:8c19ccf04f3a8a6f83d4e24195bd5f04323ee4cf1e9c5ebacc16126034a1b95a
+FROM pierremesure/flemmarr:latest@sha256:fbd0eb6673499859ec6e1d9a8241510106d3d81c3d2bfca930c0b17040d09cb8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
