@@ -1,4 +1,4 @@
-FROM prodrigestivill/postgres-backup-local:latest@sha256:9a08323f39ff6cf0244b1462686d56a0911f8e41a23febf07b59840eacee9361
+FROM prodrigestivill/postgres-backup-local:latest@sha256:b3905c58ab8c1fb7596e2f90f059c65d61c2a813232e6eca4a3f5ce019bfbd61
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
