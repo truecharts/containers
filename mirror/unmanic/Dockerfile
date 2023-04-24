@@ -1,4 +1,4 @@
-FROM josh5/unmanic:0.2.3@sha256:4988f7bc81fd56387552494aaf3bfef399f757a5683eb53985465c8600241866
+FROM josh5/unmanic:0.2.4@sha256:9b2cdce79c103432b78fe97a151d6385d7dbd7e1e60dd65126e82f9e66514e2a
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
