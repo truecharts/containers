@@ -1,4 +1,4 @@
-FROM kanboard/kanboard:v1.2.27@sha256:70a979bf525f1f31f7b2426b7f0f0e136e869508f08e066a4c8be937186466cd
+FROM kanboard/kanboard:v1.2.28@sha256:216702f3b248dd05625c631bfeec65f32893a0580bf9176d9d4b05bce492d71c
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
