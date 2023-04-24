@@ -1,4 +1,4 @@
-FROM f0rc3/gokapi:v1.6.2@sha256:eb08dccc1fad88f5267ea3d9eecbee133c19aab5949214ce53f8ed2f15081eed
+FROM f0rc3/gokapi:v1.7.1@sha256:195c9cd5aca82d1307fa3af48a1b86382aff4c7c797970e3c5d5a03de28bff2b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
