@@ -1,4 +1,4 @@
-FROM ironsmile/euterpe:v1.5.2@sha256:d4f6266e75b6fff0cee7bcd7ee1ca6487fc5268019b125ab828880a17e6a4629
+FROM ironsmile/euterpe:v1.5.4@sha256:8582b072dc37100545cf7e0e3c8e2f19b8881fa31c7c2a1009437e9b14c1e181
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
