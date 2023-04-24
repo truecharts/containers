@@ -1,4 +1,4 @@
-FROM kasmweb/workspaces:1.12.0@sha256:1021a4ff31b2e27fc6bdea6e8d175400afaea5e3aea0ec2d2438b5d6ad6e96cd
+FROM kasmweb/workspaces:1.13.0@sha256:f6aa82acc61a41b09b0db898276ff84a58dc350716c7ee5646f2e1c3c8d0222d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
