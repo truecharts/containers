@@ -1,4 +1,4 @@
-FROM signtools/signtools:latest@sha256:b059434eab8d0eed54a04e9a1cf9cc7726c3071a7ff3b880ae63d9cc4998772f
+FROM signtools/signtools:latest@sha256:9f40042960d7b180b4584b11ed6171371572f6069cea248474d1016d0f950249
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
