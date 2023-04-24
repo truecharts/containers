@@ -1,4 +1,4 @@
-FROM docker.io/acockburn/appdaemon:4.2.3@sha256:61d11e634e351d6c3a5eb0fe25999294918e2613f87c96e06ee893b863bb23d5
+FROM docker.io/acockburn/appdaemon:4.4.2@sha256:9619fc18bc53082ae2dc680e80f1bcb634c793a74b2114779df1b381ffa0736c
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
