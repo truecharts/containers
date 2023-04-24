@@ -1,4 +1,4 @@
-FROM itstoggle/plex_debrid:latest@sha256:4cf44e47806bb1c74a221c0cc65a37501e324a782ac5101a5a102799975eaf1f
+FROM itstoggle/plex_debrid:latest@sha256:98f4b2d28269e9a8a1dc32d5cf617b334cdb7fa020665cf3c9a754f9743edf5a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
