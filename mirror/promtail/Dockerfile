@@ -1,4 +1,4 @@
-FROM grafana/promtail:2.7.5@sha256:a79659f502a5811711a4b03cf596f86e4563008cc018804f17cca45df6c5470d
+FROM grafana/promtail:2.8.0@sha256:f2d34db787476fbf0b5b9e69f9dac40762c362b9ad1f9e420895b1fc02b60b30
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
