@@ -1,4 +1,4 @@
-FROM accetto/ubuntu-vnc-xfce-gimp-g3:latest@sha256:4438dd1597773d1a0fe223a27829187e27956570a827b324599456cf19c498b0
+FROM accetto/ubuntu-vnc-xfce-gimp-g3:latest@sha256:943cd905860c1953872868ea8eb8145862380534269f8efe5e14bfb9050677d4
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
