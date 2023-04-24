@@ -1,4 +1,4 @@
-FROM inventree/inventree:0.10.1@sha256:73fdb50d256dba035c2d249ee5b0541d48959b587e7d4eac68b7082f2d626450
+FROM inventree/inventree:0.11.0@sha256:b974e7009228dad42d59cd4c6598e6586d416258f9c4bd0539303d9ad33962c2
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
