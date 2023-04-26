@@ -1,4 +1,4 @@
-FROM directus/directus:latest@sha256:3cf3f50ad6de8cc4311b89b2cef3a9dc193012f5ba55301903cf4279184ee534
+FROM directus/directus:latest@sha256:443f13303fa5d8091fe3e17d3c604fe452ef939ba7a8998984939fb18313ae4e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
