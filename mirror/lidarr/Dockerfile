@@ -1,4 +1,4 @@
-FROM ghcr.io/onedr0p/lidarr-develop:1.1.4.3027@sha256:abcc1cd8e474605091edfeca923e614224e4773a52b034fad99b32f08a2515cd
+FROM ghcr.io/onedr0p/lidarr-develop:1.1.4.3027@sha256:e14ff50ed253a87f9c778ba588371bfcfa18de437bddd8ef25c1b27713a66506
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
