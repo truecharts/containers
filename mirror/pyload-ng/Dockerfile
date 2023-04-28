@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/pyload-ng:latest@sha256:01da6c3890a711f5945b3cbbc5634e4acb2200595f1214d852661a3e32c003d2
+FROM lscr.io/linuxserver/pyload-ng:latest@sha256:c4f6fd9786dd8ef59564efe4a11a7befbccae13baf05e40577d6e1e294789b70
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
