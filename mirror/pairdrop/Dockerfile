@@ -1,4 +1,4 @@
-FROM ghcr.io/schlagmichdoch/pairdrop:v1.6.2@sha256:a2c266edceeea09081cf5ab942bda9155ac3cb8e54094f41286974bb4702e808
+FROM ghcr.io/schlagmichdoch/pairdrop:v1.6.3@sha256:8b156d632863feb203cf6ca4113a34d510ca2f5876145b5d6c8674d095f8be6b
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
