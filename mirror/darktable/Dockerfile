@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/darktable:4.0.1@sha256:6d6e5a42ae6523033078828ea9fecd5d054b4319495cdf981d3a2223c153ae6d
+FROM ghcr.io/linuxserver/darktable:4.0.1@sha256:931822d26180c159d8c7fbf0d600035a8ffe7c84dd2f75ce9f50c288f839547f
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
