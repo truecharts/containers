@@ -1,4 +1,4 @@
-FROM restic/rest-server:latest@sha256:df6a790c630f9c6653756fd37cd75d4666634d57a5de58f953cf3bd020e22c09
+FROM restic/rest-server:latest@sha256:8b806c911815e78db8a95e7d41f34780d0690eae0d75cf8a49c35c8ec3c831e3
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
