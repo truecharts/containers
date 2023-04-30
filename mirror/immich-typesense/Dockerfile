@@ -1,6 +1,5 @@
-FROM ghcr.io/linuxserver/firefox:109.0.1@sha256:0a934f7c8eb75ef592ba54ac22152ca14600d87e7188183f9e98e13db5bdbcb3
+FROM typesense/typesense:0.24.0@sha256:a30d306265dc55e99db4636888588019f62ea06020f06171422e1af7a1549fa1
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
-
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"

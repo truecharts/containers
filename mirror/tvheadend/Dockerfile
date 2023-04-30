@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/tvheadend:latest@sha256:413fd01c54dd5ab0c64920b503e9ab47ce356c2494ca4ffb3db036f3a04cf4a8
+FROM ghcr.io/linuxserver/tvheadend:latest@sha256:e26701fbb0fbbb89c2f4446e1a072e7a414a37339565111c9224a38e017c731b
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

@@ -1,4 +1,4 @@
-FROM ghcr.io/onedr0p/exportarr:v1.3.1@sha256:bf3853062ee2ed49450966861b9c03bc138f900619bb288c41b19f86d86f72fe
+FROM ghcr.io/onedr0p/exportarr:v1.3.2@sha256:7368e8e45236c266d9a4539e53b2c2d9d7d887e76a7b734f38f17261a205965f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

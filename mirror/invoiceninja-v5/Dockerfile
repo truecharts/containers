@@ -1,4 +1,4 @@
-FROM maihai/invoiceninja_v5:latest@sha256:c6257f900df15642c4e33183231f79fcbbd09171a559e7bb4f4380fd4028a485
+FROM maihai/invoiceninja_v5:latest@sha256:e398e60699938b2b621b0217de15b507f0a97f589dda9ca1bb14a8cc207ad1ac
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

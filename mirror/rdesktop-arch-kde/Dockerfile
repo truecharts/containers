@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/rdesktop:arch-kde@sha256:d2558f2ca2033cd2b6f9810ae53d99a5c962b1b79cf4d1fff95a717e2582fe80
+FROM lscr.io/linuxserver/rdesktop:arch-kde@sha256:afab4a6fa16c6d9bd41cee08a0caa2593321150917c3d8d80e31f4df2a6b307a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
