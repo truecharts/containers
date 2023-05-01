@@ -1,4 +1,4 @@
-FROM libreddit/libreddit:latest@sha256:6811adfc2cc223d9d92d0a06ada3650533fd506a9376af7eddd9df0391a0ad9d
+FROM libreddit/libreddit:latest@sha256:84504101abdabb78653f55c122447ba0692c5f08d1fc4713274354e464de18b4
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
