@@ -1,5 +1,4 @@
 FROM jacobalberty/unifi:7.3.83@sha256:9535984b58dad55beca98512973f4e8833837032f7813ad60742e1c91d9ce121
-
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
