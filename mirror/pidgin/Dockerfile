@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/pidgin:2.14.10@sha256:becae307e5832d0a86e29648ce689e79012e65873a22303c13bcd7e69f4d1395
+FROM ghcr.io/linuxserver/pidgin:2.14.10@sha256:a3a2f9d5c4205e16071d264368130f917142d0f1b013e47d16a246a6eff327e3
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
