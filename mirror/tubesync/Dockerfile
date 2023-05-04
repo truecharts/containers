@@ -1,4 +1,4 @@
-FROM ghcr.io/meeb/tubesync:latest@sha256:f6aeada07c244c12b783bf51f5abb4dbc0861f66d492e8bc999d5b170241ab0b
+FROM ghcr.io/meeb/tubesync:latest@sha256:6fb50910380aa05daa5c0ef125fcac16ece317e5135ebb12e03fe3b871d38505
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
