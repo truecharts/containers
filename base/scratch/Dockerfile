@@ -1,4 +1,4 @@
-FROM hello-world:latest@sha256:4e83453afed1b4fa1a3500525091dbfca6ce1e66903fd4c01ff015dbcb1ba33e
+FROM hello-world:latest@sha256:a8320441b511ce89ada3b25b80ff854bce7a80d739a778b256a9108f45bd2b28
 
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
 LABEL org.opencontainers.image.title="${CONTAINER_NAME}"
