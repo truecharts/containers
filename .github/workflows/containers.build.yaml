@@ -283,6 +283,9 @@ jobs:
 
     - name: Write signing key to disk (only needed for `cosign sign --key`)
       run: echo "${{ secrets.COSIGN_SECRET }}" > cosign.key
+      
+    - name: Write signing key to disk (only needed for `cosign sign --key`)
+      run: echo "${{ secrets.COSIGN_PUB }}" > cosign.pub
 
     - name: Sign the images
       if: github.event_name != 'pull_request'
