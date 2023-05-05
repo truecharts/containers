@@ -284,7 +284,7 @@ jobs:
     - name: Write signing key to disk (only needed for `cosign sign --key`)
       run: echo "${{ secrets.COSIGN_SECRET }}" > cosign.key
       
-    - name: Write signing key to disk (only needed for `cosign sign --key`)
+    - name: Write cosign pub key to disk (only needed for `cosign sign --key`)
       run: echo "${{ secrets.COSIGN_PUB }}" > cosign.pub
 
     - name: Sign the images
@@ -307,20 +307,19 @@ jobs:
         
     - name: Verify the pushed tags
       run: |
-         cosign verify --key cosign.key quay.io/truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.key quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.key quay.io/truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.key quay.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.key truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.key truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.key truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.key truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.key ghcr.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}
-      env:
-        COSIGN_EXPERIMENTAL: 1
+         cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.pub truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.pub truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.pub truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.pub truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.pub ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.pub ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.pub ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.pub ghcr.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}
+
 
   container-build-complete:
     needs: [build]
