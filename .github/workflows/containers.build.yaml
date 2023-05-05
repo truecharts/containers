@@ -282,7 +282,7 @@ jobs:
         curl -X POST -H "Content-Type: application/json" -d '{"visibility": "public"}' -H "Authorization: Bearer ${{ secrets.QUAY_TOKEN }}" "https://quay.io/api/v1/repository/truecharts/${{ matrix.container }}/changevisibility"
 
     - name: Write signing key to disk (only needed for `cosign sign --key`)
-      run: echo "${{ secrets.SIGNING_SECRET }}" > cosign.key
+      run: echo "${{ secrets.COSIGN_SECRET }}" > cosign.key
 
     - name: Sign the images
       if: github.event_name != 'pull_request'
@@ -299,6 +299,8 @@ jobs:
          cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
          cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:${{ steps.prep.outputs.version }}
          cosign sign --key cosign.key ghcr.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}
+      env:
+        COSIGN_PASSWORD: "${{ secrets.COSIGN_PASS }}"
         
 #    - name: Verify the pushed tags
 #      run: |
