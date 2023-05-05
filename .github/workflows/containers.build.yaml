@@ -287,37 +287,37 @@ jobs:
     - name: Sign the images
       if: github.event_name != 'pull_request'
       run: |
-         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:latest -y
-         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }} -y
-         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }} -y
-         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }} -y
-         cosign sign --key cosign.key truecharts/${{ matrix.container }}:latest -y
-         cosign sign --key cosign.key truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }} -y
-         cosign sign --key cosign.key truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }} -y
-         cosign sign --key cosign.key truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }} -y
-         cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest -y
-         cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }} -y
-         cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:${{ steps.prep.outputs.version }} -y
-         cosign sign --key cosign.key ghcr.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }} -y
+         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:latest -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
+         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
+         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
+         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
+         cosign sign --key cosign.key truecharts/${{ matrix.container }}:latest -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
+         cosign sign --key cosign.key truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
+         cosign sign --key cosign.key truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
+         cosign sign --key cosign.key truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
+         cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
+         cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
+         cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:${{ steps.prep.outputs.version }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
+         cosign sign --key cosign.key ghcr.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
       env:
         COSIGN_PASSWORD: "${{ secrets.COSIGN_PASS }}"
         
-#    - name: Verify the pushed tags
-#      run: |
-#         cosign verify --key cosign.key quay.io/truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}
-#         cosign verify --key cosign.key quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-#         cosign verify --key cosign.key quay.io/truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-#         cosign verify --key cosign.key quay.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}
-#         cosign verify --key cosign.key truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}
-#         cosign verify --key cosign.key truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-#         cosign verify --key cosign.key truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-#         cosign verify --key cosign.key truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}
-#         cosign verify --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}
-#         cosign verify --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-#         cosign verify --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-#         cosign verify --key cosign.key ghcr.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}
-#      env:
-#        COSIGN_EXPERIMENTAL: 1
+    - name: Verify the pushed tags
+      run: |
+         cosign verify --key cosign.key quay.io/truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.key quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.key quay.io/truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.key quay.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.key truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.key truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.key truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.key truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
+         cosign verify --key cosign.key ghcr.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}
+      env:
+        COSIGN_EXPERIMENTAL: 1
 
   container-build-complete:
     needs: [build]
