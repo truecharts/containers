@@ -287,18 +287,18 @@ jobs:
     - name: Sign the images
       if: github.event_name != 'pull_request'
       run: |
-         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:latest
-         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
-         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}
-         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}
-         cosign sign --key cosign.key truecharts/${{ matrix.container }}:latest
-         cosign sign --key cosign.key truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
-         cosign sign --key cosign.key truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}
-         cosign sign --key cosign.key truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}
-         cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest
-         cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
-         cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:${{ steps.prep.outputs.version }}
-         cosign sign --key cosign.key ghcr.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}
+         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:latest -y
+         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }} -y
+         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }} -y
+         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }} -y
+         cosign sign --key cosign.key truecharts/${{ matrix.container }}:latest -y
+         cosign sign --key cosign.key truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }} -y
+         cosign sign --key cosign.key truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }} -y
+         cosign sign --key cosign.key truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }} -y
+         cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest -y
+         cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }} -y
+         cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:${{ steps.prep.outputs.version }} -y
+         cosign sign --key cosign.key ghcr.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }} -y
       env:
         COSIGN_PASSWORD: "${{ secrets.COSIGN_PASS }}"
         
