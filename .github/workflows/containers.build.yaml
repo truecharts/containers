@@ -296,6 +296,7 @@ jobs:
 
     - name: Generate provenance
       uses: slsa-framework/slsa-github-generator/.github/workflows/generator_container_slsa3.yml@v1.5.0
+      if: github.event_name != 'pull_request'
       with:
         image: quay.io/truecharts/${{ matrix.container }}
         digest: ${{ steps.push.outputs.digest }}
