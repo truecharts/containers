@@ -278,22 +278,21 @@ jobs:
       run: |
          cosign verify quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} --certificate-oidc-issuer=https://token.actions.githubusercontent.com --certificate-identity=https://github.com/truecharts/containers/.github/workflows/containers.build.yaml@refs/heads/master
       
-    # - name: Generate SBOM 
-    #   if: github.event_name != 'pull_request'
-    #   run: |
-    #     syft "quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}" -o spdx-json=${{ matrix.container }}-sbom-spdx.json
-    #   
-    # - name: Attach SBOM to image
-    #   if: github.event_name != 'pull_request'
-    #   run: |
-    #     cosign attest --key cosign.key --predicate ${{ matrix.container }}-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }}" -y
-    #   env:
-    #     COSIGN_PASSWORD: "${{ secrets.COSIGN_PASS }}"
+    - name: Generate SBOM 
+      if: github.event_name != 'pull_request'
+      run: |
+        syft "quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}" -o spdx-json=${{ matrix.container }}-sbom-spdx.json
+      
+    - name: Attach SBOM to image
+      if: github.event_name != 'pull_request'
+      run: |
+        cosign attest --predicate ${{ matrix.container }}-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }}" -y
+
         
     # - name: Verify SBOM attestation
     #   if: github.event_name != 'pull_request'
     #   run: |
-    #     cosign verify-attestation --key cosign.pub quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq '.payload |= @base64d | .payload | fromjson | select(.predicateType == \"https://spdx.dev/Document\") | .predicate.Data | fromjson'
+    #     cosign verify-attestation quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq '.payload |= @base64d | .payload | fromjson | select(.predicateType == \"https://spdx.dev/Document\") | .predicate.Data | fromjson'
 
     # - name: Generate provenance
     #   uses: slsa-framework/slsa-github-generator/.github/workflows/generator_container_slsa3.yml@v1.5.0
