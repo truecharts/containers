@@ -144,12 +144,12 @@ jobs:
         fi
         if [ "${{github.event_name}}" == "pull_request" ]; then
           echo ::set-output name=push::false
-          echo ::set-output name=cache_from::"type=registry,ref=ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache" || echo ::set-output name=cache_from::""
+          echo ::set-output name=cache_from::"type=registry,ref=quay.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache" || echo ::set-output name=cache_from::""
           echo ::set-output name=cache_to::""
         else
           echo ::set-output name=push::true
-          echo ::set-output name=cache_from::"type=registry,ref=ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache"
-          echo ::set-output name=cache_to::"type=registry,ref=ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache,mode=max"
+          echo ::set-output name=cache_from::"type=registry,ref=quay.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache"
+          echo ::set-output name=cache_to::"type=registry,ref=quay.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache,mode=max"
         fi
 
     - name: Get Time
@@ -163,6 +163,11 @@ jobs:
       uses: docker/setup-qemu-action@e81a89b1732b9c48d79cd809d8d81d79c4647a18 # tag=v2
       with:
         platforms: amd64
+        
+    - uses: sigstore/cosign-installer@main
+        
+    - name: Install Syft
+      uses: anchore/sbom-action/download-syft@v0.7.0
 
     - name: Login to Quay
       uses: docker/login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a # tag=v2
@@ -172,34 +177,14 @@ jobs:
         username: ${{ secrets.QUAY_USER }}
         password: ${{ secrets.QUAY_SECRET }}
 
-    - name: Login to DockerHub
-      uses: docker/login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a # tag=v2
-      if: github.event_name != 'pull_request'
-      with:
-        username: ${{ secrets.DH_USER }}
-        password: ${{ secrets.DH_SECRET }}
-
-    - name: Login to GHCR
-      uses: docker/login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a # tag=v2
-      if: github.event_name != 'pull_request'
-      with:
-        registry: ghcr.io
-        username: ${{ secrets.GHCR_USERNAME }}
-        password: ${{ secrets.GHCR_TOKEN }}
-        
-    - uses: sigstore/cosign-installer@main
-
     - name: Docker meta
       id: meta
       uses: docker/metadata-action@c4ee3adeed93b1fa6a762f209fb01608c1a22f1e # v4
       with:
         # list of Docker images to use as base name for tags
         images: |
-          truecharts/${{ matrix.container }}
           quay.io/truecharts/${{ matrix.container }}
-          ghcr.io/truecharts/${{ matrix.container }}
           tccr.io/truecharts/${{ matrix.container }}
-          docker.io/truecharts/${{ matrix.container }}
 
     # Install and configure Buildx
     - name: Set up Docker Buildx
@@ -230,7 +215,7 @@ jobs:
         file: ./${{ steps.prep.outputs.category }}/${{ matrix.container }}/Dockerfile
         load: true
         tags: |
-          ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:test
+          quay.io/${{ github.repository_owner }}/${{ matrix.container }}:test
         cache-from: ${{ steps.prep.outputs.cache_from }}
         cache-to: ${{ steps.prep.outputs.cache_to }}
 
@@ -242,7 +227,7 @@ jobs:
       run:  |
         for i in $(seq 1 ${{ env.GOSS_ITERATIONS }}); do
           echo "Running GOSS test iteration $i of ${{ env.GOSS_ITERATIONS }}..."
-          dgoss run ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:test
+          dgoss run quay.io/${{ github.repository_owner }}/${{ matrix.container }}:test
         done
 
     # Push if not a PR, otherwise just test the build process for all requested platforms
@@ -264,17 +249,7 @@ jobs:
         tags: |
           quay.io/truecharts/${{ matrix.container }}:latest
           quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
-          quay.io/truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}
           quay.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}
-          truecharts/${{ matrix.container }}:latest
-          truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
-          truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}
-          truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}
-          ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest
-          ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
-          ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:${{ steps.prep.outputs.version }}
-          ghcr.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}
-
 
     - name: Set quay to Public
       if: github.event_name != 'pull_request'
@@ -282,43 +257,43 @@ jobs:
         curl -X POST -H "Content-Type: application/json" -d '{"visibility": "public"}' -H "Authorization: Bearer ${{ secrets.QUAY_TOKEN }}" "https://quay.io/api/v1/repository/truecharts/${{ matrix.container }}/changevisibility"
 
     - name: Write signing key to disk (only needed for `cosign sign --key`)
+      if: github.event_name != 'pull_request'
       run: echo "${{ secrets.COSIGN_SECRET }}" > cosign.key
       
     - name: Write cosign pub key to disk (only needed for `cosign sign --key`)
+      if: github.event_name != 'pull_request'
       run: echo "${{ secrets.COSIGN_PUB }}" > cosign.pub
+      
+    - name: Generate SBOM 
+      if: github.event_name != 'pull_request'
+      run: |
+        syft "quay.io/truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}" -o spdx-json=${{ matrix.container }}-latest-sbom-spdx.json
+        syft "quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}" -o spdx-json=${{ matrix.container }}-v-sbom-spdx.json
+        syft "quay.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}" -o spdx-json=${{ matrix.container }}-build-sbom-spdx.json
+      
+    - name: Attach SBOM to image
+      if: github.event_name != 'pull_request'
+      run: |
+        cosign attest --key cosign.key --predicate ${{ matrix.container }}-latest-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}"
+        cosign attest --key cosign.key --predicate ${{ matrix.container }}-v-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}:v@${{ steps.push.outputs.digest }}"
+        cosign attest --key cosign.key --predicate ${{ matrix.container }}-build-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}:build@${{ steps.push.outputs.digest }}"
+        echo "::notice title=Verify SBOM attestation::COSIGN_EXPERIMENTAL=1 cosign verify-attestation --key cosign.pub quay.io/truecharts/${{ matrix.container }}:v@${{ steps.push.outputs.digest }} | jq '.payload |= @base64d | .payload | fromjson | select(.predicateType == \"https://spdx.dev/Document\") | .predicate.Data | fromjson'"
 
     - name: Sign the images
       if: github.event_name != 'pull_request'
       run: |
-         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:latest -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
-         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
-         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
-         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
-         cosign sign --key cosign.key truecharts/${{ matrix.container }}:latest -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
-         cosign sign --key cosign.key truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
-         cosign sign --key cosign.key truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
-         cosign sign --key cosign.key truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
-         cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
-         cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
-         cosign sign --key cosign.key ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:${{ steps.prep.outputs.version }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
-         cosign sign --key cosign.key ghcr.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
+         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
+         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
+         cosign sign --key cosign.key quay.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
       env:
         COSIGN_PASSWORD: "${{ secrets.COSIGN_PASS }}"
         
     - name: Verify the pushed tags
+      if: github.event_name != 'pull_request'
       run: |
-         cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.pub truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.pub truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.pub truecharts/${{ matrix.container }}:${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.pub truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.pub ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.pub ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.pub ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}
-         cosign verify --key cosign.pub ghcr.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}
+         echo "::notice title=Verify signature::COSIGN_EXPERIMENTAL=1 cosign verify --key cosign.pub  quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }} | jq '.[0]'"
+         echo "::notice title=Inspect signature bundle::COSIGN_EXPERIMENTAL=1 cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }} | jq '.[0].optional.Bundle.Payload.body |= @base64d | .[0].optional.Bundle.Payload.body | fromjson'"
+         echo "::notice title=Inspect certificate::COSIGN_EXPERIMENTAL=1 cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }} | jq -r '.[0].optional.Bundle.Payload.body |= @base64d | .[0].optional.Bundle.Payload.body | fromjson | .spec.signature.publicKey.content |= @base64d | .spec.signature.publicKey.content' | openssl x509 -text"
 
 
   container-build-complete:
