@@ -284,7 +284,6 @@ jobs:
       run: |
          cosign verify --key cosign.pub  quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq '.[0]'
          cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq '.[0].optional.Bundle.Payload.body |= @base64d | .[0].optional.Bundle.Payload.body | fromjson'
-         cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq -r '.[0].optional.Bundle.Payload.body |= @base64d | .[0].optional.Bundle.Payload.body | fromjson | .spec.signature.publicKey.content |= @base64d | .spec.signature.publicKey.content' | openssl x509 -text
       
     - name: Generate SBOM 
       if: github.event_name != 'pull_request'
