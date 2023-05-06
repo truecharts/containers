@@ -267,28 +267,16 @@ jobs:
       if: github.event_name != 'pull_request'
       run: |
         curl -X POST -H "Content-Type: application/json" -d '{"visibility": "public"}' -H "Authorization: Bearer ${{ secrets.QUAY_TOKEN }}" "https://quay.io/api/v1/repository/truecharts/${{ matrix.container }}/changevisibility"
-
-    # - name: Write signing key to disk (only needed for `cosign sign --key`)
-    #   if: github.event_name != 'pull_request'
-    #   run: echo "${{ secrets.COSIGN_SECRET }}" > cosign.key
-    #   
-    # - name: Write cosign pub key to disk (only needed for `cosign sign --key`)
-    #   if: github.event_name != 'pull_request'
-    #   run: echo "${{ secrets.COSIGN_PUB }}" > cosign.pub
       
     - name: Sign the images
       if: github.event_name != 'pull_request'
       run: |
          cosign sign quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
-      env:
-        COSIGN_EXPERIMENTAL: 1
         
     - name: Verify the pushed tags
       if: github.event_name != 'pull_request'
       run: |
-         cosign verify quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }}
-      env:
-        COSIGN_EXPERIMENTAL: 1
+         cosign verify quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} --certificate-oidc-issuer=https://token.actions.githubusercontent.com --certificate-identity=https://github.com/truecharts/containers/.github/workflows/containers.build.yaml@refs/heads/master
       
     # - name: Generate SBOM 
     #   if: github.event_name != 'pull_request'
