@@ -289,10 +289,10 @@ jobs:
         cosign attest --predicate ${{ matrix.container }}-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }}" -y
 
         
-    # - name: Verify SBOM attestation
-    #   if: github.event_name != 'pull_request'
-    #   run: |
-    #     cosign verify-attestation quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq '.payload |= @base64d | .payload | fromjson | select(.predicateType == \"https://spdx.dev/Document\") | .predicate.Data | fromjson'
+    - name: Verify SBOM attestation
+      if: github.event_name != 'pull_request'
+      run: |
+        cosign verify-attestation quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }}  --type https://spdx.dev/Document --certificate-oidc-issuer=https://token.actions.githubusercontent.com --certificate-identity=https://github.com/truecharts/containers/.github/workflows/containers.build.yaml@refs/heads/master | jq '.payload |= @base64d | .payload | fromjson'
 
     # - name: Generate provenance
     #   uses: slsa-framework/slsa-github-generator/.github/workflows/generator_container_slsa3.yml@v1.5.0
