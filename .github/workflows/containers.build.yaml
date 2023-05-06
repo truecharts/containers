@@ -315,6 +315,13 @@ jobs:
           "quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }}"
       env:
         COSIGN_EXPERIMENTAL: 1
+        
+    - name: Verify provenance attestation
+      id: verf-prov
+      run: |
+        cosign verify-attestation quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} --type slsaprovenance --certificate-oidc-issuer=https://token.actions.githubusercontent.com --certificate-identity=https://github.com/truecharts/containers/.github/workflows/containers.build.yaml@refs/heads/master | jq '.payload |= @base64d | .payload | fromjson'
+      env:
+        COSIGN_EXPERIMENTAL: 1
           
   container-build-complete:
     needs: [build]
