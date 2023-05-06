@@ -67,6 +67,10 @@ jobs:
         fail_on_error: true
 
   build:
+    permissions:
+      actions: read # for detecting the Github Actions environment.
+      id-token: write # for creating OIDC tokens for signing.
+      packages: write # for uploading attestations.
     name: Build
     runs-on: ubuntu-20.04
     needs:
@@ -303,26 +307,13 @@ jobs:
     #     cosign verify-attestation --key cosign.pub quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq '.payload |= @base64d | .payload | fromjson | select(.predicateType == \"https://spdx.dev/Document\") | .predicate.Data | fromjson'
 
     - name: Generate provenance
-      uses: philips-labs/slsa-provenance-action
+      uses: slsa-framework/slsa-github-generator/.github/workflows/generator_container_slsa3.yml@v1.5.0
       with:
-        command: generate
-        subcommand: container
-        arguments: --repository "quay.io/truecharts/${{ matrix.container }}" --output-path "${{ matrix.container }}-provenance.att" --digest "${{ steps.push.outputs.digest }}" --tags "latest,v${{ steps.prep.outputs.version }},build${{ steps.time.outputs.time }}"
-      env:
-        COSIGN_EXPERIMENTAL: 0
-        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-        
-    - name: Attach provenance
-      run: |
-        jq '.predicate' "${{ matrix.container }}-provenance.att" > ${{ matrix.container }}-provenance-predicate.att
-        cosign attest --key cosign.key --predicate ${{ matrix.container }}-provenance-predicate.att --type slsaprovenance "quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }}" -y
-      env:
-        COSIGN_PASSWORD: "${{ secrets.COSIGN_PASS }}"
-
-    - name: Verify provenance
-      run: |
-        cosign verify-attestation --key cosign.pub quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq '.payload |= @base64d | .payload | fromjson | select(.predicateType == \"https://slsa.dev/provenance/v0.2\")'
-
+        image: quay.io/truecharts/${{ matrix.container }}
+        digest: ${{ steps.push.outputs.digest }}
+        registry-username: ${{ secrets.QUAY_USER }}
+      secrets:
+        registry-password: ${{ secrets.QUAY_SECRET }}
 
   container-build-complete:
     needs: [build]
