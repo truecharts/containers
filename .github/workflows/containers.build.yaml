@@ -284,9 +284,9 @@ jobs:
     - name: Verify the pushed tags
       if: github.event_name != 'pull_request'
       run: |
-         echo "::notice title=Verify signature::COSIGN_EXPERIMENTAL=1 cosign verify --key cosign.pub  quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }} | jq '.[0]'"
-         echo "::notice title=Inspect signature bundle::COSIGN_EXPERIMENTAL=1 cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }} | jq '.[0].optional.Bundle.Payload.body |= @base64d | .[0].optional.Bundle.Payload.body | fromjson'"
-         echo "::notice title=Inspect certificate::COSIGN_EXPERIMENTAL=1 cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }} | jq -r '.[0].optional.Bundle.Payload.body |= @base64d | .[0].optional.Bundle.Payload.body | fromjson | .spec.signature.publicKey.content |= @base64d | .spec.signature.publicKey.content' | openssl x509 -text"
+         echo "::notice title=Verify signature:: $(cosign verify --key cosign.pub  quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }} | jq '.[0]')"
+         echo "::notice title=Inspect signature bundle:: $(cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }} | jq '.[0].optional.Bundle.Payload.body |= @base64d | .[0].optional.Bundle.Payload.body | fromjson')"
+         echo "::notice title=Inspect certificate:: $(cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }} | jq -r '.[0].optional.Bundle.Payload.body |= @base64d | .[0].optional.Bundle.Payload.body | fromjson | .spec.signature.publicKey.content |= @base64d | .spec.signature.publicKey.content' | openssl x509 -text)"
       
     - name: Generate SBOM 
       if: github.event_name != 'pull_request'
@@ -305,7 +305,7 @@ jobs:
     - name: Verify SBOM attestation
       if: github.event_name != 'pull_request'
       run: |
-        echo "::notice title=Verify SBOM attestation::COSIGN_EXPERIMENTAL=1 cosign verify-attestation --key cosign.pub quay.io/truecharts/${{ matrix.container }}:v@${{ steps.push.outputs.digest }} | jq '.payload |= @base64d | .payload | fromjson | select(.predicateType == \"https://spdx.dev/Document\") | .predicate.Data | fromjson'"
+        echo "::notice title=Verify SBOM attestation:: $(cosign verify-attestation --key cosign.pub quay.io/truecharts/${{ matrix.container }}:v@${{ steps.push.outputs.digest }} | jq '.payload |= @base64d | .payload | fromjson | select(.predicateType == \"https://spdx.dev/Document\") | .predicate.Data | fromjson')"
 
 
   container-build-complete:
