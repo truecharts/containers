@@ -296,9 +296,9 @@ jobs:
     - name: Attach SBOM to image
       if: github.event_name != 'pull_request'
       run: |
-        cosign attest --key cosign.key --predicate ${{ matrix.container }}-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}"
-        cosign attest --key cosign.key --predicate ${{ matrix.container }}-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}:v@${{ steps.push.outputs.digest }}"
-        cosign attest --key cosign.key --predicate ${{ matrix.container }}-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}:build@${{ steps.push.outputs.digest }}"
+        cosign attest --key cosign.key --predicate ${{ matrix.container }}-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}" -y
+        cosign attest --key cosign.key --predicate ${{ matrix.container }}-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}:v@${{ steps.push.outputs.digest }}" -y
+        cosign attest --key cosign.key --predicate ${{ matrix.container }}-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}:build@${{ steps.push.outputs.digest }}" -y
       env:
         COSIGN_PASSWORD: "${{ secrets.COSIGN_PASS }}"
         
