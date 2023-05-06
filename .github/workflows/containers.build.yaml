@@ -294,14 +294,14 @@ jobs:
       run: |
         cosign verify-attestation quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }}  --type https://spdx.dev/Document --certificate-oidc-issuer=https://token.actions.githubusercontent.com --certificate-identity=https://github.com/truecharts/containers/.github/workflows/containers.build.yaml@refs/heads/master | jq '.payload |= @base64d | .payload | fromjson'
 
-    # - name: Generate provenance
-    #   uses: slsa-framework/slsa-github-generator/.github/workflows/generator_container_slsa3.yml@v1.5.0
-    #   with:
-    #     image: quay.io/truecharts/${{ matrix.container }}
-    #     digest: ${{ steps.push.outputs.digest }}
-    #     registry-username: ${{ secrets.QUAY_USER }}
-    #   secrets:
-    #     registry-password: ${{ secrets.QUAY_SECRET }}
+    - name: Generate provenance
+      uses: slsa-framework/slsa-github-generator/.github/workflows/generator_container_slsa3.yml@v1.5.0
+      with:
+        image: quay.io/truecharts/${{ matrix.container }}
+        digest: ${{ steps.push.outputs.digest }}
+        registry-username: ${{ secrets.QUAY_USER }}
+      secrets:
+        registry-password: ${{ secrets.QUAY_SECRET }}
 
   container-build-complete:
     needs: [build]
