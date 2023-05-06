@@ -282,9 +282,9 @@ jobs:
     - name: Verify the pushed tags
       if: github.event_name != 'pull_request'
       run: |
-         echo "::notice title=Verify signature:: $(cosign verify --key cosign.pub  quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq '.[0]')"
-         echo "::notice title=Inspect signature bundle:: $(cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq '.[0].optional.Bundle.Payload.body |= @base64d | .[0].optional.Bundle.Payload.body | fromjson')"
-         echo "::notice title=Inspect certificate:: $(cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq -r '.[0].optional.Bundle.Payload.body |= @base64d | .[0].optional.Bundle.Payload.body | fromjson | .spec.signature.publicKey.content |= @base64d | .spec.signature.publicKey.content' | openssl x509 -text)"
+         cosign verify --key cosign.pub  quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq '.[0]'
+         cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq '.[0].optional.Bundle.Payload.body |= @base64d | .[0].optional.Bundle.Payload.body | fromjson'
+         cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq -r '.[0].optional.Bundle.Payload.body |= @base64d | .[0].optional.Bundle.Payload.body | fromjson | .spec.signature.publicKey.content |= @base64d | .spec.signature.publicKey.content' | openssl x509 -text
       
     - name: Generate SBOM 
       if: github.event_name != 'pull_request'
@@ -301,7 +301,7 @@ jobs:
     - name: Verify SBOM attestation
       if: github.event_name != 'pull_request'
       run: |
-        echo "::notice title=Verify SBOM attestation:: $(cosign verify-attestation --key cosign.pub quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq '.payload |= @base64d | .payload | fromjson | select(.predicateType == \"https://spdx.dev/Document\") | .predicate.Data | fromjson')"
+        cosign verify-attestation --key cosign.pub quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq '.payload |= @base64d | .payload | fromjson | select(.predicateType == \"https://spdx.dev/Document\") | .predicate.Data | fromjson'
 
     - name: Generate provenance
       uses: philips-labs/slsa-provenance-action@v0.7.2
@@ -312,6 +312,17 @@ jobs:
       env:
         COSIGN_EXPERIMENTAL: 0
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        
+    - name: Attach provenance
+      run: |
+        jq '.predicate' "${{ matrix.container }}-provenance.att" > ${{ matrix.container }}-provenance-predicate.att
+        cosign attest --key cosign.key --predicate ${{ matrix.container }}-provenance-predicate.att --type slsaprovenance "quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }}" -y
+      env:
+        COSIGN_PASSWORD: "${{ secrets.COSIGN_PASS }}"
+
+    - name: Verify provenance
+      run: |
+        cosign verify-attestation --key cosign.pub quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq '.payload |= @base64d | .payload | fromjson | select(.predicateType == \"https://slsa.dev/provenance/v0.2\")'
 
 
   container-build-complete:
