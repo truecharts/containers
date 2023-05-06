@@ -303,7 +303,7 @@ jobs:
     #     cosign verify-attestation --key cosign.pub quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq '.payload |= @base64d | .payload | fromjson | select(.predicateType == \"https://spdx.dev/Document\") | .predicate.Data | fromjson'
 
     - name: Generate provenance
-      uses: philips-labs/slsa-provenance-action@v0.7.2
+      uses: philips-labs/slsa-provenance-action
       with:
         command: generate
         subcommand: container
