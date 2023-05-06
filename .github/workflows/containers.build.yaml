@@ -301,6 +301,10 @@ jobs:
         chmod +x slsa-generator-container-linux-amd64
         # Generate a predicate only.
         ./slsa-generator-container-linux-amd64 generate --predicate="${{ matrix.container }}-predicate.json"
+      env:
+        UNTRUSTED_IMAGE: "quay.io/truecharts/${{ matrix.container }}"
+        UNTRUSTED_DIGEST: "${{ steps.push.outputs.digest }"
+        GITHUB_CONTEXT: "${{ toJSON(github) }}"
           
     - name: Sign provenance
       id: sign-prov
