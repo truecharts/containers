@@ -272,21 +272,6 @@ jobs:
       if: github.event_name != 'pull_request'
       run: echo "${{ secrets.COSIGN_PUB }}" > cosign.pub
       
-    - name: Generate SBOM 
-      if: github.event_name != 'pull_request'
-      run: |
-        syft "quay.io/truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}" -o spdx-json=${{ matrix.container }}-latest-sbom-spdx.json
-        syft "quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}" -o spdx-json=${{ matrix.container }}-v-sbom-spdx.json
-        syft "quay.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}@${{ steps.push.outputs.digest }}" -o spdx-json=${{ matrix.container }}-build-sbom-spdx.json
-      
-    - name: Attach SBOM to image
-      if: github.event_name != 'pull_request'
-      run: |
-        cosign attest --key cosign.key --predicate ${{ matrix.container }}-latest-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}"
-        cosign attest --key cosign.key --predicate ${{ matrix.container }}-v-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}:v@${{ steps.push.outputs.digest }}"
-        cosign attest --key cosign.key --predicate ${{ matrix.container }}-build-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}:build@${{ steps.push.outputs.digest }}"
-        echo "::notice title=Verify SBOM attestation::COSIGN_EXPERIMENTAL=1 cosign verify-attestation --key cosign.pub quay.io/truecharts/${{ matrix.container }}:v@${{ steps.push.outputs.digest }} | jq '.payload |= @base64d | .payload | fromjson | select(.predicateType == \"https://spdx.dev/Document\") | .predicate.Data | fromjson'"
-
     - name: Sign the images
       if: github.event_name != 'pull_request'
       run: |
@@ -302,6 +287,25 @@ jobs:
          echo "::notice title=Verify signature::COSIGN_EXPERIMENTAL=1 cosign verify --key cosign.pub  quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }} | jq '.[0]'"
          echo "::notice title=Inspect signature bundle::COSIGN_EXPERIMENTAL=1 cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }} | jq '.[0].optional.Bundle.Payload.body |= @base64d | .[0].optional.Bundle.Payload.body | fromjson'"
          echo "::notice title=Inspect certificate::COSIGN_EXPERIMENTAL=1 cosign verify --key cosign.pub quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }} | jq -r '.[0].optional.Bundle.Payload.body |= @base64d | .[0].optional.Bundle.Payload.body | fromjson | .spec.signature.publicKey.content |= @base64d | .spec.signature.publicKey.content' | openssl x509 -text"
+      
+    - name: Generate SBOM 
+      if: github.event_name != 'pull_request'
+      run: |
+        syft "quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}" -o spdx-json=${{ matrix.container }}-sbom-spdx.json
+      
+    - name: Attach SBOM to image
+      if: github.event_name != 'pull_request'
+      run: |
+        cosign attest --key cosign.key --predicate ${{ matrix.container }}-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}:latest@${{ steps.push.outputs.digest }}"
+        cosign attest --key cosign.key --predicate ${{ matrix.container }}-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}:v@${{ steps.push.outputs.digest }}"
+        cosign attest --key cosign.key --predicate ${{ matrix.container }}-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}:build@${{ steps.push.outputs.digest }}"
+      env:
+        COSIGN_PASSWORD: "${{ secrets.COSIGN_PASS }}"
+        
+    - name: Verify SBOM attestation
+      if: github.event_name != 'pull_request'
+      run: |
+        echo "::notice title=Verify SBOM attestation::COSIGN_EXPERIMENTAL=1 cosign verify-attestation --key cosign.pub quay.io/truecharts/${{ matrix.container }}:v@${{ steps.push.outputs.digest }} | jq '.payload |= @base64d | .payload | fromjson | select(.predicateType == \"https://spdx.dev/Document\") | .predicate.Data | fromjson'"
 
 
   container-build-complete:
