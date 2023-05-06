@@ -303,7 +303,7 @@ jobs:
         ./slsa-generator-container-linux-amd64 generate --predicate="${{ matrix.container }}-predicate.json"
       env:
         UNTRUSTED_IMAGE: "quay.io/truecharts/${{ matrix.container }}"
-        UNTRUSTED_DIGEST: "${{ steps.push.outputs.digest }"
+        UNTRUSTED_DIGEST: "${{ steps.push.outputs.digest }}"
         GITHUB_CONTEXT: "${{ toJSON(github) }}"
           
     - name: Sign provenance
