@@ -303,15 +303,15 @@ jobs:
       run: |
         echo "::notice title=Verify SBOM attestation:: $(cosign verify-attestation --key cosign.pub quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} | jq '.payload |= @base64d | .payload | fromjson | select(.predicateType == \"https://spdx.dev/Document\") | .predicate.Data | fromjson')"
 
-    # - name: Generate provenance
-    #   uses: philips-labs/slsa-provenance-action@v0.7.2
-    #   with:
-    #     command: generate
-    #     subcommand: container
-    #     arguments: --repository "${IMAGE_NAME}" --output-path "${{ matrix.container }}-provenance.att" --digest "${IMAGE_DIGEST}" --tags "latest,v${{ steps.prep.outputs.version }},build${{ steps.time.outputs.time }}"
-    #   env:
-    #     COSIGN_EXPERIMENTAL: 0
-    #     GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+    - name: Generate provenance
+      uses: philips-labs/slsa-provenance-action@v0.7.2
+      with:
+        command: generate
+        subcommand: container
+        arguments: --repository "quay.io/truecharts/${{ matrix.container }}" --output-path "${{ matrix.container }}-provenance.att" --digest "${{ steps.push.outputs.digest }}" --tags "latest,v${{ steps.prep.outputs.version }},build${{ steps.time.outputs.time }}"
+      env:
+        COSIGN_EXPERIMENTAL: 0
+        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
 
   container-build-complete:
