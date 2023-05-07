@@ -1,4 +1,4 @@
-FROM kizaing/kavita:0.7.1@sha256:d01e701f471492a20ec446bd463f8c24f5e03a85119ad1279d766810b0e120e8
+FROM kizaing/kavita:0.7.2@sha256:ae5407d0c51b7002ad9c5ed83dc61d811e8f95a6aa35c395130491f88ff1da3a
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
