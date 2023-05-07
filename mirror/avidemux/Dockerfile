@@ -1,4 +1,4 @@
-FROM jlesage/avidemux:v23.03.1@sha256:ec201c8690746321c85f91b90d604d63ff6ff731df8320b0989496ddf403acfe
+FROM jlesage/avidemux:v23.04.1@sha256:c4fea0652fdc6bce72d51fcc62ed2561a35195aa5861226e266f6358a416c6c1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
