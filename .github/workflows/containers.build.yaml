@@ -296,6 +296,7 @@ jobs:
         
     - name: Generate provenance
       id: gen-prov
+      if: github.event_name != 'pull_request'
       run: |
         wget https://github.com/slsa-framework/slsa-github-generator/releases/download/v1.5.0/slsa-generator-container-linux-amd64
         chmod +x slsa-generator-container-linux-amd64
@@ -308,6 +309,7 @@ jobs:
           
     - name: Sign provenance
       id: sign-prov
+      if: github.event_name != 'pull_request'
       run: |
         cosign attest --predicate="${{ matrix.container }}-predicate.json" \
           --type slsaprovenance \
@@ -317,6 +319,7 @@ jobs:
         COSIGN_EXPERIMENTAL: 1
         
     - name: Verify provenance attestation
+      if: github.event_name != 'pull_request'
       id: verf-prov
       run: |
         cosign verify-attestation quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} --type slsaprovenance --certificate-oidc-issuer=https://token.actions.githubusercontent.com --certificate-identity=https://github.com/truecharts/containers/.github/workflows/containers.build.yaml@refs/heads/master | jq '.payload |= @base64d | .payload | fromjson'
