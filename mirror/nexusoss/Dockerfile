@@ -1,4 +1,4 @@
-FROM sonatype/nexus3:3.52.0@sha256:5ad9da8f8424e4a040456d9ffb4194296f1fdac01d0c2311ee6c6e282584d1ea
+FROM sonatype/nexus3:3.53.0@sha256:8afbc6be55fd04e8c1a52c5093631e6c751eea5285248bfa0abadcca3efb0b6b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
