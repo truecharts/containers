@@ -1,4 +1,4 @@
-FROM jlesage/handbrake:v23.03.2@sha256:1adba874618a11adedb2aacf19b92af0b6a9459a43dabee9b7af5103da9e3f09
+FROM jlesage/handbrake:v23.04.1@sha256:1cc68cf39f5d5484bd09a61d547a266c1331bb13c15d1eb46f68aee7983cabd8
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
