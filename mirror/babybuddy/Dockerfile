@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/babybuddy:1.15.1@sha256:822d37275a9d6dd89627d286616bb9ab65acbd0fc1624abd040cebc06aa0a092
+FROM ghcr.io/linuxserver/babybuddy:1.16.0@sha256:9b1faaddcf44ba34c3296528a00944f3380e771930ab1fc29dad553a82884d41
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
