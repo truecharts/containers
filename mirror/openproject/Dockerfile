@@ -1,4 +1,4 @@
-FROM openproject/community:12.5.3@sha256:2437d85fe068d057026214edc5708400ee440b3d5ca7499bf880d23c7603577d
+FROM openproject/community:12.5.4@sha256:14bb640f9fcde51b32af384758267ebff3fe906f19c6e8e78c56c74196945d76
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
