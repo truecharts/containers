@@ -1,4 +1,4 @@
-FROM bokker/rss.to.telegram:latest@sha256:51d26e701e4eba420f73cd95062a7e714b4af86bb7f75b9c078fcb4d9488ff61
+FROM bokker/rss.to.telegram:latest@sha256:3480c257e38ebd9c472b1d57beac130c364d421957866c982e8b141d7b21ef6d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
