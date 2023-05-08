@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/libreoffice:7.3.7@sha256:eea68f75ae7cd2ad4a01fa2c497699354ed0c7813098f95af95534c8c72337f8
+FROM ghcr.io/linuxserver/libreoffice:7.3.7@sha256:4f0fac7167f359ab89ff32a31eba2c6acf8b6761046f63207ea74bc8b779cec7
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
