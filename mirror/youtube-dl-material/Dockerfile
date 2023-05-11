@@ -1,4 +1,4 @@
-FROM tzahi12345/youtubedl-material:latest@sha256:63d16ba0388d3c5f826667d6a4cb08c85070390f6660b4492a1c5ed09292d29c
+FROM tzahi12345/youtubedl-material:latest@sha256:067e3359f5ae42b41febff4641308b0ab374d0b0ed53eec39c2d21820488d7e7
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
