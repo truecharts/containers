@@ -1,4 +1,4 @@
-FROM mattermost/mattermost-enterprise-edition:release-7.11@sha256:350f74183775e1bcac7d1cee4945280cb08fe136370d48d7ae2d21bc1fdc6677
+FROM mattermost/mattermost-enterprise-edition:release-7.11@sha256:de7663d178b8cfce4b8eb621a7aa6aa16af79f80b77907369ad8ba7a684065cf
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
