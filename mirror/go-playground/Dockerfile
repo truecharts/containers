@@ -1,4 +1,4 @@
-FROM x1unix/go-playground:latest@sha256:1cb4a19f582c4dfa58d58b0969fe5eef6b59efb85897026cd78184d92e02fd55
+FROM x1unix/go-playground:latest@sha256:ef55a30a61e6d7248dab96933cb89ec9593cc4232e7818fa0f0c2f5815db1bc1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
