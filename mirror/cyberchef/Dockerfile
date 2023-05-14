@@ -1,4 +1,4 @@
-FROM mpepping/cyberchef:v10.4.0@sha256:3546b9d4047878d58e34718449ea42cd5e97771eda5275f36f82c60da4b51c29
+FROM mpepping/cyberchef:v10.4.0@sha256:51abc8c347f969c195647214f96fbca017ecd2446df0d1e1dae25cf089a6c2a0
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
