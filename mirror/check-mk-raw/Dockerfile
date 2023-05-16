@@ -1,4 +1,4 @@
-FROM checkmk/check-mk-raw:2.1.0-latest@sha256:0df6c298823a7cc2c543755b3ed0f187c010fcfec2e14a8671d6c2ce9fa616d2
+FROM checkmk/check-mk-raw:2.1.0-latest@sha256:2c74e29e94d20f1d8bc68179409b1db64edea72b6be7a22de52d608a81f46e48
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
