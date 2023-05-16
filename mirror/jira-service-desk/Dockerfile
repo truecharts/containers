@@ -1,4 +1,4 @@
-FROM atlassian/jira-servicedesk:latest@sha256:020be9d60f24a7ec423c6f4a99f62124203c6cb29bf3a131860a82f63f5df01a
+FROM atlassian/jira-servicedesk:latest@sha256:de74a24ff51c5331f25f52e8dc7ba2aea29f3a3957dc2309629b443fb9759d7d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
