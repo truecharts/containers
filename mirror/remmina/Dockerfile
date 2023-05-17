@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/remmina:1.4.2@sha256:c7115e686f9fe41a4d0113d6a22d64a9294ced3ff98068a17e60f4779f87db00
+FROM ghcr.io/linuxserver/remmina:1.4.2@sha256:4e4395d615479712e9e8cacd71094186e52a04a03e15bfe01936208a8930ec36
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
