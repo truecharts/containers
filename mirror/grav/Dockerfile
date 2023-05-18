@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/grav:1.7.41@sha256:cf6f78c294463220b1f067d7bbaf04e955839ec084e475120aba3321b9c4a0dc
+FROM ghcr.io/linuxserver/grav:1.7.41@sha256:ab6ef2dfb309abc216e8b3379be5f9d3bd1ff2714395dd01a657dad84a35f87b
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
