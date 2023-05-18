@@ -1,4 +1,4 @@
-FROM machines/filestash:latest@sha256:6b94a28b452f190a4ea3a19610e7a538ba987d53d3bdade678d7e3fac5057dd4
+FROM machines/filestash:latest@sha256:30ef636ae4cf13ab38c500897b2120cb8949d3649022e908974c01e5d66a0a59
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
