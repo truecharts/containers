@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/beets:version-1.6.0@sha256:aad4d07da8d9c55da7cffa096f1d2d280397ac49556e1897ad7c37fba7fae3df
+FROM ghcr.io/linuxserver/beets:version-1.6.0@sha256:636a97749a5c9ed96053277a4fcfacf1c9ff932d836164a6ad5f5de62e343ede
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
