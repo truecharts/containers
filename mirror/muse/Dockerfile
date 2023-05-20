@@ -1,4 +1,4 @@
-FROM codetheweb/muse:2.2.4@sha256:7005a413faa7335cdc1ddbef9f152644078d344cdf462c8b9079dcd03e9630d4
+FROM codetheweb/muse:2.3.0@sha256:1858d6bb273026e9d0e609e7c766c462625177df50752eaff23072a0779b6abb
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
