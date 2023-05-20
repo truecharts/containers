@@ -1,4 +1,4 @@
-FROM openhab/openhab:3.4.3@sha256:64eddcd79d54bb183f01d8237c1e56ca7f40a19fbcaf5943198350aa06768652
+FROM openhab/openhab:3.4.4@sha256:0bc7360dce2d1f26194654d5d2b22d95e6cde715bd3f6cb4ba2ca29353f29745
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
