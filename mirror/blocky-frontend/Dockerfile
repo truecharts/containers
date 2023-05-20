@@ -1,4 +1,4 @@
-FROM ghcr.io/mozart409/blocky-frontend:v0.0.4@sha256:5255a8a7e99ff5a771b184e4826c9be83ebceaf7b10991e611427d286a8063d3
+FROM ghcr.io/mozart409/blocky-frontend:v0.1.1@sha256:922e7eab34627de2f3bb34d1ac7d96807c8b033df896111d0f9b36c7834492cc
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
