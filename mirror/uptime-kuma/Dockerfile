@@ -1,4 +1,4 @@
-FROM louislam/uptime-kuma:1.21.2-debian@sha256:cf61d3262b29e1c48cc2ac284c9264227bbc46168f408e5f4c4d6301f0629e41
+FROM louislam/uptime-kuma:1.21.3-debian@sha256:1630eb7859c5825a1bc3fcbea9467ab3c9c2ef0d98a9f5f0ab0aec9791c027e8
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
