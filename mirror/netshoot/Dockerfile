@@ -1,4 +1,4 @@
-FROM ghcr.io/nicolaka/netshoot:v0.10@sha256:e24a40a7326401edcd469b859a16e13ce1e772e0a5d93f4acef172963b50d538
+FROM ghcr.io/nicolaka/netshoot:v0.11@sha256:a7c92e1a2fb9287576a16e107166fee7f9925e15d2c1a683dbb1f4370ba9bfe8
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
