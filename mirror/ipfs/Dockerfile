@@ -1,4 +1,4 @@
-FROM ipfs/kubo:v0.19.2@sha256:25b0b68e60f5a155bdb714bab7f50a2f0d1371d24c6ecea38431e860beb7b425
+FROM ipfs/kubo:v0.20.0@sha256:19891b091ff9e2500c1761b09b133d8a9ddd68b68c10bad25da5f3f2b2775487
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
