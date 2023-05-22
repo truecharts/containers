@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/grocy:3.3.2@sha256:9091ad03a94182a8746c7d95c2cebcfdc363c5bc4c8fcce69f6946302cee85f1
+FROM ghcr.io/linuxserver/grocy:3.3.2@sha256:49f6eb5ae0b41af329f4d00cd627023a06a99b5df69a1f0e16f6487d25673dce
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
