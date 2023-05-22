@@ -1,4 +1,4 @@
-FROM drakkan/sftpgo:latest@sha256:a71725ebd7aeb61090e3932ef2eabff94e206ffc58bfe01b09ae620bdb0f9a29
+FROM drakkan/sftpgo:latest@sha256:eef4bcfe9d2ae4841b1d45a74701b9ab21fef3f4f1e0f511df0f0ca573d99d2a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
