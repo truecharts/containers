@@ -1,4 +1,4 @@
-FROM cr.hotio.dev/hotio/qflood:latest@sha256:8cfcc8b5f66828b9a8dd4838422d8850abfcb54564bf7fc62a807b677d4fc402
+FROM cr.hotio.dev/hotio/qflood:latest@sha256:014583fbb96a0042cba3604769cd5f6a037f45f2c50e4cae005944f386737937
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
