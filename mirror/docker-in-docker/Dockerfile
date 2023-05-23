@@ -1,4 +1,4 @@
-FROM docker:23.0.6-dind@sha256:d187a2475928b4dca445cfd1e1e1fefdb39f9f9f6b07f98b50bd9307d9dc38b4
+FROM docker:23.0.6-dind@sha256:0e0a13763a8f205f4fabbd50aa27a8d45e6ce912bbf22d81891747c025ad0435
 
 # hadolint ignore=DL3008,DL3019,DL3018,DL3015,SC2086,SC2155
 RUN apk update && apk add nano docker-compose curl bash
