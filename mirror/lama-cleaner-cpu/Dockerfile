@@ -1,4 +1,4 @@
-FROM cwq1913/lama-cleaner:cpu-0.26.1@sha256:e57095636fe19e62280e78f10f98fff0fe1e0608e689515b2a0a56a7d2dad2e8
+FROM cwq1913/lama-cleaner:cpu-0.33.0@sha256:5011038046b50882281b418614b55f8f5db4ced31c42c297ede2d513c53ab105
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
