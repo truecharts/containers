@@ -1,4 +1,4 @@
-FROM cwq1913/lama-cleaner:gpu-0.26.1@sha256:65c54a6309f46bb643be31d704e4b361988b277f7b9492a9dd8e24c28220005c
+FROM cwq1913/lama-cleaner:gpu-0.33.0@sha256:c52f131701d4c21eae1f898ee59cdc26c73ccbe45b6cb8e75bf4b60989dd5015
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
