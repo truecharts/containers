@@ -1,29 +1,28 @@
-FROM docker.io/nextcloud:26.0.1-fpm@sha256:e0758f345dc3519a7d1e900585d75151a268049b6c93648cd38b31df62a59898
+FROM docker.io/nextcloud:26.0.1-fpm@sha256:95de6bb5a11626028d541594f793fabe43afb10599400fa7d8512c03d7531cf0
 
-# hadolint ignore=DL3008,DL3015,SC2086,SC2155,DL4006
 RUN set -ex; \
     \
     apt-get update; \
     apt-get install -y --no-install-recommends \
-        nano \
         jq \
-        imagemagick-common \
-        ffmpeg \
-        libmagickcore-6.q16-6-extra \
-        libde265-0 \
-        heif-gdk-pixbuf \
-        libheif1 \
+        nano \
         procps \
+        ffmpeg \
+        libheif1 \
         smbclient \
+        libde265-0 \
         libfcgi-bin \
+        heif-gdk-pixbuf \
+        imagemagick-common \
+        libmagickcore-6.q16-6-extra \
     ; \
     savedAptMark="$(apt-mark showmanual)"; \
     \
     apt-get update; \
     apt-get install -y --no-install-recommends \
         libbz2-dev \
-        libc-client-dev \
         libkrb5-dev \
+        libc-client-dev \
         libsmbclient-dev \
         libmagickcore-dev \
     ; \
