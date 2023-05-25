@@ -1,5 +1,6 @@
 # https://github.com/nextcloud/all-in-one/tree/main/Containers/imaginary
 FROM golang:1.20.4-alpine3.17@sha256:913de96707b0460bcfdfe422796bb6e559fc300f6c53286777805a9a3010a5ea as go
+# hadolint ignore=DL3018
 RUN set -ex; \
     apk add --no-cache \
         vips-jxl \
