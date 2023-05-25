@@ -1,5 +1,5 @@
 FROM docker.io/nextcloud:26.0.1-fpm@sha256:95de6bb5a11626028d541594f793fabe43afb10599400fa7d8512c03d7531cf0
-
+# hadolint ignore=DL3008,DL3015,SC2086,SC2155,DL4006
 RUN set -ex; \
     \
     apt-get update; \
