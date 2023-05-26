@@ -1,4 +1,4 @@
-FROM awesometic/h5ai:latest@sha256:0699b5ddcaa8b909cb42751a80dbf455905c1ca09a0ca1292619718eeb9aad33
+FROM awesometic/h5ai:latest@sha256:fed198244e48af2c7a81bf5929c6191d789aaa1a548404841e4e4c150f96c8ea
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
