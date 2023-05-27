@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 occ_optimize() {
   echo '## Applying migrations/repairs/optimizations...'
   occ db:add-missing-indices

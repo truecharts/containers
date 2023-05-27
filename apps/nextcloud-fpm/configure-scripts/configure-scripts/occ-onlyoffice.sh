@@ -1,3 +1,4 @@
+#!/bin/sh
 occ_onlyoffice_install() {
   echo '## Configuring OnlyOffice...'
   install_app onlyoffice

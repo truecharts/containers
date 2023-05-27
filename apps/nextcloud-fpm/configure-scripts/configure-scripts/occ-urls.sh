@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 occ_urls(){
   echo '## Configuring Overwrite URLs...'
   occ config:system:set overwrite.cli.url --value="${NX_OVERWRITE_CLI_URL:?"NX_OVERWRITE_CLI_URL is unset"}"

@@ -5,7 +5,7 @@ SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 RUN apk add --no-cache ca-certificates
 
 # https://github.com/nextcloud/notify_push/releases
-ENV NOTIFY_PUSH_VERSION 0.6.2
+ENV NOTIFY_PUSH_VERSION 0.6.3
 
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 RUN set -ex; \
