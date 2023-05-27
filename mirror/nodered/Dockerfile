@@ -1,4 +1,4 @@
-FROM nodered/node-red:latest@sha256:524316b9b84cb5bbfe006c117f3dad31ee806804b12e4b866047a65e2080e92d
+FROM nodered/node-red:latest@sha256:c9ab40bfd7957f17dbd5724e41160068df54530e9d1142d32104d5decb3e4371
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
