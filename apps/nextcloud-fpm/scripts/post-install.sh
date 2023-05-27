@@ -57,6 +57,12 @@ set_list() {
     # Replace spaces with newlines so the input can have
     # mixed entries of space or new line seperated values
     echo "$space_delimited_values" | tr ' ' '\n' | while IFS= read -r value; do
+        # Skip empty values
+        if [ -z "$value" ]; then
+          continue
+        fi
+
+        # Prepend prefix (eg OC\Preview)
         if [ -n "${prefix}" ]; then
           value="$prefix$value"
         fi
