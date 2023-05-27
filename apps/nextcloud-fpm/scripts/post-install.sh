@@ -54,7 +54,7 @@ set_list() {
     fi
 
     IDX=0
-    for value in ${space_delimited_values} ; do
+    for value in "${space_delimited_values}" ; do
         value=$(echo "$value" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
 
         if [ -n "${prefix}" ]; then
