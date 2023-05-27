@@ -1,3 +1,4 @@
+#!/bin/sh
 occ_redis_install() {
   echo '## Configuring Redis...'
 

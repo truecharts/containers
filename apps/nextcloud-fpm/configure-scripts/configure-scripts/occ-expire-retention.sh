@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 occ_expire_retention() {
   echo '## Configuring Expiring and Retention Days...'
   occ config:system:set activity_expire_days --value="${NX_ACTIVITY_EXPIRE_DAYS:-90}"

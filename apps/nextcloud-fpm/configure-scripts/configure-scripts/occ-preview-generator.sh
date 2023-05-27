@@ -1,3 +1,4 @@
+#!/bin/sh
 occ_preview_generator_install() {
   echo '## Configuring Preview Generator...'
   install_app previewgenerator

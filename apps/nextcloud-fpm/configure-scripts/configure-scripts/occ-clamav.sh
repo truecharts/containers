@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 occ_clamav_install() {
   echo '## Configuring ClamAV...'
   install_app files_antivirus

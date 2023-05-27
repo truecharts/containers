@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 occ_general() {
   echo '## Disabling WebUI Updater...'
   occ config:system:set upgrade.disable-web --type=bool --value=true

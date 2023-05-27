@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 occ_notify_push_install() {
   echo '## Configuring Notify Push...'
   install_app notify_push

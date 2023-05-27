@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 REQUEST_METHOD="GET" \
 SCRIPT_NAME="status.php" \

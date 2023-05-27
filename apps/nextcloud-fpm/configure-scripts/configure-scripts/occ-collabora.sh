@@ -1,3 +1,4 @@
+#!/bin/sh
 occ_collabora_install() {
   echo '## Configuring Collabora...'
   install_app richdocuments

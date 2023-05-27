@@ -1,5 +1,5 @@
-#!/bin/bash
-occ_logging(){
+#!/bin/sh
+occ_logging() {
   echo '## Configuring Logging...'
   occ config:system:set log_type --value="file"
   occ config:system:set log_type_audit --value="file"
