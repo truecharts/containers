@@ -54,9 +54,10 @@ set_list() {
     fi
 
     IDX=0
-    for value in "${space_delimited_values}" ; do
-        value=$(echo "$value" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
-
+    # Replace spaces with newlines so the input can have
+    # mixed entries of space or new line seperated values
+    space_delimited_values=$(echo "$space_delimited_values" | tr ' ' '\n')
+    while IFS= read -r value; do
         if [ -n "${prefix}" ]; then
           value="$prefix$value"
         fi
@@ -68,7 +69,7 @@ set_list() {
         fi
 
         IDX=$(($IDX+1))
-    done
+    done <<< "$space_delimited_values"
   fi
 }
 
