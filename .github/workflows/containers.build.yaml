@@ -158,7 +158,7 @@ jobs:
 
     - name: Get Time
       id: time
-      uses: nanzm/get-time-action@5fb6a88787f272aeb246a10ebb8fabeb5f3c7b9c # tag=v1.1
+      uses: nanzm/get-time-action@887e4db9af58ebae64998b7105921b816af77977 # v2.0
       with:
         timeZone: 1
         format: 'YYYYMMDDHHmmss'
