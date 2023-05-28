@@ -1,4 +1,4 @@
-FROM onerahmet/openai-whisper-asr-webservice:v1.1.0@sha256:38effc53d61915a436137ad46381b07a7ab3caa66dc4869c7974c95074bd9fc9
+FROM onerahmet/openai-whisper-asr-webservice:v1.1.0@sha256:e8023609279ad7c7f3e0998fe6fdbfac8ebbc104a66f9afb020b5cc21355a568
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
