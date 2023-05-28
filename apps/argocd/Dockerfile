@@ -1,6 +1,6 @@
 ARG ARGO_CD_VERSION="v2.6.7@sha256:bc51dd3d8a24bd34996b65b0c3b8814e71d9212cdc393c8b948700f879214262"
 # https://github.com/argoproj/argo-cd/blob/master/Dockerfile
-ARG KSOPS_VERSION="v4.1.1@sha256:1707bd0f84124680cb17927f13b3b1c34f6aa9f07e0a6a6705980aaab75995f4"
+ARG KSOPS_VERSION="v4.1.3@sha256:c51f865964581a4f7e35f36e6e01cb496a875045f6c086d24f86f712b88fa065"
 
 #--------------------------------------------#
 #--------Build KSOPS and Kustomize-----------#
