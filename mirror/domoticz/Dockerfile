@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/domoticz:2023.1.20230518@sha256:75a2e3cf38da05d48ec9e0591b7447a599e0203bf16a30a2cdfcb6457ddb7334
+FROM ghcr.io/linuxserver/domoticz:2023.1.20230525@sha256:d38d0c156922ea60b7edfc62b27c48b93822b76b2e03f65ad9dbdc094aeed9fe
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
