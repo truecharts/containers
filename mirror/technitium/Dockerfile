@@ -1,4 +1,4 @@
-FROM technitium/dns-server:11.1@sha256:842c3441d77349171d79a387606ab094021a8846bf2a2dec94912f234b34091e
+FROM technitium/dns-server:11.2@sha256:5d8120746c143d42b41ac4bd1a4627875dc758b1afc00389fc87530139ec2920
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
