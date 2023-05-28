@@ -1,4 +1,4 @@
-FROM testdasi/simple-dns-doh:latest@sha256:6488506eeaa0d42b8ce2ef29578cd6ea28b803893064ed1673d4800e430aa24e
+FROM testdasi/simple-dns-doh:latest@sha256:efe48a1c55754926d5b2b98e82f6119a86d086662917486224a22af19cad2ed8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
