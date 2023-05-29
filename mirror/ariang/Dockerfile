@@ -1,4 +1,4 @@
-FROM leonismoe/ariang:1.3.2@sha256:dfefe8c22b5eae0efec8f4cfb6e8cd36e8c2d6c95934ae499bb9b3fed4eb667f
+FROM leonismoe/ariang:1.3.6@sha256:e95f99b59676f8289f09f5c914f29af8cfe16d9b55d63c7d837d9b8766af098b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
