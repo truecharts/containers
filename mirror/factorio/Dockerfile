@@ -1,4 +1,4 @@
-FROM factoriotools/factorio:stable@sha256:9a1740fba53959331cc13dc3867cea447406200f8c2ab68d792936cf28cde47c
+FROM factoriotools/factorio:stable@sha256:a2cb1b3b3f440936184cc7ae904c5e7864a4bfe70ebeb0ea6a9d106b38aa43ae
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
