@@ -1,4 +1,4 @@
-FROM modem7/newyearcountdown:latest@sha256:9d113a075ac5c69b7a31391fff4864d0b77acea95df37fc21f2c2a254507801f
+FROM modem7/newyearcountdown:latest@sha256:a00fbceb3a3de0d3d975e3d1f2408444713f1455568db973c9b60a304dd1d353
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
