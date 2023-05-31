@@ -1,4 +1,4 @@
-FROM modem7/docker-rickroll:latest@sha256:12accdb9eb938df97fed77a25aacac75f2209ed63683e592c7c41d206cd50a8c
+FROM modem7/docker-rickroll:latest@sha256:f5ff871d040b30e384c19b94cae123b000ebd32394e82d805d28389e14b3d599
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
