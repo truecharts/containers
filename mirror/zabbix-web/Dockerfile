@@ -1,4 +1,4 @@
-FROM zabbix/zabbix-web-nginx-pgsql:6.4.2-ubuntu@sha256:412261c8311366b69f6b2fe614b738bb127e1f544c659795553c58d609dc9379
+FROM zabbix/zabbix-web-nginx-pgsql:6.4.3-ubuntu@sha256:958c275456a1571f1487922da0964db3648feaf5ad7cad7313e7cc35f1ac883a
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
