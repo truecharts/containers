@@ -1,4 +1,4 @@
-FROM docker.io/gangefors/airdcpp-webclient:2.11.4@sha256:6f34acab0adeafc2aca123c3c7f9c62ae71b143f2f7ea6fc6c83f293bc4352c1
+FROM docker.io/gangefors/airdcpp-webclient:2.12.1@sha256:32b51131ae9070a8de2ad81d8dab9f6dd868357b8f0404b42cd4c59778df57dc
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
