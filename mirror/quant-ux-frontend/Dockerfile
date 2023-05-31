@@ -1,4 +1,4 @@
-FROM bmcgonag/qux-fe:latest@sha256:5167b8130b64a31b4342054c995c0fb564911f0d0369ad1058a17210bb97ec75
+FROM bmcgonag/qux-fe:latest@sha256:fb25245249da52c76a757da27b59bc6871b46a8527234c14edf62cba269aba8b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
