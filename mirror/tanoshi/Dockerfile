@@ -1,4 +1,4 @@
-FROM faldez/tanoshi:latest@sha256:c606acbfd746cf86bafbdd98904147f404eaf79f1e2d5b848729e98535da180b
+FROM faldez/tanoshi:latest@sha256:b84bf4c2c782f95820b9c9374499d76c4bbc23ca5da5a6274e11a28d2032c3ae
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
