@@ -1,4 +1,4 @@
-FROM qmcgaw/ss-server:latest@sha256:7b21e9334cafb615eb7d3bb9f3d0fd0beeeeb2df6679af3d0b46886e9cfb8e29
+FROM qmcgaw/ss-server:latest@sha256:6c5d375afbd7a4c1b8a7cff9cb573bdaadbb421278c90705d2b6fba0873a33d7
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
