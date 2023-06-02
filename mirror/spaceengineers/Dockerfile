@@ -1,4 +1,4 @@
-FROM devidian/spaceengineers:latest@sha256:6fa600a6c4c19ef39ff0199398bc12f0f6dba906c59fea75d9ead5c5cb9822dd
+FROM devidian/spaceengineers:latest@sha256:62a64e58a1aa399af7fc9e5db682c2fa7f27002d8879e98270606da1112cb1e5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
