@@ -1,4 +1,4 @@
-FROM ich777/chrome:latest@sha256:063b62929d196a18d196adb20d0aed8df30adea6885e662d8d9e0b78f1b2afde
+FROM ich777/chrome:latest@sha256:af4f3f4a42ceb4e1271e92430985258f25cffad76151d6ad233f87097496f37c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
