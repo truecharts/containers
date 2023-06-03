@@ -7,6 +7,7 @@ occ_redis_install() {
   # and enable it again
   occ config:system:delete memcache.distributed
   occ config:system:delete memcache.locking
+  occ config:system:delete redis
 
   occ config:system:set redis host --value="${NX_REDIS_HOST:?"NX_REDIS_HOST is unset"}"
   occ config:system:set redis password --value="${NX_REDIS_PASS:?"NX_REDIS_PASS is unset"}"
