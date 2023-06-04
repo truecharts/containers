@@ -1,4 +1,4 @@
-FROM itzg/mc-backup:latest@sha256:3f7c228141995c0abebf8e2b25b85547970401d723bb703b23fde30744aca778
+FROM itzg/mc-backup:latest@sha256:74ac0d54c9a01312d6a8b271963c5b40998200b1f5b76ff49704ef2269aaede5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
