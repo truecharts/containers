@@ -1,4 +1,4 @@
-FROM revenz/fenrus:latest@sha256:62fc39fdd3d546b6bb67614e69ca0dafc760af4271260bcbbcaa1fa2d530255e
+FROM revenz/fenrus:latest@sha256:85b344583fed86784bb08942e2dfaed75179edc1275a1641542da4b2064d3b60
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
