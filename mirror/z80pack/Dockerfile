@@ -1,4 +1,4 @@
-FROM dlandon/z80pack:latest@sha256:4a93c570d88e55c44aa73deb695025a4f1405daa456c489e8ba3fc994cede629
+FROM dlandon/z80pack:latest@sha256:858787351911212023264c337e4037d62ef09ab8e688b4cffed35b7aeded8dbd
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
