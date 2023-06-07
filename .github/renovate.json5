@@ -287,6 +287,12 @@
     },
     {
       "matchDatasources": ["docker"],
+      "versioning": "regex:^java20-(?<major>\\d{4})\\.(?<minor>\\d{1,2})\\.(?<patch>\\d{1,2})$",
+      "matchPackageNames": ["itzg/bungeecord"],
+      "automerge": true,
+    },
+    {
+      "matchDatasources": ["docker"],
       "versioning": "regex:^(?<major>\\d{4})(?<minor>\\d{2})(?<patch>\\d{2})$",
       "matchPackageNames": ["ankicommunity/anki-sync-server"],
       "automerge": true,
