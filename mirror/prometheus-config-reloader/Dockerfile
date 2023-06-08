@@ -1,6 +1,5 @@
-FROM quay.io/prometheus-operator/prometheus-operator:v0.65.2
-LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
-
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.65.2
+LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"

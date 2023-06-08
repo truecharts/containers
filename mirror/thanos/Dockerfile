@@ -1,4 +1,4 @@
-FROM bitnami/thanos:0.31.0@sha256:024a533558369157820db128eb431fac470b6784998342f29d9b67f87204d64e
+FROM quay.io/prometheus-operator/thanos:0.31.0
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

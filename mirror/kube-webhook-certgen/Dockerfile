@@ -1,4 +1,4 @@
-FROM quay.io/prometheus-operator/prometheus-operator:v0.65.2
+FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20221220-controller-v1.5.1-58-g787ea74b6
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

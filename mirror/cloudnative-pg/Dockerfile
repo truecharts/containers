@@ -1,4 +1,4 @@
-FROM quay.io/prometheus-operator/prometheus-operator:v0.65.2
+FROM cloudnative-pg/cloudnative-pg:1.20.0
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

@@ -1,4 +1,4 @@
-FROM quay.io/prometheus-operator/prometheus-operator:v0.65.2
+FROM quay.io/metallb/speaker:v0.13.10
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
