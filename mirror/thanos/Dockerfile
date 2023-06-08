@@ -1,4 +1,4 @@
-FROM quay.io/prometheus-operator/thanos:0.31.0
+FROM quay.io/thanos/thanos:v0.31.0
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
