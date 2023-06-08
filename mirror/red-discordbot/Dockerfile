@@ -1,4 +1,4 @@
-FROM phasecorex/red-discordbot:full@sha256:3143fb819831ef76de2fd8371f634dd6771075375f0b3f9c007edd1c817bd1d1
+FROM phasecorex/red-discordbot:full@sha256:0588685779a91b0c407f1443bc92b37be195f0c5b5641739e30e098a9a6e03cc
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
