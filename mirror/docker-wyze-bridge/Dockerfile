@@ -1,4 +1,4 @@
-FROM mrlt8/wyze-bridge:latest@sha256:c0756bb8de977de8fae006a3e473bafad92140d9fd74063328795707b9d2f51d
+FROM mrlt8/wyze-bridge:latest@sha256:ae91f80af4780926eccbc2a3361d1ce6c21c5e55ce86601718e5691dcc4b422c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
