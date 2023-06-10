@@ -287,8 +287,8 @@
     },
     {
       "matchDatasources": ["docker"],
-      "versioning": "regex:^java20-(?<major>\\d{4})\\.(?<minor>\\d{1,2})\\.(?<patch>\\d{1,2})$",
-      "matchPackageNames": ["itzg/bungeecord"],
+      "versioning": "regex:^(?<major>\\d{4})\\.(?<minor>\d{1,2})\\.(?<patch>\\d{1,2})(-java\\d{1,2}.*)?$",
+      "matchPackageNames": ["itzg/minecraft-server"],
       "automerge": true,
     },
     {
