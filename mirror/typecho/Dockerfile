@@ -1,4 +1,4 @@
-FROM joyqi/typecho:1.2.0-php8.0-apache@sha256:090f5aad01ff81ecb6272368612d2b7d0887065da850ae8d094a137b231bdd84
+FROM joyqi/typecho:1.2.1-php8.0-apache@sha256:1022413d66b6fcb3e49f9bac3534bb7eec6535ef5982a1d383971d9f71bb78db
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
