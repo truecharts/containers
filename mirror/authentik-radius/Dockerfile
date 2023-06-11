@@ -1,5 +1,6 @@
-FROM lscr.io/linuxserver/rdesktop:arch-xfce@sha256:9986b049e6bb428aec2a2f5768e1d6cec209614e9b90495079028587c34e950c
+FROM ghcr.io/goauthentik/radius:2023.5.3@sha256:0be923db06a153663d6715993136c524b84a843b819e865dba3e2dffec82b1ff
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
+
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
