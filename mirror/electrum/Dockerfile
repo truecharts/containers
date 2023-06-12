@@ -1,4 +1,4 @@
-FROM ich777/electrum:latest@sha256:383a7535a3061689732b08dcf0c12c71628ca88f22f99a9390b92759649a88d9
+FROM ich777/electrum:latest@sha256:51a62fca42200c535aa93808649c42195faeef3889ff4a364f2a993b2cb6d1a1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
