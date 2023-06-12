@@ -1,4 +1,4 @@
-FROM ich777/debian-mirror:latest@sha256:b8826bea2b31040ccc1e5bca3739bac4e653d3c419657de8cad17f46bd4fb09d
+FROM ich777/debian-mirror:latest@sha256:4687164aca930cb8de1ed801fd2a1cdedacaefd5400af3be58110db6bf30978e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
