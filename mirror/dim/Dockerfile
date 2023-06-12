@@ -1,4 +1,4 @@
-FROM ghcr.io/dusk-labs/dim:dev@sha256:fb58441b65d207cba51397f5c9cbcfeabc6437b977daa9dfce58a26ccdfe8937
+FROM ghcr.io/dusk-labs/dim:dev@sha256:1437564706f0363dec2bb76df4d3da3718efe6c609614db4336b2a6f5491de76
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
