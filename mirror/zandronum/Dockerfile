@@ -1,4 +1,4 @@
-FROM ich777/zandronum:latest@sha256:97b82c3f5126d1939f5a5d19250e29d8bae1d2083fe0b7c6ca8cbf3aa34f3b0d
+FROM ich777/zandronum:latest@sha256:6ae77ab72b37f5541ee8ea216e5f80596ac071f0c69c9ab53ac76d7a24de3f82
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
