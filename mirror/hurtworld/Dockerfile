@@ -1,4 +1,4 @@
-FROM ich777/steamcmd:hurtworld@sha256:63fd7fef7ede8ee92aed4abb45584dcc85ca38fcdac8d61caf270465c8c849c9
+FROM ich777/steamcmd:hurtworld@sha256:912039db23b8c6aaded51deea3c367e71b2b5b5a54ee7d7e245f921a65caa479
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
