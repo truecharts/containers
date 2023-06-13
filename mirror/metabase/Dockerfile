@@ -1,4 +1,4 @@
-FROM metabase/metabase:v0.46.4@sha256:a899bb410e0546ed2ac0b0f8b5a20b43d197bae15717abfb3380774d7cefca37
+FROM metabase/metabase:v0.46.5@sha256:a168417c058dd79793c8a8cc2d6ed259440335aec3a14cf4e8e4f742ceec3c1c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
