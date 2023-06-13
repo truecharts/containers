@@ -1,4 +1,4 @@
-FROM ich777/altitude:latest@sha256:a465aa065aa28527759cc2a81b169fc758c434c64ca44bca6d42a99a3799cae5
+FROM ich777/altitude:latest@sha256:583dfdac3eb45b2b26ca86f8d778320948a356da759f127f37642fdee3637de6
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
