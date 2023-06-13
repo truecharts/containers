@@ -1,4 +1,4 @@
-FROM ich777/steamcmd:assettocorsa@sha256:08a9b515c3240b24b6fee0d08c8b6abcf4eca0a52e6f96289c5a69e6188ec18b
+FROM ich777/steamcmd:assettocorsa@sha256:375b419e4ced9c631a59b9698dfbaebb622a0435b45add3458a98d2cc5e629c3
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
