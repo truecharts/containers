@@ -1,4 +1,4 @@
-FROM ich777/mindustry-server:latest@sha256:cf87b9c5f0ae11c44947e21036ac40152ff684826cc532a63bcacfd617037239
+FROM ich777/mindustry-server:latest@sha256:43beb06f1865d0c063047f3ca796758df68b5dda1da112040409746678a45a7e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
