@@ -1,4 +1,4 @@
-FROM ich777/gotify-on-start:latest@sha256:65f20939cb5f43c6cadd3c0b15a6ead613783cb1d89d169d85e2d05b53ad967d
+FROM ich777/gotify-on-start:latest@sha256:2521844ebc663a46d08c2af4179b0dbaa014bf3f84449296eb3e233bbf312d29
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
