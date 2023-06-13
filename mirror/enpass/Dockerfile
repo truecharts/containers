@@ -1,4 +1,4 @@
-FROM ich777/enpass:latest@sha256:66fce5772c717842da736beddeea74f3bca7b4095fe4f7ab9323b3ae43fd837c
+FROM ich777/enpass:latest@sha256:8953d2c94500e79b6575e65e4297d2a8842dc540dfe559b932535a1bdbdb5b22
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
