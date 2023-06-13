@@ -1,4 +1,4 @@
-FROM ich777/iw4x-server:latest@sha256:4a95e8af7469a2acf4f7eeb1028fdd3f5d427e1c6d75add256eda05b673444bb
+FROM ich777/iw4x-server:latest@sha256:82a3a49e1c9d0510bdbd4d32bf2bb8b3cc3d879890f514b03260ffcb8f95b55d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
