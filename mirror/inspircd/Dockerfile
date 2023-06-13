@@ -1,4 +1,4 @@
-FROM ich777/inspircd:latest@sha256:910fed83496ad83cec89d465f203b1798d74667909089d98f195d7d27b4ee6eb
+FROM ich777/inspircd:latest@sha256:0089ca56617f04b13a17936e6a5b3b99f96528556c5706e7caeeb3b9991713d7
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
