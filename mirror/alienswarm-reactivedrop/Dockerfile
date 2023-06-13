@@ -1,4 +1,4 @@
-FROM ich777/steamcmd:alienswarmreactivedrop@sha256:4044d6af06b4287714e2952f8d2bf9b44e770e878ac04476c8d9d70fda63a15c
+FROM ich777/steamcmd:alienswarmreactivedrop@sha256:cde962cacc989a656ae390169e9aafab9c614823600f0730742dd0d7e53f4c25
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
