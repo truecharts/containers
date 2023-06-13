@@ -1,4 +1,4 @@
-FROM ich777/redmserver:latest@sha256:b0dfed378657b29048ed6149b071b59f22fe1c764a82959af5ef0d5b62551ad4
+FROM ich777/redmserver:latest@sha256:ab1d494e821a635aeb21b06d1f8cbcc9f121148407cd850e3a3ea833a20bbf12
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
