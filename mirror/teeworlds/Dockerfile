@@ -1,4 +1,4 @@
-FROM ich777/teeworldsserver:latest@sha256:3af45f782d8b574fe74032f478f02401681e32044f21e593dc075a697ed854cf
+FROM ich777/teeworldsserver:latest@sha256:f4db3a259f42328c059762dc8d1c72a58cc853ffb90ddf3037ea3f6817d055b9
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
