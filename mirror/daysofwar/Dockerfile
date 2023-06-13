@@ -1,4 +1,4 @@
-FROM ich777/steamcmd:daysofwar@sha256:f6f4cc1109218859a7c49998b8c82cf7a50c7b6623874d276feace6c6d62292c
+FROM ich777/steamcmd:daysofwar@sha256:1db0346ef2bccb100754fc8651709f69582be1458749da33963bde66bc5a414d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
