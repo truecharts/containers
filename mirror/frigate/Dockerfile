@@ -1,4 +1,4 @@
-FROM ghcr.io/blakeblackshear/frigate:0.12.0@sha256:c862771e38e8a4b62a80bc79be35b24bde3e8c067fd46d3a732ff2e3f39b857f
+FROM ghcr.io/blakeblackshear/frigate:0.12.1@sha256:bb7f7e76a13eccef0b12704e5851cc774a12af1f12df387d6a70a796a3e938c3
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
