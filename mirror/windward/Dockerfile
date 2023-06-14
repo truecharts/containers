@@ -1,4 +1,4 @@
-FROM ich777/windward:latest@sha256:2e53a341bd9ffe3ac5bef95d8181b9fb9076ee62907b03c889d80708b0993fa4
+FROM ich777/windward:latest@sha256:f75138c41468d70d75fc521faeeb12fcb4a9e8835e9ebbbb86bb9d53f9fc83b6
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
