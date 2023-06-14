@@ -1,4 +1,4 @@
-FROM ich777/urbanterror:latest@sha256:3c3d2ecbe9dd3d909c87d1fc628637aaa6eda5b197c4312a883ddbd752069688
+FROM ich777/urbanterror:latest@sha256:28dff8f642a2cc08e8ca2ef5dab94f2a2ba29409014120cff1f0aedc941cffb0
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
