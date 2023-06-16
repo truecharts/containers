@@ -1,4 +1,4 @@
-FROM epoupon/fileshelter:latest@sha256:df8e804b9398d0b8482fbe183b2e2a332c4ef96658ec67d6c3de2fe7e84bab90
+FROM epoupon/fileshelter:latest@sha256:9e872a54f0a456daa582810a84b17ad1a366226e6022d9a12fb46e6e56f25bcf
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
