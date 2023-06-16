@@ -1,4 +1,4 @@
-FROM bitnami/kube-state-metrics:2.9.2@sha256:3e3fec341cea7bc6d6a04e372da595ecf17024bd5715bc929c66dfebf6dc357d
+FROM bitnami/kube-state-metrics:2.9.2@sha256:c45a3122ea5866578d2d886dbf3c40a2b3103551d515995dccb1734342646f20
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
