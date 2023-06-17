@@ -1,4 +1,4 @@
-FROM ghcr.io/onedr0p/qbittorrent:4.5.3@sha256:5f97e1e998a498cc27ba08abcdad5be61bd396f833157c6b6c1f3d672915f2fa
+FROM ghcr.io/onedr0p/qbittorrent:4.5.3@sha256:74a8da06e3e1606e37e0c1e51f536ac138c243f36534c2d4b0b067065f611506
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
