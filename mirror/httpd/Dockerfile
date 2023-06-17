@@ -1,4 +1,4 @@
-FROM httpd:2.4.57-alpine@sha256:84b8ee9dbb22f4b56d090beefbf550ab69fd7c83b0623ebaf25faf11ddd3c1f9
+FROM httpd:2.4.57-alpine@sha256:37658e5bc34e4f81405fb3e36884dddd1db2890e441ca282ee9ff35378ee832b
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
