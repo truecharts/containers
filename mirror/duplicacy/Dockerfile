@@ -1,4 +1,4 @@
-FROM cr.hotio.dev/hotio/duplicacy:latest@sha256:3943afc93171782aad7212d09d4eb70d0ff317300b602a8e0f808086aa1a56a6
+FROM cr.hotio.dev/hotio/duplicacy:latest@sha256:811d98e43fd3389ec012eeb9d62d4002d8ecabe14bccac9ec04299c5820c657b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
