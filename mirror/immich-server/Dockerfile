@@ -1,5 +1,6 @@
 FROM altran1502/immich-server:v1.62.0@sha256:82785c746b1759006b8c44d88fe58bf50e9a19cee1536b437c3e2bc0daaecde5
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
+
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
