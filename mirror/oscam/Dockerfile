@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/oscam:11704-ls35@sha256:60b7f7ebe94c389b707a72688d724290a29683744abf61ccb26c72b803502271
+FROM ghcr.io/linuxserver/oscam:11719-ls75@sha256:6c3906ac50a0a82743074ab1003765a4cd0e0edec0eb050d40465ac05be36052
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
