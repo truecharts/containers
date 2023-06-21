@@ -1,4 +1,4 @@
-FROM gogs/gogs:latest@sha256:8e5c90ce28b74901785c826180784565e674aaf33b9f782b3cc0171e62a94cf3
+FROM gogs/gogs:latest@sha256:33e4cb2a79e5bd2c6d7c54afe06588bb6850f9b2d01b68498e6fb68037c7f0c0
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
