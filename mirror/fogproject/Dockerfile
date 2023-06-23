@@ -1,4 +1,4 @@
-FROM redvex2460/fogproject:latest@sha256:83c52dabc0ab0fe6cde99fd3b677672f2d72bf55dfea99a55756ec3d6ea95d44
+FROM redvex2460/fogproject:latest@sha256:bc656be89fa82dac9782187c0b755c6fa8bef7f5c82e3178b517cf0945c8eddf
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
