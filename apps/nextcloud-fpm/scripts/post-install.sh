@@ -77,6 +77,26 @@ set_list() {
     done
   fi
 }
+
+config_file="${NX_CONFIG_FILE_PATH:-"/var/www/html/config/config.php"}"
+if [ ! -f "$config_file" ]; then
+  echo "Config file [$config_file] is missing. Something went wrong. Exiting in 15 sec..."
+  # Sleep so people can get to the logs
+  # And see what happened
+  sleep 15
+  exit 1
+fi
+
+if ! grep -q "'installed' => true" "$config_file"; then
+  echo 'Looks like Nextcloud failed to installed. Exiting in 15 sec...'
+  # Sleep so people can get to the logs
+  # And see what happened
+  sleep 15
+  exit 1
+fi
+
+echo 'Nextcloud is installed. proceeding with the configuration.'
+
 echo '++++++++++++++++++++++++++++++++++++++++++++++++++'
 echo ''
 ### Source all configure-scripts. ###
