@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/mysql-workbench:8.0.33@sha256:bd2b0eebf7e87d311be6c2a96779430d9e09aa45c0a6bf2f383a301101ac0006
+FROM ghcr.io/linuxserver/mysql-workbench:8.0.33@sha256:2313b336d575f6c59be8453fd4066c285b33fa9804034463e8cb544918446f96
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
