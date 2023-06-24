@@ -1,4 +1,4 @@
-FROM pglombardo/pwpush-ephemeral:latest@sha256:d9a2cf35d252407b9c0cbdeb00a4288aeba6b5984ec253b3cc1e701abbbcba38
+FROM pglombardo/pwpush-ephemeral:latest@sha256:4fcd0204fa95223e450a64f91b34c87764eff3fdfda8413f7f921c94b9ddf2ea
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
