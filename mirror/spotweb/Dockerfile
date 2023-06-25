@@ -1,4 +1,4 @@
-FROM jbaten/spotweb:1.5.1@sha256:1008eeb207c326f5e1af86058d9591771fa9b111c188544467d42c4862b60fd7
+FROM jbaten/spotweb:1.5.4@sha256:2769c489b0030cc75c3152069a6a194517d9e59c8988f1832ddcde673afe579d
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
