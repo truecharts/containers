@@ -1,4 +1,4 @@
-FROM shayaantx/botdarr:latest@sha256:bf71582b87ce5dc2833c0f09cdab347c0175e04ef0573c590937d5d1505ebad1
+FROM shayaantx/botdarr:latest@sha256:d34f5449c20dfd36703e356e075554502a351bcc152eeaedfd429370d2e0111a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
