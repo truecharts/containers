@@ -1,4 +1,4 @@
-FROM ghcr.io/goauthentik/radius:2023.5.3@sha256:0be923db06a153663d6715993136c524b84a843b819e865dba3e2dffec82b1ff
+FROM ghcr.io/goauthentik/radius:2023.5.4@sha256:16dc4559a8d4072acce0c3da263d5e9f75f5c8bdf886f0f19d2fdc8abc19d017
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
