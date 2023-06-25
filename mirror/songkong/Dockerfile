@@ -1,4 +1,4 @@
-FROM songkong/songkong:latest@sha256:4ec340ee2e3741a387707680df6a13d22a8a489d97b1568e1dd52741447088ab
+FROM songkong/songkong:latest@sha256:affc81b658717bed79ec1873758e04b16361109b4a2b68267ef21b6ecdcf1672
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
