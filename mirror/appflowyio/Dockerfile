@@ -1,4 +1,4 @@
-FROM appflowyio/appflowy_client:0.2.1@sha256:eabf94f7b8a6dfbf9f1161b1f33175c59345f8616ece64df76f463bbc387bac9
+FROM appflowyio/appflowy_client:0.2.4@sha256:a0fb061eb90366051b4f7ceebdf7e398812d607692faef719ef7a4aff873aa6e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
