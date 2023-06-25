@@ -1,4 +1,4 @@
-FROM thelounge/thelounge:4.4.0@sha256:7e741d0f471089b9f5433d4379bc4db0fccae3d2be5ce4b15444fbc8b3e0d579
+FROM thelounge/thelounge:4.4.1@sha256:b55ab446989277d7419b10df53d4f53e55bd5d3ba6676b93b4c5706de0c3113b
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
