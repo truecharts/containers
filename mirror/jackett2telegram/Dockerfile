@@ -1,4 +1,4 @@
-FROM danimart1991/jackett2telegram:1.9@sha256:c724e612504d6f9d83b979b3bb0190f10fa5ffcec77d4f5e89620e0bbc092e8c
+FROM danimart1991/jackett2telegram:1.11@sha256:288804294a41b87ff70d35ae639375a562525f22341a47874527fb012414a828
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
