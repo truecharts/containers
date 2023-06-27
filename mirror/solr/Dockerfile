@@ -1,4 +1,4 @@
-FROM bitnami/solr:9.2.1@sha256:2f23d804a8b99e33412deb4f2d26e95eb02249b9e43a91a4754be52bea0546dc
+FROM bitnami/solr:9.2.1@sha256:de7ed54f9e94ccfb52cabc2b1b7595a50d71a1081f06561cd13aa3878eaf9856
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
