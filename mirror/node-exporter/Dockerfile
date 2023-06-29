@@ -1,4 +1,4 @@
-FROM bitnami/node-exporter:1.6.0@sha256:21c910f9695a0b3653d7a935149e78061b6c776038cd3e54a67b40a7b6f6905f
+FROM bitnami/node-exporter:1.6.0@sha256:9fbe1e0e722d767c4b86c17a74e82ef72c8b5055ef138803e70ad67d9e705097
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
