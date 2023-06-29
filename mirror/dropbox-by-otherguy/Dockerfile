@@ -1,4 +1,4 @@
-FROM otherguy/dropbox:latest@sha256:4bcdaa626ec1ee13bc69469532ab0e58ab28ecd0827cbb75e1e8977236c25b5a
+FROM otherguy/dropbox:latest@sha256:0e6e86bf1059ea0b34ba23383f0146f7c1af32fc327896d87d9878226fdc2682
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
