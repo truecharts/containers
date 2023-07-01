@@ -1,4 +1,4 @@
-FROM ghcr.io/knrdl/hubleys-dashboard:edge@sha256:8a7e432e844931c10a2a29f523b9f6c511b9bda5cbe2d51b97bbb8ae7b553fa8
+FROM ghcr.io/knrdl/hubleys-dashboard:0.0.2@sha256:e75ecd6059d517bca3607529c172132b4dd605cffa066dbf7cfe870500d3b823
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
