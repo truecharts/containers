@@ -1,4 +1,4 @@
-FROM mikeah/prusaslicer-novnc:latest@sha256:88ecce4611de9cd2b757a269d5ae2e6aa26a5c3ad1848d181d3e8b80529eb076
+FROM mikeah/prusaslicer-novnc:latest@sha256:c309375f3263aff6da3a7e22713c299f24de573c611e29c1d7a12e1657a2e90e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
