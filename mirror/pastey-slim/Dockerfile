@@ -1,4 +1,4 @@
-FROM cesura/pastey:0.5.1@sha256:4c4f6e7a31f574a2034e0807bf874e03e350c8931d4477521fae2b3f3e2aecfe
+FROM cesura/pastey:0.5.1-slim@sha256:dc994c07aa45ce94e7f67958c4d03a6dac95f56427e7113500f0e88a258d3b13
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
