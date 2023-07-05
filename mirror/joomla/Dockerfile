@@ -1,4 +1,4 @@
-FROM joomla:latest@sha256:160e8cd86c80adc3fc52982279db743bf57035306a142c8c88f5bfc984c14159
+FROM joomla:latest@sha256:b7f278d09fd32393ee9099088eab482aa22e50978bc394937308e1233edb82bf
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
