@@ -1,4 +1,4 @@
-FROM friendica:2023.05@sha256:bedc709a9ad0ecfcaccd599ec96684e8ec31b1933a68a41d37d9a79d30afa888
+FROM friendica:2023.05@sha256:f64dd8c16a91c76fea511ff935c13176f1e6f845131612e12131a162bda2cc63
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
