@@ -1,4 +1,4 @@
-FROM ghcr.io/tasmoadmin/tasmoadmin:v3.0.6@sha256:594cd1fe7e0b1a23364cfc919e9ce6016007b69d1431a5ba3277c1b2411575df
+FROM ghcr.io/tasmoadmin/tasmoadmin:v3.0.7@sha256:8de7a50c861cdcba74ab24b53a772d6925b138955d6ab378ab1f1755e16a077f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
