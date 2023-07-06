@@ -1,4 +1,4 @@
-FROM randomninjaatk/sabnzbd-extended:latest@sha256:96d887ce5b439e00fb719aadd86cdcb080e609f768565843df539a04cd9f6c81
+FROM randomninjaatk/sabnzbd-extended:latest@sha256:5312b0441f02b6dc2b493c10a77da3517534c9b2cc0ff4f37baa9af50deed71f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
