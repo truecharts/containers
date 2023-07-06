@@ -1,4 +1,4 @@
-FROM vabene1111/recipes:latest@sha256:9e863ee82fd171370bbe4929bd3cc7ff83e2f273afe9bc920ac09dc04cdbf218
+FROM vabene1111/recipes:latest@sha256:a56410e352c8e1ccdab2f122768087dcb950a9ce822fe0df63d3db87fa71dd31
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
