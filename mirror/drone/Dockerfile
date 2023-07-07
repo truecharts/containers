@@ -1,4 +1,4 @@
-FROM drone/drone:2.17.0@sha256:53d00dd3699774fe420ed1bac0fa241bca7a1f05c3f7d2ef12e025d85e04a4ee
+FROM drone/drone:2.18.0@sha256:30175ebc8303998c8038776b04d31cd34126767e0f0e789407f7d2f163a29726
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
