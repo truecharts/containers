@@ -1,4 +1,4 @@
-FROM photostructure/server:stable@sha256:f31998871ae621b5f57ea4a56db8a382198c4aa72ad7cba691db7383faba38bb
+FROM photostructure/server:v2.1.0-alpha.7@sha256:ccd309179a5aa61d7601752bc79bf6304cc4257c907a614812ddaef8f422cb54
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
