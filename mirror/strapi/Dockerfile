@@ -1,4 +1,4 @@
-FROM naskio/strapi:4.11.2-alpine@sha256:94cdc874c1a5c7216546528f853ac3ce219a3e61283a013ce4972f5f91351272
+FROM naskio/strapi:4.11.4-alpine@sha256:3087763c784045c9c616613c9490311d445453717a80a00adeb4b0fe072b9152
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
