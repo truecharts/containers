@@ -1,4 +1,4 @@
-FROM stashapp/stash:v0.20.2@sha256:90c45124b926f8bace981a241c5981a1718416d5737e61f88b03499b6d3b9763
+FROM stashapp/stash:v0.21.0@sha256:a36f06c1d51c1076ffe23f79797035e3145bde1423803aa3c1334ed6669a3233
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
