@@ -1,4 +1,4 @@
-FROM minims/somfyprotect2mqtt:0.2.9@sha256:82214b93902217252f02558d64ada1d6125f3aa4075b445f0132a5cbe79e69d9
+FROM minims/somfyprotect2mqtt:2023.6.1@sha256:1475403068f43bae3fda5cebbb9b6e63f4974774725e3adcb54972206b6f7f6a
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
