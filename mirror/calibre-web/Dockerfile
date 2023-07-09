@@ -1,4 +1,4 @@
-FROM linuxserver/calibre-web:version-0.6.20@sha256:7bb996b2a8c1a68a3664aa93b441b8b4e0a3ea800c2e60ce792b2daa4e8a5312
+FROM linuxserver/calibre-web:version-0.6.20@sha256:4d8ae5bd824c7e336eab896cf2e09d419e99a86ac84ab8ed3075d9dc16e1fdf8
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
