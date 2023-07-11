@@ -1,4 +1,4 @@
-FROM bndw/wifi-card:latest@sha256:80afc0e09b2e1f774e44b3a8d7deada7031dc9961c105bcb304e2fd296a2891c
+FROM bndw/wifi-card:latest@sha256:dc785dd779985d5d933ffdb20b5b55a65615f45a2b01779d722712ea7448aade
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
