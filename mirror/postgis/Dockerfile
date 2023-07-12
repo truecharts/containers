@@ -1,4 +1,4 @@
-FROM postgis/postgis:latest@sha256:616bd09d3ec46d6fe7ea407a98445676709bc15f362c4121fcc3634cec964056
+FROM postgis/postgis:latest@sha256:f83c3f1b3af24cfe4320edbf62798ec5924dd6c83835bb43067e9fc779c890e5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
