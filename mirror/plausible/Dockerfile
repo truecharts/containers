@@ -1,4 +1,4 @@
-FROM plausible/analytics:v2.0.0@sha256:2a862f6e79607287b3029b80928c9d31e16332c6f945929a73c24b7df47ea5e2
+FROM plausible/analytics:v2.0.0@sha256:5bf2057948e1d5d12ef61f446c4945a336d3bcdf9b96293a1d6fc275f3c56eb5
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
