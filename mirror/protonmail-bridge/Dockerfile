@@ -1,4 +1,4 @@
-FROM shenxn/protonmail-bridge:3.3.0-1@sha256:75fd4597e0d1c1c7cf1a5b15d15fac1c598e1111bafd94166b907b74369acf35
+FROM shenxn/protonmail-bridge:3.3.2-1@sha256:7a22ee9061372c294ee46323353d8213803daac25d31455bfa1e8e3b48852c40
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
