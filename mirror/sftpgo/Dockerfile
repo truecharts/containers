@@ -1,4 +1,4 @@
-FROM ghcr.io/drakkan/sftpgo:v2.5.3@sha256:cb248ff13d37958ee3dbd7136d3d11b0991b6b1df31d1b0961dd22d2a046300c
+FROM ghcr.io/drakkan/sftpgo:v2.5.4@sha256:f9de54b8d34830b58878a2a430468b44fad3d074ed0bd41ad8c24e9fc8cfd6b1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
