@@ -1,4 +1,4 @@
-FROM ghcr.io/nwithan8/tauticord:3.10.0@sha256:7d95ea6411419db05237ccce13bf9ebccdec3533e3cd63c46083928ee709e12c
+FROM ghcr.io/nwithan8/tauticord:3.10.1@sha256:f1b464fbcacdf762f72ff3070c067fcfe2bdf9fbda9e59f1108eb67d43c34c7e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
