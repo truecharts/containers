@@ -1,4 +1,4 @@
-FROM privatebin/pdo:1.5.1@sha256:035cac0332343011d0d06b98c479038e6293bc068a3f06487e5b0377b4b42b55
+FROM privatebin/pdo:1.5.2@sha256:4062c600ab9f30f33dc458cd3715628913f975ba7aaf7a16d8a67a888646250b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
