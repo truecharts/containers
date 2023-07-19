@@ -1,4 +1,4 @@
-FROM itzg/minecraft-bedrock-server:2022.1.0@sha256:fd753dd3fbee83944baf4982e481a7d48a4d52387d6bd3916628335e8bdb4ed6
+FROM itzg/minecraft-bedrock-server:2023.7.1@sha256:4f83010445bab46439b7633f7df05e0c26a186f815d5dd7bd2ddab1561873337
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
