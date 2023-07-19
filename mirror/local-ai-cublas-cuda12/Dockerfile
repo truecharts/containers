@@ -1,4 +1,4 @@
-FROM quay.io/go-skynet/local-ai:v1.20.1-cublas-cuda12@sha256:06e9764d977391ac6a76787412b11580d4eb35f2ad2caf61f2dc6fc7cf96843e
+FROM quay.io/go-skynet/local-ai:v1.21.0-cublas-cuda12@sha256:a151814b3e1aa7c011ca760737b90cf59597ce8fe1f399fa2a0b944a3801bcf7
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
