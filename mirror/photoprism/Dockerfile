@@ -1,4 +1,4 @@
-FROM photoprism/photoprism:230625@sha256:6ff35d195d893dccbe3b51a6242690b0316ee0b16b59ddc767378095dfa38ef2
+FROM photoprism/photoprism:230719@sha256:523ead1dd226a2f30c8fc333aea553a18681f20ee20167e003de1151d0b82edf
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
