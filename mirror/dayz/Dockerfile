@@ -1,4 +1,4 @@
-FROM ich777/steamcmd:dayz@sha256:62b5550a3c493e14fbaca5c424dfddf663c5cd21c08682a0c0dcb6b6abfb7f60
+FROM ich777/steamcmd:dayz@sha256:80a1f3d0572c47a143c9ec41af276bafb527af68162374fb03cec13ce8b7bfa8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
