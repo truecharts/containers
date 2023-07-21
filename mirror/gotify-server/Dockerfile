@@ -1,4 +1,4 @@
-FROM gotify/server:2.2.5@sha256:2503ab414ba81f5b85f1824a7a9c39848f3b9f7069a641d6873cdf8c2ea5136c
+FROM gotify/server:2.3.0@sha256:8e0388298db02300db62688b776b66df7a54e5324460210c73ef5096ff2d7a68
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 
