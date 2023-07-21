@@ -1,4 +1,4 @@
-FROM phpmyadmin/phpmyadmin:5.2.1@sha256:ed87921184b59f7d8fc85c6a5f041c22758a4d4419c0ee3bac38eb7e133eaed3
+FROM phpmyadmin/phpmyadmin:5.2.1@sha256:67ba2550fd004399ab0b95b64021a88ea544011e566a9a1995180a3decb6410d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
