@@ -1,4 +1,4 @@
-FROM goobaroo/vaulthunters3:latest@sha256:fd2f8d9033ae816e9c80c843bb4c97bb72deadc1e4381b08cee2dc635a49fd12
+FROM goobaroo/vaulthunters3:latest@sha256:119d4e78239404e6136fec07c5bc1e3155b63a08517aff0d21f24ce843073a36
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
