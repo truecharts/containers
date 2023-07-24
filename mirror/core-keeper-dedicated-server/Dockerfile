@@ -1,4 +1,4 @@
-FROM escaping/core-keeper-dedicated:latest@sha256:6a6e2641a0767321eaf706a3218f66f9253ba4c74d2733a47a330f84d1d9328c
+FROM escaping/core-keeper-dedicated:latest@sha256:997e19863c1a6bf35d75aafb88bdb6ceff5908dc17e1c40c14f1200d72716130
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
