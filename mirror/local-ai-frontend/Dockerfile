@@ -1,4 +1,4 @@
-FROM dhruvgera/localai-frontend:latest@sha256:685c4efde8b4d3ea483752c413d977d02bfb74712c90e36b1de6f5af2f4de092
+FROM quay.io/go-skynet/localai-frontend:master@sha256:ae4e76e2df7da9d186c2b4d4580bb7ce8a9833cd999319eff975830222a4f0ac
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
