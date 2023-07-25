@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/rdesktop:ubuntu-icewm@sha256:748f7c7eb9b6f812bbb297673b2e5a97146066dfe4d25afbcabf51eaadcf3826
+FROM lscr.io/linuxserver/rdesktop:ubuntu-icewm@sha256:a7709b4058fc64f2f50a2a1ca34e6391111fddadb8010426f2db212b27688dfe
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
