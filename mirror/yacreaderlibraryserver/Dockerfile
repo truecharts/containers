@@ -1,4 +1,4 @@
-FROM xthursdayx/yacreaderlibrary-server-docker:latest@sha256:777a3085935a65ce2137efb5da577c0da9d96978c3fdbd9611c4784130db8bc4
+FROM xthursdayx/yacreaderlibrary-server-docker:latest@sha256:524a179b31ecd5b8d6627ce2b1c05472604065d2879ac68a350eeb6101366dbc
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
