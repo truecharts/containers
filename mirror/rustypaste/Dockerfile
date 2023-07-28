@@ -1,4 +1,4 @@
-FROM orhunp/rustypaste:latest@sha256:12d842500b935187337e56d513694e67c495e00d1664e8a6cfee44ab8aae51b6
+FROM orhunp/rustypaste:latest@sha256:971f80e85a0d3f575453bb3d1b5c633b4b36d9e1f65621b3ec24316edeb34eb6
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
