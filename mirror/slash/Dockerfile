@@ -1,4 +1,4 @@
-FROM stevenlgtm/slash:0.3.0@sha256:a2c03191201de349767f82bd757dcbbd936f2c66ed76e4269dc5966a529f7f8b
+FROM stevenlgtm/slash:0.3.1@sha256:be0f257bebc3016425a3e9abf1e26d71b861d2da9648dcae96f384e43ca5174a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
