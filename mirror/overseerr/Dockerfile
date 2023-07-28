@@ -1,4 +1,4 @@
-FROM ghcr.io/sct/overseerr:1.33.0@sha256:1c988251550384e3dd61c7171870a6dfde59bcc3acd2718a751787e92d0c3c23
+FROM ghcr.io/sct/overseerr:1.33.1@sha256:622befcd9cdb4d4822eda4ed375c577d6849f2f9d3b503426de2570851ce35c5
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
