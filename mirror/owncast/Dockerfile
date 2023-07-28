@@ -1,4 +1,4 @@
-FROM gabekangas/owncast:0.1.0@sha256:e7118f46e4acf13f171311c13f819ac7114637a6ccd1e6c6b964f83c03202cf1
+FROM gabekangas/owncast:0.1.1@sha256:d2b900817713a3301ba97d23a3cc17cfc75f18016d7c33990b9ee79319dd3b01
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
