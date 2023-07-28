@@ -1,4 +1,4 @@
-FROM doitandbedone/ispyagentdvr:4.8.7.0@sha256:7f2beafa1a17b31fea74b3cbe5540cacb04c27a22875bfc7a0d27a01970c4487
+FROM doitandbedone/ispyagentdvr:4.8.8.0@sha256:6088d4332d08ef464794f08eb794f3d8e5992a7e494e4ab83e56818d22b717c0
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
