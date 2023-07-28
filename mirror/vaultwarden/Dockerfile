@@ -1,4 +1,4 @@
-FROM docker.io/vaultwarden/server:1.29.0@sha256:71c7565a54b2462a74677c8ec5dc01d92febb1a816e02b607a0c797c6953053a
+FROM docker.io/vaultwarden/server:1.29.1@sha256:c2849f8189e4d425a9d80db0380566cc38577b289b9e6c88330e190e19af5a30
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
