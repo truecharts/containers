@@ -1,4 +1,4 @@
-FROM ghcr.io/go-shiori/shiori:v1.5.4@sha256:bae1f1ea008e2d3eac851a8801784ef4f07225d4a549338809e0a0033a702c39
+FROM ghcr.io/go-shiori/shiori:v1.5.5@sha256:296c603c55a803bc0ca02d9d2f2feb43b84352069b380b61df45f8cd0a6c7bb3
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
