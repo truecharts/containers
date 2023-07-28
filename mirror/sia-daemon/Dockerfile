@@ -1,4 +1,4 @@
-FROM ghcr.io/siafoundation/siad:master@sha256:4eb8d0da24f6aec2a8224ef24cfbcb9b22ef511874906b49b6cf699881c1cccf
+FROM ghcr.io/siafoundation/siad:master@sha256:30c46ac112fa8401794352a3b2b6c565fcf98f81ceb6e214c0dcf5d1000e734e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
