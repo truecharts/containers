@@ -1,4 +1,4 @@
-FROM pawelmalak/flame:2.3.0@sha256:512798f1bb99dc289210735918c89ba0bb68811a4c122b095e9047a0bae911c3
+FROM pawelmalak/flame:2.3.1@sha256:ed331453caf5ad167b8cc4c6d03d855e7a1d11e7387aa7c4c312cf0680dbe601
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
