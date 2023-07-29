@@ -1,3 +1,5 @@
+git config advice.detachedHead false;
+env | grep "$PLUGIN_PREFIX";
 for plugin in $(env | grep "$PLUGIN_PREFIX");
 do
   # Get the variable name
