@@ -1,5 +1,7 @@
 FROM alpine:3.18.2 as plugins
 
+SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
+
 # hadolint ignore=DL3018
 RUN apk add --no-cache --update git
 
