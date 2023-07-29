@@ -22,7 +22,7 @@ ARG VERSION_TC_PLUGIN_REALIP_VERSION=v1.0.3
 ARG PLUGIN_PREFIX=TC_PLUGIN_
 ARG VERSION_PREFIX=VERSION_
 
-ADD clone-plugins.sh /clone-plugins.sh
+COPY clone-plugins.sh /clone-plugins.sh
 RUN chmod +x /clone-plugins.sh && /clone-plugins.sh
 
 FROM traefik:v2.10.4@sha256:bbdacc7c3bec50bd2a4430e8a967df44376419634b733185a80ed79388134bdb
