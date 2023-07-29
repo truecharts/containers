@@ -10,5 +10,5 @@ do
   echo "${plugin_name}: Cloning ${plugin_repo} at ${version} into /plugins-local/src/${plugin_repo}";
   # Clone the single "branch" (tag) into the plugins-local folder
   git clone "https://${plugin_repo}" "/plugins-local/src/${plugin_repo}" \
-    --depth 1 -branch "${version}" --single-branch;
+    --depth 1 --branch "${version}" --single-branch;
 done
