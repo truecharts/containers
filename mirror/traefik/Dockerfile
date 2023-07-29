@@ -4,18 +4,18 @@ FROM traefik:v2.10.4@sha256:bbdacc7c3bec50bd2a4430e8a967df44376419634b733185a80e
 FROM alpine:3.18.2 as plugins
 
 # Theme Park
-ARG TC_PLUGIN_THEME_PARK=github.com/packruler/traefik-themepark
-ARG VERSION_TC_PLUGIN_THEME_PARK_VERSION=v1.3.0
+ARG TC_PLUGIN_REPO_THEME_PARK=github.com/packruler/traefik-themepark
+ARG TC_PLUGIN_VERSION_THEME_PARK_VERSION=v1.3.0
 # GeoBlock
-ARG TC_PLUGIN_GEOBLOCK=github.com/PascalMinder/geoblock
-ARG VERSION_TC_PLUGIN_GEOBLOCK_VERSION=v0.2.6
+ARG TC_PLUGIN_REPO_GEOBLOCK=github.com/PascalMinder/geoblock
+ARG TC_PLUGIN_VERSION_GEOBLOCK_VERSION=v0.2.6
 # RealIP - FIXME: Project is archived
-ARG TC_PLUGIN_REALIP=github.com/soulbalz/traefik-real-ip
-ARG VERSION_TC_PLUGIN_REALIP_VERSION=v1.0.3
+ARG TC_PLUGIN_REPO_REALIP=github.com/soulbalz/traefik-real-ip
+ARG TC_PLUGIN_VERSION_REALIP_VERSION=v1.0.3
 
 # Script args
-ARG PLUGIN_PREFIX=TC_PLUGIN_
-ARG VERSION_PREFIX=VERSION_
+ARG PLUGIN_PREFIX=TC_PLUGIN_REPO_
+ARG VERSION_PREFIX=TC_PLUGIN_VERSION_
 
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 
