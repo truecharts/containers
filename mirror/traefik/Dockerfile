@@ -3,7 +3,10 @@ FROM traefik:v2.10.4@sha256:bbdacc7c3bec50bd2a4430e8a967df44376419634b733185a80e
 
 FROM alpine:3.18.2 as plugins
 
-# Use TC_PLUGIN_REPO_* and TC_PLUGIN_VERSION_* to specify plugins to clone
+# FIXME: Find a way to keep versions up to date
+# -- Use the following prefixes to specify plugins to clone
+# - TC_PLUGIN_REPO_* for the repo/package name
+# - TC_PLUGIN_VERSION_* for the version
 
 # Theme Park
 ARG TC_PLUGIN_REPO_THEME_PARK=github.com/packruler/traefik-themepark
