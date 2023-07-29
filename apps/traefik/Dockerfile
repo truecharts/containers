@@ -1,6 +1,7 @@
-FROM alpine as plugins
+FROM alpine:3.18.2 as plugins
 
-RUN apk add --update git
+# hadolint ignore=DL3018
+RUN apk add --no-cache --update git
 
 # Theme Park
 ARG TC_PLUGIN_THEME_PARK=github.com/packruler/traefik-themepark
@@ -18,6 +19,7 @@ ARG VERSION_PREFIX=VERSION_
 
 RUN \
   for plugin in $(env | grep "$PLUGIN_PREFIX"); \
+  do \
     var_name=$(echo ${plugin} | cut -d '=' -f1); \
     plugin_repo=$(echo ${plugin} | cut -d '=' -f2); \
     version=$(echo "$VERSION_PREFIX$var_name" | cut -d '=' -f2); \
