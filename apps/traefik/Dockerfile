@@ -20,15 +20,20 @@ ARG VERSION_PREFIX=VERSION_
 RUN \
   for plugin in $(env | grep "$PLUGIN_PREFIX"); \
   do \
+    # Get the variable name
     var_name=$(echo ${plugin} | cut -d '=' -f1); \
+    # Get the plugin repo from the variable
     plugin_repo=$(echo ${plugin} | cut -d '=' -f2); \
+    # Get the version from the VERSION Prefixed variable
     version=$(echo "$VERSION_PREFIX$var_name" | cut -d '=' -f2); \
     echo "Cloning ${plugin_repo} at ${version} into /plugins-local/src/${plugin_repo}"; \
+    # Clone the single "branch" (tag) into the plugins-local folder
     git clone https://${plugin_repo} /plugins-local/src/${plugin_repo} \
       --depth 1 -branch ${version} --single-branch; \
   done
 
 FROM traefik:v2.10.4@sha256:bbdacc7c3bec50bd2a4430e8a967df44376419634b733185a80ed79388134bdb
+# Copy the plugins from the previous stage
 COPY --from=plugins /plugins-local /plugins-local
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
