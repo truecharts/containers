@@ -14,3 +14,7 @@ do
   git clone "https://${plugin_repo}" "/plugins-local/src/${plugin_repo}" \
     --depth 1 --branch "${version}" --single-branch;
 done
+
+echo "Plugins cloned into /plugins-local/src:"
+
+ls -lah /plugins-local/src
