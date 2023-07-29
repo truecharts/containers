@@ -1,12 +1,7 @@
 FROM traefik:v2.10.4@sha256:bbdacc7c3bec50bd2a4430e8a967df44376419634b733185a80ed79388134bdb
-
+# Above line used by CI to find tags etc
 
 FROM alpine:3.18.2 as plugins
-
-SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
-
-# hadolint ignore=DL3018
-RUN apk add --no-cache --update git
 
 # Theme Park
 ARG TC_PLUGIN_THEME_PARK=github.com/packruler/traefik-themepark
@@ -21,6 +16,11 @@ ARG VERSION_TC_PLUGIN_REALIP_VERSION=v1.0.3
 # Script args
 ARG PLUGIN_PREFIX=TC_PLUGIN_
 ARG VERSION_PREFIX=VERSION_
+
+SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
+
+# hadolint ignore=DL3018
+RUN apk add --no-cache --update git
 
 COPY clone-plugins.sh /clone-plugins.sh
 RUN chmod +x /clone-plugins.sh && /clone-plugins.sh
