@@ -22,8 +22,8 @@ SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 # hadolint ignore=DL3018
 RUN apk add --no-cache --update git
 
-COPY clone-plugins.sh /clone-plugins.sh
-RUN chmod +x /clone-plugins.sh && /clone-plugins.sh
+COPY --chmod=777 ./mirror/traefik/clone-plugins.sh /clone-plugins.sh
+RUN /clone-plugins.sh
 
 FROM traefik:v2.10.4@sha256:bbdacc7c3bec50bd2a4430e8a967df44376419634b733185a80ed79388134bdb
 # Copy the plugins from the previous stage
