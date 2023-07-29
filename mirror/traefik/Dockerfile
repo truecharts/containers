@@ -14,6 +14,12 @@ ARG TC_PLUGIN_VERSION_GEOBLOCK_VERSION=v0.2.6
 # RealIP - FIXME: Project is archived
 ARG TC_PLUGIN_REPO_REALIP=github.com/soulbalz/traefik-real-ip
 ARG TC_PLUGIN_VERSION_REALIP_VERSION=v1.0.3
+# Modsecurity
+ARG TC_PLUGIN_REPO_MODSECURITY=github.com/acouvreur/traefik-modsecurity-plugin
+ARG TC_PLUGIN_VERSION_MODSECURITY_VERSION=v1.3.0
+# Crowdsec
+ARG TC_PLUGIN_REPO_CROWDSEC=github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin
+ARG TC_PLUGIN_VERSION_CROWDSEC_VERSION=v1.1.13
 
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 
