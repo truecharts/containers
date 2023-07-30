@@ -1,4 +1,4 @@
-FROM golift/unpackerr:0.11.2@sha256:caf2f575343fbf47592496a9d998a07551b9c6aa60e40081cc717c324c6faaeb
+FROM golift/unpackerr:0.12.0@sha256:166fc618fd1713714c08f9d7d0bcbc60f50aec94244a977189dba4cee7c983ec
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
