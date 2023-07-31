@@ -1,4 +1,4 @@
-FROM hussainalhaddad/tailscale:latest@sha256:bf9d2b94729c38804b455a170c4e855c0acda9509983f34885aa38a76d269eab
+FROM hussainalhaddad/tailscale:latest@sha256:f8b08c0a00bbeef895042f064ff2e1fdd88632bd219b749c74c066eb17751231
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
