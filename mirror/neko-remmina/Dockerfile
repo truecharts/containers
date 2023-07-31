@@ -1,4 +1,4 @@
-FROM m1k1o/neko:remmina@sha256:ab6f49dfcffd86b319e2981449ae11bd27a0a9240dfecc93ae8732f2fdf94608
+FROM m1k1o/neko:remmina@sha256:b5ec94a3a13f925fc49ca3e1938baa85fa37c00660e1cc275acd16cf0c24a4cc
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
