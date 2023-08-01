@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/synclounge:5.2.5@sha256:bcc6711f4c19aaf741fa8a7f06dc63609765a08bc1d0abe8250591c4a8c7402c
+FROM ghcr.io/linuxserver/synclounge:5.2.5@sha256:946f5fdddb4615be3d2020bdaa013d781a6982b6c4ba8f6a390ee7e69eab2d0c
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
