@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/ubooquity:2.1.2@sha256:cf243e5f662cb747cfaaad979e1200c5f18babee3d54fcac9f8306d2de8550b9
+FROM ghcr.io/linuxserver/ubooquity:2.1.2@sha256:f172c60c341393834f3e6126ec0afff354ad991938df7dec492c58063518620b
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
