@@ -1,4 +1,4 @@
-FROM hexxa/quickshare:latest@sha256:302542d3fd5da704cc4efbb2c53cfde3f0c73cdbbecc9091d39aa751485c4be8
+FROM hexxa/quickshare:latest@sha256:7126dc98e79058df0941f01b327945abc462274ee17ea1d6b71c34ac3fee4a06
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
