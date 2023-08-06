@@ -1,4 +1,4 @@
-FROM jlongster/actual-server:23.7.2@sha256:fff7256ec79c860e44552965abd5a8a49dae1217e3cfa547e72c432d9edc4bee
+FROM jlongster/actual-server:23.8.0@sha256:42d8af6055c8ba4415367dd54530c27b9c500b0b06ad4ef21be746813c1e4f41
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
