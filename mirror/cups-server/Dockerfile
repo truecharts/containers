@@ -1,4 +1,4 @@
-FROM ydkn/cups:latest@sha256:6c9919027b42e9fe722280f94bfaa35740ae3d6574ad22f8247ffeb2196b927b
+FROM ydkn/cups:latest@sha256:3ff4af1de6abfaa3bab9925565f0374a74cbb6f96b5d498b8c385770e0424e54
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
