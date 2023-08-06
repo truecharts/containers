@@ -1,4 +1,4 @@
-FROM nocodb/nocodb:0.109.5@sha256:1b8913e3481784d733536b6850f916da0aaa1c2e19060e50c501debe72c49e2b
+FROM nocodb/nocodb:0.109.6@sha256:1ce48632c80a214dd6a2c7c85a26377925a3779dd57603379b84ef3594c98cf1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
