@@ -1,4 +1,4 @@
-FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.67.0@sha256:14feefde1b8015de2cbdee008a19891c2af09f91b650af854e584feda9869a39
+FROM quay.io/prometheus-operator/prometheus-config-reloader:v0.67.1@sha256:0fe3cf36985e0e524801a0393f88fa4b5dd5ffdf0f091ff78ee02f2d281631b5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
