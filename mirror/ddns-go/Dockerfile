@@ -1,4 +1,4 @@
-FROM jeessy/ddns-go:v5.5.1@sha256:2240432b5957d3aac3902bfaeed4c4396a5578e53c1dd9f4b34e34816ad117eb
+FROM jeessy/ddns-go:v5.5.2@sha256:573131514854cbc604f18b08f758b6f74fe73980a12b5f05eb7e33aa2a659663
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
