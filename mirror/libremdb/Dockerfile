@@ -1,4 +1,4 @@
-FROM quay.io/pussthecatorg/libremdb:latest@sha256:3fdfac8bfc99da56368ab6972eff315f8e15398df75062daf215a90491d20856
+FROM quay.io/pussthecatorg/libremdb:latest@sha256:f710e4bf5d9f5ba71026129fe0aab301d1e45e24ae9bbe32a237dd3419c61a25
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
