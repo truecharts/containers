@@ -1,4 +1,4 @@
-FROM penpotapp/exporter:1.18.6@sha256:4e4dbbf5c6cb0c336b3e5547eaa44ec13172c0fc00089c1ff77815808e0d34ed
+FROM penpotapp/exporter:1.19.0@sha256:8ebdb390b1a487f9051aa5e3ac16f873b2e5c1905afbb28d1f027d66486e4e75
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
