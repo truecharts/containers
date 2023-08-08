@@ -1,4 +1,4 @@
-FROM cassandra:latest@sha256:f42d5dd2ee6368301d9562fb65912804a6738bde4e2786fc04235d2a599107e6
+FROM cassandra:latest@sha256:526343fe3077197b38296084004b325de2baaf170157f3417a81caf987ca93fd
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
