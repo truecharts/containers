@@ -1,4 +1,4 @@
-FROM accetto/ubuntu-vnc-xfce-freecad-g3:latest@sha256:4b503c868db0a4c7ad56afb031ced1e012e2f1c258c1d1c7ddfd7bc645b82bd3
+FROM accetto/ubuntu-vnc-xfce-freecad-g3:latest@sha256:96be0e8ec3aa5096cdaafcff503faebc9ae25d27a78107f76711fd09d26bbc11
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
