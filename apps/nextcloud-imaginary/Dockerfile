@@ -1,5 +1,5 @@
 # https://github.com/nextcloud/all-in-one/tree/main/Containers/imaginary
-FROM golang:1.20.7-alpine3.17@sha256:b31798233bf36bafebaf5af2e7be45c4caaeb4efaf969e94194bf8e53e50a8f7 as go
+FROM golang:1.20.7-alpine3.17@sha256:3f6a54b94995e5c2a14762288c7658917b0b3f98f9a810c34a4454a7c8077089 as go
 # hadolint ignore=DL3018
 RUN set -ex; \
     apk add --no-cache \
