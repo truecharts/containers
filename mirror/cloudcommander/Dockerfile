@@ -1,4 +1,4 @@
-FROM coderaiser/cloudcmd:latest@sha256:81d68c79457540babeacb9c70cac73ea3cbf44a56d1d839d3adf7653edd7c45d
+FROM coderaiser/cloudcmd:latest@sha256:3e1b1a01e7d65a6e61cf0dc0dacdc7a971ca0c2494de97aa410025a690633b13
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
