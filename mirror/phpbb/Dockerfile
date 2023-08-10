@@ -1,4 +1,4 @@
-FROM bitnami/phpbb:latest@sha256:9dca3cc764f943077e584b96bf0ce1b6b6b615275010e69ba8b9496b0a8d2020
+FROM bitnami/phpbb:latest@sha256:656d82a8aaf8411678967538fa93f2d414d09427e3e5f9a42c6e11550d39099d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
