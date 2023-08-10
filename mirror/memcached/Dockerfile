@@ -1,4 +1,4 @@
-FROM bitnami/memcached:1.6.21@sha256:6ee9577e1f8399423f3c8a1fc5e9afe2b572c6d83a225cf47f7901029f23efb0
+FROM bitnami/memcached:1.6.21@sha256:238a1633aedb23cc2dc8d10078ba37ae7bb5c12eb1f65f5c389bad5103e7ccc9
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
