@@ -1,4 +1,4 @@
-FROM remirigal/plex-auto-languages:latest@sha256:c7df1b19641d70eee7a2e6394f07aec72f9e6443d348831fc3c0c7fe1fcbe54e
+FROM remirigal/plex-auto-languages:latest@sha256:869af6402302e1fd1d23e391cef81eb70c19dfb42dc371695de8a994eb6634f2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
