@@ -1,4 +1,4 @@
-FROM ghcr.io/ajnart/homarr:0.13.0@sha256:ddd05956fdcfea8efd6533fc7072d4c1bbf5d9518b99634efc60350d9903e957
+FROM ghcr.io/ajnart/homarr:0.13.1@sha256:8d9b7c81710159e9b5ed436be08f43721d65e409ef7aabb093d30bcf32d8395f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
