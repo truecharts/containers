@@ -1,4 +1,4 @@
-FROM flowiseai/flowise:1.3.2@sha256:c77f0977df044acba3fdc734dc39345183f60bbc7672975adc5e834bdc62e1ca
+FROM flowiseai/flowise:1.3.3@sha256:8bf43c02101b1a592d77823ec64a6ffe81e9b770034ab07aedb826d54b571eba
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
