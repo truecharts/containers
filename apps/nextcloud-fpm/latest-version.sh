@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-version=2.0.0
+version=27.0.2
 printf "%s" "${version}"
