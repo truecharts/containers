@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-
-version=2.0.0
+version=$(cat ./apps/nextcloud-fpm/Dockerfile | grep "FROM nextcloud:" | cut -d ':' -f2 | cut -d '@' -f1)
 printf "%s" "${version}"
