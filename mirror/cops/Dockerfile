@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/cops:1.3.6@sha256:1387eca0301612ea583d49593fbf87870e4f7b2d8fdbd38c86cd7a364b9b32d9
+FROM lscr.io/linuxserver/cops:1.4.2@sha256:4d30247e9b7afda51dc76982dd3cf5015c85835b134dd52eb6c44f10fe111c5b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
