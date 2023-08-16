@@ -323,6 +323,12 @@
     },
     {
       "matchDatasources": ["docker"],
+      "versioning": "regex:^v(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-.+$",
+      "matchPackageNames": ["corentinth/it-tools"],
+      "automerge": true,
+    },
+    {
+      "matchDatasources": ["docker"],
       "automerge": true,
       "matchUpdateTypes": ["major", "minor", "patch", "digest", "pin"],
     },
