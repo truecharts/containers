@@ -29,7 +29,7 @@ env:
 jobs:
   changes:
     name: Get changes
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     outputs:
       matrix: "{\"container\": ${{ steps.reduce.outputs.containers }} }"
     steps:
@@ -53,7 +53,7 @@ jobs:
 
   hadolint:
     name: Run hadolint
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
     - name: Checkout
       uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3
@@ -72,7 +72,7 @@ jobs:
       id-token: write # for creating OIDC tokens for signing.
       packages: write # for uploading attestations.
     name: Build
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     needs:
     - hadolint
     - changes
