@@ -1,4 +1,4 @@
-FROM ghcr.io/bakito/adguardhome-sync:v0.4.14@sha256:f54742a0fc5bfc323b484ea4b863188b7798a78a090611eb1c0e5463cad0937b
+FROM ghcr.io/bakito/adguardhome-sync:v0.4.15@sha256:57b39f62352eabfa80d4362996483fa7f8b00d4eb443d574e17389e7b85e2328
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
