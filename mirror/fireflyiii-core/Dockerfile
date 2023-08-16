@@ -1,4 +1,4 @@
-FROM fireflyiii/core:version-6.0.19@sha256:d0fd2bb250a954763468b6dee22a97c2f616bf9b6db2593f14e99ad91fdd24ce
+FROM fireflyiii/core:version-6.0.20@sha256:9fe71094e4cc9cf4b59c13050007b2e7923872056f1d6d277e125bf475672b23
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
