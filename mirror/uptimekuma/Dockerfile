@@ -1,4 +1,4 @@
-FROM louislam/uptime-kuma:latest@sha256:0b55bcb83a1c46c6f08bcc0329fc6c1d86039581102ec8db896976a9d46de01d
+FROM louislam/uptime-kuma:latest@sha256:7d71e8d044140521ca8101dc4498636fdb753d59ac1979d2a6078204e5b3cfec
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
