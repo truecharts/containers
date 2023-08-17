@@ -1,4 +1,4 @@
-FROM portainerci/portainer:2.19@sha256:efe2cc2efd71841f9e95b4a440147b0a37cdfe2ced177bdcfee5d26fbee8e730
+FROM portainerci/portainer:2.19@sha256:b90d38c88ab96cc71e901566d3a218d5986f4b763015b7e059d302911aa23532
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
