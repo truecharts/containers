@@ -1,4 +1,4 @@
-FROM tiredofit/freescout:latest@sha256:f8f845873d5608792e22e3103f4ef1b5ab34e36ab5f8a96644e2d1448f9d457f
+FROM ghcr.io/getumbrel/llama-gpt-api:1.0.1@sha256:57a4323a0254732a45841f447ae4ef733df6510413b692a0589c0e2b68d9ef51
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

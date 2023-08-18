@@ -1,4 +1,4 @@
-FROM ghcr.io/almarklein/timetagger:v23.7.1@sha256:0428e72b3fb8499c4fdd20f607329ce6810d359a6f28861542538ad8e741a51d
+FROM ghcr.io/almarklein/timetagger:v23.8.1@sha256:e919f0e9c7c3a934b76341eb7bef2db73aad609facf080187397c676b3fcbc2b
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
