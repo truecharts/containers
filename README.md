@@ -1,6 +1,7 @@
 # Container Images
 
-Images are hosted on GitHub Container Registry [here](https://github.com/orgs/truecharts/packages?ecosystem=container&visibility=public).
+Images are hosted on Quay [here](https://quay.io/repository/truecharts).
+ 
 
 
 ## Mirror
