@@ -1,4 +1,4 @@
-ARG ARGO_CD_VERSION="v2.6.14@sha256:37e8a730d531e4a75eef874e641c52ab70e330662dec4abee551de829afdf6e3"
+ARG ARGO_CD_VERSION="v2.6.14@sha256:188651706a582eabba772d0961f47abb242b615149fd5e05e1d137e60d4ade5d"
 # https://github.com/argoproj/argo-cd/blob/master/Dockerfile
 ARG KSOPS_VERSION="v4.2.1@sha256:55d4d4f8986419bd7f591643175c3d8bd064d3de72ff5678bd81311ee157b60a"
 
