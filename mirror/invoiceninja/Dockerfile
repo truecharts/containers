@@ -1,4 +1,4 @@
-FROM anojht/invoiceninja:latest@sha256:d48b67c74ef9b9d9c249e5885cea664cb6c3e4d1157549aade39f650b39638e4
+FROM invoiceninja/invoiceninja:5.7.0@sha256:b0f9da5720587badaf5794d11a272a88611e2b78970e4fc641336e759c748c3a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
