@@ -14,9 +14,9 @@ ARG TC_PLUGIN_VERSION_THEME_PARK_VERSION=v1.3.0
 # GeoBlock
 ARG TC_PLUGIN_REPO_GEOBLOCK=github.com/PascalMinder/geoblock
 ARG TC_PLUGIN_VERSION_GEOBLOCK_VERSION=v0.2.6
-# RealIP - FIXME: Project is archived
-ARG TC_PLUGIN_REPO_REALIP=github.com/soulbalz/traefik-real-ip
-ARG TC_PLUGIN_VERSION_REALIP_VERSION=v1.0.3
+# RealIP
+ARG TC_PLUGIN_REPO_REALIP=github.com/jramsgz/traefik-real-ip
+ARG TC_PLUGIN_VERSION_REALIP_VERSION=v1.0.6
 # Modsecurity
 ARG TC_PLUGIN_REPO_MODSECURITY=github.com/acouvreur/traefik-modsecurity-plugin
 ARG TC_PLUGIN_VERSION_MODSECURITY_VERSION=v1.3.0
