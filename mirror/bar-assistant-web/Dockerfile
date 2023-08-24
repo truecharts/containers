@@ -1,4 +1,4 @@
-FROM imthai/qbittorrent-filebot:latest@sha256:f95c581d0dd237187176786feae01c01676e363660c7c2254fba23c69e5f9737
+FROM barassistant/salt-rim:v1.20.1@sha256:9503dab639544b7045c691f96db22afc48f4864e4936db0f8f95d289f7d1b3d1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
