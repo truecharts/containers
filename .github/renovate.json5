@@ -100,7 +100,7 @@
     },
     {
       "matchDatasources": ["docker"],
-      "versioning": "regex:^\\d*-bullseye-(?<variant>.+)-v(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)$",
+      "versioning": "regex:^\\d*-jammy-(?<variant>.+)-v(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)$",
       "matchPackagePatterns": ["^.+\\/koush\\/scrypted$"],
       "automerge": true,
     },
