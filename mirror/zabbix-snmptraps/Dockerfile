@@ -1,4 +1,4 @@
-FROM zabbix/zabbix-snmptraps:6.4.5-ubuntu@sha256:1b557697d5c875d01e3444eb5fe471d3856feb4671a838c15d83eaa6a9ccf7a4
+FROM zabbix/zabbix-snmptraps:6.4.6-ubuntu@sha256:c8ed7e3dae63161fcda7d1a331c344f9e7b4fea4147ea233657a059275c66bb4
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
