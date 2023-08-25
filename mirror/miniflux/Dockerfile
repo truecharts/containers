@@ -1,4 +1,4 @@
-FROM miniflux/miniflux:2.0.46@sha256:0625952a7e45ff8824936d71eeaca57205c12b758d5b47e27fe11df98bebfcff
+FROM miniflux/miniflux:2.0.47@sha256:763559d0d48a0fc79be28d545e8f8e4e6ce2a2f77c541041207fc7c811fc13cd
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
