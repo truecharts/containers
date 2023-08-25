@@ -1,4 +1,4 @@
-FROM eclipse-mosquitto:2.0.15@sha256:bbac73a740f479b16a5f1a311ebf0c530664ce9290f2cfacb3f4711e7a104007
+FROM eclipse-mosquitto:2.0.17@sha256:d30913b55488ffb6f5f15eea27c2aca4e38d862b62b13c758f756c77e2acd173
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
