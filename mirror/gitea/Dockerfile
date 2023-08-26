@@ -1,4 +1,4 @@
-FROM gitea/gitea:1.20.2-rootless@sha256:5b03f6924eb113ca6f1382c96e32bd0cfd02dc3bd29308973112e1542124ebf6
+FROM gitea/gitea:1.20.3-rootless@sha256:58495fb9d1eab613e1fd3d4274a32567dea0c56fcd2fa99e21a0751c56182dd4
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
