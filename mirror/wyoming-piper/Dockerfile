@@ -1,4 +1,4 @@
-FROM rhasspy/wyoming-piper:1.3.0@sha256:e967263bcc556a646df376a5217d6c9786e22cdadc76ec799e9780f50d33290f
+FROM rhasspy/wyoming-piper:1.3.2@sha256:a615bcf919438652fbc515d8e9ffa50a0dfd08de85bbeb9ca18dcbbc4c499372
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
