@@ -1,4 +1,4 @@
-FROM yoruio/membarr:latest@sha256:158b2df7581cad973a908126f7ad083fdd9f7d03dad42748b7e3ec8c4c36d56b
+FROM yoruio/membarr:latest@sha256:fdb2a1b0c62b9f50207802054680cd108bc9d890eaa946b71ad9c069ce4656dc
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
