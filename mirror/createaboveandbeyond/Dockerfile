@@ -1,4 +1,4 @@
-FROM goobaroo/createaboveandbeyond:latest@sha256:08ef84000b262eef4b01e7c0c6e5a2148255b6e1570fa97c0df9b21079e5c1fd
+FROM goobaroo/createaboveandbeyond:latest@sha256:eae0c3f4374c380cb164a9a4764246ac9f3cd867637dc240a824c0684335c10c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
