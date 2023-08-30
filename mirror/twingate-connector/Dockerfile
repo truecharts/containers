@@ -1,4 +1,4 @@
-FROM twingate/connector:1.58.0@sha256:1c842ae7d7f64dd25f0a7196e410e89fa67f30fc7b285c152d2f0bcad28f4f77
+FROM twingate/connector:1.59.0@sha256:00d47480aaeea4211f388fb6adbd615c8704327a6d83efdb74e83c1bdfee79f0
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
