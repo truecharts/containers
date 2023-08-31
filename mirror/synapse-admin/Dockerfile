@@ -1,4 +1,4 @@
-FROM awesometechnologies/synapse-admin:latest@sha256:ab9a99ee46c8d31cd9529c04110a1bcda4e3a5380d34d717dd78711b719c8338
+FROM awesometechnologies/synapse-admin:latest@sha256:2a4604582fe622581e238391c56849bf69f8c96a5a1359ae2ab18d3d3725ee33
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
