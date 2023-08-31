@@ -1,4 +1,4 @@
-FROM afterlogic/docker-webmail-lite:latest@sha256:7ae7b1e34d6a9db66104c45fb9c6273d96d528417f33b6f0377b23c3c6e206bb
+FROM afterlogic/docker-webmail-lite:latest@sha256:83ffa871276902b82b7077bec718b516f329b08435fc0a93a44c6f6acc94833c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
