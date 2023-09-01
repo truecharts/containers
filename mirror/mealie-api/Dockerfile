@@ -1,4 +1,4 @@
-FROM hkotel/mealie:api-nightly@sha256:de411e508396bdbeaa6506cc1e68e1af39073477caaa8d4b0a52369f0f1f424a
+FROM hkotel/mealie:api-nightly@sha256:0d80361802f1cde457d222a662c045ddf283d8e926558dbcd02d923d99d2cd92
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
