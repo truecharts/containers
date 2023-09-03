@@ -1,4 +1,4 @@
-FROM jupyter/tensorflow-notebook:2023-08-25@sha256:3e3ccc5a44e97c772b0844e7b8fea2b0ce12010d015ec24ce1d12a2bda4d3010
+FROM jupyter/tensorflow-notebook:2023-08-28@sha256:1f60e96ddf6ac9fbdcec85d288d2a74cfa2536e7ece9dd1c2e75f87a97ab5667
 
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
