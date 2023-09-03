@@ -1,4 +1,4 @@
-FROM ghcr.io/static-web-server/static-web-server:2.20.2@sha256:cf59f0f22a5d0120a5cfbcd9f8e943825b9e8622b25796647d9645d2802a3634
+FROM ghcr.io/static-web-server/static-web-server:2.21.1@sha256:a2a252681d0e2f68484ccada99abb5c9085138c81c3d492b8a6414e982c11a3e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
