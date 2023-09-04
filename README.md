@@ -2,7 +2,7 @@
 
 Images are hosted on Quay [here](https://quay.io/organization/truecharts).
 
-Some older images can be found on [Github Container Registry](https://github.com/orgs/truecharts/packages?ecosystem=container&visibility=public).
+Some older images can be found on [GitHub Container Registry](https://github.com/orgs/truecharts/packages?ecosystem=container&visibility=public).
 
 
 ## Mirror
