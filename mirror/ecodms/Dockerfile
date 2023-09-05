@@ -1,4 +1,4 @@
-FROM ecodms/allinone-18.09:latest@sha256:3e5463afb25518d43f062467300658ff435b5d5ed95604dd786d05f28d8413b6
+FROM ecodms/allinone-18.09:latest@sha256:3530bbaf5001943acc47b888b78a41e78386368ca2c2738ab6fdc25b8a8bb206
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
