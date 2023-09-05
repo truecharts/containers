@@ -1,4 +1,4 @@
-FROM golift/notifiarr:latest@sha256:b7c07ad5e1db64bba686d548bf36a426f37cea1f90f7707a8c3221ab015abd9d
+FROM golift/notifiarr:0.6.0@sha256:b7c07ad5e1db64bba686d548bf36a426f37cea1f90f7707a8c3221ab015abd9d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
