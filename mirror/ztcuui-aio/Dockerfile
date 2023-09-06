@@ -1,4 +1,4 @@
-FROM keynetworks/ztncui:1.2.15@sha256:7b431f3166ad82dd41c1126a9695d72b951d1bfb9b8afe105d5a4a48657786cd
+FROM keynetworks/ztncui:1.2.16@sha256:db32c0778b13f6fe10d03e2c3dad96f0b311a0f482cdc2002506f0d68c27b73a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
