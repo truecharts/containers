@@ -1,4 +1,4 @@
-FROM quay.io/metallb/controller:v0.13.10@sha256:1b33357b3595468aac9d5b9115fc4d35fc475124551180956083294cdeeb94b6
+FROM quay.io/metallb/controller:v0.13.11@sha256:46db0d09942e3017c034088ec75c517fba11308925f83bb5409b15c7d6748962
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
