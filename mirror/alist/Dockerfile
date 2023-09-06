@@ -1,4 +1,4 @@
-FROM xhofe/alist:v3.26.0@sha256:7cdf01a3df5c0246d9ef9d572e250716e534857082b06efabcd8764dcddfa5c0
+FROM xhofe/alist:v3.27.0@sha256:1fa12357874e43fac6d3d35c827e1ba8c298e06136eebc77e7dc248b38477660
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
