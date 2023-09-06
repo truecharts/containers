@@ -1,4 +1,4 @@
-FROM ghcr.io/koush/scrypted:18-jammy-lite-v0.44.0@sha256:0780dac5d418685f85acdc2a422088dce5c00bcc74d858f6c52a65d30c36b6c9
+FROM ghcr.io/koush/scrypted:18-jammy-thin.s6-v0.48.0@sha256:d5e033e483d09ba11c95a93cd6f4e9c630bd397ab5fbfedf521ddc99525d5c79
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
