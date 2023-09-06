@@ -1,4 +1,4 @@
-FROM quay.io/metallb/speaker:v0.13.10@sha256:00406ccb1fa08d48cc0ed0b43db7b3cbc3ccc1c4da0e38fca648e64639b06c3c
+FROM quay.io/metallb/speaker:v0.13.11@sha256:4fd38b0e36341e86044b1bbba2b169b95efd0852645816929e9f65fe2192166f
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
