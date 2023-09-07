@@ -1,4 +1,4 @@
-FROM quay.io/hedgedoc/hedgedoc:1.9.9@sha256:9a1e65e83035644f58cf6e7cbf26f3654da038712d21e9a8bc38acbf6b16cad1
+FROM quay.io/hedgedoc/hedgedoc:1.9.9@sha256:d5705cc308621a0c7f342423adf1c539e7f7d79bddbda6f7cc328ed438838756
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
