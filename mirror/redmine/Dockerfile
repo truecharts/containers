@@ -1,4 +1,4 @@
-FROM redmine:5.0.5@sha256:d7197896a485971328bd06f97d3919bd40495a470d952edddfa5815e5b2883fa
+FROM redmine:5.0.5@sha256:3b2ffde536bf81dc6dc306bef078ab4dfa3062fb653d8d2f7db70a00a022167e
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
