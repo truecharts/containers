@@ -1,4 +1,4 @@
-FROM ghcr.io/amruthpillai/reactive-resume:server-3.7.5@sha256:32cb6e1e9c9f2996b1c7a4f203c97abe63e1b843445da4ebf9b22e925a89d6b5
+FROM amruthpillai/reactive-resume:server-3.8.4@sha256:5be7e61a2ff5ef50fbf9a3aa8bfc8b7aa7d6f26ea2c760b9e789596c6eb31e26
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
