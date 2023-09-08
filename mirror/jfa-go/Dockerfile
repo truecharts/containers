@@ -1,4 +1,4 @@
-FROM hrfee/jfa-go:latest@sha256:a4b95c22fd62b804a381d3a719f7d7c6bf6bcf30b1d9f2ea7290a313e5c63480
+FROM hrfee/jfa-go:latest@sha256:ab9bf71f67f5ec92d3c05c631bd5493ab6e10a47f98b8132bb8e02a2e32f4005
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
