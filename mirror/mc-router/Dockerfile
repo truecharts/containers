@@ -1,4 +1,4 @@
-FROM itzg/mc-router:1.18.1@sha256:7aae13b9951d23d42b2343685042f5b743b3fcf39204a41c9fdf9559a9f6255f
+FROM itzg/mc-router:1.19.0@sha256:536cb18ad027afb82b7f641e9e1bdb774ecdbfb9c2406906281e0145612bc73a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
