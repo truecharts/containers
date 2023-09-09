@@ -1,4 +1,4 @@
-FROM rix1337/docker-ripper:manual-latest@sha256:7a3019731ca18ff24137e68fd1f2344dfba35186b89152285e1be717aa651511
+FROM rix1337/docker-ripper:manual-latest@sha256:0a6fbfdb0341b869897e500e109e2386302b28e7a992aec434c3a43d016a2800
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
