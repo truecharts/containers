@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/webtop:arch-kde@sha256:1828bbf5eb62ad770a972e31281a19d9a22873acca489828f2738ecefc284c42
+FROM lscr.io/linuxserver/webtop:arch-kde@sha256:b88de09e9858a8636ab051c5c83d4e2455e6db56d5589b6f9c726c34adfaa541
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
