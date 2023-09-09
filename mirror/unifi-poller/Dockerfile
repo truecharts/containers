@@ -1,4 +1,4 @@
-FROM ghcr.io/unpoller/unpoller:v2.8.1@sha256:cca00aabddd802637c93461263cf9f60e879fbca93fa80fa49ec2ca97e136e63
+FROM ghcr.io/unpoller/unpoller:v2.8.3@sha256:2b5b045b751a556c866e9a6da00ba1247608da6110eb9412cb50c3371ddf159b
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
