@@ -1,4 +1,4 @@
-FROM typesense/typesense:0.25.0@sha256:568dffb34e0cedeb6205f1b0934e47c6d9c0596fc8ebba306e1828f94c1a4b7e
+FROM typesense/typesense:0.25.1@sha256:3724f68156097114d07790e1c8bfaaca13b12eaecd602776d30d9933029064c7
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
