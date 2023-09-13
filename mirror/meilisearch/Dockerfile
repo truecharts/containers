@@ -1,4 +1,4 @@
-FROM getmeili/meilisearch:v1.3.4@sha256:259c0d3091eb74ece71197518f49e008857b7d7b77aae147c00fc601f682f7a8
+FROM getmeili/meilisearch:v1.3.4@sha256:3a577f9952b1c9886adbea3742de012ca202bbe69a7943695b6edd8073425376
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
