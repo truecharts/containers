@@ -4,6 +4,13 @@ RUN set -ex; \
     \
     apt-get update; \
     apt-get install -y --no-install-recommends \
+        lsb-release \
+    ; \
+    \
+    echo "deb http://ftp.debian.org/debian $(lsb_release -cs) non-free" >> \
+    /etc/apt/sources.list.d/intel-graphics.list && \
+    apt-get update; \
+    apt-get install -y --no-install-recommends \
         jq \
         nano \
         procps \
@@ -15,6 +22,7 @@ RUN set -ex; \
         heif-gdk-pixbuf \
         imagemagick-common \
         libmagickcore-6.q16-6-extra \
+        intel-media-va-driver-non-free \
     ; \
     savedAptMark="$(apt-mark showmanual)"; \
     \
