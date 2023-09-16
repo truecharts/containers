@@ -1,4 +1,4 @@
-FROM rand256/valetudo-mapper:latest@sha256:ae2cd4f8492d3ce6662d48f5b775a012898af47629e11cd29d00edc9415227ea
+FROM rand256/valetudo-mapper:latest@sha256:4ca244330be0baf945db767b6d4d80e7c0f786ba372e8e2509b005183522b717
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
