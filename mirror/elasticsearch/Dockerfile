@@ -1,4 +1,4 @@
-FROM bitnami/elasticsearch:8.10.0@sha256:2970ed3ad18c913aa65db5bfb348e825ac4281e51d720b587b2b7ddd7c54bc0f
+FROM bitnami/elasticsearch:8.10.1@sha256:5c5d4ef13e56c2d8ecf7e7b949958c12edc7c77900a7f19af61effa2011f05e0
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
