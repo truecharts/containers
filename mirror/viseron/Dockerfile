@@ -1,4 +1,4 @@
-FROM roflcoopter/viseron:latest@sha256:dcece4af22205a08c1afcdffcf36738ef4b42593730e80cf2ddc4162a220d7d8
+FROM roflcoopter/viseron:latest@sha256:1e1a023c85834c4d5036bac84639c9408b6732dee75ed593cab88f2517f87b26
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
