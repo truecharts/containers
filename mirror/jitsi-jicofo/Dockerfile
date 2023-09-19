@@ -1,4 +1,4 @@
-FROM jitsi/jicofo:stable-8922@sha256:2e1f48a94cf20b7310275fdd7ccf3bf40c4172e35986a99d4776ff15641772b6
+FROM jitsi/jicofo:stable-8960@sha256:38d1cc5875bbcf42bbc829c7643341a66ed1283b25812a5b24da389667319b26
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
