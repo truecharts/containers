@@ -1,4 +1,4 @@
-FROM rootgg/plik:1.3.7@sha256:9e60a40ae29fe37994721b9ce703b9310b13376c0e2fe32227b9f6939d7cc2fa
+FROM rootgg/plik:1.3.8@sha256:cb850b05f1471c4b1f9342fa23e9bf9f98bd62fe0f58c53c83e548ec46d02ff6
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
