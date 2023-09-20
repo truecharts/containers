@@ -1,4 +1,4 @@
-FROM docker.io/odoo:16.0@sha256:dd4c542be757fd563e9ebddd1fb17624afc2b5216ed2af5d607c5eda2d14cfac
+FROM docker.io/odoo:16.0@sha256:61710f0664201d2386121eeadc00758c95b8ecc017058fb3495a4a066579bcf9
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
