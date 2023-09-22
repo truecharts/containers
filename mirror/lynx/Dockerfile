@@ -1,4 +1,4 @@
-FROM jackbailey/lynx:1.7.3@sha256:0bb138faaf5d44f8f55fba6a11b211e53e7d74c241883cc74ea61adf24ef339e
+FROM jackbailey/lynx:1.7.3@sha256:cc0eaa422ee0f0b54d5a403bce482c6fb61fe094c78afb0771a3a69d746aea6c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
