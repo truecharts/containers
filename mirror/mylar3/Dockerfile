@@ -1,4 +1,4 @@
-FROM linuxserver/mylar3:version-v0.7.5@sha256:820f3ff27e4bc793bbbd13a834cd4f374630925911321acc8b0741ec1b9a91f3
+FROM linuxserver/mylar3:version-v0.7.5@sha256:0baedf9fb43029577569f6b84ecbb0da5860ad39951e8093aed1344313b1eddc
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
