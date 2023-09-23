@@ -1,4 +1,4 @@
-FROM admidio/admidio:v4.2.11@sha256:ab4f269d338ed6130a1c4d684f18b1f0fa19a4875b214d3aa5110c062575bd72
+FROM admidio/admidio:v4.2.12@sha256:16484bda22673560161bb539cc1877e28cec6ed23c11a1dccd34829485e3f88c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
