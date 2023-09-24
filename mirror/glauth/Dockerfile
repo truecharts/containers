@@ -1,4 +1,4 @@
-FROM glauth/glauth:latest@sha256:263bc6f075b056d8e7f94159a03d559a7edd9b1badf5d70d09684852ec9869fb
+FROM glauth/glauth:latest@sha256:48d548e12af344160353c00f5527e9fde100126d3be5355076b20e44e0ab963f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
