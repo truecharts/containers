@@ -1,4 +1,4 @@
-FROM dbeaver/cloudbeaver:latest@sha256:c5e94d57994e187882d701b930ee2821c8fffc6c3e0fa4a9e04a9abd31a5cdef
+FROM dbeaver/cloudbeaver:latest@sha256:431880938bdba839432431d3fc34628288ca76843a71081c09202ad2f70bb8fc
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
