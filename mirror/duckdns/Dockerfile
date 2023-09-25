@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/duckdns:latest@sha256:8f4bae92c2195695ec47fbee32a36f7f5c86c4cd12701d88dcb4a47905268cbc
+FROM ghcr.io/linuxserver/duckdns:latest@sha256:4379f5ed32e7e27662fdb6ab29e8d78324de78b3ba53bb29240af3b75c06db3c
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
