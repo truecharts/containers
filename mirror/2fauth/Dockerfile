@@ -1,4 +1,4 @@
-FROM 2fauth/2fauth:4.2.2@sha256:1c94a64941c90d73a3729febf1126d9e2fdf79c85d63282e036a3dbb7e1386a9
+FROM 2fauth/2fauth:4.2.3@sha256:921cc85b6746c1acebf9467222d2764d17491f85d1e8a75953b145b3202b639d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
