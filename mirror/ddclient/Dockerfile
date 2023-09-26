@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/ddclient:3.10.0@sha256:aafa468fa554bee3b3597173a51b1b8588f8e807bc5b8f74251f4649af64e517
+FROM ghcr.io/linuxserver/ddclient:3.10.0@sha256:604e398c0e551561b22843c3a7b7c37b71cd8e95d9e0a5ac1e1b537514809622
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
