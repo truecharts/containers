@@ -1,4 +1,4 @@
-FROM ghcr.io/sbondco/watcharr:v1.17.0@sha256:4825306c985a3cdea67350a33c4d75de5a19bcbb2d1e182cc81f33352d4315a7
+FROM ghcr.io/sbondco/watcharr:v1.18.0@sha256:64539244088afcaafe8c70a52577bb4c77b73553357eac5dc5a72f2cf320e83b
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
