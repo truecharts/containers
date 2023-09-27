@@ -1,4 +1,4 @@
-FROM n8nio/n8n:1.8.1@sha256:03965ea933bd64f387a4215a63486517aa07ada64c1321d837fab1bf92f8532b
+FROM n8nio/n8n:1.8.2@sha256:16aa393bdee93fd368c445cc899de1a6de625593c8575aa3d84f14d0a3ff5ec8
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
