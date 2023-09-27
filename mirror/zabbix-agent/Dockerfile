@@ -1,4 +1,4 @@
-FROM zabbix/zabbix-agent:6.4.6-ubuntu@sha256:35bd7a8851f101aca210fbe10bd9e8f8a43445e3996175820fbb6076e584dff9
+FROM zabbix/zabbix-agent:6.4.7-ubuntu@sha256:1eaf8e9d157bdc737c19d38b51021058425163aafcd9d33d2ce05e8770d1231b
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
