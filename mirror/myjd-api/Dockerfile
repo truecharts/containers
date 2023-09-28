@@ -1,4 +1,4 @@
-FROM rix1337/docker-myjd-api:latest@sha256:3faaae6e649169de413206e42d10d1a2c1fc0bcb4625be21f6fa4a1a754f3475
+FROM rix1337/docker-myjd-api:latest@sha256:ba117e1ba4c314160591e5e73e25b75faed82c14fa1b12b52888b42db4bb72a6
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
