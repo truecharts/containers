@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/medusa:1.0.17@sha256:623fa46f6158cede29ee81044a7bf9e67bb1d9e930865689c74cd434700c5a8f
+FROM ghcr.io/linuxserver/medusa:1.0.17@sha256:539154ef391997290d99b58c261cd7c6b43c632bcd38906ca97788f97074c9b8
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
