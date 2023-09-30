@@ -1,4 +1,4 @@
-FROM banhcanh/docker-fmd2:latest@sha256:6ed400b10ff9a13c6dd33736831d875f7441d1eb27158c974abcfb15bd3ae34a
+FROM banhcanh/docker-fmd2:latest@sha256:153ccc161e7ed9f2b44f6ec7176ed4e5e53fc0962465d3556176b6489eae20eb
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
