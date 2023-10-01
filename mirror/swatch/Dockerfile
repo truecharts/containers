@@ -1,4 +1,4 @@
-FROM crzynik/swatch:latest@sha256:d939b6a1b2b2beec34a51cd36d0cec78037db7c1fa396a29b3850c396cf36a44
+FROM crzynik/swatch:latest@sha256:6cc62faf6ba46dfd0c4bd620f98102ab10408b12e9a6a87a9ef70ff7ea91e478
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
