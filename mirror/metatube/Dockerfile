@@ -1,4 +1,4 @@
-FROM jvt038/metatube:latest@sha256:6e7d5b4c2c11ea5b5bbcf9e4e05d90940f9f3dc85421ecdfe3aa19cd4b69c69c
+FROM jvt038/metatube:latest@sha256:d71d798d2ba3424b984266fa8dd35ce8318d4350ba32a6886d983e470ad071e4
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
