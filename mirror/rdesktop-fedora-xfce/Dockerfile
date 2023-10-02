@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/rdesktop:fedora-xfce@sha256:9004a2655a8f65689751689b77324add597501b40cad2b04a36ec95597094b0a
+FROM lscr.io/linuxserver/rdesktop:fedora-xfce@sha256:228676490b07f3858e35a7e50b4c7d5e10cd91a63e268e3d1439b9901b0a2e95
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
