@@ -1,4 +1,4 @@
-FROM docker.io/mongo-express:latest@sha256:d5cee110909938c99cf8800b9379494c190d8fecaec70a4ce3886facdee6ef8e
+FROM docker.io/mongo-express:latest@sha256:77a2699b0fb7becb5eee732bb90e9223cbba1d43a5bca4d65001973d4ec9dcbd
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
