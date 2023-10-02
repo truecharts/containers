@@ -1,4 +1,4 @@
-FROM sissbruecker/linkding:1.21.1@sha256:a4bf4b0e2d67fc24bac00d85ad62824a399d24d1536f6f85aa24fbeab6f8c268
+FROM sissbruecker/linkding:1.22.0@sha256:053ca707dd6e8fa2d8b6957ba25b53b547958696cb3c3b35b75315421ffc4059
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
