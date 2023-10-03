@@ -1,4 +1,4 @@
-FROM ghcr.io/beryju/gravity:v0.6.13@sha256:823925a49913f38e8d7bf130f79b4cfdac3b0d189f0cc4c983b7e18a5b9ba671
+FROM ghcr.io/beryju/gravity:v0.6.14@sha256:6752926ea7d5009c102af5bc550ea4dd217918f35c065b18fa68cb19cab117fe
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
