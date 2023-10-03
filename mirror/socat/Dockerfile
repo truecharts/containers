@@ -1,4 +1,4 @@
-FROM docker.io/alpine/socat:1.7.4.4@sha256:b25a9ff3e9c3a81b0c462babb4a8535effeea1348c23565db96fa71677a6f8a0
+FROM docker.io/alpine/socat:1.7.4.4@sha256:2e3cae933f0e40a8a91614a8f9cbb1ce34afcc7e8e887e4409051fb515cfa3ba
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
