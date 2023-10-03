@@ -1,4 +1,4 @@
-FROM goobaroo/ftbskyfactory25:latest@sha256:59bf1c06448e8da450678e4a01881f8a0aea16dafdbec3d4f520e29256d01d34
+FROM goobaroo/ftbskyfactory25:latest@sha256:4fa01a1773a36d4eacf70f4a699d6a5201b12277ce52da38f228f0c28447a30d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
