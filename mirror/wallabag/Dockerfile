@@ -1,4 +1,4 @@
-FROM wallabag/wallabag:2.6.6@sha256:d9d6a928e9b131712e24db5e170ed8020b8edc64ee8375f3ad49956fe78aa955
+FROM wallabag/wallabag:2.6.7@sha256:16561c91b3345ce03211a0fb1a7d1f9f6412d46c4a174bc85db55591a46768d3
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
