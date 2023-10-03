@@ -1,4 +1,4 @@
-FROM dullage/flatnotes:v3.2.3@sha256:d3bc42f7010d5a3c25ba82edae1d41a4c560ec1f1c5e9b13eea14ea8ed0c19dd
+FROM dullage/flatnotes:v3.3.0@sha256:df57acaef11b61bc32f5cddb71fc0cfa023a8b4543d759d2c0dc5b6a0e1a7237
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

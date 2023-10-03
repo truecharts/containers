@@ -1,4 +1,4 @@
-FROM goobaroo/skyfactory4:latest@sha256:a631965685fb21f1fd7fb007dfdefdadc1cf0f1fc43c94c3f3722fbaf31c4751
+FROM goobaroo/skyfactory4:latest@sha256:31865e3c51a8e8f8fe2514a1df0c1d39a66b7dc1e09bb80aebd479b001c305d1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

@@ -1,4 +1,4 @@
-FROM crazymax/ddns-route53:latest@sha256:9cb3af44cdd00615266c87e60bc05cac534297be14c4596800b57322f9313615
+FROM crazymax/ddns-route53:latest@sha256:59c370b600ccbdf853ddf74e8c115ffa7d986e7e47ae70cf829d2a67a4b0eb43
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

@@ -1,4 +1,4 @@
-FROM ghcr.io/hotio/cloudflareddns:latest@sha256:644f405f622bdc6cd246b00c7ded68ae108ca9ef5cbeb496eccb0f0315b00a48
+FROM ghcr.io/hotio/cloudflareddns:latest@sha256:50183b984504d6d5824f2cb84a9668c77a35f9c2b55a265540188b6072e5cbf9
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

@@ -1,4 +1,4 @@
-FROM thomaspoignant/go-feature-flag-relay-proxy:v1.15.1@sha256:f25d2a3bd5e62e7c54cb292fcb2903f14f935077b6633b43473d5a0c4af24d75
+FROM thomaspoignant/go-feature-flag-relay-proxy:v1.15.2@sha256:77978092ca48308c4517144c25f9404f6029adf571454f881168ae8b79377036
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

@@ -1,4 +1,4 @@
-FROM homebridge/homebridge:latest@sha256:dfde3486568f41a2336f409781db0d79ccee49e9b6ef4c41f1ba2757ebaf947c
+FROM homebridge/homebridge:latest@sha256:7b2158a23017294ded9420c80176b89bd7adbb2ef8f33ee933bef6818992e9c8
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 

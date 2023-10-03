@@ -1,6 +1,5 @@
 FROM josh5/unmanic:0.2.4@sha256:9b2cdce79c103432b78fe97a151d6385d7dbd7e1e60dd65126e82f9e66514e2a
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
-
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"

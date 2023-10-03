@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/projectsend:latest@sha256:8be6f70352f5a533117698f0ce235c4667ede1ba63e8ba798a82ca4e7b866609
+FROM ghcr.io/linuxserver/projectsend:latest@sha256:552ac7ae8815aeb5239cd6f69ceba897db46c401adc96d5ca2b19a71eeb0d702
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
