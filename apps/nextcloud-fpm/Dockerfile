@@ -2,12 +2,7 @@ FROM docker.io/nextcloud:27.1.0-fpm@sha256:8e6d961b3510fc3d8b4bc5a54d8e46ed2b23b
 # hadolint ignore=DL3008,DL3015,SC2086,SC2155,DL4006
 RUN set -ex; \
     \
-    apt-get update; \
-    apt-get install -y --no-install-recommends \
-        lsb-release \
-    ; \
-    \
-    echo "deb http://ftp.debian.org/debian $(lsb_release -cs) non-free" >> \
+    echo "deb http://ftp.debian.org/debian $(cat /etc/os-release | grep VERSION_CODENAME | cut -d= -f2) non-free" >> \
     /etc/apt/sources.list.d/intel-graphics.list && \
     apt-get update; \
     apt-get install -y --no-install-recommends \
