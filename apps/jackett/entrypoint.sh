@@ -4,4 +4,6 @@
 exec \
     /app/jackett \
         --NoUpdates \
-        "$@"
+        "$@" \
+        --PORT \
+         ${JACKETT_PORT}
