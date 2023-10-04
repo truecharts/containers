@@ -1,4 +1,4 @@
-FROM dock.mau.dev/mautrix/googlechat:v0.5.0@sha256:6d16bc4bcc3352dd68a455b0833c6cbc192c47b75a775800042024516fc9dab0
+FROM dock.mau.dev/mautrix/googlechat:v0.5.1@sha256:400f1add548f473e838e11fdcf32dc4a1244c9b47be5f90f2aef09ae788728c4
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
