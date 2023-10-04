@@ -1,6 +1,5 @@
-FROM mattermost/mattermost-enterprise-edition:release-9.1@sha256:7e743a3cfd3e967023b8a89a8c2a7f64f4b200887d9c05ab4186c4d9ed6535c9
+FROM ghcr.io/ix-ai/smtp:v0.5.1@sha256:eb71af428925d0979cd0d043e6b759b1bd410e712d6adad2ea1ed859662faed9
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
-
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
