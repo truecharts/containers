@@ -2,7 +2,6 @@ FROM ich777/steamcmd:arma3exilemod@sha256:1aaf9e373b7e9d6fe1dd5a2010f4f66860cb90
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
-LABEL org.opencontainers.image.licenses="BSD-3-Clause"
 LABEL org.opencontainers.image.title="${CONTAINER_NAME}"
 LABEL org.opencontainers.image.url="https://truecharts.org/docs/charts/${CONTAINER_NAME}"
 LABEL org.opencontainers.image.version="${CONTAINER_VER}"

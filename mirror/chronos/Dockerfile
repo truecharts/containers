@@ -2,7 +2,6 @@ FROM simsemand/chronos:0.2@sha256:b86be79bbb913689623e015e77ca15f9bcd90de7f6ff4a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
-LABEL org.opencontainers.image.licenses="BSD-3-Clause"
 LABEL org.opencontainers.image.title="${CONTAINER_NAME}"
 LABEL org.opencontainers.image.url="https://truecharts.org/docs/charts/${CONTAINER_NAME}"
 LABEL org.opencontainers.image.version="${CONTAINER_VER}"

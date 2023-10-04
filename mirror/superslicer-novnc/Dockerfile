@@ -2,7 +2,6 @@ FROM mikeah/superslicer-novnc:latest@sha256:b48b72ff45ce790996213ace2c1951788e8b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
-LABEL org.opencontainers.image.licenses="BSD-3-Clause"
 LABEL org.opencontainers.image.title="${CONTAINER_NAME}"
 LABEL org.opencontainers.image.url="https://truecharts.org/docs/charts/${CONTAINER_NAME}"
 LABEL org.opencontainers.image.version="${CONTAINER_VER}"

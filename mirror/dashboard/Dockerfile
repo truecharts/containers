@@ -2,7 +2,6 @@ FROM phntxx/dashboard:latest@sha256:32c3dd6a2decd33fb8e728766d455faed74b7df1c114
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
-LABEL org.opencontainers.image.licenses="BSD-3-Clause"
 LABEL org.opencontainers.image.title="${CONTAINER_NAME}"
 LABEL org.opencontainers.image.url="https://truecharts.org/docs/charts/${CONTAINER_NAME}"
 LABEL org.opencontainers.image.version="${CONTAINER_VER}"
