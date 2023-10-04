@@ -1,4 +1,4 @@
-FROM ghcr.io/alexjustesen/speedtest-tracker:v0.12.2@sha256:f0badee03b4d60071e8a2ad820d59e9560bcbb40c299da0685ffe36e9e6f8fcf
+FROM ghcr.io/alexjustesen/speedtest-tracker:v0.13.1@sha256:3015c7ce66a5d6ae7a07cf54311f426967d5e23c1a6ec1f092ed17ed4d6e3133
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
