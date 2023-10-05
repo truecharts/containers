@@ -1,4 +1,4 @@
-FROM jhpyle/docassemble:latest@sha256:ef9634261124a51572095ec5d085ab1add383d655dd52752cf834380f2a573c9
+FROM jhpyle/docassemble:latest@sha256:8fd4605c0ac78560a072818373e5ab89ec8e3ae7bf8e9e1c6d417002f4875880
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
