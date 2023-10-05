@@ -1,4 +1,4 @@
-FROM bitnami/wordpress:6.3.1@sha256:cb63506a631bf19679e16c87de600dac06ab64282592e3dba4901c3e71af1b4e
+FROM bitnami/wordpress:6.3.1@sha256:47b948dd33b14682383f67d58225729b7ff372143995f00c2339cf47cd34198e
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
