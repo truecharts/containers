@@ -1,4 +1,4 @@
-FROM immybot/remotely:69@sha256:a3e22137ad10b348a36f1193241ee89ba6a232ec0efba490cd46b33b20c80770
+FROM immybot/remotely:1380@sha256:fcb066c1e3941711b57a7cc346b53b6602b3305dccbb59afa6446db0baeddfe2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
