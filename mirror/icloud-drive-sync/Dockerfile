@@ -1,4 +1,4 @@
-FROM mandarons/icloud-drive:latest@sha256:cf98a1ab71c859617bc0ec7f2f16fd831304b279924e22838ccab94ea9482d01
+FROM mandarons/icloud-drive:latest@sha256:6fdf8aa433f26bcaa584344345066dd58dfb63c5d886aeb4a7233648e020b787
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
