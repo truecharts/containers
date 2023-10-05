@@ -1,4 +1,4 @@
-FROM tagspaces/tagspaces-lite-web:5.4.4@sha256:81ab3760971dbf116b55342de3cbcf7abc17c5917ce61d15647f508e64172af9
+FROM tagspaces/tagspaces-lite-web:5.5.2@sha256:0b1bf452ca77bda01c3e44f426e95111b1703d7beaff8d6bbecf470dc2aad374
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
