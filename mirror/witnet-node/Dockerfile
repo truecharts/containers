@@ -1,4 +1,4 @@
-FROM witnet/witnet-rust:latest@sha256:07a3a008ee800d95ed7cd6f1154ba3a13159952cb065da81901cefd8b945f635
+FROM witnet/witnet-rust:latest@sha256:1afa5dd4dbc05c09e42ecee517e8f250c478a7da8fb6f1d681eed47a6b8ffcc4
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
