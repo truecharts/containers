@@ -1,4 +1,4 @@
-FROM zwavejs/zwave-js-ui:9.0.3@sha256:4a01f1f72b5705e81dcb7dcdc08613786cb338a0c1752ed89faf306b5f13c40d
+FROM zwavejs/zwave-js-ui:9.1.0@sha256:e5ed06ed4679ca7b03dd19ded990e25a59b92f7dc8fdffb0b456e6a2d500a092
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
