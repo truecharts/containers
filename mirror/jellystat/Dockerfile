@@ -1,4 +1,4 @@
-FROM cyfershepard/jellystat:latest@sha256:d4c6f5dc8e109d3851f38d446add8c33a8de7ee9d8724d3511bf5dc54eab1419
+FROM cyfershepard/jellystat:latest@sha256:94a578dece0966c3747d66295927de7d96bef17bf2af2634ec7c84d5bfa81ee3
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
