@@ -1,4 +1,4 @@
-FROM bingsin/pbs:2.2-7-amd64@sha256:8ca49b69276d0736ba9806eabe24a2e9db2c422cfdfee7987077237d08ec244f
+FROM ayufan/proxmox-backup-server:v3.0.2@sha256:7466aa309840f73dbccb6c0f237748384f95273ee1e61f07674c86e3238c006a
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
