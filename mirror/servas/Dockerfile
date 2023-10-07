@@ -1,4 +1,4 @@
-FROM beromir/servas:0.0.5@sha256:3887904ec22244581046290545b5e2d9b1ded78f0c73795797cb4b12aa647264
+FROM beromir/servas:0.0.6@sha256:8176a581f6c44598afde453667d6e5dd230d23cbb423d9d84655180cc57675cd
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
