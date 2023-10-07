@@ -1,4 +1,4 @@
-FROM benzino77/tasmocompiler:latest@sha256:0e29ae34d34f535e13a009051b7b792cbe8ee8d8dbb4868d488ba668b39db387
+FROM benzino77/tasmocompiler:latest@sha256:d2df0ef394c2b387e8a9a9dc0282fc448148c07f2341ec21a9100a4967e0aee1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
