@@ -1,4 +1,4 @@
-FROM ghcr.io/onedr0p/tautulli:2.13.1@sha256:23fb105a1745680120051af7fe778cd888de57a6838f8ccb6be91d9b47af7237
+FROM ghcr.io/onedr0p/tautulli:2.13.1@sha256:a63ed8d2eea88313a9a7da409b2c202ffebd32a464b8c855d854dcecada26319
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
