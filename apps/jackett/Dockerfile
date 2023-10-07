@@ -1,10 +1,11 @@
 FROM tccr.io/truecharts/alpine:v3.18.3@sha256:5391a9572fcfda2ec5a9df99e08d4772f13635041eccfa61e57d49935486d9db
 
-ARG TARGETPLATFORM
 ARG VERSION
 ARG CHANNEL
 
 USER root
+
+ENV XDG_CONFIG_HOME=/config
 
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 # hadolint ignore=DL3018
@@ -27,7 +28,7 @@ RUN \
       /var/cache/apk/* \
       /var/tmp/ \
       /app/JackettUpdater* \
-    && chown -R apps:apps /app \
+    && chown -R root:root /app \
     && chmod -R 775 /app \
     && ls -l /app \
     && printf "umask %d" "${UMASK}" >> /etc/bash.bashrc
