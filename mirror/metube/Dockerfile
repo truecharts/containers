@@ -1,4 +1,4 @@
-FROM alexta69/metube:2023-10-03@sha256:ced8b77adf0029d1f53028719f0f3cae889e0d99da7627095d3a19e62dd7659e
+FROM alexta69/metube:2023-10-08@sha256:e3692511fe691064b16cbbe9c0e7a0fbaaeb29feadc23856602938cb6cca1e9d
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
