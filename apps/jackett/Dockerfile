@@ -1,4 +1,4 @@
-FROM tccr.io/truecharts/alpine:v3.18.3@sha256:5391a9572fcfda2ec5a9df99e08d4772f13635041eccfa61e57d49935486d9db
+FROM tccr.io/truecharts/alpine:v3.18.4@sha256:17cd77e25d3fa829d168caec4db7bb5b52ceeb935d8ca0d1180de6f615553dc4
 
 ARG VERSION
 ARG CHANNEL
