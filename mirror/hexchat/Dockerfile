@@ -1,4 +1,4 @@
-FROM binhex/arch-hexchat:latest@sha256:d079f2d81da3ceefddf06fdf7d16a0e06da628a84115b27a904f2f1ad6ebed28
+FROM binhex/arch-hexchat:latest@sha256:e3846eb27172042dafddc62ad74ffaadbad51950f585a84ad04593aace8b4fd5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
