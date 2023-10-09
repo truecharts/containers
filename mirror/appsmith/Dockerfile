@@ -1,4 +1,4 @@
-FROM appsmith/appsmith-ce:v1.9.38@sha256:04bd525252818d20fcacf2c85e4629ebc9a187e645cba7768f6ca5e24e669824
+FROM appsmith/appsmith-ce:v1.9.38@sha256:3d6dca365a4c21ebed0b6a0a8bc47d538989b965a73df1ee6bee38ed666e4a1f
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
