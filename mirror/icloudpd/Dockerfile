@@ -1,4 +1,4 @@
-FROM boredazfcuk/icloudpd:latest@sha256:6d8a1f7859b158e98ebec4cb4d678e75035f94775a82b9710fbe8f5ecfc40ff8
+FROM boredazfcuk/icloudpd:latest@sha256:2681eb15f16bbe8091906f4d0eb22529a7c1729142a9b1d457e456e6d181a1ef
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
