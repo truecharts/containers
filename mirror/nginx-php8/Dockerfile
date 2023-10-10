@@ -1,4 +1,4 @@
-FROM tangramor/nginx-php8-fpm:latest@sha256:5487c08909debc7042585486d2a5cfb29314f0cd7af47dd5960a21e8bf71fed1
+FROM tangramor/nginx-php8-fpm:latest@sha256:cd5e44c9c0b3986826cdb3530019b2baf1347c72a844d1eb4427a594e813dc26
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
