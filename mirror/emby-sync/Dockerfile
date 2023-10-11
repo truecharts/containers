@@ -1,4 +1,4 @@
-FROM lastelement21/emby-sync:latest@sha256:dcb6be6c27ae7f90d862ab806c7314107a20a831ddcb4e3062bf2bd5f004d887
+FROM lastelement21/emby-sync:latest@sha256:314a1c9784913f09cc1b5b1fa9a7e7ee4cb678d740cf6f0b237a3fef378a4b9b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
