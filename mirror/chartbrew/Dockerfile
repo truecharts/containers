@@ -1,4 +1,4 @@
-FROM razvanilin/chartbrew:latest@sha256:02f4d295a9264245f35ea261bb65ab4f79b81958604cb67b3f029f4b9ce67b84
+FROM razvanilin/chartbrew:latest@sha256:56c0c965a56f7a844fe47a31e2bb244b975dd9ebb0b6a3a58e9f6b82c89a6dd1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
