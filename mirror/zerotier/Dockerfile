@@ -1,4 +1,4 @@
-FROM docker.io/zerotier/zerotier:1.12.1@sha256:8ad11ab2b73d66fa37d3674f3c9dcffbfc815b609c41d9b61c5f10e94f7426b9
+FROM docker.io/zerotier/zerotier:1.12.2@sha256:4cb535806f1d1ba71a48a8f38cc0b72e1b0bc3be8474379151efc810fe2fa5e2
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
