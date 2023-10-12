@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/headphones:version-a78f38c1@sha256:b947a14d580fda0b9166cee9e4458db4e0efadaca21256ec14686e2ec6c9566f
+FROM ghcr.io/linuxserver/headphones:version-a78f38c1@sha256:76425b98e7f46345d93ce144144c8826cd6a4b444cddfc522563f68c87fce359
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
