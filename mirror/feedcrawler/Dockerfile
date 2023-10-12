@@ -1,4 +1,4 @@
-FROM rix1337/docker-feedcrawler:latest@sha256:f542f17d4d7618f672f18b5d4257beb479ff1d88705db7b2354da3e34a2a280e
+FROM rix1337/docker-feedcrawler:latest@sha256:db6362433b714ff5db553c3aab281129d7c85834bbc6b6304893f93a1f5bdcbf
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
