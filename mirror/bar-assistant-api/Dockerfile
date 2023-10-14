@@ -1,4 +1,4 @@
-FROM barassistant/server:3.0.0@sha256:9e5c38e9e4830fa64fac6e2a87d9a23b6c5c25f174eb057b3c294250673bfd48
+FROM barassistant/server:3.0.2@sha256:50155834c1bb41fe9e0ea4f091200101d01f7796b8e65b05685fb51d60ccbb98
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
