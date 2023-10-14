@@ -1,4 +1,4 @@
-FROM ankicommunity/anki-sync-server:20220516@sha256:f29c04fbc6c4234e156b2348306e172cbdff5ab072adc307dff75153e3ce93a5
+FROM ankicommunity/anki-sync-server-rs:1.1.4@sha256:553dbd9600b1580bca34e6ed60c5d8d9fb71f4fb6cdc81d4192f2db15af8ccff
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
