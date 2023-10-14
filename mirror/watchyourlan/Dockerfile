@@ -1,4 +1,4 @@
-FROM aceberg/watchyourlan:1.0.3@sha256:a9deb6502c17a98230c72af3b832afee6700a5dd6b09d0a357d1003fa3c138f4
+FROM aceberg/watchyourlan:1.0.4@sha256:6fadd754883f735906410f8d1db9e51541527998b11efe14385fce249c2a1d80
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
