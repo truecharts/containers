@@ -1,4 +1,4 @@
-FROM ghcr.io/cloudnative-pg/cloudnative-pg:1.20.3@sha256:911cea74fdcfe37e36aa40c1512e16c0d7ba2dc2564dbb0462a7ff6915745f36
+FROM ghcr.io/cloudnative-pg/cloudnative-pg:1.21.0@sha256:44f6132d5335528417427ea12634c5e6c96371e25e00dc898c3b6d091a279c21
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
