@@ -1,4 +1,4 @@
-FROM ghcr.io/fluidd-core/fluidd:v1.25.3@sha256:ca4744f5d55e8e8e78aed4a88522776a82120c9743a0e7c9126673f940ee1bd9
+FROM ghcr.io/fluidd-core/fluidd:v1.26.0@sha256:0f3b5947f5c9fdb397d7b6eaf8f86aa03bbf8cb69101b5686af745d5df7ed25d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
