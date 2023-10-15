@@ -1,4 +1,4 @@
-FROM ghcr.io/floppy/van_dam:0.53.0@sha256:2f77d4f2b133ce5161184d1697c000c8e5ff57d16deaf0eb82e44b9d4ef9937b
+FROM ghcr.io/floppy/van_dam:0.54.0@sha256:e1300f42a01398417c45996bc8b0257e320d7021778d42ce571b2374d935fb55
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
