@@ -1,4 +1,4 @@
-FROM ghcr.io/ix-ai/smtp:v0.5.1@sha256:eb71af428925d0979cd0d043e6b759b1bd410e712d6adad2ea1ed859662faed9
+FROM ghcr.io/ix-ai/smtp:v0.5.2@sha256:73629c8a2e0896d4591b6b3e884eb17bac14007a2352d9e977cf5706a5c33a9a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
