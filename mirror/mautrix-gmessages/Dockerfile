@@ -1,4 +1,4 @@
-FROM dock.mau.dev/mautrix/gmessages:v0.2.0@sha256:3d4e08ba94dfd54db964685077b9be486e2935144e6f6e9088349dc4a0ce78e9
+FROM dock.mau.dev/mautrix/gmessages:v0.2.1@sha256:476e427b7d63fd06d6dc4327b79364e688a88526f86520cbc6ccddbc9db4a70a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
