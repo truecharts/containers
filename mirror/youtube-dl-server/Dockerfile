@@ -1,4 +1,4 @@
-FROM kmb32123/youtube-dl-server:latest@sha256:b62b7820afd2ee8261dc2512d73763de88095d1597f8c197bc87d89c930444ed
+FROM kmb32123/youtube-dl-server:latest@sha256:19663a3ec02575d2fb53b6e14b474aaa367e0f65eff176f689ae38c503dd9846
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
