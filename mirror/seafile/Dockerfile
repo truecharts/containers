@@ -1,4 +1,4 @@
-FROM seafileltd/seafile-mc:11.0.0@sha256:a3695d6d55ace2e57932d26ab0e041b26fdffdf0cac3333861891fcc732520e0
+FROM seafileltd/seafile-mc:11.0.1@sha256:d2e66c54bb643b3c04aedbce7e459dff0d322828a36900a14f8bd6f13f71d47e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
