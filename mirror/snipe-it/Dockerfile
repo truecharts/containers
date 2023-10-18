@@ -1,4 +1,4 @@
-FROM snipe/snipe-it:v6.2.2@sha256:7f06e476971f9d5350a05da667092039f32de2b306e5c27d48dedbb44168443d
+FROM snipe/snipe-it:v6.2.3@sha256:f95f136b8f805626736371283059d6a14f662a533fbba5396458bda5f443f6fd
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
