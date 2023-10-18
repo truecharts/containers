@@ -1,4 +1,4 @@
-FROM answerdev/answer:1.1.3@sha256:8c53c00179a3cf9ca858d22cef854f63b4b721908f0158cf6a5c0555700392c0
+FROM answerdev/answer:1.2.0@sha256:9b7fd1410df5587e56d446741760ecbd63d342c5e50587d3570e33282cf9cd77
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
