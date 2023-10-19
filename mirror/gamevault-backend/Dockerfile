@@ -1,4 +1,4 @@
-FROM phalcode/gamevault-backend:8.0.0@sha256:dae74cbbad4859754cecac1a84bd0820d6860ce9c5db1ad53faa9d03eac27b1a
+FROM phalcode/gamevault-backend:8.0.1@sha256:081914a7a834b052e527efd44db07f9b55e41600e8a3ca1029b4df43d2a26acc
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
