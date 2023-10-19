@@ -1,4 +1,4 @@
-FROM ghcr.io/ignisda/ryot:v3.0.0@sha256:a231cf175041c85bb179461cd9faf0810730bf57fa4f700d19ba58bf5695cbee
+FROM ghcr.io/ignisda/ryot:v3.0.1@sha256:9d8a5ade7f109e6ef2e06bccb8acaf4fb8588a3237617aadc3e647da9ce7b554
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
