@@ -1,4 +1,4 @@
-FROM grafana/grafana-image-renderer:latest@sha256:5c138319455ec41a87ef986fc06f684745e7654747a86e24d5651b04aefe3e68
+FROM grafana/grafana-image-renderer:latest@sha256:0885e979bce2dbefcc261ec55d0fd37ce026e2724d4d7c100980a6b367c1008c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
