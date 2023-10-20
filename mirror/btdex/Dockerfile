@@ -1,4 +1,4 @@
-FROM furritos/docker-btdex:latest@sha256:94601f4e77cadfabfe4dfc226804a2218eaa71ca2dd62729e319f1b117f556c5
+FROM furritos/docker-btdex:latest@sha256:71ea137523fff87f9644b1c98290c11c64425f777957811b37a109f65b85f4ff
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
