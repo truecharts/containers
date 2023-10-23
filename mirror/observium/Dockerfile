@@ -1,4 +1,4 @@
-FROM uberchuckie/observium:latest@sha256:ebf633f50479906e351e4ddae006897a903f9077a93fd4e5c4379fda9affd2d5
+FROM uberchuckie/observium:latest@sha256:dda141a4fc1dc0e0b5fca6d7f5b00d6b8b237282b9cd239ef8221e6ae1c66d38
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
