@@ -1,4 +1,4 @@
-FROM ich777/cs2dserver:latest@sha256:228a7485c37f4783b1b7f2a197e9223a062c3ca63f264c9a1b9564b031212076
+FROM ich777/cs2dserver:latest@sha256:ed6eb65c882c8a1c278688db45973a57aab3868377f0be9cc7320d99152f3fef
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
