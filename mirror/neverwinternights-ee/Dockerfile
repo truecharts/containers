@@ -1,4 +1,4 @@
-FROM ich777/nwnee-server:latest@sha256:464f604d443b2df38a45bfc8280c5995c91d1a5c4edcc7df48d5b708502d1145
+FROM ich777/nwnee-server:latest@sha256:589b9781c341981b4eb9882a7862f3e48b8584dfc757c4255a47416decac320b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
