@@ -1,4 +1,4 @@
-FROM ich777/ddnetserver:latest@sha256:7c5de72b31ab2d24454b596480254170978a1433f650239d402755373f42b3e4
+FROM ich777/ddnetserver:latest@sha256:3f8f3b8a1c1a4e4b25c460f7ab5a6a2bd969911e7cd731505a7b73e6776d2d1a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
