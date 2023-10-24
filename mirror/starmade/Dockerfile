@@ -1,4 +1,4 @@
-FROM ich777/starmade-server:latest@sha256:8766622ae058bb213c2378ea12a76a632ba2e091a4877de6fd8c532e563f8c33
+FROM ich777/starmade-server:latest@sha256:f64ff6309ffac24bcc949c0ee1c717a87359a48a368f2938c086c3fe4517d88b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
