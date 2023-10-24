@@ -1,4 +1,4 @@
-FROM ich777/megasync:latest@sha256:716ccabb0b2ef6efe2e7c66327b7962d6af7360d191ba1785d95a4042aa83859
+FROM ich777/megasync:latest@sha256:6c65468d9ed5b55ed6a08fec8e47421c81988b38cf48112308a03ca5a856eaec
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
