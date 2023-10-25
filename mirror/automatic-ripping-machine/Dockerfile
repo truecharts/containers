@@ -1,4 +1,4 @@
-FROM automaticrippingmachine/automatic-ripping-machine:2.6.60@sha256:7ab65d06ba7045d62b65f2cf91507b55ec0826cad754481bbef2f1c07dfdc296
+FROM automaticrippingmachine/automatic-ripping-machine:2.6.60@sha256:85e6130be89b933dab3b6d1b2d9fb553ebb6a477bcf824d4e08cd2b025c9d3d3
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
