@@ -1,4 +1,4 @@
-FROM ich777/stun-turn-server:latest@sha256:727078dfaa6069b4bd51847bd70cf4a65677e99f4c65204678af06d630feb755
+FROM ich777/stun-turn-server:latest@sha256:fe6e439818ec95920998c134f631545f74575b92b3c4d8a2f15ab9800845fc2d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
