@@ -23,6 +23,9 @@ ARG TC_PLUGIN_VERSION_MODSECURITY_VERSION=v1.3.0
 # Crowdsec
 ARG TC_PLUGIN_REPO_CROWDSEC=github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin
 ARG TC_PLUGIN_VERSION_CROWDSEC_VERSION=v1.1.13
+# RewriteResponseHeaders
+ARG TC_PLUGIN_REPO_REWRITERESPONSEHEADERS=github.com/XciD/traefik-plugin-rewrite-headers
+ARG TC_PLUGIN_VERSION_REWRITERESPONSEHEADERS_VERSION=v0.0.4
 
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 
