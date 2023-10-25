@@ -1,4 +1,4 @@
-FROM ich777/vintagestory:latest@sha256:f6e99ec0ea7043176b416d1600e3cfe36e20078fb5c8e5296925bcb9838f4e89
+FROM ich777/vintagestory:latest@sha256:4523a9ade4c4631360083981cc5d992cc74604ce0ff0f602a70be3a350385be2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
