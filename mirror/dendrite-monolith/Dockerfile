@@ -1,4 +1,4 @@
-FROM ghcr.io/matrix-org/dendrite-monolith:v0.13.3@sha256:e9ee2ad8bc11662e544fbd4dd5abc12ac2aa28665bd6e953494042b565f81b2a
+FROM ghcr.io/matrix-org/dendrite-monolith:v0.13.4@sha256:8187147f87bdd376e1673fdde94b3caff3dc446fd28df18ab7eba6bf444e3af9
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
