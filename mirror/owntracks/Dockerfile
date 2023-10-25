@@ -1,4 +1,4 @@
-FROM owntracks/recorder:0.9.3@sha256:70105145f71950c3fdfd905e17cedc4dde65eb947a74173d9ec1cfa531919ae9
+FROM owntracks/recorder:0.9.6@sha256:eaa3afb70f74167d93056a1277309d256e2349a3df3628a885f2658b9672a703
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 

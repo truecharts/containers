@@ -1,4 +1,4 @@
-FROM ich777/pushover-on-start:latest@sha256:313946ffb9994c557e30f48cb15c6f4c0e12da62f40568bf4030ba0c722f2782
+FROM ich777/pushover-on-start:latest@sha256:061226693971061f0a2257f033615dc989ecc289a2d9698d9cc0ac6f019f7d4b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

@@ -1,4 +1,4 @@
-FROM hemmeligapp/hemmelig:v5.13.2@sha256:eeb96d731ef9c871e540bcfd75c74fb32369eb26e1631521929931f1fc9c9c93
+FROM hemmeligapp/hemmelig:v5.13.3@sha256:83ebee0a8722d2c1f6925556d3f970ce2fe07ab59c9498d4fc4465ec49299eb8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

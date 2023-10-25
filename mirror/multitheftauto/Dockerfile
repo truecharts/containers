@@ -1,4 +1,4 @@
-FROM ich777/mtaserver:latest@sha256:17a93481a025ac4474a3f89c61829074a0b13b78a63ce68ed7de9cfa93128472
+FROM ich777/mtaserver:latest@sha256:40ef62513ab043a86f4e206d15c32311e22b088eef295be8d544be2ca1a8ea0e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

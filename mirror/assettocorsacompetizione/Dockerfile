@@ -1,4 +1,4 @@
-FROM ich777/accompetizione-server:latest@sha256:30516cc204e293f5da0e14457d8e1c4eb45c0e6dd41239dc8871d8d9623566fc
+FROM ich777/accompetizione-server:latest@sha256:7fb2970ff491747ca1076d3bd472ad2fb9dbb98d431dbad4bac01dc06947f0d6
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

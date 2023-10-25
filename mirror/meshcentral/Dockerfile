@@ -1,4 +1,4 @@
-FROM ghcr.io/ylianst/meshcentral:1.1.13@sha256:28c5499d342da286d4b9904a8dad0ed02ad85f2455fae8186658d2323d6223d6
+FROM ghcr.io/ylianst/meshcentral:1.1.14@sha256:fadc72797c42e6efd5e3d016fd74db1d76168c6a9f0c6901e95d4f76f1c9885a
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

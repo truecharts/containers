@@ -1,4 +1,4 @@
-FROM imthai/qbittorrent-filebot:latest@sha256:06c7753fe49b06095afb88a1c11ad6f253869bd1df92aae056452f1143bd71f8
+FROM imthai/qbittorrent-filebot:latest@sha256:85bfa2dde892fde3e01c0a9dbeefd278fbed872fd206baa75ae46bcc0051a7d8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
