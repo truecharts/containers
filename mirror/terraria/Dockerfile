@@ -1,4 +1,4 @@
-FROM ich777/terrariaserver:latest@sha256:b55d472ac8cc64fd0e89c334f503b00804677877b039ccff182b0de7104bafa4
+FROM ich777/terrariaserver:latest@sha256:15f73a153b6b17ebfd3d1c4305126317d26293a49d4c24a80fe3498c51e8b38e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
