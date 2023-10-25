@@ -1,4 +1,4 @@
-FROM ich777/steamcmd:scp-secretlaboratory@sha256:8428a03a7084f8af4c8ca9d2a2caf871ccfda68bc5629b472f8ff97254650cd6
+FROM ich777/steamcmd:scp-secretlaboratory@sha256:f2577e3c7d7cd13436925de0ca24355ea83066e42a0a7d5f23e598cdc55b8850
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
