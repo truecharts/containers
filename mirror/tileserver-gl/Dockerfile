@@ -1,4 +1,4 @@
-FROM maptiler/tileserver-gl:v4.6.2@sha256:02f632d3d8b107496e3ed16e3ef5ef0fb5d9f5b5382489c437253831b8197425
+FROM maptiler/tileserver-gl:v4.6.3@sha256:162b5f06c5b2f72528c501c0ea369188304ba31e6330e92e11af636823d9dd39
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
