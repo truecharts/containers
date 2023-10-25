@@ -1,4 +1,4 @@
-FROM snikket/snikket-server:dev@sha256:79b355dcf5aa8f482fe5571fd88cc55c0d7a05fc90811ecf9e69781d139c3b96
+FROM snikket/snikket-server:dev@sha256:aeedd384aeeca3b61612211f4c46a6eb71b4fb8e26d75b8c1678f364aba098e6
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
