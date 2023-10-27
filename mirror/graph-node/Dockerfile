@@ -1,4 +1,4 @@
-FROM graphprotocol/graph-node:latest@sha256:787665b2e82c915e407f9eb14ea59c78d840d05bf186a20d6e32a8a4b0b7a8c5
+FROM graphprotocol/graph-node:latest@sha256:11ae63286e8bb69d89a9663e496ef1ceed715621ba2b3502f338e77666ddb6b1
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

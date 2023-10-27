@@ -1,4 +1,4 @@
-FROM ich777/steamcmd:quakelive@sha256:127398e9899549a13bfb426ecb2de6f6b7a3ec54d98dfd73818c887d369549ed
+FROM ich777/steamcmd:quakelive@sha256:845a95ede23db311e95ab455ce15d37a783901480ba435ee9009cf3401c02c34
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER

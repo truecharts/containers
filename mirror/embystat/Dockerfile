@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/embystat:0.2.0@sha256:01d0167d9ea51ee6546e8db57a2648a7a6d9e95794c50636495965617e69892e
+FROM ghcr.io/linuxserver/embystat:0.2.0@sha256:adc479353fc0b810c21935a8fe3c2d20d9f7027edc9574477d702ec2ad414754
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

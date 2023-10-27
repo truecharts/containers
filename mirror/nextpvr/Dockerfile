@@ -1,4 +1,4 @@
-FROM nextpvr/nextpvr_amd64:stable@sha256:277ad76ed3b3910e20a52419e0387df7e596ca6de0a42284aa843752b831a4c3
+FROM nextpvr/nextpvr_amd64:stable@sha256:76830843ac4d7eba56cc9d1a51a50e3560c94fe9edf7b8af12f2ff41eb6d5b55
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME

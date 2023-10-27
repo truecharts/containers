@@ -1,4 +1,4 @@
-FROM wger/devel:latest@sha256:6cb0992c61a6e1063c815384f07b157a8d3016ff55c11f884284e35c0222e90e
+FROM wger/devel:latest@sha256:8e0ac229d04a78cf11ecff6c09b7e68c06746451c9e7c1d55bdafefe16c78d72
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
