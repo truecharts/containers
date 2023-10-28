@@ -1,4 +1,4 @@
-FROM ich777/thunderbird:latest@sha256:b735160b118253b1c8259b9b5b3ca573bc147507b664c32dd3c6ed606498328d
+FROM ich777/thunderbird:latest@sha256:8cf000535d17795d031bb329f35dcb9336ae5740807ea00150e1d4941a601464
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
