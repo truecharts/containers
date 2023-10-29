@@ -1,4 +1,4 @@
-FROM ghcr.io/manimatter/decluttarr:v1.19.0@sha256:281d957b9993150a6512f5482c394b9075907245c604a432751bad6b8f2b4674
+FROM ghcr.io/manimatter/decluttarr:v1.19.1@sha256:c58a4f580e25102c1083512dbcc4eaf48ec8024fc6caf5985fd34742fa13b197
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
