@@ -1,4 +1,4 @@
-FROM krateng/maloja:latest@sha256:2f6b746b37828e076988050c653e90b914154cfcd2d97d5ef96046fd66014dd6
+FROM krateng/maloja:latest@sha256:a4737846f18128dda09b2d9f5765ed8047c410787e8f7433dea8f46018f0e99a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
