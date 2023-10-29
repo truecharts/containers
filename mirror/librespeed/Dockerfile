@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/librespeed:5.2.5@sha256:fd0cd27d35fdd23d763d3836b20999602d9f573efe936426f80dd4c37af8a443
+FROM ghcr.io/linuxserver/librespeed:5.2.5@sha256:dd0394a53aebf8f5cfebf096cd386883a723adbd47b62f851ff95e1f0e8ee323
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
