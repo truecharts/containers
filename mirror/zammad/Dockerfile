@@ -1,4 +1,4 @@
-FROM zammad/zammad:stable@sha256:098857cd84c6adba1b3ac2a3aa618be754b0f90a349b01a287a14e13c762cb3d
+FROM zammad/zammad:stable@sha256:369e22abf89ed9818f433ee9211a0f3d24cd1af07960a8883391c5b9f69d72ab
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
