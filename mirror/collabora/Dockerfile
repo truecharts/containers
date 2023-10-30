@@ -1,4 +1,4 @@
-FROM collabora/code:23.05.5.2.1@sha256:ecaa6ba2e6aa0072439b7bebb60d4af35c840b8c6c91df1f079dab90a34e3096
+FROM collabora/code:23.05.5.3.1@sha256:32c05e2d10450875eb153be11bfb7683fa0db95746e1f59d8c2fc3d988b45445
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
