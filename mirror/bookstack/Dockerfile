@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/bookstack:23.08.20230830@sha256:0818056ef7c8a0d1a69410b0f5332891502ad482d93ffe006adae9e5e3b12692
+FROM ghcr.io/linuxserver/bookstack:23.10.20231030@sha256:15f63a10e7bcd99b4f772f85aba74a9eced650aae75888794d38944c898766ca
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
