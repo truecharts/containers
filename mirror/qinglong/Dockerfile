@@ -1,4 +1,4 @@
-FROM whyour/qinglong:2.16.5@sha256:171d49a5899c5ec95fe35ec590c102e078c4de240e11624ea86f4ac253b22a60
+FROM whyour/qinglong:2.16.5@sha256:d79c2b1741ba3583f383426ae78f2cfd68597f5a654917899fa3a5aead72a93c
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
