@@ -1,4 +1,4 @@
-FROM centrifugo/centrifugo:v5.1.0@sha256:bcc958da252e9647440577db9309194a497451a5090403dc98b6b641e04bc5a3
+FROM centrifugo/centrifugo:v5.1.1@sha256:9356561002823c68148d755efd875c4c8daa92d9ffd27783965fe5edaf75aeff
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
