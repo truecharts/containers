@@ -190,7 +190,7 @@ else
   occ_onlyoffice_remove
 fi
 
-if [ "${NX_ONLYOFFICE:-"false"}" = "true" ] || [ "${NX_COLLABORA:-"false"}" = "true" ]; then
+if [ "${NX_ONLYOFFICE:-"false"}" = "true" ] || [ "${NX_COLLABORA:-"false"}" = "true" ] || [ "${NX_FORCE_ENABLE_ALLOW_LOCAL_REMOTE_SERVERS:-"false"}" = "true" ]; then
   occ config:system:set allow_local_remote_servers --value="true"
 else
   occ config:system:delete allow_local_remote_servers
