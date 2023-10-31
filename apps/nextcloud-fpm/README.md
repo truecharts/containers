@@ -50,5 +50,6 @@
 | `NX_TRUSTED_DOMAINS`            | Space Separated list of Trusted domains                                                 |           `system`            |                                         `trusted_domains`                                          |                `""`                |       `localhost cloud.example.com`        |
 | `NX_TRUSTED_PROXIES`            | Space Separated list of Trusted proxies                                                 |           `system`            |                                         `trusted_proxies`                                          |                `""`                | `10.0.0.0/8 172.16.0.0./12 192.168.0.0/16` |
 | `NX_CONFIG_FILE_PATH`           | Absolute path of the `config.php` file, used to determine if NC installed succesfuly    |                               |                                                                                                    | `/var/www/html/config/config.php`  |            `/config/config.php`            |
+| `NX_FORCE_ENABLE_ALLOW_LOCAL_REMOTE_SERVERS`           | Set `allow_local_remote_servers` to `true`    |                               |                    `allow_local_remote_servers`        | `false`  |            `true`            |
 
 > Visit Nextcloud official documentation for more information about each `Config key`
