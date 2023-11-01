@@ -1,4 +1,4 @@
-FROM corentinth/it-tools:2023.8.21-6f93cba@sha256:6dbf284eb30f397fdfe92849a7105a0d7ebaa1a2b68aa6fe174c1d094422f7fe
+FROM corentinth/it-tools:2023.11.1-e164afb@sha256:20de4f32ccb123940251b796c56029d0a22ab554cca54a99bcf31985e9aaf499
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
