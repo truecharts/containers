@@ -1,4 +1,4 @@
-FROM monica:4.0.0@sha256:46c535194130d1f642ee436c3c8d533dbd3d3dcb14005c3d44e2427f31feb7c5
+FROM monica:4.0.0@sha256:1c92045eb91fcba3ee5780046f9e1ebb1074175a44e24bd37ba37338690c8403
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
