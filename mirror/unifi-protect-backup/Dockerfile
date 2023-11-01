@@ -1,4 +1,4 @@
-FROM ghcr.io/ep1cman/unifi-protect-backup:latest@sha256:038d2fd18ea7e3c69b560a3193b620f69527a35c1142f2d9bcb79619b3b32390
+FROM ghcr.io/ep1cman/unifi-protect-backup:latest@sha256:d059026574e303a784c1de461eaec1389bc6a8b0f6405a0c8ad2473fcd5c150c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
