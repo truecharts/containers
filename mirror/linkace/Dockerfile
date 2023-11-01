@@ -1,4 +1,4 @@
-FROM linkace/linkace:v1.12.2-simple@sha256:c95078fb6cb494d4e40d04e84028f1432f201b3121a2e9a8948addba9eaad4a8
+FROM linkace/linkace:v1.13.0-simple@sha256:b1af60405d8c57a261f9612c5d47a8b5ea1b632caa3f96798dee33709bf90384
 
 # Make /app/.env writable, so the user doesn't have to manually chmod by using
 # the container shell for the initial Linkace setup.
