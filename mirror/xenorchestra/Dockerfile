@@ -1,4 +1,4 @@
-FROM ronivay/xen-orchestra:5.125.0@sha256:6fe9d6ab2abf76044d9917a014a185c86f8e98a746ea6d54c9362e2bd2e62585
+FROM ronivay/xen-orchestra:5.125.1@sha256:ad3a84b34753a0b6533def664fb7e863e65c999a002e7483daf36d5dea15c25c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
