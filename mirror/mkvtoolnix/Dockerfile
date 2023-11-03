@@ -1,4 +1,4 @@
-FROM jlesage/mkvtoolnix:v23.08.1@sha256:24e930e2363d8769dc6044dbec28526d1f2232277645d9fa18140c53f135289f
+FROM jlesage/mkvtoolnix:v23.11.1@sha256:fc613adbd8038eca9c4ff969d4504a2ec5ca300276c0d067a4abaf925815aae4
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
