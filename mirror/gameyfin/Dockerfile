@@ -1,4 +1,4 @@
-FROM grimsi/gameyfin:1.4.3@sha256:dc298ddcb488c8452c474fc4cf6e989133be247488e1c997270e96d84cfa3098
+FROM grimsi/gameyfin:1.4.4@sha256:2f9e08b34643438bcd68ee3c3069764a37d82d9be08dd83108d3bc768e34aef9
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
