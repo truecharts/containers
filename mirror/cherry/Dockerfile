@@ -1,4 +1,4 @@
-FROM haishanh/cherry:v0.0.6@sha256:bcea5b13450f46028a7bf92e92758e1fd018aa4de6c8dcf9405fb4ab515ec8bf
+FROM haishanh/cherry:v0.0.7@sha256:ac38d09dc167501882b60c882931ba89a2cdc4feb2f30e768098f142dde8b9ee
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
