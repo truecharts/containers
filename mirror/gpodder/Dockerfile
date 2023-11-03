@@ -1,4 +1,4 @@
-FROM xthursdayx/gpodder-docker:latest@sha256:e58881b989bfa5ed816fc3df2c2b70b90d8d03c27e0d34c662a366f079309663
+FROM xthursdayx/gpodder-docker:latest@sha256:dc402262ada60b969d9dca5f4eda81d763d138c87a7c57e72a417d5c292cfb9d
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
