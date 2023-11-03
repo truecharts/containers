@@ -1,4 +1,4 @@
-FROM redislabs/rejson:latest@sha256:fa19e29d73038900b3c4bf7376fed0edaf3db40494642acb9a8041b253e102a7
+FROM redislabs/rejson:latest@sha256:99ccbd8cc3facd23ed05fd4046101f30f55b28295f117b40e03323d2fcf20fc9
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
