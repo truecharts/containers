@@ -1,4 +1,4 @@
-FROM fancybits/channels-dvr:latest@sha256:5cad00679feb37533f0eccf72b70c3bf7acc4b4c18fcae65e2081e7222da39ce
+FROM fancybits/channels-dvr:latest@sha256:d9af0820c5afc50b620ad70f2574e9f9c5d2b8244eadb3075df785ebeb87fbb6
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
