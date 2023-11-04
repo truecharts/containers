@@ -1,4 +1,4 @@
-FROM edchamberlain/namecheap_ddns:latest@sha256:f9244a6755dc7de83b4107198c9729bd4b0604e3749dfcf915111ba1d07e41a5
+FROM edchamberlain/namecheap_ddns:latest@sha256:fb6e8ad8647cf37b4e82a084d52e2c5b2fc0f3d4ceaa83690f7edf4a16eed19b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
