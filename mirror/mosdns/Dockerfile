@@ -1,4 +1,4 @@
-FROM 601096721/mosdns:v5.2.1@sha256:7336b6da1b2c511cd2dba444f29278be65d5635793f49f629d4c4514c170c179
+FROM 601096721/mosdns:v5.3.0@sha256:1dc5e6a4445cc2b18bd157cc0d67b429f55b79b2b3e9b5e651fa8e9b4d580a19
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
