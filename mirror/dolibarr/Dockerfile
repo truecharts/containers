@@ -1,4 +1,4 @@
-FROM tuxgasy/dolibarr:18.0.2@sha256:575bbd365db334dddffab571010488134247658a506275fdd54cca2a2403340a
+FROM tuxgasy/dolibarr:18.0.2@sha256:c682514356a5e1e7a04081c849345ff9b2157bb65a5db6ee84093ea4e10aadc3
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
