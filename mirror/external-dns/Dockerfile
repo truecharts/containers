@@ -9,3 +9,4 @@ LABEL org.opencontainers.image.version="${CONTAINER_VER}"
 LABEL org.opencontainers.image.description="Container for ${CONTAINER_NAME} by TrueCharts"
 LABEL org.opencontainers.image.authors="TrueCharts"
 LABEL org.opencontainers.image.documentation="https://truecharts.org/docs/charts/${CONTAINER_NAME}"
+
