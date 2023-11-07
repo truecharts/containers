@@ -1,4 +1,4 @@
-FROM atdr.meo.ws/archiveteam/warrior-dockerfile:latest@sha256:65c9e3a80da3bc3a454e9e4723e1106ec5b8170528ace36a18773de6060bfa70
+FROM atdr.meo.ws/archiveteam/warrior-dockerfile:latest@sha256:e056517bcdc7bbbc960d48e0e346b7be48f5c54ff614d2c62263847b05ad8868
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
