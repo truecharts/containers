@@ -1,4 +1,4 @@
-FROM getlago/api:v0.51.1-beta@sha256:85848388c797d39a39dbba6bb7a31c9d4e89dbe83c638819151570b53fdc2431
+FROM getlago/api:v0.51.2-beta@sha256:014e4f17980e998836513aa19847652b7103b188622796f54bca487e68f4a1d4
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
