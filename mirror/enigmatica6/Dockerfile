@@ -1,4 +1,4 @@
-FROM goobaroo/enigmatica6:latest@sha256:7d8dfa382bf7c3790674cb63f551cbf1f718eb18711da8e32b41e689bc250fab
+FROM goobaroo/enigmatica6:latest@sha256:fa04e60ca02c19fcd8a964868117a0ab763f3df76e403fb64667801c32ed9992
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
