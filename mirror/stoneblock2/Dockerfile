@@ -1,4 +1,4 @@
-FROM goobaroo/stoneblock2:latest@sha256:03e1967a1d50d65960613057c0b599844e10793e512b4ba0a11112c6bd779d50
+FROM goobaroo/stoneblock2:latest@sha256:67593a3e844370fd5198451ccf9dd8326e3b953cef1b3fe8b9e5ee14a88a432a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
