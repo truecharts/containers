@@ -1,4 +1,4 @@
-FROM jlesage/jdownloader-2:v23.06.1@sha256:0c26917f15e37a6caaa9e98acfe6acfa7cee861cff85418e7313966f3961f0fb
+FROM jlesage/jdownloader-2:v23.11.1@sha256:acf80e0fcf3dfd01ff37ec1d0e761ca34605072bbb26890db8610a093ecd6d2f
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
