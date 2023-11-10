@@ -1,4 +1,4 @@
-FROM ghcr.io/pmmp/pocketmine-mp:5.8.1@sha256:69ab0778e23a897e5f12e5515b6188b87c7983d56175d1f8bcbf1eddc5cc615e
+FROM ghcr.io/pmmp/pocketmine-mp:5.8.2@sha256:9b0665bf1da9a23e7f453f69da95b065f9df91b82de09e2f0a4d3ad6c75aaf9e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
