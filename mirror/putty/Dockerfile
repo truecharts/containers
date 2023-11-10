@@ -1,4 +1,4 @@
-FROM jlesage/putty:v23.08.1@sha256:5b53b9b2eadd6f3234a3d782e66c4a9ba0e8d0594c6c0cf94f1cab1fd616fd16
+FROM jlesage/putty:v23.11.1@sha256:a16a69a7b3e68d67a8f420cf207036a41f36a9de6238c6448252a719cc50db43
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
