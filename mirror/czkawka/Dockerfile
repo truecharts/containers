@@ -1,4 +1,4 @@
-FROM jlesage/czkawka:v23.10.1@sha256:53b9fb291307de417bca6dc928729b8b3c7626ba51aff8c72d6e66f7ab1f7781
+FROM jlesage/czkawka:v23.11.1@sha256:4e9857424427dbf7f5ba8cfd9c1db00d835a2da640d8150366e386f4f11c1f30
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
