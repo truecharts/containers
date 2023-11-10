@@ -1,4 +1,4 @@
-FROM firezone/firezone:0.7.35@sha256:4079b84de9dc63f791b82ed5a3192f39a838d3b8eaedea4e0d57941f31064ff3
+FROM firezone/firezone:0.7.36@sha256:e44d84d836a4df35558944c3109ebc54beea9868fd0cec5db8dee78e57ff3f59
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
