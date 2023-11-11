@@ -1,4 +1,4 @@
-FROM containrrr/watchtower:latest@sha256:0fa12e1998691a9c2aba7a16325888125ca2c1b8c4e4277890ffc734150d0ab6
+FROM containrrr/watchtower:latest@sha256:5dec6922bb70c19c3a71f2b2758d9e3ccbdd28d3420dc8df45ea2f1eddab2d1a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
