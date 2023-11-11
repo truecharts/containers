@@ -1,4 +1,4 @@
-FROM haveagitgat/tdarr:2.14.02@sha256:b3bcca274bd06f5468f1cf3663e6ccaa04c0210e75f371af761ca3845c53679d
+FROM haveagitgat/tdarr:2.15.01@sha256:8f23d753e17a9b4638ae92b27a446055acb8373ed8d6890ce800450667b86d38
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
