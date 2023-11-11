@@ -1,4 +1,4 @@
-FROM feramance/qbitrr:v3.7.15@sha256:5d862604e6b7a155ce1d806ede450ab44c759978b44cb343f3626f320fabd191
+FROM feramance/qbitrr:v3.7.16@sha256:9c6c6d4a0f475ba942ad22018d3f616176b1ed952a10e9f2d7c05960e03bee05
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
