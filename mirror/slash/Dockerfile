@@ -1,4 +1,4 @@
-FROM yourselfhosted/slash:0.4.6@sha256:3cda7051adaa444df51b7eccdf836a83eaf56133936a3b6d54e4f74a7da16b8e
+FROM yourselfhosted/slash:0.5.0@sha256:1969c03b572999548bde59d9b2a8327dc8c2d3b9221787d7bcc9a60cb8730cfe
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
