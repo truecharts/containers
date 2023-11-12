@@ -1,4 +1,4 @@
-FROM searxng/searxng:latest@sha256:044e0f714699747e3a8c37cf90308d140d4772b4fd74adf3ef57b1b4cb814892
+FROM searxng/searxng:latest@sha256:c7c7b20cc25665156307c35af960445281e2f377eb222a245fc2545a03230950
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
