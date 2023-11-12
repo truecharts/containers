@@ -1,4 +1,4 @@
-FROM barassistant/salt-rim:2.1.0@sha256:1ef593d3bd34c0e86e4a97432c4e909b48d7f915ed8ca2cced1ffec31d62d011
+FROM barassistant/salt-rim:2.1.1@sha256:a4c9a72b75514b5bfe64d70f44c71e4a47c6cab62eba6a08548c6d0846cacc4b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
