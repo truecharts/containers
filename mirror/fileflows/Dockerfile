@@ -1,4 +1,4 @@
-FROM revenz/fileflows:23.11@sha256:b475363f9fe6a4c49c795178c7f79739b282713f37d5bb239246025bce000881
+FROM revenz/fileflows:23.11@sha256:ea9afc7235f5a7caf2110b5a1c860e4b5d482576471f7a0e0e294c20f80982b2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 
 ARG CONTAINER_NAME
