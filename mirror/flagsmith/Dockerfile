@@ -1,4 +1,4 @@
-FROM flagsmith/flagsmith:2.79@sha256:d781b484e80f2f775dc0c05bf63140f986fdc72bb7fa615aae677c9c3caf56e9
+FROM flagsmith/flagsmith:2.80@sha256:c549950248639bc6a1df57f2fb9f0b656e5bc97e0dc4930e25bb423b639be12a
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
