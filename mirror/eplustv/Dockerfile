@@ -1,4 +1,4 @@
-FROM m0ngr31/eplustv:latest@sha256:6d6225ca724bf58d97746632e224755c2e93d76e05138266ec2756a7b412468c
+FROM m0ngr31/eplustv:latest@sha256:fbd74a6a596c6b957c6125857728150057949f0ab9efd8e961af5f57a675b48e
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
