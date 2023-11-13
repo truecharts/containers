@@ -1,4 +1,4 @@
-FROM ghcr.io/ac1dburnz/rtorrent-rutorrent-cross-seed:latest@sha256:bbb2ae32afe0c16c635f21429fa2cf25260edc01d1476b9b88b533ae04a7c47c
+FROM ghcr.io/ac1dburnz/rtorrent-rutorrent-cross-seed:latest@sha256:beb6ef4997d8e607bd9521167132ba719e7a43df63720112ccef84f65381a9bf
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
