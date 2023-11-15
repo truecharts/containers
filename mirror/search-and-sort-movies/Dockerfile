@@ -1,4 +1,4 @@
-FROM olprog/search-and-sort-movies:latest@sha256:2a7210abea554073ed1cf2552a6e76320fc291774aef4dea607c0a1b89ff48f5
+FROM olprog/search-and-sort-movies:latest@sha256:cf08153fb5267176ae4a309dad7d4e7fb0cfadcc62c40927a8e234e6495dd42b
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
