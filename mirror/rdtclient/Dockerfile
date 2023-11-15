@@ -1,4 +1,4 @@
-FROM ghcr.io/rogerfar/rdtclient:2.0.42@sha256:f4c1d339c390b3b40ef67d4c4a412348ca1342fa977ed6682f086ec5d010c9aa
+FROM ghcr.io/rogerfar/rdtclient:2.0.44@sha256:68110599645b75fff0f251ba1950af54479b7be57d8534032b1a46d384bc6af5
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
