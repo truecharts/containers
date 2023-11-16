@@ -1,4 +1,4 @@
-FROM ghcr.io/hay-kot/homebox:v0.10.1@sha256:542f3d6156c7431b2127b35b37f97a121754dd92abb910afe1bbf0008706d2a1
+FROM ghcr.io/hay-kot/homebox:v0.10.2@sha256:1419b6e22aa06ab307fe0ed6c68906484905484f73df02485ebe8d94760812b8
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
