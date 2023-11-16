@@ -1,4 +1,4 @@
-FROM jeeaaasustest/youtube-dl:latest@sha256:aa7b172192b93090fcc8756701e565eed8137615d851342877ce0c2e385bad8e
+FROM jeeaaasustest/youtube-dl:latest@sha256:3b78206acd3546da030801f2eb51eb65e6ea5a208f8e28a8348eddedfa387854
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
