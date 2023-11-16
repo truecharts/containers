@@ -1,4 +1,4 @@
-FROM dock.mau.dev/mautrix/discord:v0.6.3@sha256:b89d8050cbdf6bd5d14a72b0b374390c04f18dfab0965ae2ec008a458560fa1e
+FROM dock.mau.dev/mautrix/discord:v0.6.4@sha256:2026b57c5ad79e4551269db3adf062a95a1e287a417fd7d9de838f608c5a6f81
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
