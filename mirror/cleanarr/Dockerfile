@@ -1,4 +1,4 @@
-FROM selexin/cleanarr:v2.5.0@sha256:26d636d29701431fdb1297e2f1aeeae88084e1dd952f133dcd08efb1220fc034
+FROM selexin/cleanarr:v2.5.1@sha256:dd627df235e3e72082ec930e3cc21400fcfd6abe9d48c2d695a3f1f9d00f040c
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
