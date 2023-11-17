@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/znc:1.8.2@sha256:f1f9d204c120f1d7dd33693e94945f7847d0f2b680f3b8dfbb77f5096e5af0a7
+FROM ghcr.io/linuxserver/znc:1.8.2@sha256:7bcb1d212433e0c54b72605ae45c5fa7e838427387c889b300b241994036a645
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
 ARG CONTAINER_NAME
