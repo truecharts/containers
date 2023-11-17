@@ -1,4 +1,4 @@
-FROM dock.mau.dev/mautrix/whatsapp:v0.10.3@sha256:7c3be0670cb7e885478bbb60f53407916c44e90bfbcee594c198f54f609af3cb
+FROM dock.mau.dev/mautrix/whatsapp:v0.10.4@sha256:e5f7a7cf4a54ea2a3d25f14e74b7cb01e84a6efb0b5adbf846ea7735ed21e9f2
 LABEL org.opencontainers.image.source=https://github.com/truecharts/containers
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
