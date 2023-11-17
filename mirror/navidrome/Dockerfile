@@ -1,4 +1,4 @@
-FROM deluan/navidrome:0.49.3@sha256:11a24da08977ebfa4a9a71f8c878d822ffaae74a019f274a75dc6386d523da86
+FROM deluan/navidrome:0.50.0@sha256:73b2e46a000527dc9d54486f9c348a29eb389173568e627d4ceab8382aa2c1d5
 
 LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
