@@ -4,8 +4,8 @@ occ_onlyoffice_install() {
   install_app onlyoffice
 
   occ config:app:set onlyoffice DocumentServerUrl --value="${NX_ONLYOFFICE_URL:?"NX_ONLYOFFICE_URL is unset"}"
-  occ config:app:set onlyoffice DocumentServerInternalUrl --value="${NX_ONLYOFFICE_INTERNAL_URL:-""}"
-  occ config:app:set onlyoffice StorageUrl --value="${NX_ONLYOFFICE_NEXTCLOUD_INTERNAL_URL:-""}"
+  occ config:app:set onlyoffice DocumentServerInternalUrl --value="${NX_ONLYOFFICE_INTERNAL_URL:?"NX_ONLYOFFICE_INTERNAL_URL is unset"}"
+  occ config:app:set onlyoffice StorageUrl --value="${NX_ONLYOFFICE_NEXTCLOUD_INTERNAL_URL:?"NX_ONLYOFFICE_NEXTCLOUD_INTERNAL_URL is unset"}"
   if [ "${NX_ONLYOFFICE_VERIFY_SSL:-"true"}" = "false" ]; then
     occ config:app:set onlyoffice verify_peer_off --value="false"
   else
