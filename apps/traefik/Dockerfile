@@ -1,7 +1,7 @@
 FROM traefik:v2.10.5@sha256:948978f7ec62f137a79f8af7044a1785bd7868706ef2c8cba9c88db688d08661
 # Above line used by CI to find tags etc
 
-FROM alpine:3.18.4@sha256:eece025e432126ce23f223450a0326fbebde39cdf496a85d8c016293fc851978 as plugins
+FROM alpine:3.19.0@sha256:51b67269f354137895d43f3b3d810bfacd3945438e94dc5ac55fdac340352f48 as plugins
 
 # FIXME: Find a way to keep versions up to date
 # -- Use the following prefixes to specify plugins to clone
