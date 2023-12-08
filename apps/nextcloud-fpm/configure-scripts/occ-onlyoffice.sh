@@ -7,9 +7,9 @@ occ_onlyoffice_install() {
   occ config:app:set onlyoffice DocumentServerInternalUrl --value="${NX_ONLYOFFICE_INTERNAL_URL:?"NX_ONLYOFFICE_INTERNAL_URL is unset"}"
   occ config:app:set onlyoffice StorageUrl --value="${NX_ONLYOFFICE_NEXTCLOUD_INTERNAL_URL:?"NX_ONLYOFFICE_NEXTCLOUD_INTERNAL_URL is unset"}"
   if [ "${NX_ONLYOFFICE_VERIFY_SSL:-"true"}" = "false" ]; then
-    occ config:app:set onlyoffice verify_peer_off --value="false"
-  else
     occ config:app:set onlyoffice verify_peer_off --value="true"
+  else
+    occ config:app:set onlyoffice verify_peer_off --value="false"
   fi
   occ config:system:set onlyoffice jwt_secret --value="${NX_ONLYOFFICE_JWT:?"NX_ONLYOFFICE_JWT is unset"}"
   occ config:system:set onlyoffice jwt_header --value="${NX_ONLYOFFICE_JWT_HEADER:-"Authorization"}"
