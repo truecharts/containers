@@ -210,7 +210,7 @@ jobs:
 
     # Install the GOSS testing framework
     - name: Set up goss/dgoss
-      uses: e1himself/goss-installation-action@3b8952d233bcc9bb8e901ec819d8cde6daa7f546 # tag=v1.1.0
+      uses: e1himself/goss-installation-action@fbb6fb55d3e59c96045b2500eeb8ce0995d99ac1 # v1.2.1
       if: ${{ steps.prep.outputs.goss == 'true' }}
       with:
         version: 'v0.3.16'
