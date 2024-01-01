@@ -258,7 +258,7 @@ jobs:
     - name: Set quay to Public
       if: github.event_name != 'pull_request'
       run: |
-        curl -X POST -H "Content-Type: application/json" -d '{"visibility": "public"}' -H "Authorization: Bearer ${{ secrets.QUAY_TCCR_TOKEN }}" "https://quay.io/api/v1/repository/tccr/${{ matrix.container }}/changevisibility"
+        curl -X POST -H "Content-Type: application/json" -d '{"visibility": "public"}' -H "Authorization: Bearer ${{ secrets.QUAY_TCCR_API_TOKEN }}" "https://quay.io/api/v1/repository/tccr/${{ matrix.container }}/changevisibility"
       
     - name: Sign the images
       if: github.event_name != 'pull_request'
