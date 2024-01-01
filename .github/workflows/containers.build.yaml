@@ -195,9 +195,9 @@ jobs:
       with:
         # list of Docker images to use as base name for tags
         images: |
-          quay.io/truecharts/${{ matrix.container }}
+          quay.io/tccr/${{ matrix.container }}
           ghcr.io/truecharts/${{ matrix.container }}
-          tccr.io/truecharts/${{ matrix.container }}
+          tccr.io/tccr/${{ matrix.container }}
 
     # Install and configure Buildx
     - name: Set up Docker Buildx
@@ -260,9 +260,9 @@ jobs:
         cache-from: ${{ steps.prep.outputs.cache_from }}
         cache-to: ${{ steps.prep.outputs.cache_to }}
         tags: |
-          quay.io/truecharts/${{ matrix.container }}:latest
-          quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
-          quay.io/truecharts/${{ matrix.container }}:build${{ steps.time.outputs.time }}
+          quay.io/tccr/${{ matrix.container }}:latest
+          quay.io/tccr/${{ matrix.container }}:v${{ steps.prep.outputs.version }}
+          quay.io/tccr/${{ matrix.container }}:build${{ steps.time.outputs.time }}
 
     - name: Set quay to Public
       if: github.event_name != 'pull_request'
@@ -272,28 +272,28 @@ jobs:
     - name: Sign the images
       if: github.event_name != 'pull_request'
       run: |
-         cosign sign quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
+         cosign sign quay.io/tccr/${{ matrix.container }}@${{ steps.push.outputs.digest }} -y -a "repo=${{ github.repository }}" -a "workflow=${{ github.workflow }}" -a "ref=${{ github.sha }}"
         
     - name: Verify the pushed tags
       if: github.event_name != 'pull_request'
       run: |
-         cosign verify quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} --certificate-oidc-issuer=https://token.actions.githubusercontent.com --certificate-identity=https://github.com/truecharts/containers/.github/workflows/containers.build.yaml@refs/heads/master
+         cosign verify quay.io/tccr/${{ matrix.container }}@${{ steps.push.outputs.digest }} --certificate-oidc-issuer=https://token.actions.githubusercontent.com --certificate-identity=https://github.com/truecharts/containers/.github/workflows/containers.build.yaml@refs/heads/master
       
     - name: Generate SBOM 
       if: github.event_name != 'pull_request'
       run: |
-        syft "quay.io/truecharts/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}" -o spdx-json=${{ matrix.container }}-sbom-spdx.json
+        syft "quay.io/tccr/${{ matrix.container }}:v${{ steps.prep.outputs.version }}@${{ steps.push.outputs.digest }}" -o spdx-json=${{ matrix.container }}-sbom-spdx.json
       
     - name: Attach SBOM to image
       if: github.event_name != 'pull_request'
       run: |
-        cosign attest --predicate ${{ matrix.container }}-sbom-spdx.json --type spdx "quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }}" -y
+        cosign attest --predicate ${{ matrix.container }}-sbom-spdx.json --type spdx "quay.io/tccr/${{ matrix.container }}@${{ steps.push.outputs.digest }}" -y
 
         
     - name: Verify SBOM attestation
       if: github.event_name != 'pull_request'
       run: |
-        cosign verify-attestation quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }}  --type https://spdx.dev/Document --certificate-oidc-issuer=https://token.actions.githubusercontent.com --certificate-identity=https://github.com/truecharts/containers/.github/workflows/containers.build.yaml@refs/heads/master | jq '.payload |= @base64d | .payload | fromjson'
+        cosign verify-attestation quay.io/tccr/${{ matrix.container }}@${{ steps.push.outputs.digest }}  --type https://spdx.dev/Document --certificate-oidc-issuer=https://token.actions.githubusercontent.com --certificate-identity=https://github.com/truecharts/containers/.github/workflows/containers.build.yaml@refs/heads/master | jq '.payload |= @base64d | .payload | fromjson'
         
     - name: Generate provenance
       id: gen-prov
@@ -304,7 +304,7 @@ jobs:
         # Generate a predicate only.
         ./slsa-generator-container-linux-amd64 generate --predicate="${{ matrix.container }}-predicate.json"
       env:
-        UNTRUSTED_IMAGE: "quay.io/truecharts/${{ matrix.container }}"
+        UNTRUSTED_IMAGE: "quay.io/tccr/${{ matrix.container }}"
         UNTRUSTED_DIGEST: "${{ steps.push.outputs.digest }}"
         GITHUB_CONTEXT: "${{ toJSON(github) }}"
           
@@ -315,7 +315,7 @@ jobs:
         cosign attest --predicate="${{ matrix.container }}-predicate.json" \
           --type slsaprovenance \
           --yes \
-          "quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }}"
+          "quay.io/tccr/${{ matrix.container }}@${{ steps.push.outputs.digest }}"
       env:
         COSIGN_EXPERIMENTAL: 1
         
@@ -323,7 +323,7 @@ jobs:
       if: github.event_name != 'pull_request'
       id: verf-prov
       run: |
-        cosign verify-attestation quay.io/truecharts/${{ matrix.container }}@${{ steps.push.outputs.digest }} --type slsaprovenance --certificate-oidc-issuer=https://token.actions.githubusercontent.com --certificate-identity=https://github.com/truecharts/containers/.github/workflows/containers.build.yaml@refs/heads/master | jq '.payload |= @base64d | .payload | fromjson'
+        cosign verify-attestation quay.io/tccr/${{ matrix.container }}@${{ steps.push.outputs.digest }} --type slsaprovenance --certificate-oidc-issuer=https://token.actions.githubusercontent.com --certificate-identity=https://github.com/truecharts/containers/.github/workflows/containers.build.yaml@refs/heads/master | jq '.payload |= @base64d | .payload | fromjson'
       env:
         COSIGN_EXPERIMENTAL: 1
           
