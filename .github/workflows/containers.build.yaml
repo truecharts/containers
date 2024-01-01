@@ -179,12 +179,12 @@ jobs:
         fi
         if [ "${{github.event_name}}" == "pull_request" ]; then
           echo ::set-output name=push::false
-          echo ::set-output name=cache_from::"type=registry,ref=ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache" || echo ::set-output name=cache_from::""
+          echo ::set-output name=cache_from::"type=registry,ref=quay.io/tccr/${{ matrix.container }}:buildcache" || echo ::set-output name=cache_from::""
           echo ::set-output name=cache_to::""
         else
           echo ::set-output name=push::true
-          echo ::set-output name=cache_from::"type=registry,ref=ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache"
-          echo ::set-output name=cache_to::"type=registry,ref=ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:buildcache,mode=max"
+          echo ::set-output name=cache_from::"type=registry,ref=tccr.io/tccr/${{ matrix.container }}:buildcache"
+          echo ::set-output name=cache_to::"type=registry,ref=tccr.io/tccr/${{ matrix.container }}:buildcache,mode=max"
         fi
 
     - name: Get Time
@@ -226,7 +226,6 @@ jobs:
         # list of Docker images to use as base name for tags
         images: |
           quay.io/tccr/${{ matrix.container }}
-          ghcr.io/truecharts/${{ matrix.container }}
           tccr.io/tccr/${{ matrix.container }}
 
     # Install and configure Buildx
@@ -258,7 +257,7 @@ jobs:
         file: ./${{ steps.prep.outputs.category }}/${{ matrix.container }}/Dockerfile
         load: true
         tags: |
-          ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:test
+          tccr.io/tccr/${{ matrix.container }}:test
         cache-from: ${{ steps.prep.outputs.cache_from }}
         cache-to: ${{ steps.prep.outputs.cache_to }}
 
@@ -270,7 +269,7 @@ jobs:
       run:  |
         for i in $(seq 1 ${{ env.GOSS_ITERATIONS }}); do
           echo "Running GOSS test iteration $i of ${{ env.GOSS_ITERATIONS }}..."
-          dgoss run ghcr.io/${{ github.repository_owner }}/${{ matrix.container }}:test
+          dgoss run tccr.io/tccr/${{ matrix.container }}:test
         done
 
     # Push if not a PR, otherwise just test the build process for all requested platforms
