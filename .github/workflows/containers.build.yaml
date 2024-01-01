@@ -88,12 +88,42 @@ jobs:
     - name: Prepare
       id: prep
       run: |
-        if test -f "./apps/${{ matrix.container }}/Dockerfile"; then
+        if test -f "./apps/${{ matrix.container }}/VERSION"; then
           CATEGORY="apps"
           VERSION=$(cat ./${CATEGORY}/${{ matrix.container }}/VERSION)
-        elif test -f "./dev/${{ matrix.container }}/Dockerfile"; then
+        elif test -f "./dev/${{ matrix.container }}/VERSION"; then
           CATEGORY="dev"
           VERSION=$(cat ./${CATEGORY}/${{ matrix.container }}/VERSION)
+        elif test -f "./apps/${{ matrix.container }}/Dockerfile"; then
+          CATEGORY="apps"
+          echo ::set-output name=category::${CATEGORY}
+          VERSION="$(head -1 ./${CATEGORY}/${{ matrix.container }}/Dockerfile |  cut -d'@' -f1 | sed 's/^FROM.*://' )"
+          VERSION=$(echo $VERSION | sed "s/latest-//g")
+          VERSION=$(echo $VERSION | sed "s/stable-//g")
+          VERSION=$(echo $VERSION | sed "s/edge-//g")
+          VERSION=$(echo $VERSION | sed "s/build-//g")
+          VERSION=$(echo $VERSION | sed "s/cpu-//g")
+          VERSION=$(echo $VERSION | sed "s/gpu-//g")
+          VERSION=$(echo $VERSION | sed "s/release-//g")
+          VERSION=$(echo $VERSION | sed "s/release_//g")
+          VERSION=$(echo $VERSION | sed "s/version-//g")
+          VERSION=$(echo $VERSION | sed "s/version_//g")
+          VERSION=$(echo $VERSION | sed "s/apache-//g")
+          VERSION=$(echo $VERSION | sed "s/ubuntu-//g")
+          VERSION=$(echo $VERSION | sed "s/focal-//g")
+          VERSION=$(echo $VERSION | sed "s/fpm-//g")
+          VERSION=$(echo $VERSION | sed "s/vaapi-//g")
+          VERSION=$(echo $VERSION | sed "s/cuda-//g")
+          VERSION=$(echo $VERSION | sed "s/-centos7//g")
+          VERSION=$(echo $VERSION | sed "s/java[0-9]*-//g")
+          VERSION="${VERSION#*V.}"
+          VERSION="${VERSION#*v.}"
+          VERSION="${VERSION#*v-}"
+          VERSION="${VERSION#*v}"
+          VERSION="${VERSION%-*}"
+          if (echo "$VERSION" | grep -Pq "^\d+\.\d+$"); then
+            VERSION="${VERSION}.0"
+          fi;
         elif test -f "./mirror/${{ matrix.container }}/Dockerfile"; then
           CATEGORY="mirror"
           echo ::set-output name=category::${CATEGORY}
