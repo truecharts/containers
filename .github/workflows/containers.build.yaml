@@ -145,8 +145,8 @@ jobs:
           echo ::set-output name=cache_to::""
         else
           echo ::set-output name=push::true
-          echo ::set-output name=cache_from::"type=registry,ref=tccr.io/tccr/${{ matrix.container }}:buildcache"
-          echo ::set-output name=cache_to::"type=registry,ref=quay.io/tccr/${{ matrix.container }}:buildcache,mode=max"
+          echo ::set-output name=cache_from::"type=registry,ref=ghcr.io/truecharts/${{ matrix.container }}:buildcache"
+          echo ::set-output name=cache_to::"type=registry,ref=ghcr.io/truecharts/${{ matrix.container }}:buildcache,mode=max"
         fi
 
     - name: Get Time
