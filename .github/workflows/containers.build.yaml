@@ -179,8 +179,8 @@ jobs:
       if: github.event_name != 'pull_request'
       with:
         registry: quay.io
-        username: ${{ secrets.QUAY_USER }}
-        password: ${{ secrets.QUAY_SECRET }}
+        username: ${{ secrets.QUAY_TCCR_USER }}
+        password: ${{ secrets.QUAY_TCCR_TOKEN }}
 
     - name: Login to GHCR
       uses: docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d # v3
