@@ -7,13 +7,11 @@ on:
     - master
     paths:
     - 'apps/**'
-    - 'dev/**'
     - 'base/**'
     - ".github/workflows/containers.build.yaml"
   pull_request:
     paths:
     - 'apps/**'
-    - 'dev/**'
     - 'base/**'
     - ".github/workflows/containers.build.yaml"
 
@@ -143,7 +141,7 @@ jobs:
         fi
         if [ "${{github.event_name}}" == "pull_request" ]; then
           echo ::set-output name=push::false
-          echo ::set-output name=cache_from::"type=registry,ref=quay.io/tccr/${{ matrix.container }}:buildcache" || echo ::set-output name=cache_from::""
+          echo ::set-output name=cache_from::"type=registry,ref=tccr.io/tccr/${{ matrix.container }}:buildcache" || echo ::set-output name=cache_from::""
           echo ::set-output name=cache_to::""
         else
           echo ::set-output name=push::true
