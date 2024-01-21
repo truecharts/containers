@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 notify_push_version="$(
 	git ls-remote --tags https://github.com/nextcloud/notify_push.git \
