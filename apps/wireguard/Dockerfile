@@ -1,9 +1,9 @@
-FROM hello-world:latest@sha256:4bd78111b6914a99dbc560e6a20eab57ff6655aea4a80c50b0c5491968cbc2e6
+FROM ghcr.io/k8s-at-home/wireguard:v1.0.20210914@sha256:4dd54954cbd06d92d8c8fc6b10871eb07a0c1869edfe7a15029f1a7d3178d432
+LABEL "org.opencontainers.image.source"="https://github.com/truecharts/containers"
 
-LABEL org.opencontainers.image.licenses="BSD-3-Clause"
+ARG CONTAINER_NAME
+ARG CONTAINER_VER
 LABEL org.opencontainers.image.title="${CONTAINER_NAME}"
-LABEL "maintainer"="TrueCharts <info@truecharts.org>"
-LABEL "org.opencontainers.image.source"="https://github.com/truecharts/apps"
 LABEL org.opencontainers.image.url="https://truecharts.org/docs/charts/${CONTAINER_NAME}"
 LABEL org.opencontainers.image.version="${CONTAINER_VER}"
 LABEL org.opencontainers.image.description="Container for ${CONTAINER_NAME} by TrueCharts"
