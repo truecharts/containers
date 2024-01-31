@@ -164,7 +164,7 @@ jobs:
     - uses: sigstore/cosign-installer@main
         
     - name: Install Syft
-      uses: anchore/sbom-action/download-syft@c6aed38a4323b393d05372c58a74c39ae8386d02 # v0.15.6
+      uses: anchore/sbom-action/download-syft@767b08fd8822486ad890abb8f1d31721bebd651c # v0.15.7
 
     - name: Login to Quay
       uses: docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d # v3
