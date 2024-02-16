@@ -35,7 +35,6 @@ RUN \
   cd /tmp && \
   wget https://github.com/mikefarah/yq/releases/download/v4.26.1/yq_linux_amd64 -O /usr/bin/go-yq && \
   chmod +x /usr/bin/go-yq && \
-  wget https://raw.githubusercontent.com/truecharts/apps/master/Gemfile && \
   cd - && \
   sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b /usr/local/bin \
   && \
