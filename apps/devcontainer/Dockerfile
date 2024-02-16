@@ -10,7 +10,7 @@ FROM quay.io/git-chglog/git-chglog:0.15.4@sha256:c791b1e8264387690cce4ce32e18b4f
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.154.0/containers/ruby/.devcontainer/base.Dockerfile
 FROM mcr.microsoft.com/vscode/devcontainers/ruby:0-2@sha256:f056fd846ee4d3baf34ee2718e9aeffd970d6fe5e06a84123998a13874bbb7dc
 
-ARG HELM_VERSION="3.9.4"
+ARG HELM_VERSION="3.14.1"
 ARG CT_VERSION=3.3.1
 ENV DEBIAN_FRONTEND=noninteractive
 ENV PYTHONUNBUFFERED 1
