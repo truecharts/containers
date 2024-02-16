@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-printf "%s" "3.1.11"
+printf "%s" "4.0.0"
