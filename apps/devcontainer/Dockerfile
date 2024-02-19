@@ -11,7 +11,7 @@ FROM quay.io/git-chglog/git-chglog:0.15.4@sha256:c791b1e8264387690cce4ce32e18b4f
 FROM mcr.microsoft.com/vscode/devcontainers/ruby:0-2@sha256:f056fd846ee4d3baf34ee2718e9aeffd970d6fe5e06a84123998a13874bbb7dc
 
 ARG HELM_VERSION="3.14.1"
-ARG CT_VERSION=3.3.1
+ARG CT_VERSION=3.10.1
 ENV DEBIAN_FRONTEND=noninteractive
 ENV PYTHONUNBUFFERED 1
 
@@ -125,30 +125,30 @@ RUN \
     /tmp/precommit
 
 # hadolint ignore=DL4001,DL3008,DL3013
-RUN \
-  apt-get update \
-  && \
-  apt-get -y install --no-install-recommends \
-    wget apt-transport-https gnupg lsb-release parallel \
-  && \
-  wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | apt-key add - \
-  && \
-  echo deb https://aquasecurity.github.io/trivy-repo/deb "$(lsb_release -sc)" main | tee -a /etc/apt/sources.list.d/trivy.list \
-  && \
-  apt-get update \
-  && \
-  apt-get -y install --no-install-recommends \
-    trivy \
-  && \
-  pip install --no-cache-dir yq \
-  && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
-  && apt-get autoremove -y \
-  && apt-get clean \
-  && \
-  rm -rf \
-    /tmp/* \
-    /var/lib/apt/lists/* \
-    /var/tmp/
+# RUN \
+#   apt-get update \
+#   && \
+#   apt-get -y install --no-install-recommends \
+#     wget apt-transport-https gnupg lsb-release parallel \
+#   && \
+#   wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | apt-key add - \
+#   && \
+#   echo deb https://aquasecurity.github.io/trivy-repo/deb "$(lsb_release -sc)" main | tee -a /etc/apt/sources.list.d/trivy.list \
+#   && \
+#   apt-get update \
+#   && \
+#   apt-get -y install --no-install-recommends \
+#     trivy \
+#   && \
+#   pip install --no-cache-dir yq \
+#   && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
+#   && apt-get autoremove -y \
+#   && apt-get clean \
+#   && \
+#   rm -rf \
+#     /tmp/* \
+#     /var/lib/apt/lists/* \
+#     /var/tmp/
 
 # hadolint ignore=DL4001
 RUN curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
