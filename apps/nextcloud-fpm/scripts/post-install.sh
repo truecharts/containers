@@ -120,6 +120,9 @@ else
   occ_redis_remove
 fi
 
+# Configure Database
+echo ''
+occ_database
 # Configure General Settings
 echo ''
 occ_general
