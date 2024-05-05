@@ -15,11 +15,11 @@ occ_preview_generator_install() {
 
   echo '## Configuring Preview Generation Configuration...'
   occ config:system:set enable_previews --value=true
-  occ config:system:set jpeg_quality --value="${NX_JPEG_QUALITY:-60}"
-  occ config:system:set preview_max_x --value="${NX_PREVIEW_MAX_X:-2048}"
-  occ config:system:set preview_max_y --value="${NX_PREVIEW_MAX_Y:-2048}"
-  occ config:system:set preview_max_memory --value="${NX_PREVIEW_MAX_MEMORY:-1024}"
-  occ config:system:set preview_max_filesize_image --value="${NX_PREVIEW_MAX_FILESIZE_IMAGE:-50}"
+  occ config:system:set jpeg_quality --value="${NX_JPEG_QUALITY:-60}" --type=integer
+  occ config:system:set preview_max_x --value="${NX_PREVIEW_MAX_X:-2048}" --type=integer
+  occ config:system:set preview_max_y --value="${NX_PREVIEW_MAX_Y:-2048}" --type=integer
+  occ config:system:set preview_max_memory --value="${NX_PREVIEW_MAX_MEMORY:-1024}" --type=integer
+  occ config:system:set preview_max_filesize_image --value="${NX_PREVIEW_MAX_FILESIZE_IMAGE:-50}" --type=integer
   occ config:app:set previewgenerator squareSizes --value="${NX_PREVIEW_SQUARE_SIZES:-32 256}"
   occ config:app:set previewgenerator widthSizes --value="${NX_PREVIEW_WIDTH_SIZES:-256 384}"
   occ config:app:set previewgenerator heightSizes --value="${NX_PREVIEW_HEIGHT_SIZES:-256}"
