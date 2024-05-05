@@ -32,7 +32,7 @@
       separateMinorPatch: true,
       automerge: true,
     },
-    // add labels according to package and update types
+    // Add labels according to package and update types
     {
       matchDatasources: ["docker"],
       matchUpdateTypes: ["major"],
@@ -337,8 +337,8 @@
     //
     // Versioning for linuxserver two-three digit container versions
     {
-      packagePatterns: ["^linuxserver\\/", "^deepquestai\\/"],
-      versionScheme: "regex:^(?<compatibility>.*?(\\d+\\.)??)(?<major>\\d+)\\.(?<minor>\\d+)\\.?(?<patch>\\d+)?(-r?p?\\d)?$",
+      matchPackagePatterns: ["^linuxserver\\/", "^deepquestai\\/"],
+      versioning: "regex:^(?<compatibility>.*?(\\d+\\.)??)(?<major>\\d+)\\.(?<minor>\\d+)\\.?(?<patch>\\d+)?(-r?p?\\d)?$",
     },
     {
       matchDatasources: ["docker"],
