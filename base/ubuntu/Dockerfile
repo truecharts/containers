@@ -115,9 +115,6 @@ VOLUME ["/config"]
 COPY ./base/ubuntu/entrypoint.sh /entrypoint.sh
 COPY ./base/ubuntu/shim /shim
 
-# iX NFS4_XDR WINACL ripped from toolkit ripped from TrueNAS SCALE 22.02.04
-COPY ./base/ubuntu/nfs4xdr/* /usr/bin/
-
 USER apps
 
 ENTRYPOINT [ "/usr/bin/tini", "--" ]
