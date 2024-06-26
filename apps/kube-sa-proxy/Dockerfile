@@ -17,19 +17,16 @@ COPY go.mod go.sum ./
 RUN go mod download
 
 # Copy the rest of the Go application source code
-COPY cmd/main.go .
-COPY internal/config ./internal/config
-COPY internal/proxy ./internal/proxy
-COPY internal/utils ./internal/utils
+COPY containers/apps/kube-sa-proxy/cmd/main.go .
+COPY containers/apps/kube-sa-proxy/internal/config ./internal/config
+COPY containers/apps/kube-sa-proxy/internal/proxy ./internal/proxy
+COPY containers/apps/kube-sa-proxy/internal/utils ./internal/utils
 
 # Build the Go application
 RUN go build -ldflags "-w -s" -o /output/my-proxy-service .
 
 # Stage 2 - Create the final image
 FROM alpine AS runner
-
-# Set maintainer label
-LABEL maintainer="Xstar97 <dev.xstar97@gmail.com>"
 
 # Install necessary runtime dependencies
 RUN apk --no-cache add ca-certificates
