@@ -32,8 +32,13 @@ func HandleProxy(w http.ResponseWriter, r *http.Request) {
         utils.HandleError(w, err, http.StatusInternalServerError)
         return
     }
+
     authTokenValue = strings.TrimSpace(authTokenValue)
-    authTokenValue = config.AuthTokenPrefix  + " " + authTokenValue
+    if config.AuthTokenPrefix != ""{
+      authTokenValue = config.AuthTokenPrefix  + " " + authTokenValue
+     }
+    
+    log.Printf("Token: %s", authTokenValue)
 
     if len(authTokenValue) == 0 {
         log.Println("Authentication token is empty")
