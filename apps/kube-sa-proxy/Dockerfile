@@ -1,5 +1,5 @@
 # Stage 1 - Build the Go application
-FROM golang:1.19.3-alpine AS builder
+FROM golang:1.19.3-alpine@sha256:8bd8a4b55b233ea77a81250f83637553ef9e3348c5a0cc3ce440c5d45bf7d51d AS builder
 
 # Install necessary build dependencies
 RUN apk --no-cache add --update gcc musl-dev
@@ -26,7 +26,7 @@ COPY apps/kube-sa-proxy/internal/utils ./internal/utils
 RUN go build -ldflags "-w -s" -o /output/my-proxy-service .
 
 # Stage 2 - Create the final image
-FROM alpine AS runner
+FROM alpine@sha256:b89d9c93e9ed3597455c90a0b88a8bbb5cb7188438f70953fede212a0c4394e0 AS runner
 
 # Install necessary runtime dependencies
 RUN apk --no-cache add ca-certificates
