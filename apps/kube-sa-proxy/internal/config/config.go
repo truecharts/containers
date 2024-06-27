@@ -24,6 +24,7 @@ var (
     ProxyTarget     string
     AuthTokenHeader string
     AuthTokenPrefix string
+    CsrfToken       string
     mutex           sync.Mutex
 )
 
@@ -43,7 +44,7 @@ func LoadConfig() {
     setFlagFromEnv("PROXY_TARGET", &ProxyTarget)
     setFlagFromEnv("AUTH_TOKEN_HEADER", &AuthTokenHeader)
     setFlagFromEnv("AUTH_TOKEN_PREFIX", &AuthTokenPrefix)
-    setFlagFromEnv("CSRFTOKEN", &CsrfToken)
+    setFlagFromEnv("CSRF_TOKEN", &CsrfToken)
 }
 
 func setFlagFromEnv(envVar string, flagValue interface{}) {
