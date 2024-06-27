@@ -33,6 +33,7 @@ func init() {
     flag.StringVar(&ProxyTarget, "proxy-target", "http://example.com", "Target URL for proxying requests")
     flag.StringVar(&AuthTokenHeader, "auth-token-header", "authorization", "Header name for authentication token")
     flag.StringVar(&AuthTokenPrefix, "auth-token-prefix", "Bearer", "Prefix for authentication token")
+    flag.StringVar(&CsrfToken, "csrf-token", "", "CSRF TOKEN X-CSRF-TOKEN")
 }
 
 func LoadConfig() {
@@ -41,7 +42,8 @@ func LoadConfig() {
     setFlagFromEnv("API_FILE", &ApiFile)
     setFlagFromEnv("PROXY_TARGET", &ProxyTarget)
     setFlagFromEnv("AUTH_TOKEN_HEADER", &AuthTokenHeader)
-    setFlagFromEnv("AUTH_TOKEN_PREFIX", &AuthTokenHeader)
+    setFlagFromEnv("AUTH_TOKEN_PREFIX", &AuthTokenPrefix)
+    setFlagFromEnv("CSRFTOKEN", &CsrfToken)
 }
 
 func setFlagFromEnv(envVar string, flagValue interface{}) {
