@@ -48,6 +48,10 @@ func HandleProxy(w http.ResponseWriter, r *http.Request) {
 
     req.Header.Set(config.AuthTokenHeader, authTokenValue)
 
+    if config.CsrfToken != "" {
+        req.Header.Set("X-CSRF-TOKEN", config.CsrfToken)
+        }
+
     // Set up a custom transport to skip certificate verification
     transport := &http.Transport{
         TLSClientConfig: &tls.Config{
