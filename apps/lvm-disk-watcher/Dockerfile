@@ -18,7 +18,7 @@ USER root
 
 WORKDIR /scripts
 
-ENTRYPOINT ["/bin/bash", "/scripts/setup_lvm.sh"]
+ENTRYPOINT ["/bin/bash", "/scripts/watch_lvm.sh"]
 
 ARG CONTAINER_NAME
 ARG CONTAINER_VER
