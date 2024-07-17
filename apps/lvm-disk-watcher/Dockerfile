@@ -10,8 +10,8 @@ COPY ./apps/lvm-disk-watcher/includes/watch_lvm.sh /scripts/watch_lvm.sh
 
 # hadolint ignore=DL3018,DL4006
 RUN apk update && apk add --no-cache bash llvm2 \
-	&& apk del curl
-	&& mkdir -p /scripts /config
+	&& apk del curl \
+	&& mkdir -p /scripts /config \
 	&& chmod +x /scripts/watch_lvm.sh
 	
 USER root
