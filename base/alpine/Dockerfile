@@ -14,7 +14,7 @@ WORKDIR /app
 
 # hadolint ignore=DL3018
 RUN \
-  apk update && apk add --no-cache ca-certificates \
+  apk update && apk add --no-cache ca-certificates bash util-linux coreutils grep procps \
   && addgroup apps -g 568 \
   && adduser apps -u 568 -g 568 -D -S -H \
   && mkdir -p /config \
@@ -32,9 +32,6 @@ COPY ./base/ubuntu/entrypoint.sh /entrypoint.sh
 COPY ./base/ubuntu/shim /etc/profile.d
 
 ENTRYPOINT ["/bin/ash", "--"]
-
-# iX NFS4_XDR WINACL ripped from toolkit ripped from TrueNAS SCALE 22.02.04
-COPY ./base/ubuntu/nfs4xdr/* /usr/sbin/
 
 LABEL org.opencontainers.image.licenses="BSD-3-Clause"
 LABEL org.opencontainers.image.title="${CONTAINER_NAME}"
