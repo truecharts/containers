@@ -1,4 +1,4 @@
-FROM tccr.io/truecharts/alpine:v3.20.1
+FROM tccr.io/truecharts/alpine:v3.20.2
 
 ARG TARGETPLATFORM
 ARG VERSION
