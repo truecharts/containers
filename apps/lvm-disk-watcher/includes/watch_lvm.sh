@@ -22,10 +22,6 @@ while true; do
   # Print list of disks
   list_disks
 
-  # Clear existing LVM setup (if necessary)
-  # Example: vgremove -y vg_${node_name}
-  # Example: pvremove -y /dev/sdX
-
   # Read configuration for the current node
   if [ -f "$config_file" ]; then
     echo "Config file found, contents:"
@@ -49,16 +45,36 @@ while true; do
     for disk in $watch_disks; do
       # Check if the disk is empty
       if ! lsblk -n "$disk" | grep -q part; then
-        echo "Disk $disk is empty. Setting up LVM."
+        echo "Disk $disk has no partitions. Checking for LVM and filesystem signatures."
+
+        # Check for existing LVM metadata
+        if pvs "$disk" &>/dev/null; then
+          echo "Disk $disk is already part of an LVM setup. Skipping."
+          continue
+        fi
+
+        # Check for filesystem signatures
+        if wipefs -n "$disk" | grep -q offset; then
+          echo "Disk $disk has filesystem signatures. Skipping."
+          continue
+        fi
+
+        echo "Disk $disk is empty and has no LVM or filesystem signatures. Setting up LVM."
+
+        # Wipe existing LVM metadata (just in case)
+        pvremove -ff -y "$disk" || echo "No existing LVM metadata to remove on $disk."
+
+        # Wipe filesystem signatures
+        wipefs -a "$disk"
 
         # Create LVM PV
-        pvcreate "$disk"
+        pvcreate -ff "$disk"
 
         # Create VG with the disk name (remove /dev/ prefix)
         vgcreate "vg_${disk#/dev/}" "$disk"
         vgcreate "topolvm_all" "$disk"
       else
-        echo "Disk $disk is not empty. Skipping."
+        echo "Disk $disk has partitions. Skipping."
       fi
     done
   else
