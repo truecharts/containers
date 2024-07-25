@@ -71,7 +71,6 @@ while true; do
         pvcreate -ff "$disk"
 
         # Create VG with the disk name (remove /dev/ prefix)
-        vgcreate "vg_${disk#/dev/}" "$disk"
         vgcreate "topolvm_all" "$disk"
       else
         echo "Disk $disk has partitions. Skipping."
